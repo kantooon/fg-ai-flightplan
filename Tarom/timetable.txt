@@ -1,0 +1,404 @@
+AMMAN                    UTC+3
+BUCHAREST
+30 Mar-30 Mar            ..3....   0345 0740    RO179            318        Nonstop
+06 Apr-26 Oct            ..3....   0445 0740    RO179            318        Nonstop
+AMSTERDAM     UTC+2
+BUCHAREST
+27 Mar-29 Oct 1234567 1405 1755            RO362              733         Nonstop
+ATHENS        UTC+3
+BUCHAREST
+28 Mar-28 Oct 1.345..      1020 1155       RO272              318         Nonstop
+27 Mar-28 Oct 12345.7      2100 2235       RO274              73G         Nonstop
+BAIA-MARE                UTC+3
+BUCHAREST
+28 Mar-28 Oct            12345..   0600 0715    RO620            AT5        Nonstop
+BARCELONA     UTC+2
+BUCHAREST
+27 Mar-29 Oct 1234567 1220 1625            RO422              733         Nonstop
+BEIRUT        UTC+3
+BUCHAREST
+30 Mar-13 Jul            ..3...7   0340 0610    RO168            318        Nonstop
+15 Jul-21 Sep            ..3.5.7   0340 0610    RO168            318        Nonstop
+25 Sep-26 Oct            ..3...7   0340 0610    RO168            318        Nonstop
+BELGRADE      UTC+2
+BUCHAREST
+28 Mar-26 Oct 1.3....      1020 1245       RO212              AT5         Nonstop
+29 Mar-28 Oct .2.45..      1725 1950       RO214              AT5         Nonstop
+BRISTOL                  UTC+1
+BRUSSELS                 UTC+2
+BUCHAREST
+27 Mar-16 Jul 1234567      1020    1400    RO372              318         Nonstop
+18 Jul-31 Aug 123.56.      1020    1400    RO372              318         Nonstop
+01 Sep-29 Oct 1234567      1020    1400    RO372              318         Nonstop
+27 Mar-18 Jul 12345.7      1905    2245    RO374              318         Nonstop
+21 Jul-29 Aug 1..45.7      1905    2245    RO374              318         Nonstop
+31 Aug-28 Oct 12345.7      1905    2245    RO374              318         Nonstop
+BUCHAREST                UTC+3
+AMMAN
+02 Apr-22 Oct            .....6.   2335 0215+ RO177              318        Nonstop
+AMSTERDAM
+27 Mar-29 Oct            1234567 1100 1300      RO361            733        Nonstop
+ATHENS
+28 Mar-28 Oct            1.345..   0800 0940    RO271            318        Nonstop
+27 Mar-28 Oct            12345.7   1840 2020    RO273            73G        Nonstop
+BAIA-MARE
+27 Mar-27 Oct            1234..7   2055 2215    RO619            AT5        Nonstop
+BARCELONA
+27 Mar-29 Oct            1234567 0915 1130      RO421            733        Nonstop
+BEIRUT
+29 Oct-29 Oct            .....6.   2350  0110+  RO167            318        Nonstop
+29 Mar-12 Jul            .2...6.   2350  0210+  RO167            318        Nonstop
+14 Jul-20 Sep            .2.4.6.   2350  0210+  RO167            318        Nonstop
+24 Sep-25 Oct            .2...6.   2350  0210+  RO167            318        Nonstop
+BELGRADE
+28 Mar-26 Oct            1.3....   0910 0950    RO211            AT5        Nonstop
+29 Mar-28 Oct            .2.45..   1615 1655    RO213            AT5        Nonstop
+BRUSSELS
+27 Mar-16 Jul            1234567 0720 0910      RO371            318        Nonstop
+18 Jul-31 Aug            123.56.   0720 0910    RO371            318        Nonstop
+01 Sep-29 Oct            1234567 0720 0910      RO371            318        Nonstop
+27 Mar-18 Jul 12345.7      1630    1820    RO373              318         Nonstop
+21 Jul-29 Aug 1..45.7      1630    1820    RO373              318         Nonstop
+31 Aug-28 Oct 12345.7      1630    1820    RO373              318         Nonstop
+BUDAPEST
+28 Mar-04 Jul 12345..      1800 1850       RO233              AT5         Nonstop
+06 Jul-31 Aug 1.3.5..      1800 1850       RO233              AT5         Nonstop
+01 Sep-28 Oct 12345..      1800 1850       RO233              AT5         Nonstop
+29 Mar-26 Apr .2.4.6.      2345 0130+ RO101                   733         Nonstop
+29 Sep-29 Oct .2.4.6.      2345 0130+ RO101                   733         Nonstop
+28 Apr-27 Sep .2.4.6.      2345 0230+ RO101                   733         Nonstop
+CLUJ-NAPOCA
+28 Mar-28 Oct 12345..      0735    0835    RO651              AT5         Nonstop
+28 Mar-28 Oct 12345..      0925    1025    RO641              AT7         Nonstop
+27 Mar-23 Oct ......7      1305    1405    RO653              AT5         Nonstop
+28 Mar-28 Oct 12345..      1425    1525    RO643              AT5         Nonstop
+28 Mar-28 Oct 12345..      1735    1825    RO647              73G         Nonstop
+27 Mar-29 Oct .....67      1735    1835    RO647              AT7         Nonstop
+27 Mar-29 Oct 1234567      2125    2215    RO649              318         Nonstop
+DAMASCUS
+01 Apr-27 May ....5..      0330    0550    RO9185             320         Nonstop
+28 Oct-28 Oct ....5..      0430    0550    RO9185             320         Nonstop
+03 Jun-21 Oct ....5..      0430    0650    RO9185             320         Nonstop
+07 Jun-25 Oct .2.....      0640    0900    RO9185             320         Nonstop
+29 Mar-29 Mar .2.....      2345    0120+   RO179              318         Nonstop
+05 Apr-25 Oct .2.....      2345    0220+   RO179              318         Nonstop
+DUBAI
+27 Mar-29 Oct .2.4.67      2055 0250+ RO065                   73G         Nonstop
+16 Jun-25 Sep ...4..7      1550 1700       RO215              AT7         Nonstop
+FRANKFURT
+27 Mar-29 Oct 1234567 0910 1050            RO301              318         Nonstop
+IASI
+28 Mar-28 Oct 12345..      0800    0905    RO701              AT5         Nonstop
+27 Mar-29 Oct 1234567      1135    1240    RO703              AT5         Nonstop
+28 Mar-28 Oct 12345..      1630    1735    RO705              AT5         Nonstop
+27 Mar-29 Oct 1234567      1845    1950    RO707              AT5         Nonstop
+27 Mar-29 Oct 1234567      2120    2225    RO709              AT7         Nonstop
+ISTANBUL
+27 Mar-27 Mar ......7      0835    0850    RO261              318         Nonstop
+28 Mar-28 Oct 12345.7      0835    0950    RO261              318         Nonstop
+27 Mar-27 Mar ......7      1625    1640    RO263              318         Nonstop
+28 Mar-29 Oct 1234567      1625    1740    RO263              318         Nonstop
+KISHINEV
+29 Mar-28 Oct .2..5..      0820 0920       RO9205             EM2         Nonstop
+27 Mar-29 Oct            1.34.67   0820  0920   RO9207           EM2        Nonstop
+27 Mar-29 Oct            .23.567   1845  1955   RO205            AT7        Nonstop
+28 Mar-27 Oct            1..4...   2040  2150   RO207            AT7        Nonstop
+LARNACA
+29 Mar-29 Oct            .2.4.6.   1500 1715    RO251            733        Nonstop
+27 Mar-28 Oct            1.3.5.7   1855 2110    RO253            733        Nonstop
+LONDON
+27 Mar-29 Oct            1234567 1240 1415      RO391            318        Nonstop
+30 May-29 Oct            1234567 1940 2115      RO393            733        Nonstop
+LYON
+27 Mar-28 Oct            1.3.5.7   1400  1555   RO387            73G        Nonstop
+MADRID
+27 Mar-29 Oct            1234567 0855 1155      RO415            733        Nonstop
+27 Mar-28 Oct            12345.7 1505 1805      RO413            73G        Nonstop
+MILAN
+27 Mar-28 Oct            12345.7   1410 1530    RO9409           32S        Nonstop
+MOSCOW
+28 Mar-27 Oct            1..4...   0840 1100    RO9201           319        Nonstop
+MUNICH
+28 Mar-28 Oct            1.3.5..   0825 0935    RO313            733        Nonstop
+27 Mar-28 Oct            12345.7   1755 1905    RO311            733        Nonstop
+NICE
+02 Jun-02 Oct            ...4..7   1730  1915   RO401            73H        Nonstop
+ORADEA
+28 Mar-28 Oct 1.3.5..      0750 0910       RO621              AT5         Nonstop
+28 Mar-28 Oct 12345..      1715 1835       RO627              AT5         Nonstop
+27 Mar-28 Oct 12345.7      2055 2215       RO629              AT5         Nonstop
+PARIS
+27 Mar-29 Oct 1234567      0710    0920    RO9385             320         Nonstop
+27 Mar-29 Oct 1234567      0925    1135    RO381              73G         Nonstop
+27 Mar-29 Oct 1234567      1300    1510    RO383              318         Nonstop
+27 Mar-29 Oct 1234567      1515    1725    RO9383             319         Nonstop
+27 Mar-28 Oct 12345.7      2005    2215    RO9381             319         Nonstop
+27 Mar-29 Oct 12.4567 0625 0735            RO9411             32S         Nonstop
+27 Mar-29 Oct 1234567 0835 0955            RO403              73G         Nonstop
+27 Mar-29 Oct 1234567 1830 1940            RO9401             32S         Nonstop
+SATU MARE
+28 Mar-27 Oct 1.34...      0750 0910       RO631              AT5         Nonstop
+28 Mar-28 Oct 12345..      1715 1835       RO637              AT5         Nonstop
+SIBIU
+28 Mar-28 Oct 1.3.5..      0845 0935       RO723              AT7         Nonstop
+27 Mar-27 Oct 1234..7      2120 2210       RO729              AT5         Nonstop
+SOFIA
+27 Mar-30 Jun 12345.7      0855    1005    RO293              AT5         Nonstop
+03 Jul-15 Sep 1234..7      0855    1005    RO293              AT5         Nonstop
+16 Sep-28 Oct 12345.7      0855    1005    RO293              AT5         Nonstop
+28 Mar-02 Jul 123456.      1710    1820    RO291              AT7         Nonstop
+08 Jul-10 Sep ....56.      1710    1820    RO291              AT7         Nonstop
+12 Sep-29 Oct 123456.      1710    1820    RO291              AT7         Nonstop
+SUCEAVA
+13 Jun-26 Sep 1234...      1740 1850       RO807              AT5         Nonstop
+27 Mar-29 Oct 1234567 2130 2240            RO809              AT5         Nonstop
+TARGU-MURES
+27 Mar-27 Oct ..34..7      2105 2200       RO725              AT5         Nonstop
+TEL AVIV
+28 Mar-28 Mar 1......      0600    0735    RO155              310         Nonstop
+03 Oct-28 Oct 1...5..      0600    0735    RO155              310         Nonstop
+01 Apr-30 Sep 1...5..      0600    0835    RO155              310         Nonstop
+31 Mar-31 Mar ...4...      1625    1800    RO151              310         Nonstop
+06 Oct-27 Oct ...4...      1625    1800    RO151              310         Nonstop
+07 Apr-29 Sep ...4...      1625    1900    RO151              310         Nonstop
+27 Mar-27 Mar ......7      1710    1845    RO151              310         Nonstop
+02 Oct-23 Oct            ......7   1710  1845   RO151            310        Nonstop
+03 Apr-25 Sep            ......7   1710  1945   RO151            310        Nonstop
+28 Mar-31 Mar            1234...   2055  2230   RO153            73H        Nonstop
+03 Oct-29 Oct            1234.6.   2055  2230   RO153            73H        Nonstop
+02 Oct-23 Oct            ......7   2055  2230   RO2153           733        Nonstop
+02 Apr-01 Oct            1234.6.   2055  2330   RO153            73H        Nonstop
+05 Jun-25 Sep            ......7   2055  2330   RO2153           733        Nonstop
+THESSALONIKI
+27 Mar-29 Oct            1234567 1535 1720      RO275            AT5        Nonstop
+TIMISOARA
+28 Mar-28 Oct            12345..   0710  0800   RO601            733        Nonstop
+28 Mar-14 Jun            12345..   0915  1030   RO611            AT5        Nonstop
+16 Sep-28 Oct            12345..   0915  1030   RO611            AT5        Nonstop
+27 Mar-28 Oct            12345.7   1255  1410   RO603            AT5        Nonstop
+27 Mar-28 Oct            12345.7   1740  1830   RO607            733        Nonstop
+02 Apr-29 Oct            .....6.   1740  1855   RO607            AT7        Nonstop
+02 Apr-29 Oct            .....6.   2105  2220   RO609            AT5        Nonstop
+27 Mar-28 Oct            12345.7   2140  2230   RO609            318        Nonstop
+VIENNA
+27 Mar-29 Oct            1234567   0805  0850   RO341            73G        Nonstop
+27 Mar-28 Oct            12345.7   1120  1200   RO9347           320        Nonstop
+27 Mar-28 Oct            12345.7   1610  1655   RO343            73G        Nonstop
+27 Mar-29 Oct            1234567   1850  1935   RO9341           320        Nonstop
+27 Mar-28 Oct            12345.7   2055  2135   RO9349           320        Nonstop
+WARSAW
+28 Mar-29 Oct            12.456.   0600 0645    RO9223           E70        Nonstop
+27 Mar-29 Oct            1234567 1445 1530      RO9221           E70        Nonstop
+ZURICH
+30 May-28 Oct            1.3.5.7   1115 1235    RO351            733        Nonstop
+BUDAPEST                 UTC+2
+BUCHAREST
+28 Mar-04 Jul            12345..   1920 2200    RO234            AT5        Nonstop
+06 Jul-31 Aug            1.3.5..   1920 2200    RO234            AT5        Nonstop
+01 Sep-28 Oct            12345..   1920 2200    RO234            AT5        Nonstop
+CAIRO                    UTC+2
+BUCHAREST
+30 Mar-27 Apr ..3.5.7      0225 0615       RO102              733         Nonstop
+30 Sep-28 Oct ..3.5.7      0225 0615       RO102              733         Nonstop
+29 Apr-28 Sep ..3.5.7      0325 0615       RO102              733         Nonstop
+CLUJ-NAPOCA              UTC+3
+BUCHAREST
+27 Mar-29 Oct 1234567      0615    0705    RO650              318         Nonstop
+28 Mar-28 Oct 12345..      1045    1145    RO642              AT7         Nonstop
+28 Mar-28 Oct 12345..      1350    1450    RO654              AT5         Nonstop
+27 Mar-23 Oct ......7      1425    1525    RO654              AT5         Nonstop
+28 Mar-28 Oct 12345..      1545    1645    RO644              AT5         Nonstop
+28 Mar-28 Oct 12345..      1855    1945    RO648              73G         Nonstop
+27 Mar-29 Oct .....67      1855    1955    RO648              AT7         Nonstop
+FRANKFURT
+27 Mar-29 Oct .2.4.67      1615 1735       RO305              318         Nonstop
+VIENNA
+28 Mar-28 Oct            12345..   0905  0955   RO347            AT5        Nonstop
+DAMASCUS                 UTC+2
+BUCHAREST
+07 Apr-26 May            ...4...   0000  0230   RO9186           320        Nonstop
+28 Oct-28 Oct            ....5..   0000  0330   RO9186           320        Nonstop
+03 Jun-21 Oct            ....5..   0100  0330   RO9186           320        Nonstop
+07 Jun-25 Oct            .2.....   0310  0540   RO9186           320        Nonstop
+03 Apr-23 Oct            ......7   0440  0720   RO177            318        Nonstop
+31 Mar-31 Mar            ...4...   2300  0230+  RO9186           320        Nonstop
+DETROIT       UTC-4
+DUBAI         UTC+4
+BUCHAREST
+30 Oct-30 Oct ......7      0345 0710       RO066              73G         Nonstop
+28 Mar-28 Oct 1.3.5.7      0345 0810       RO066              73G         Nonstop
+DUBROVNIK     UTC+2
+BUCHAREST
+16 Jun-25 Sep ...4..7      1730 2030       RO216              AT7         Nonstop
+FRANKFURT                UTC+2
+BUCHAREST
+27 Mar-29 Oct            1234567 1150 1515      RO302            318        Nonstop
+CLUJ-NAPOCA
+27 Mar-29 Oct            .2.4.67   1820  2120   RO306            318        Nonstop
+GRAN CANARIA  UTC+0
+HAMBURG       UTC+2
+IASI          UTC+3
+BUCHAREST
+27 Mar-29 Oct            1234567   0600  0705   RO710            AT7        Nonstop
+28 Mar-28 Oct            12345..   0925  1030   RO702            AT5        Nonstop
+27 Mar-29 Oct            1234567   1300  1405   RO704            AT5        Nonstop
+28 Mar-28 Oct            12345..   1755  1900   RO706            AT5        Nonstop
+27 Mar-29 Oct            1234567   2010  2115   RO708            AT5        Nonstop
+VIENNA
+27 Mar-28 Oct            12345.7   1340  1435   RO9333           DH4        Nonstop
+ISTANBUL                 UTC+3
+BUCHAREST
+27 Mar-27 Mar ......7      0940    1155    RO262              318         Nonstop
+28 Mar-28 Oct 12345.7      1040    1155    RO262              318         Nonstop
+27 Mar-27 Mar ......7      1730    1945    RO264              318         Nonstop
+28 Mar-29 Oct 1234567      1830    1945    RO264              318         Nonstop
+KISHINEV                 UTC+3
+BUCHAREST
+29 Mar-28 Oct            .2..5..   0615  0730   RO208            AT7        Nonstop
+27 Mar-29 Oct            1.34.67   0640  0740   RO9208           EM2        Nonstop
+28 Mar-24 Oct            1......   1830  1930   RO9206           EM2        Nonstop
+27 Mar-29 Oct            .23.567   2025  2135   RO206            AT7        Nonstop
+31 Mar-27 Oct ...4...      2050 2150       RO9206             EM2         Nonstop
+LARNACA                  UTC+3
+BUCHAREST
+29 Mar-29 Oct            .2.4.6.   1800 2020 RO252               733        Nonstop
+27 Mar-28 Oct            1.3.5.7   2200 0020+ RO254              733        Nonstop
+LISBON                   UTC+1
+LONDON                   UTC+1
+BUCHAREST
+30 May-29 Oct 1234567 0825 1345            RO394              733         Nonstop
+27 Mar-29 Oct 1234567 1625 2145            RO392              318         Nonstop
+LYON          UTC+2
+BUCHAREST
+27 Mar-28 Oct 1.3.5.7      1640    2020    RO388              73G         Nonstop
+MADRID                   UTC+2
+BUCHAREST
+27 Mar-29 Oct            1234567 1300 1735      RO416            733        Nonstop
+27 Mar-28 Oct            12345.7 1900 2335      RO414            73G        Nonstop
+MARSEILLE     UTC+2
+MENORCA       UTC+2
+MIAMI         UTC-4
+MILAN         UTC+2
+BUCHAREST
+27 Mar-28 Oct 12345.7      1000 1310       RO9410             32S         Nonstop
+MONTPELLIER              UTC+2
+MOSCOW                   UTC+3
+BUCHAREST
+27 Mar-26 Oct            ..3...7   1940 2215    RO9202           319        Nonstop
+MUNICH                   UTC+2
+BUCHAREST
+28 Mar-28 Oct            1.3.5..   1025 1325    RO314            733        Nonstop
+27 Mar-28 Oct            12345.7   1950 2250    RO312            733        Nonstop
+SIBIU
+27 Mar-29 Oct .2.4.67      1025 1350       RO316              AT7         Nonstop
+28 Mar-28 Oct 1.3.5..      1230 1555       RO316              AT7         Nonstop
+NEW YORK                 UTC-4
+NICE                     UTC+2
+BUCHAREST
+02 Jun-02 Oct            ...4..7   2000  2325   RO402            73H        Nonstop
+ORADEA                   UTC+3
+BUCHAREST
+28 Mar-29 Oct            123456.   0605 0720    RO630            AT5        Nonstop
+28 Mar-28 Oct            1.3.5..   0930 1045    RO622            AT5        Nonstop
+28 Mar-28 Oct            12345..   1855 2010    RO628            AT5        Nonstop
+PALMA                    UTC+2
+PARIS                    UTC+2
+BUCHAREST
+27 Mar-29 Oct            1234567   1025  1415   RO9384           319        Nonstop
+27 Mar-29 Oct            1234567   1225  1615   RO382            73G        Nonstop
+27 Mar-29 Oct            1234567   1525  1915   RO9382           319        Nonstop
+27 Mar-29 Oct            1234567   1620  2010   RO384            318        Nonstop
+27 Mar-28 Oct            12345.7   1855  2245   RO9386           320        Nonstop
+PAU           UTC+2
+ROME          UTC+2
+BUCHAREST
+27 Mar-29 Oct 1234567 1045 1400 RO404                         73G         Nonstop
+27 Mar-29 Oct 1234567 1435 1740 RO9402                        32S         Nonstop
+27 Mar-29 Oct 1.34567 2130 0035+ RO9412                       32S         Nonstop
+SATU MARE                UTC+3
+28 Mar-27 Oct 1.34...      0930 1045       RO632              AT5         Nonstop
+28 Mar-28 Oct 12345..      1855 2010       RO638              AT5         Nonstop
+SIBIU         UTC+3
+BUCHAREST
+28 Mar-28 Oct 12345..      0600 0650       RO730              AT5         Nonstop
+28 Mar-28 Oct 1.3.5..      1620 1710       RO724              AT7         Nonstop
+MUNICH
+27 Mar-29 Oct            .2.4.67   0750  0935   RO315            AT7        Nonstop
+28 Mar-28 Oct            1.3.5..   1000  1145   RO315            AT7        Nonstop
+VIENNA
+27 Mar-28 Oct            12345.7   1605  1635   RO9331           DH4        Nonstop
+SOFIA                    UTC+3
+BUCHAREST
+27 Mar-30 Jun 12345.7      1035    1140    RO294              AT5         Nonstop
+03 Jul-15 Sep 1234..7      1035    1140    RO294              AT5         Nonstop
+16 Sep-28 Oct 12345.7      1035    1140    RO294              AT5         Nonstop
+28 Mar-02 Jul 123456.      1850    1955    RO292              AT7         Nonstop
+08 Jul-10 Sep ....56.      1850    1955    RO292              AT7         Nonstop
+12 Sep-29 Oct 123456.      1850    1955    RO292              AT7         Nonstop
+STRASBOURG    UTC+2
+SUCEAVA       UTC+3
+BUCHAREST
+27 Mar-29 Oct            1234567 0600 0715      RO810            AT5        Nonstop
+13 Jun-26 Sep            1234...   1910 2025    RO808            AT5        Nonstop
+TARGU-MURES              UTC+3
+BUCHAREST
+28 Mar-28 Oct            1..45..   0605 0700    RO726            AT5        Nonstop
+TEL AVIV      UTC+3
+BUCHAREST
+02 Apr-01 Oct            1234.6.   0045  0330   RO154            73H        Nonstop
+05 Jun-25 Sep            ......7   0045  0330   RO2154           733        Nonstop
+28 Mar-28 Mar            1......   0825  1210   RO156            310        Nonstop
+03 Oct-28 Oct            1...5..   0825  1210   RO156            310        Nonstop
+01 Apr-30 Sep            1...5..   0925  1210   RO156            310        Nonstop
+31 Mar-31 Mar            ...4...   1905  2250   RO152            310        Nonstop
+06 Oct-27 Oct            ...4...   1905  2250   RO152            310        Nonstop
+27 Mar-27 Mar            ......7   1955  2340   RO152            310        Nonstop
+02 Oct-23 Oct            ......7   1955  2340   RO152            310        Nonstop
+07 Apr-29 Sep            ...4...   2005  2250   RO152            310        Nonstop
+03 Apr-25 Sep            ......7   2055  2340   RO152            310        Nonstop
+28 Mar-31 Mar            1234...   2345  0330+  RO154            73H        Nonstop
+03 Oct-29 Oct            1234.6.   2345  0330+  RO154            73H        Nonstop
+02 Oct-23 Oct            ......7   2345  0330+  RO2154           733        Nonstop
+TENERIFE      UTC+0
+THESSALONIKI  UTC+3
+BUCHAREST
+27 Mar-29 Oct 1234567 1750 1925            RO276              AT5         Nonstop
+TIMISOARA                UTC+3
+BUCHAREST
+28 Mar-29 Oct            123456.   0610  0700   RO610            318        Nonstop
+27 Mar-23 Oct            ......7   0610  0720   RO610            AT5        Nonstop
+28 Mar-28 Oct            12345..   0830  0920   RO602            733        Nonstop
+28 Mar-14 Jun            12345..   1050  1200   RO612            AT5        Nonstop
+16 Sep-28 Oct            12345..   1050  1200   RO612            AT5        Nonstop
+27 Mar-28 Oct 12345.7      1430    1540    RO604              AT5         Nonstop
+27 Mar-28 Oct 12345.7      1905    1955    RO608              733         Nonstop
+02 Apr-29 Oct .....6.      1915    2025    RO608              AT7         Nonstop
+VIENNA
+28 Mar-29 Oct 123456.      0550    0555    RO9345             DH4         Nonstop
+27 Mar-29 Oct 1234567      1605    1610    RO9343             DH4         Nonstop
+TOULOUSE                 UTC+2
+VIENNA                   UTC+2
+BUCHAREST
+27 Mar-28 Oct            12345.7   0705  0940   RO9348           320        Nonstop
+27 Mar-29 Oct            1234567   1040  1315   RO342            73G        Nonstop
+27 Mar-29 Oct            1234567   1520  1800   RO9342           320        Nonstop
+27 Mar-28 Oct            12345.7   1730  2010   RO9350           320        Nonstop
+27 Mar-28 Oct            12345.7   2005  2240   RO344            73G        Nonstop
+CLUJ-NAPOCA
+28 Mar-28 Oct 12345..      1040    1320    RO348              AT5         Nonstop
+IASI
+27 Mar-28 Oct 12345.7      1015    1305    RO9334             DH4         Nonstop
+SIBIU
+27 Mar-28 Oct 12345.7      1250 1620       RO9332             DH4         Nonstop
+TIMISOARA
+27 Mar-29 Oct            1234567   1305  1510   RO9344           DH4        Nonstop
+27 Mar-28 Oct            12345.7   2215  0020+  RO9346           DH4        Nonstop
+VIGO                     UTC+2
+WARSAW                   UTC+2
+BUCHAREST
+27 Mar-29 Oct            1234567 1105 1355 RO9222                E70        Nonstop
+27 Mar-28 Oct            1.345.7   2230 0120+ RO9224             E70        Nonstop
+WASHINGTON    UTC-4
+ZURICH        UTC+2
+BUCHAREST
+30 May-28 Oct 1.3.5.7      1335 1650       RO352              733         Nonstop
