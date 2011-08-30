@@ -1,0 +1,879 @@
+
+Flights from/to Prague (PRG)
+      Period          Days              Flight      Origin       Dep      Arr      Destination Aircraft    Via   Elapsed
+                                          No                                                    type               time
+ABU DHABI (AUH)                                     UTC +4
+  22Sep-27Oct        1 4               OK 350      Prague       23:35    07:30  +1 Abu Dhabi     32S     nonstop   5:55
+  21Sep-26Oct          3 7             OK 352      Prague       12:15    20:10     Abu Dhabi     32S     nonstop   5:55
+  23Sep-28Oct         2 5              OK 351     Abu Dhabi     09:50    14:15       Prague      32S     nonstop   6:25
+  22Sep-27Oct        1 4               OK 353     Abu Dhabi     01:35    06:00       Prague      32S     nonstop   6:25
+ALMATY (ALA)                                        UTC +6
+  28Mar-26May        1 4               OK 180      Prague       21:40    07:55  +1   Almaty      32S     nonstop   6:15
+  30May-06Aug        1 46              OK 180      Prague       21:40    07:55  +1   Almaty      32S     nonstop   6:15
+  08Aug-27Oct        12 4 6            OK 180      Prague       21:40    07:55  +1   Almaty      32S     nonstop   6:15
+  29Mar-27May         2 5              OK 181      Almaty       09:25    12:10       Prague      32S     nonstop   6:45
+  31May-28Oct         2 57             OK 181      Almaty       09:25    12:10       Prague      32S     nonstop   6:45
+  10Aug-26Oct          3               OK 181      Almaty       09:30    12:10       Prague      32S     nonstop   6:40
+AMSTERDAM (AMS)                                     UTC +2
+  27Mar-29Oct       1234567            OK 616      Prague       07:00    08:40     Amsterdam     32S     nonstop   1:40
+  27Mar-29Oct       1234567            OK 618      Prague       17:15    18:50     Amsterdam     32S     nonstop   1:35
+  27Mar-29Oct       1234567            OK 622      Prague       11:50    13:20     Amsterdam     32S     nonstop   1:30
+  27Mar-29Oct        2 4567           OK 4624*     Prague       19:20    20:55     Amsterdam      Δ      nonstop   1:35
+  27Mar-29Oct       1234567           OK 4626*     Prague       09:25    11:00     Amsterdam      Δ      nonstop   1:35
+  27Mar-23Apr       1234567           OK 4628*     Prague       14:00    15:35     Amsterdam      Δ      nonstop   1:35
+   25Apr-29Oct      1234567           OK 4628*     Prague       14:00    15:35     Amsterdam      Δ      nonstop   1:35
+  27Mar-29Oct       1234567            OK 617     Amsterdam     09:25    10:50       Prague      32S     nonstop   1:25
+  27Mar-29Oct       1234567            OK 619     Amsterdam     19:35    21:00       Prague      32S     nonstop   1:25
+  27Mar-29Oct       1234567            OK 623     Amsterdam     14:35    16:05       Prague      32S     nonstop   1:30
+  27Mar-29Oct        2 4567           OK 4625*    Amsterdam     17:10    18:40       Prague       Δ      nonstop   1:30
+  27Mar-29Oct       1234567           OK 4627*    Amsterdam     07:00    08:30       Prague       Δ      nonstop   1:30
+  27Mar-23Apr       1234567           OK 4629*    Amsterdam     11:40    13:15       Prague       Δ      nonstop   1:35
+   25Apr-29Oct      1234567           OK 4629*    Amsterdam     11:40    13:15       Prague       Δ      nonstop   1:35
+* Flight is operated by KLM Royal Dutch Airlines
+ATHENS (ATH)                                        UTC +3
+  27Mar-29Oct       1234567            OK 420      Prague       22:00    01:35  +1   Athens      32S     nonstop   2:35
+  28Mar-14May       1 3456             OK 422      Prague       11:25    15:00       Athens      32S     nonstop   2:35
+  20May-27May        1 45              OK 422      Prague       11:25    15:00       Athens      32S     nonstop   2:35
+  23Jun-27Jun        1 4               OK 422      Prague       11:25    15:00       Athens      32S     nonstop   2:35
+    01Jul-01Jul          5             OK 422      Prague       11:25    15:00       Athens      32S     nonstop   2:35
+  27Mar-29Oct       1234567            OK 421      Athens       04:25    06:05       Prague      32S     nonstop   2:40
+  28Mar-14May       1 3456             OK 423      Athens       15:45    17:25       Prague      32S     nonstop   2:40
+  20May-27May        1 45              OK 423      Athens       15:45    17:25       Prague      32S     nonstop   2:40
+  23Jun-27Jun        1 4               OK 423      Athens       15:45    17:25       Prague      32S     nonstop   2:40
+    01Jul-01Jul          5             OK 423      Athens       15:45    17:25       Prague      32S     nonstop   2:40
+ATLANTA (ATL)                                        UTC -4
+  02Jun-30Aug         2 45 7          OK 5088*     Prague       11:05    15:40       Atlanta      Δ      nonstop  10:35
+   01Jun-29Oct      1234567     OK 5054*/OK 3080*  Prague       11:55    19:15       Atlanta      Δ     New York  13:20
+  01Jun-29Aug        1 34 6           OK 5089*     Atlanta      17:45    09:20  +1   Prague       Δ      nonstop   9:35
+   02Jun-29Oct      1234567     OK 3081*/OK 5055*  Atlanta      09:40    10:00  +1   Prague       Δ     New York  18:20
+* Flight is operated by Delta Air Lines
+                                                          Timetable Summer 2011
+      Period          Days              Flight       Origin       Dep      Arr      Destination Aircraft    Via    Elapsed
+                                          No                                                      type               time
+BAHRAIN (BAH)                                        UTC +3
+  22Sep-27Oct        1 4          OK 350/OK 3164*   Prague       23:35    08:45  +1  Bahrain     32S/Δ   Abu Dhabi   8:10
+  21Sep-26Oct          3 7        OK 352/OK 3166*   Prague       12:15    22:00      Bahrain     32S/Δ   Abu Dhabi   8:45
+  23Sep-28Oct         2 5         OK 3165*/OK 351   Bahrain      04:05    14:15       Prague     Δ/32S   Abu Dhabi  11:10
+  21Sep-26Oct          3 7        OK 3167*/OK 353   Bahrain      22:45    06:00  +1   Prague     Δ/32S   Abu Dhabi   8:15
+* Flight is operated by Etihad Airways
+BAKU (GYD)                                           UTC +5
+  26Jun-23Oct             7          OK 4936*       Prague       17:25    00:20  +1    Baku         Δ     nonstop    3:55
+  30Jun-27Oct           4            OK 4936*       Prague       12:10    19:05        Baku         Δ     nonstop    3:55
+  26Jun-23Oct             7          OK 4937*        Baku        14:15    15:45       Prague        Δ     nonstop    4:30
+  30Jun-27Oct           4            OK 4937*        Baku        08:15    09:45       Prague        Δ     nonstop    4:30
+* Flight is operated by Azerbaijan Airlines
+BANGKOK (BKK)                                        UTC +7
+  21Sep-26Oct          3 7        OK 352/OK 3168*   Prague       12:15    07:05  +1  Bangkok     32S/Δ   Abu Dhabi  13:50
+  22Sep-27Oct        1 4          OK 350/OK 3170*   Prague       23:35    18:05  +1  Bangkok     32S/Δ   Abu Dhabi  13:30
+  21Sep-26Oct          3 7        OK 3169*/OK 353  Bangkok       20:35    06:00  +1   Prague     Δ/32S   Abu Dhabi  14:25
+* Flight is operated by Etihad Airways
+BARCELONA (BCN)                                      UTC +2
+  27Mar-31May       1234567            OK 688       Prague       10:40    13:00     Barcelona     32S     nonstop    2:20
+  01Jun-29Oct       1234567            OK 688       Prague       10:25    12:45     Barcelona     32S     nonstop    2:20
+  27Mar-28Oct       12345 7            OK 690       Prague       21:15    23:40     Barcelona     32S     nonstop    2:25
+  27Mar-31May       1234567            OK 689      Barcelona     13:45    16:10       Prague      32S     nonstop    2:25
+  01Jun-29Oct       1234567            OK 689      Barcelona     13:40    16:05       Prague      32S     nonstop    2:25
+  28Mar-29Oct       123456             OK 691      Barcelona     07:40    10:05       Prague      32S     nonstop    2:25
+BARNAUL (BAX)                                        UTC +7
+  27Mar-29Oct       1234567      OK 4902*/OK 3898*  Prague       13:00    07:00  +1  Barnaul        Δ     Moscow     13:00
+  27Mar-29Oct       1234567      OK 3899*/OK 4903*  Barnaul      08:20    12:10       Prague        Δ     Moscow     8:50
+* Flight is operated by Aeroflot
+BEIJING (PEK)                                        UTC +8
+  21Sep-26Oct          3 7        OK 352/OK 3188*   Prague       12:15    08:50  +1   Beijing    32S/Δ   Abu Dhabi  14:35
+  23Sep-28Oct         2 5         OK 3189*/OK 351   Beijing      01:30    14:15       Prague     Δ/32S   Abu Dhabi  18:45
+* Flight is operated by Etihad Airways
+BEIRUT (BEY)                                         UTC +3
+  27Mar-29May        1 34 7            OK 296       Prague       21:50    02:20  +1   Beirut      32S     nonstop    3:30
+  30May-19Jun       12345 7            OK 296       Prague       21:50    02:20  +1   Beirut      32S     nonstop    3:30
+  20Jun-18Sep       1234567            OK 296       Prague       21:50    02:20  +1   Beirut      32S     nonstop    3:30
+  19Sep-28Oct       12345 7            OK 296       Prague       21:50    02:20  +1   Beirut      32S     nonstop    3:30
+  28Jun-03Sep         23 6             OK 298       Prague       11:10    15:40       Beirut      32S     nonstop    3:30
+  28Mar-27May        12 45             OK 297        Beirut      03:10    05:55       Prague      32S     nonstop    3:45
+  30May-18Jun       123456             OK 297        Beirut      03:10    05:55       Prague      32S     nonstop    3:45
+  20Jun-24Sep       1234567            OK 297        Beirut      03:10    05:55       Prague      32S     nonstop    3:45
+  26Sep-29Oct       123456             OK 297        Beirut      03:10    05:55       Prague      32S     nonstop    3:45
+  28Jun-03Sep         23 6             OK 299        Beirut      16:30    19:15       Prague      32S     nonstop    3:45
+BELGRADE (BEG)                                       UTC +2
+  27Mar-15May       12345 7            OK 834       Prague       11:40    13:10      Belgrade      737    nonstop    1:30
+  16May-28Oct        1357              OK 834       Prague       11:40    13:10      Belgrade      737    nonstop    1:30
+  27Mar-15May       12345 7            OK 835      Belgrade      14:45    16:15       Prague       737    nonstop    1:30
+  16May-28Oct        1357              OK 835      Belgrade      14:45    16:15       Prague       737    nonstop    1:30
+                                                           Timetable Summer 2011
+      Period          Days              Flight               Origin       Dep      Arr      Destination Aircraft    Via   Elapsed
+                                          No                                                             type               time
+BERLIN (TXL)                                                 UTC +2
+  28Mar-30Apr        1 56              OK 516               Prague       08:00    09:00       Berlin     ATR      nonstop   1:00
+  29Mar-04May         234              OK 516               Prague       07:50    08:50       Berlin     ATR      nonstop   1:00
+  02May-29Oct        1 456             OK 516               Prague       08:00    09:00       Berlin     ATR      nonstop   1:00
+  10May-26Oct         23               OK 516               Prague       07:50    08:50       Berlin     ATR      nonstop   1:00
+  27Mar-28Oct       12345 7            OK 518               Prague       18:10    19:10       Berlin     ATR      nonstop   1:00
+  28Mar-29Oct       123456             OK 517                Berlin      09:35    10:35       Prague     ATR      nonstop   1:00
+  27Mar-28Oct       12345 7            OK 519                Berlin      19:40    20:40       Prague     ATR      nonstop   1:00
+BOLOGNA (BLQ)                                                UTC +2
+  28Mar-28Oct        135               OK 730               Prague       07:00    08:30      Bologna      737     nonstop   1:30
+  27Mar-27Oct         24 7             OK 738               Prague       17:15    18:45      Bologna      737     nonstop   1:30
+  28Mar-28Oct        135               OK 731               Bologna      09:05    10:30       Prague      737     nonstop   1:25
+  27Mar-27Oct         24 7             OK 739               Bologna      19:20    20:45       Prague      737     nonstop   1:25
+BORDEAUX (BOD)                                               UTC +2
+  29May-12Jun          4 7             OK 752               Prague       16:50    19:15      Bordeaux     737     nonstop   2:25
+  16Jun-23Jun           4              OK 752               Prague       12:25    14:50      Bordeaux     737     nonstop   2:25
+  19Jun-26Jun              7           OK 752               Prague       16:50    19:15      Bordeaux     737     nonstop   2:25
+  30Jun-27Oct          4 7             OK 752               Prague       12:25    14:50      Bordeaux     737     nonstop   2:25
+  29May-12Jun          4 7             OK 753              Bordeaux      20:00    22:15       Prague      737     nonstop   2:15
+  16Jun-23Jun           4              OK 753              Bordeaux      17:00    19:15       Prague      737     nonstop   2:15
+  19Jun-26Jun              7           OK 753              Bordeaux      20:00    22:15       Prague      737     nonstop   2:15
+  30Jun-27Oct          4 7             OK 753              Bordeaux      17:00    19:15       Prague      737     nonstop   2:15
+BOSTON (BOS)                                                  UTC -4
+  27Mar-22May       12345 7     OK 5054*/OK 3100*           Prague       11:55    18:15       Boston       Δ     New York  12:20
+  23May-29Oct       1234567     OK 5054*/OK 3100*           Prague       11:55    18:15       Boston       Δ     New York  12:20
+  27Mar-22May       1234 67     OK 3101*/OK 5055*           Boston       06:00    10:00  +1   Prague       Δ     New York  22:00
+  23May-29Oct       1234567     OK 3101*/OK 5055*           Boston       06:00    10:00  +1   Prague       Δ     New York  22:00
+* Flight is operated by Delta Air Lines
+BRATISLAVA (BTS)                                             UTC +2
+   28Mar-30Jul      123456             OK 960               Prague       08:10    09:10     Bratislava   ATR      nonstop   1:00
+   02Apr-02Jul            6            OK 964               Prague       20:10    21:10     Bratislava   ATR      nonstop   1:00
+   09Jul-23Jul            6            OK 964               Prague       20:10    21:10     Bratislava    737     nonstop   1:00
+   30Jul-30Jul            6            OK 964               Prague       20:10    21:10     Bratislava   ATR      nonstop   1:00
+  27Mar-12Jun       12345 7            OK 966               Prague       19:40    20:40     Bratislava   ATR      nonstop   1:00
+   13Jun-31Jul      12345 7            OK 966               Prague       17:00    18:00     Bratislava   ATR      nonstop   1:00
+   28Mar-30Jul      123456             OK 961              Bratislava    09:40    10:40       Prague     ATR      nonstop   1:00
+   27Mar-03Jul             7           OK 965              Bratislava    08:45    09:45       Prague     ATR      nonstop   1:00
+   10Jul-24Jul             7           OK 965              Bratislava    08:45    09:45       Prague      737     nonstop   1:00
+   31Jul-31Jul             7           OK 965              Bratislava    08:45    09:45       Prague     ATR      nonstop   1:00
+  27Mar-12Jun       12345 7            OK 967              Bratislava    21:05    22:05       Prague     ATR      nonstop   1:00
+   13Jun-31Jul      12345 7            OK 967              Bratislava    18:30    19:30       Prague     ATR      nonstop   1:00
+BRNO (BRQ)                                                   UTC +2
+   28Mar-22Jul      12345             OK 4016*              Prague       12:05    12:50        Brno        Δ      nonstop   0:45
+   28Mar-22Jul      12345             OK 4017*               Brno        15:50    16:35       Prague       Δ      nonstop   0:45
+* Flight is operated by Job Air - Central Connect Airlines
+                                                                   Timetable Summer 2011
+      Period          Days            Flight       Origin        Dep      Arr      Destination Aircraft       Via      Elapsed
+                                        No                                                       type                    time
+BRUSSELS (BRU)                                      UTC +2
+  28Mar-28Oct       12345             OK 630       Prague       07:00    08:25      Brussels     32S        nonstop      1:25
+  27Mar-29Oct       1234567           OK 632       Prague       17:00    18:30      Brussels     32S        nonstop      1:30
+   27Mar-03Jul      12345 7           OK 634       Prague       20:45    22:15      Brussels      737       nonstop      1:30
+   08Jul-28Aug          57            OK 634       Prague       20:45    22:15      Brussels      737       nonstop      1:30
+  30Aug-28Oct       12345 7           OK 634       Prague       20:45    22:15      Brussels      737       nonstop      1:30
+  27Mar-28Oct       12345 7           OK 631      Brussels      09:10    10:35       Prague      32S        nonstop      1:25
+  02Apr-29Oct            6            OK 631      Brussels      09:10    10:35       Prague       737       nonstop      1:25
+  27Mar-28Oct       12345 7           OK 633      Brussels      19:10    20:40       Prague      32S        nonstop      1:30
+   28Mar-04Jul      12345             OK 635      Brussels      06:55    08:25       Prague       737       nonstop      1:30
+   11Jul-29Aug        1               OK 635      Brussels      06:55    08:25       Prague       737       nonstop      1:30
+  31Aug-28Oct       12345             OK 635      Brussels      06:55    08:25       Prague       737       nonstop      1:30
+BUDAPEST (BUD)                                      UTC +2
+  28Mar-29Oct       123456            OK 786       Prague       07:15    08:20      Budapest      737       nonstop      1:05
+  27Mar-28Oct       12345 7           OK 788       Prague       17:00    18:05      Budapest      737       nonstop      1:05
+  02Apr-29Oct            6            OK 788       Prague       17:00    18:20      Budapest     ATR        nonstop      1:20
+  27Mar-31May       1234567           OK 790       Prague       11:55    13:15      Budapest     ATR        nonstop      1:20
+  01Jun-29Oct       1234567           OK 790       Prague       12:05    13:25      Budapest     ATR        nonstop      1:20
+  27Mar-29Oct       1234567          OK 4786*      Prague       10:05    11:15      Budapest       Δ        nonstop      1:10
+  27Mar-29Oct       1234567          OK 4792*      Prague       19:45    20:55      Budapest       Δ        nonstop      1:10
+  27Mar-23Oct             7           OK 787      Budapest      09:05    10:25       Prague      ATR        nonstop      1:20
+  28Mar-29Oct       123456            OK 787      Budapest      09:05    10:15       Prague       737       nonstop      1:10
+  27Mar-28Oct       12345 7           OK 789      Budapest      18:50    20:00       Prague       737       nonstop      1:10
+  27Mar-29Oct       1234567           OK 791      Budapest      14:30    15:55       Prague      ATR        nonstop      1:25
+  27Mar-29Oct       1234567          OK 4787*     Budapest      08:20    09:35       Prague        Δ        nonstop      1:15
+  27Mar-29Oct       1234567          OK 4793*     Budapest      18:00    19:10       Prague        Δ        nonstop      1:10
+* Flight is operated by Malév
+BUCHAREST (OTP)                                     UTC +3
+  27Mar-29May       12345 7           OK 802       Prague       11:40    14:30     Bucharest     32S        nonstop      1:50
+  02Apr-28May            6            OK 802       Prague       11:40    14:30     Bucharest      737       nonstop      1:50
+  30May-26Jun       1234567           OK 802       Prague       11:40    14:30     Bucharest     32S        nonstop      1:50
+   27Jun-17Jul      12345 7           OK 802       Prague       11:40    14:30     Bucharest     32S        nonstop      1:50
+   02Jul-16Jul           6            OK 802       Prague       11:40    14:30     Bucharest      737       nonstop      1:50
+   18Jul-29Oct      1234567           OK 802       Prague       11:40    14:30     Bucharest     32S        nonstop      1:50
+  27Mar-28Oct       12345 7           OK 804       Prague       21:35    00:25  +1 Bucharest     32S        nonstop      1:50
+  27Mar-29May       12345 7           OK 803     Bucharest      15:15    16:10       Prague      32S        nonstop      1:55
+  02Apr-28May            6            OK 803     Bucharest      15:15    16:10       Prague       737       nonstop      1:55
+  30May-26Jun       1234567           OK 803     Bucharest      15:15    16:10       Prague      32S        nonstop      1:55
+   27Jun-17Jul      12345 7           OK 803     Bucharest      15:15    16:10       Prague      32S        nonstop      1:55
+   02Jul-16Jul           6            OK 803     Bucharest      15:15    16:10       Prague       737       nonstop      1:55
+   18Jul-29Oct      1234567           OK 803     Bucharest      15:15    16:10       Prague      32S        nonstop      1:55
+  28Mar-29Oct       123456            OK 805     Bucharest      07:20    08:15       Prague      32S        nonstop      1:55
+CAIRO (CAI)                                         UTC +3
+  27Mar-15May          3 7            OK 270       Prague       21:40    01:25  +1    Cairo      32S        nonstop      3:45
+  28Mar-16May        1 4              OK 271        Cairo       02:10    06:10       Prague      32S        nonstop      4:00
+CAPE TOWN (CPT)                                     UTC +2
+  21Sep-26Oct          3 7       OK 352/OK 3176*   Prague       12:15    08:30  +1 Cape Town    32S/Δ     Abu Dhabi &    20:15
+                                                                                                         Johannesburg
+  21Sep-26Oct          3 7       OK 3177*/OK 353 Cape Town      10:10    06:00  +1   Prague     Δ/32S   Johannesburg &   19:50
+                                                                                                           Abu Dhabi
+* Flight is operated by Etihad Airways
+                                                          Timetable Summer 2011
+      Period          Days              Flight       Origin       Dep      Arr      Destination Aircraft    Via    Elapsed
+                                          No                                                      type               time
+CARLSBAD (KLV)                                       UTC +2
+   02Apr-23Apr             6           OK 046       Prague       11:15    11:50      Carlsbad     32S     nonstop    0:35
+   02Apr-23Apr             6           OK 047      Carlsbad      19:20    19:50       Prague      32S     nonstop    0:30
+CHICAGO (ORD)                                         UTC -5
+   09Jun-29Oct      1234567     OK 5054*/OK 3070*   Prague       11:55    20:45       Chicago       Δ    New York   15:50
+   09Jun-29Oct      1234567     OK 3071*/OK 5055*   Chicago      14:25    10:00  +1   Prague        Δ    New York   12:35
+* Flight is operated by Delta Air Lines
+CINCINNATI (CVG)                                      UTC -4
+  27Mar-22May       12345 7     OK 5054*/OK 3060*   Prague       11:55    19:40      Cincinnati     Δ    New York   13:45
+  23May-29Oct       1234567     OK 5054*/OK 3060*   Prague       11:55    19:40      Cincinnati     Δ    New York   13:45
+  27Mar-22May       1234 67     OK 3061*/OK 5055*  Cincinnati    11:25    10:00  +1   Prague        Δ    New York   16:35
+  23May-29Oct       1234567     OK 3061*/OK 5055*  Cincinnati    11:25    10:00  +1   Prague        Δ    New York   16:35
+* Flight is operated by Delta Air Lines
+CLEVELAND (CLE)                                       UTC -4
+  27Mar-22May       12345 7     OK 5054*/OK 3104*   Prague       11:55    20:35      Cleveland      Δ    New York   14:40
+  23May-29Oct       1234567     OK 5054*/OK 3104*   Prague       11:55    20:35      Cleveland      Δ    New York   14:40
+   01Jul-29Oct      1234567     OK 3105*/OK 5055*  Cleveland     14:30    10:00  +1   Prague        Δ    New York   13:30
+* Flight is operated by Delta Air Lines
+COLOMBO (CMB)                                      UTC +5.5
+  21Sep-26Oct          3 7        OK 352/OK 3174*   Prague       12:15    03:25  +1  Colombo     32S/Δ   Abu Dhabi  11:40
+  27Sep-25Oct          2          OK 3175*/OK 351  Colombo       04:25    14:15       Prague     Δ/32S   Abu Dhabi  13:20
+* Flight is operated by Etihad Airways
+COPENHAGEN (CPH)                                     UTC +2
+  28Mar-29Oct       123456             OK 504       Prague       07:00    08:20     Copenhagen    32S     nonstop    1:20
+  01Sep-27Oct           4 7            OK 506       Prague       14:55    16:15     Copenhagen     737    nonstop    1:20
+  27Mar-29Oct       1234567            OK 508       Prague       17:00    18:20     Copenhagen    32S     nonstop    1:20
+  28Mar-29Oct       123456             OK 505     Copenhagen     09:05    10:20       Prague      32S     nonstop    1:15
+  01Sep-27Oct           4 7            OK 507     Copenhagen     17:00    18:15       Prague       737    nonstop    1:15
+  27Mar-29Oct       1234567            OK 509     Copenhagen     19:05    20:20       Prague      32S     nonstop    1:15
+DAMASCUS (DAM)                                       UTC +3
+  27Mar-29Mar         2     7          OK 302       Prague       21:45    01:40  +1  Damascus     32S     nonstop    3:55
+  31Mar-10May         24 7             OK 302       Prague       21:45    02:40  +1  Damascus     32S     nonstop    3:55
+  11May-15May          34 7            OK 302       Prague       21:45    02:40  +1  Damascus     32S     nonstop    3:55
+  28Mar-30Mar        13                OK 303      Damascus      02:30    06:10       Prague      32S     nonstop    3:40
+  01Apr-11May        135               OK 303      Damascus      03:30    06:10       Prague      32S     nonstop    3:40
+  12May-16May        1 45              OK 303      Damascus      03:30    06:10       Prague      32S     nonstop    3:40
+DONETSK (DOK)                                        UTC +3
+   24Apr-27Oct        24 7             OK 920       Prague       21:50    01:30  +1   Donetsk      737    nonstop    2:40
+   25Apr-28Oct       135               OK 921       Donetsk      04:25    06:15       Prague       737    nonstop    2:50
+DUBLIN (DUB)                                         UTC +1
+  09Jun-15Sep            4            OK 4674*      Prague       12:50    14:00        Dublin       Δ     nonstop    2:10
+  13Jun-19Sep         1               OK 4675*       Dublin      06:50    10:00       Prague        Δ     nonstop    2:10
+* Flight is operated by Holidays Czech Airlines
+                                                           Timetable Summer 2011
+      Period          Days              Flight          Origin       Dep      Arr       Destination   Aircraft    Via   Elapsed
+                                          No                                                           type               time
+DUSSELDORF (DUS)                                        UTC +2
+  28Mar-29Oct       123456             OK 522          Prague       07:00    08:20       Dusseldorf     32S     nonstop   1:20
+  27Mar-28Oct       12345 7            OK 526          Prague       17:15    18:30       Dusseldorf     32S     nonstop   1:15
+  02Apr-29Oct             6            OK 526          Prague       18:15    19:30       Dusseldorf     737     nonstop   1:15
+  27Mar-23Oct              7           OK 523        Dusseldorf     08:35    09:55         Prague       737     nonstop   1:20
+  28Mar-29Oct       123456             OK 523        Dusseldorf     09:05    10:25         Prague       32S     nonstop   1:20
+  27Mar-28Oct       12345 7            OK 527        Dusseldorf     19:15    20:35         Prague       32S     nonstop   1:20
+EKATERIBURG (SVX)                                       UTC +6
+  27Mar-27Oct        1 4 7             OK 912          Prague       20:05    04:30  +1  Ekateriburg     32S     nonstop   4:25
+  29Mar-28Oct         2 5              OK 912          Prague       21:55    06:20  +1  Ekateriburg     32S     nonstop   4:25
+  27Mar-27Oct           4 7           OK 5912*         Prague       17:25    01:40  +1  Ekateriburg      Δ      nonstop   4:15
+  28Mar-28Oct        12 5              OK 913       Ekateriburg     05:25    06:05         Prague       32S     nonstop   4:40
+  30Mar-29Oct          3 6             OK 913       Ekateriburg     07:15    07:55         Prague       32S     nonstop   4:40
+  27Mar-27Oct           4 7           OK 5913*      Ekateriburg     15:00    15:40         Prague        Δ      nonstop   4:40
+* Flight is operated by Ural Airlines
+FRANKFURT (FRA)                                         UTC +2
+  28Mar-29Oct       123456             OK 534          Prague       07:20    08:35        Frankfurt     32S     nonstop   1:15
+  27Mar-29Oct       1234567            OK 536          Prague       17:10    18:20        Frankfurt     32S     nonstop   1:10
+  27Mar-23Oct              7           OK 535         Frankfurt     08:35    09:40         Prague       32S     nonstop   1:05
+  28Mar-29Oct       123456             OK 535         Frankfurt     09:25    10:30         Prague       32S     nonstop   1:05
+  27Mar-28Oct       12345 7            OK 537         Frankfurt     19:05    20:10         Prague       32S     nonstop   1:05
+FT. LAUDERDALE (FLL)                                     UTC -4
+  27Mar-22May       12345 7      OK 5054*/OK 3050*     Prague       11:55    19:50     Ft. Lauderdale    Δ     New York  13:55
+  23May-29Oct       1234567      OK 5054*/OK 3050*     Prague       11:55    19:50     Ft. Lauderdale    Δ     New York  13:55
+  27Mar-22May       1234 67      OK 3051*/OK 5055* Ft. Lauderdale   12:30    10:00  +1     Prague        Δ     New York  15:30
+  23May-29Oct       1234567      OK 3051*/OK 5055* Ft. Lauderdale   12:30    10:00  +1     Prague        Δ     New York  15:30
+* Flight is operated by Delta Air Lines
+HAMBURG (HAM)                                           UTC +2
+   28Mar-09Jul      1234 6             OK 542          Prague       07:05    08:15        Hamburg       737     nonstop   1:10
+   01Apr-08Jul           5             OK 542          Prague       07:05    08:15        Hamburg       32S     nonstop   1:10
+   11Jul-29Oct       123 6             OK 542          Prague       07:05    08:15        Hamburg       737     nonstop   1:10
+   14Jul-28Oct          45             OK 542          Prague       07:05    08:15        Hamburg       32S     nonstop   1:10
+  27Mar-28Oct       12345 7            OK 544          Prague       17:55    19:05        Hamburg       737     nonstop   1:10
+  02Apr-29Oct             6            OK 544          Prague       17:55    19:30        Hamburg      ATR      nonstop   1:35
+  27Mar-23Oct              7           OK 543         Hamburg       08:15    09:40         Prague      ATR      nonstop   1:25
+   28Mar-09Jul      1234 6             OK 543         Hamburg       08:55    10:05         Prague       737     nonstop   1:10
+   01Apr-08Jul           5             OK 543         Hamburg       08:55    10:05         Prague       32S     nonstop   1:10
+   11Jul-29Oct       123 6             OK 543         Hamburg       08:55    10:05         Prague       737     nonstop   1:10
+   14Jul-28Oct          45             OK 543         Hamburg       08:55    10:05         Prague       32S     nonstop   1:10
+  27Mar-28Oct       12345 7            OK 545         Hamburg       19:35    20:45         Prague       737     nonstop   1:10
+HANNOVER (HAJ)                                          UTC +2
+  27Mar-28Oct       12345 7            OK 570          Prague       17:05    18:30        Hannover     ATR      nonstop   1:25
+  28Mar-29Oct       123456             OK 572          Prague       07:20    08:45        Hannover     ATR      nonstop   1:25
+  27Mar-28Oct       12345 7            OK 571         Hannover      19:05    20:20         Prague      ATR      nonstop   1:15
+  28Mar-29Oct       123456             OK 573         Hannover      09:25    10:40         Prague      ATR      nonstop   1:15
+                                                              Timetable Summer 2011
+      Period          Days             Flight          Origin       Dep      Arr       Destination   Aircraft     Via    Elapsed
+                                         No                                                            type                time
+HANOI (HAN)                                            UTC +7
+  29Mar-28Oct         23 5        OK 534/OK 3156*     Prague       07:20    06:30  +1     Hanoi       32S/Δ    Frankfurt   18:10
+   02Jul-29Oct           6        OK 534/OK 3156*     Prague       07:20    06:00  +1     Hanoi       32S/Δ    Frankfurt   17:40
+  28Mar-03Sep        12 4 6       OK 3157*/OK 535      Hanoi       23:40    10:30        Prague       Δ/32S    Frankfurt   15:50
+   01Jul-28Oct          5         OK 3157*/OK 535      Hanoi       23:10    10:30        Prague       Δ/32S    Frankfurt   16:20
+  05Sep-27Oct        1 46         OK 3157*/OK 535      Hanoi       23:40    10:30        Prague       Δ/32S    Frankfurt   15:50
+* Flight is operated by Vietnam Airlines
+HELSINKI (HEL)                                         UTC +3
+  27Mar-23Oct             7           OK 480          Prague       14:15    17:25        Helsinki      32S      nonstop    2:10
+  28Mar-29Oct       123456            OK 480          Prague       12:50    16:00        Helsinki      32S      nonstop    2:10
+  01May-23Oct             7          OK 5482*         Prague       11:30    14:35        Helsinki        Δ      nonstop    2:05
+  27Mar-23Oct             7          OK 5484*         Prague       19:40    22:50        Helsinki        Δ      nonstop    2:10
+  28Mar-02Jun       12345         OK 508/OK 5488*     Prague       17:00    22:50        Helsinki     32S/Δ   Copenhagen   4:50
+  28Mar-18Apr       123456        OK 776/OK 5492*     Prague       07:05    12:20        Helsinki     32S/Δ     Warsaw     4:15
+  20Apr-28Apr       12345         OK 776/OK 5492*     Prague       07:05    12:20        Helsinki     32S/Δ     Warsaw     4:15
+  30Apr-29Oct       123456        OK 776/OK 5492*     Prague       07:05    12:20        Helsinki     32S/Δ     Warsaw     4:15
+  27Mar-23Oct             7           OK 481          Helsinki     18:10    19:25        Prague        32S      nonstop    2:15
+  28Mar-29Oct       123456            OK 481          Helsinki     16:45    18:00        Prague        32S      nonstop    2:15
+  28Mar-29Oct       123456           OK 5483*         Helsinki     09:35    10:45        Prague          Δ      nonstop    2:10
+* Flight is operated by Finnair
+HOCHIMINH CITY (SGN)                                   UTC +7
+  28Mar-29Oct        1 46         OK 534/OK 3154*     Prague       07:20    07:15  +1 Hochiminh City  32S/Δ    Frankfurt   18:55
+  30Mar-02Sep          35         OK 3155*/OK 535  Hochiminh City  23:15    10:30        Prague       Δ/32S    Frankfurt   16:15
+  06Sep-28Oct         23 5        OK 3155*/OK 535  Hochiminh City  23:15    10:30        Prague       Δ/32S    Frankfurt   16:15
+  27Mar-04Sep             7       OK 3155*/OK 535  Hochiminh City  23:15    09:40        Prague       Δ/32S    Frankfurt   15:25
+  11Sep-23Oct             7       OK 3155*/OK 535  Hochiminh City  23:15    09:40        Prague       Δ/32S    Frankfurt   15:25
+* Flight is operated by Vietnam Airlines
+IRKUTSK (IKT)                                          UTC +9
+  27Mar-29Oct       1234567      OK 4892*/OK 3894*    Prague       10:15    05:00  +1    Irkutsk         Δ      Moscow     11:45
+  28Mar-28Oct       12345 7       OK 904/OK 3896*     Prague       17:05    11:30  +1    Irkutsk      32S/Δ     Moscow     11:25
+  28Mar-29Oct       1234567      OK 3895*/OK 4903*    Irkutsk      06:30    12:10        Prague          Δ      Moscow     12:40
+  27Mar-29Oct       1234567       OK 3897*/OK 895     Irkutsk      13:00    18:15        Prague       Δ/32S     Moscow    12:15
+* Flight is operated by Aeroflot
+JOHANNESBURG (JNB)                                     UTC +2
+  21Sep-26Oct          3 7        OK 352/OK 3176*     Prague       12:15    04:55  +1 Johannesburg    32S/Δ    Abu Dhabi  16:40
+  21Sep-26Oct          3 7        OK 3177*/OK 353  Johannesburg    13:30    06:00  +1    Prague       Δ/32S    Abu Dhabi  16:30
+* Flight is operated by Etihad Airways
+KEMEROVO (KEJ)                                         UTC +7
+  27Mar-29Oct       1234567      OK 4902*/OK 3900*    Prague       13:00    05:40  +1   Kemerovo         Δ      Moscow     11:40
+  28Mar-29Oct       1234567      OK 3901*/OK 4903*   Kemerovo      06:50    12:10        Prague          Δ      Moscow     10:20
+* Flight is operated by Aeroflot
+                                                             Timetable Summer 2011
+      Period          Days             Flight               Origin       Dep      Arr      Destination Aircraft    Via    Elapsed
+                                          No                                                             type               time
+KIEV (KBP)                                                  UTC +3
+  27Mar-29Oct       1234567            OK 916              Prague       11:25    14:20        Kiev       32S     nonstop    1:55
+  27Mar-23Oct             7          OK 4918*              Prague       16:00    19:05        Kiev         Δ     nonstop    2:05
+  28Mar-29Oct        13 6            OK 4918*              Prague       08:45    12:00        Kiev         Δ     nonstop    2:15
+  29Mar-28Oct         2 45           OK 4918*              Prague       15:30    18:35        Kiev         Δ     nonstop    2:05
+  27Mar-29Oct       1234567            OK 917                Kiev       15:10    16:15       Prague      32S     nonstop    2:05
+  27Mar-23Oct             7          OK 4919*                Kiev       14:00    15:10       Prague        Δ     nonstop    2:10
+  28Mar-29Oct        13 6            OK 4919*                Kiev       06:40    07:45       Prague        Δ     nonstop    2:05
+  29Mar-28Oct         2 45           OK 4919*                Kiev       13:30    14:40       Prague        Δ     nonstop    2:10
+* Flight is operated by Aerosvit
+KOSICE (KSC)                                                UTC +2
+  27Mar-29Oct       1234567            OK 972              Prague       11:20    12:45       Kosice      ATR     nonstop    1:25
+  27Mar-28Oct       12345 7            OK 974              Prague       17:15    18:40       Kosice      ATR     nonstop    1:25
+  28Mar-29Oct       123456             OK 976              Prague       07:25    08:50       Kosice      ATR     nonstop    1:25
+  27Mar-28Oct       12345 7            OK 978              Prague       21:50    23:15       Kosice      ATR     nonstop    1:25
+  02Apr-29Oct            6             OK 978              Prague       20:30    21:55       Kosice      ATR     nonstop    1:25
+  27Mar-29Oct       1234567            OK 973              Kosice       14:25    16:00       Prague      ATR     nonstop    1:35
+  27Mar-28Oct       12345 7            OK 975              Kosice       19:10    20:45       Prague      ATR     nonstop    1:35
+  28Mar-29Oct       123456             OK 977              Kosice       09:20    10:50       Prague      ATR     nonstop    1:30
+  27Mar-23Oct             7            OK 979              Kosice       08:20    09:50       Prague      ATR     nonstop    1:30
+  28Mar-29Oct       123456             OK 979              Kosice       05:00    06:30       Prague      ATR     nonstop    1:30
+KRAKOW (KRK)                                                UTC +2
+  27Mar-26Oct        13 7              OK 772              Prague       11:20    12:25      Krakow        737    nonstop    1:05
+  29Mar-29Oct        2 456             OK 772              Prague       13:45    14:50      Krakow        737    nonstop    1:05
+  27Mar-26Oct        13 7              OK 773              Krakow       13:00    14:05       Prague       737    nonstop    1:05
+  29Mar-29Oct        2 456             OK 773              Krakow       15:20    16:25       Prague       737    nonstop    1:05
+KUWAIT (KWI)                                                UTC +3
+  22Sep-27Oct        1 4          OK 350/OK 3178*          Prague       23:35    09:30  +1   Kuwait     32S/Δ   Abu Dhabi   8:55
+  21Sep-26Oct          3 7        OK 352/OK 3180*          Prague       12:15    02:30       Kuwait     32S/Δ   Abu Dhabi  13:15
+  23Sep-28Oct         2 5         OK 3179*/OK 351          Kuwait       04:05    14:15       Prague     Δ/32S   Abu Dhabi  11:10
+* Flight is operated by Etihad Airways
+LARNACA (LCA)                                               UTC +3
+  29Mar-27Oct         24               OK 404              Prague       11:30    15:45      Larnaca      32S     nonstop    3:15
+  02Apr-28May            6             OK 404              Prague       10:55    15:15      Larnaca      32S     nonstop    3:20
+  04Jun-29Oct            6             OK 404              Prague       09:00    13:20      Larnaca      32S     nonstop    3:20
+  27Mar-29Oct       1234567            OK 406              Prague       21:55    02:15  +1  Larnaca      32S     nonstop    3:20
+  29Mar-27Oct         24               OK 405              Larnaca      16:30    19:00       Prague      32S     nonstop    3:30
+  02Apr-28May            6             OK 405              Larnaca      16:00    18:40       Prague      32S     nonstop    3:40
+  04Jun-29Oct            6             OK 405              Larnaca      14:05    16:40       Prague      32S     nonstop    3:35
+  27Mar-27Mar             7            OK 407              Larnaca      02:20    06:00       Prague      32S     nonstop    4:40
+  28Mar-29Oct       1234567            OK 407              Larnaca      03:20    06:00       Prague      32S     nonstop    3:40
+LEIPZIG (LEJ)                                               UTC +2
+  28Mar-10Jun       12345            OK 4514*              Prague       17:35    18:20      Leipzig        Δ     nonstop    0:45
+  28Mar-10Jun       12345            OK 4515*              Leipzig      09:00    09:45       Prague        Δ     nonstop    0:45
+* Flight is operated by Job Air - Central Connect Airlines
+                                                                  Timetable Summer 2011
+      Period          Days              Flight       Origin       Dep      Arr      Destination Aircraft    Via   Elapsed
+                                          No                                                     type               time
+LJUBLJANA (LJU)                                      UTC +2
+  27Mar-28Oct       12345 7            OK 826       Prague       21:40    23:00      Ljubljana   ATR      nonstop   1:20
+   27Mar-17Jul      12345 7            OK 828       Prague       11:50    13:10      Ljubljana   ATR      nonstop   1:20
+   18Jul-28Oct      123 5 7            OK 828       Prague       11:50    13:10      Ljubljana   ATR      nonstop   1:20
+  28Mar-29Oct       123456             OK 827      Ljubljana     06:00    07:25       Prague     ATR      nonstop   1:25
+   27Mar-17Jul      12345 7            OK 829      Ljubljana     14:25    15:50       Prague     ATR      nonstop   1:25
+   18Jul-28Oct      123 5 7            OK 829      Ljubljana     14:25    15:50       Prague     ATR      nonstop   1:25
+LOS ANGELES (LAX)                                     UTC -7
+  27Mar-22May       12345 7     OK 5054*/OK 3094*   Prague       11:55    20:30     Los Angeles    Δ     New York  17:35
+  23May-29Oct       1234567     OK 5054*/OK 3094*   Prague       11:55    20:30     Los Angeles    Δ     New York  17:35
+  02Jun-30Aug         2 45 7    OK 5088*/OK 3428*   Prague       11:05    20:50     Los Angeles    Δ      Atlanta  18:45
+  27Mar-22May       1234 67     OK 3095*/OK 5055* Los Angeles    06:30    10:00  +1   Prague       Δ     New York  18:30
+  23May-29Oct       1234567     OK 3095*/OK 5055* Los Angeles    06:30    10:00  +1   Prague       Δ     New York  18:30
+  01Jun-29Aug        1 34 6     OK 3429*/OK 5089* Los Angeles    09:00    09:20  +1   Prague       Δ      Atlanta  15:20
+* Flight is operated by Delta Air Lines
+LUXEMBOURG (LUX)                                     UTC +2
+  28Mar-28Oct       12345             OK 4472*      Prague       09:10    10:25     Luxembourg     Δ      nonstop   1:15
+  27Mar-23Oct             7           OK 4476*      Prague       21:25    22:40     Luxembourg     Δ      nonstop   1:15
+  28Mar-28Oct       12345             OK 4473*    Luxembourg     07:10    08:25       Prague       Δ      nonstop   1:15
+  27Mar-23Oct             7           OK 4477*    Luxembourg     19:40    20:55       Prague       Δ      nonstop   1:15
+* Flight is operated by Luxair
+LVIV (LWO)                                           UTC +3
+   27Apr-17Jul       1357              OK 926       Prague       11:35    14:35         Lviv     ATR      nonstop   2:00
+   18Jul-28Oct      1 345 7            OK 926       Prague       11:35    14:35         Lviv     ATR      nonstop   2:00
+   27Apr-17Jul       1357              OK 927         Lviv       15:10    16:20       Prague     ATR      nonstop   2:10
+   18Jul-28Oct      1 345 7            OK 927         Lviv       15:10    16:20       Prague     ATR      nonstop   2:10
+MADRID (MAD)                                         UTC +2
+  27Mar-29Oct       1234567            OK 700       Prague       11:10    14:00       Madrid      32S     nonstop   2:50
+  27Mar-29Oct       1234567            OK 702       Prague       20:05    22:55       Madrid      32S     nonstop   2:50
+  27Mar-23Oct             7           OK 4704*      Prague       19:30    22:25       Madrid       Δ      nonstop   2:55
+  28Mar-27Oct        1 4              OK 4704*      Prague       13:55    16:50       Madrid       Δ      nonstop   2:55
+  27Mar-29Oct       1234567            OK 701       Madrid       14:50    17:40       Prague      32S     nonstop   2:50
+  27Mar-29Oct       1234567            OK 703       Madrid       07:10    09:50       Prague      32S     nonstop   2:40
+  27Mar-23Oct             7           OK 4705*      Madrid       16:05    18:50       Prague       Δ      nonstop   2:45
+  28Mar-27Oct        1 4              OK 4705*      Madrid       10:30    13:15       Prague       Δ      nonstop   2:45
+* Flight is operated by Iberia
+MALTA (MLA)                                          UTC +2
+  11May-26Oct          3              OK 4738*      Prague       22:10    00:40  +1    Malta       Δ      nonstop   2:30
+  26Jun-28Aug             7           OK 4738*      Prague       05:55    08:35        Malta       Δ      nonstop   2:40
+  11May-26Oct          3              OK 4739*       Malta       18:40    21:20       Prague       Δ      nonstop   2:40
+  26Jun-28Aug             7           OK 4739*       Malta       02:25    05:05       Prague       Δ      nonstop   2:40
+* Flight is operated by Air Malta
+                                                           Timetable Summer 2011
+      Period          Days            Flight       Origin        Dep      Arr      Destination Aircraft    Via    Elapsed
+                                        No                                                       type               time
+MARSEILLE (MRS)                                     UTC +2
+  29Mar-03Jun         2 45            OK 748       Prague       08:20    10:20      Marseille     737    nonstop    2:00
+  09Jun-28Oct           45            OK 748       Prague       08:20    10:20      Marseille     737    nonstop    2:00
+  27Mar-26Jun        13 7             OK 750       Prague       14:50    16:50      Marseille     737    nonstop    2:00
+  27Jun-24Oct        1     7          OK 750       Prague       14:50    16:50      Marseille     737    nonstop    2:00
+  29Mar-03Jun         2 45            OK 749      Marseille     11:00    13:00       Prague       737    nonstop    2:00
+  09Jun-28Oct           45            OK 749      Marseille     11:00    13:00       Prague       737    nonstop    2:00
+  27Mar-26Jun        13 7             OK 751      Marseille     17:35    19:35       Prague       737    nonstop    2:00
+  27Jun-24Oct        1     7          OK 751      Marseille     17:35    19:35       Prague       737    nonstop    2:00
+MELBOURNE (MEL)                                   UTC +10
+  21Sep-28Sep          3 7       OK 352/OK 3186*   Prague       12:15    18:10  +1 Melbourne    32S/Δ   Abu Dhabi  21:55
+  02Oct-26Oct          3 7       OK 352/OK 3186*   Prague       12:15    19:10  +1 Melbourne    32S/Δ   Abu Dhabi  21:55
+  22Sep-29Sep        1 4         OK 3187*/OK 351 Melbourne      22:10    14:15  +1   Prague     Δ/32S   Abu Dhabi  24:05
+  03Oct-27Oct        1 4         OK 3187*/OK 351 Melbourne      23:10    14:15  +1   Prague     Δ/32S   Abu Dhabi  24:05
+* Flight is operated by Etihad Airways
+MEXICO CITY (MEX)                                    UTC -5
+  28Mar-17Apr       1234567      OK 758/OK 3124*   Prague       07:15    16:15     Mexico City  32S/Δ     Paris     16:00
+  18Apr-29Oct       1234567      OK 758/OK 3124*   Prague       07:10    16:15     Mexico City  32S/Δ     Paris     16:05
+  27Mar-02Apr       1234567      OK 3125*/OK 759 Mexico City    13:20    11:40  +1   Prague     Δ/32S     Paris     14:20
+  03Apr-29Oct       1234567      OK 3125*/OK 759 Mexico City    14:20    11:35  +1   Prague     Δ/32S     Paris     14:15
+* Flight is operated by Aeroméxico
+MILAN (MXP)                                         UTC +2
+  28Mar-29Oct       123456            OK 718       Prague       07:00    08:30        Milan      32S     nonstop    1:30
+  27Mar-29Oct       1234567           OK 722       Prague       17:05    18:35        Milan      32S     nonstop    1:30
+  27Mar-29Oct       1234567           OK 719        Milan       09:15    10:45       Prague      32S     nonstop    1:30
+  27Mar-28Oct       12345 7           OK 723        Milan       19:20    20:45       Prague      32S     nonstop    1:25
+MINSK (MSQ)                                         UTC +3
+  27Mar-28Oct        1357             OK 864       Prague       11:45    14:30       Minsk       32S     nonstop    1:45
+  27Mar-23Oct             7          OK 4864*      Prague       11:05    13:50       Minsk         Δ     nonstop    1:45
+  02Apr-29Oct            6           OK 4864*      Prague       11:45    14:30       Minsk         Δ     nonstop    1:45
+  29Mar-27Oct         24             OK 4866*      Prague       15:15    18:00       Minsk         Δ     nonstop    1:45
+  27Mar-28Oct        1357             OK 865       Minsk        15:15    16:05       Prague      32S     nonstop    1:50
+  27Mar-23Oct             7          OK 4865*      Minsk        09:15    10:00       Prague        Δ     nonstop    1:45
+  02Apr-29Oct            6           OK 4865*      Minsk        09:35    10:20       Prague        Δ     nonstop    1:45
+  29Mar-27Oct         24             OK 4867*      Minsk        13:40    14:25       Prague        Δ     nonstop    1:45
+* Flight is operated by Belavia
+                                                          Timetable Summer 2011
+      Period          Days              Flight       Origin       Dep      Arr      Destination Aircraft    Via    Elapsed
+                                          No                                                      type               time
+MOSCOW (SVO)                                         UTC +4
+  27Mar-29Oct       1234567            OK 892       Prague       09:10    13:50      Moscow       32S     nonstop    2:40
+  27Mar-29Oct       1234567            OK 894       Prague       11:45    16:25      Moscow       32S     nonstop    2:40
+  27Mar-29Oct        2 4 67            OK 896       Prague       07:05    11:40      Moscow       32S     nonstop    2:35
+  27Mar-28Oct       12345 7            OK 904       Prague       17:05    21:40      Moscow       32S     nonstop    2:35
+  27Mar-29Oct       1234567           OK 4892*      Prague       10:15    14:45      Moscow         Δ     nonstop    2:30
+  27Mar-29Oct       1234567           OK 4894*      Prague       20:35    01:05  +1  Moscow         Δ     nonstop    2:30
+  27Mar-29Oct       1234567           OK 4902*      Prague       13:00    17:30      Moscow         Δ     nonstop    2:30
+  27Mar-29Oct       1234567            OK 893      Moscow        14:45    15:40       Prague      32S     nonstop    2:55
+  27Mar-29Oct       1234567            OK 895      Moscow        17:15    18:15       Prague      32S     nonstop    3:00
+  27Mar-29Oct        2 4 67            OK 903      Moscow        19:55    20:50       Prague      32S     nonstop    2:55
+  27Mar-28Oct       12345 7            OK 905      Moscow        22:45    23:30       Prague      32S     nonstop    2:45
+  27Mar-29Oct       1234567           OK 4893*     Moscow        08:40    09:25       Prague        Δ     nonstop    2:45
+  27Mar-29Oct       1234567           OK 4895*     Moscow        19:05    19:45       Prague        Δ     nonstop    2:40
+  27Mar-29Oct       1234567           OK 4903*     Moscow        11:30    12:10       Prague        Δ     nonstop    2:40
+* Flight is operated by Aeroflot
+MUSCAT (MCT)                                         UTC +4
+  22Sep-27Oct        1 4          OK 350/OK 3182*   Prague       23:35    10:00  +1   Muscat     32S/Δ   Abu Dhabi   8:25
+  21Sep-26Oct          3 7        OK 352/OK 3184*   Prague       12:15    22:35       Muscat     32S/Δ   Abu Dhabi   8:20
+  27Sep-25Oct         2           OK 3183*/OK 351   Muscat       05:25    14:15       Prague     Δ/32S   Abu Dhabi  10:50
+  21Sep-26Oct          3 7        OK 3185*/OK 353   Muscat       23:25    06:00  +1   Prague     Δ/32S   Abu Dhabi   8:35
+* Flight is operated by Etihad Airways
+NEW YORK (JFK)                                        UTC -4
+  27Mar-22May       12345 7           OK 5054*      Prague       11:55    15:05      New York       Δ     nonstop    9:10
+  23May-29Oct       1234567           OK 5054*      Prague       11:55    15:05      New York       Δ     nonstop    9:10
+  27Mar-22May       1234 67           OK 5055*     New York      19:05    10:00  +1   Prague        Δ     nonstop    8:55
+  23May-28Oct       1234567           OK 5055*     New York      19:05    10:00  +1   Prague        Δ     nonstop    8:55
+  29Oct-29Oct            6            OK 5055*     New York      19:05    09:00  +1   Prague        Δ     nonstop    7:55
+* Flight is operated by Delta Air Lines
+ODESSA (ODS)                                         UTC +3
+  27Mar-29Oct       1234567            OK 922       Prague       11:25    14:30       Odessa      32S     nonstop    2:05
+  27Mar-29Oct       1234567            OK 923       Odessa       15:20    16:20       Prague      32S     nonstop    2:00
+OMSK (OMS)                                           UTC +7
+  27Mar-29Oct       1234567      OK 4902*/OK 3892*  Prague       13:00    05:25  +1    Omsk         Δ     Moscow     11:25
+  28Mar-29Oct       1234567      OK 3893*/OK 4903*   Omsk        06:45    12:10       Prague        Δ     Moscow     10:25
+* Flight is operated by Aeroflot
+ORLANDO (MCO)                                         UTC -4
+  27Mar-22May       12345 7      OK 5054*/OK 3052*  Prague       11:55    19:15       Orlando       Δ    New York   13:20
+  23May-29Oct       1234567      OK 5054*/OK 3052*  Prague       11:55    19:15       Orlando       Δ    New York   13:20
+  27Mar-22May       1234 67      OK 3053*/OK 5055*  Orlando      13:25    10:00  +1   Prague        Δ    New York   14:35
+  23May-29Oct       1234567      OK 3053*/OK 5055*  Orlando      13:25    10:00  +1   Prague        Δ    New York   14:35
+* Flight is operated by Delta Air Lines
+                                                           Timetable Summer 2011
+      Period          Days             Flight               Origin       Dep      Arr   Destination Aircraft   Via   Elapsed
+                                          No                                                         type              time
+OSLO (OSL)                                                  UTC +2
+  27Mar-05Jun        1 45 7            OK 446              Prague       13:00    15:00     Oslo       32S    nonstop   2:00
+   06Jun-17Jul      1 4567             OK 446              Prague       13:00    15:00     Oslo       32S    nonstop   2:00
+   18Jul-28Oct       1 45 7            OK 446              Prague       13:00    15:00     Oslo       32S    nonstop   2:00
+  27Mar-27Oct        1 4 7             OK 448              Prague       20:00    22:00     Oslo       32S    nonstop   2:00
+  27Mar-05Jun        1 45 7            OK 447               Oslo        16:35    18:35    Prague      32S    nonstop   2:00
+   06Jun-17Jul      1 4567             OK 447               Oslo        16:35    18:35    Prague      32S    nonstop   2:00
+   18Jul-28Oct       1 45 7            OK 447               Oslo        16:35    18:35    Prague      32S    nonstop   2:00
+  28Mar-28Oct        12 5              OK 449               Oslo        07:55    09:55    Prague      32S    nonstop   2:00
+OSTRAVA (OSR)                                               UTC +2
+  27Mar-25Jun       1234567            OK 024              Prague       12:00    13:00   Ostrava     ATR     nonstop   1:00
+  27Jun-29Oct       123456             OK 024              Prague       12:00    13:00   Ostrava     ATR     nonstop   1:00
+  27Mar-05Apr       12345 7            OK 026              Prague       17:00    18:00   Ostrava     ATR     nonstop   1:00
+  06Apr-31May       12345 7            OK 026              Prague       16:40    17:35   Ostrava     ATR     nonstop   0:55
+   12Jul-12Jul         2               OK 026              Prague       17:20    18:10   Ostrava      32S    nonstop   0:50
+   18Jul-18Jul        1                OK 026              Prague       16:55    17:45   Ostrava      737    nonstop   0:50
+   28Mar-15Jul      12345            OK 4018*              Prague       21:30    22:30   Ostrava       Δ     nonstop   1:00
+   18Jul-28Oct      12345 7          OK 4018*              Prague       21:30    22:30   Ostrava       Δ     nonstop   1:00
+  01Jun-10Jun       12345            OK 4020*              Prague       17:30    18:30   Ostrava       Δ     nonstop   1:00
+  13Jun-28Oct       12345 7          OK 4020*              Prague       17:30    18:30   Ostrava       Δ     nonstop   1:00
+   26Jun-24Jul           7           OK 4022*              Prague       12:00    13:00   Ostrava       Δ     nonstop   1:00
+  27Mar-25Jun       1234567            OK 025              Ostrava      14:55    15:55    Prague     ATR     nonstop   1:00
+  27Jun-29Oct       123456             OK 025              Ostrava      14:55    15:55    Prague     ATR     nonstop   1:00
+  27Mar-05Apr       12345 7            OK 027              Ostrava      18:25    19:25    Prague     ATR     nonstop   1:00
+  06Apr-31May       12345 7            OK 027              Ostrava      18:00    18:55    Prague     ATR     nonstop   0:55
+   12Jul-12Jul         2               OK 027              Ostrava      19:10    20:00    Prague      32S    nonstop   0:50
+   18Jul-18Jul        1                OK 027              Ostrava      18:30    19:20    Prague      737    nonstop   0:50
+  28Mar-28Oct       12345            OK 4019*              Ostrava      05:20    06:20    Prague       Δ     nonstop   1:00
+  01Jun-10Jun       12345            OK 4021*              Ostrava      18:55    19:55    Prague       Δ     nonstop   1:00
+  13Jun-28Oct       12345 7          OK 4021*              Ostrava      18:55    19:55    Prague       Δ     nonstop   1:00
+  26Jun-23Oct            7           OK 4023*              Ostrava      14:55    15:55    Prague       Δ     nonstop   1:00
+* Flight is operated by Job Air - Central Connect Airlines
+PARIS (CDG)                                                 UTC +2
+  28Mar-17Apr       1234567            OK 758              Prague       07:15    09:05     Paris      32S    nonstop   1:50
+  18Apr-29Oct       1234567            OK 758              Prague       07:10    09:00     Paris      32S    nonstop   1:50
+  27Mar-29May          357             OK 760              Prague       13:05    14:55     Paris      32S    nonstop   1:50
+  01Jun-28Oct       1 345 7            OK 760              Prague       11:55    13:45     Paris      32S    nonstop   1:50
+  27Mar-24Apr       1234 7             OK 764              Prague       20:45    22:35     Paris      737    nonstop   1:50
+  25Apr-19Jun       12345 7            OK 764              Prague       20:45    22:35     Paris      737    nonstop   1:50
+  20Jun-21Aug       1 345 7            OK 764              Prague       20:45    22:35     Paris      737    nonstop   1:50
+  22Aug-28Oct       12345 7            OK 764              Prague       20:45    22:35     Paris      737    nonstop   1:50
+  27Mar-29Oct       1234567            OK 766              Prague       16:55    18:40     Paris      32S    nonstop   1:45
+  27Mar-17Apr       1234567            OK 759               Paris       09:55    11:40    Prague      32S    nonstop   1:45
+  18Apr-29Oct       1234567            OK 759               Paris       09:50    11:35    Prague      32S    nonstop   1:45
+  27Mar-29May          357             OK 761               Paris       15:45    17:35    Prague      32S    nonstop   1:50
+  01Jun-28Oct       1 345 7            OK 761               Paris       14:30    16:15    Prague      32S    nonstop   1:45
+  28Mar-22Apr       12345              OK 765               Paris       06:55    08:35    Prague      737    nonstop   1:40
+  25Apr-18Jun       123456             OK 765               Paris       06:55    08:35    Prague      737    nonstop   1:40
+  20Jun-20Aug       12 456             OK 765               Paris       06:55    08:35    Prague      737    nonstop   1:40
+  22Aug-29Oct       123456             OK 765               Paris       06:55    08:35    Prague      737    nonstop   1:40
+  27Mar-29Oct       1234567            OK 767               Paris       19:25    21:00    Prague      32S    nonstop   1:35
+                                                                  Timetable Summer 2011
+      Period          Days             Flight                Origin       Dep      Arr       Destination  Aircraft   Via   Elapsed
+                                          No                                                               type              time
+POPRAD (TAT)                                                 UTC +2
+  01May-27Oct         24 7             OK 982               Prague       22:00    23:25        Poprad      ATR     nonstop   1:25
+   02Jul-03Sep            6            OK 984               Prague       12:15    13:40        Poprad      ATR     nonstop   1:25
+  02May-28Oct        135               OK 983               Poprad       05:00    06:25        Prague      ATR     nonstop   1:25
+   02Jul-03Sep            6            OK 985               Poprad       14:25    15:50        Prague      ATR     nonstop   1:25
+POZNAN (POZ)                                                 UTC +2
+  28Mar-28Oct       12345            OK 4778*               Prague       12:40    13:50        Poznan        Δ     nonstop   1:10
+  28Mar-28Oct       12345            OK 4779*               Poznan       14:30    15:40        Prague        Δ     nonstop   1:10
+* Flight is operated by Job Air - Central Connect Airlines
+RIGA (RIX)                                                   UTC +3
+  27Mar-22May              7           OK 880               Prague       11:40    14:30         Riga        737    nonstop   1:50
+  28Mar-21May       123456             OK 880               Prague       11:40    14:30         Riga        32S    nonstop   1:50
+  23May-26Jun       1234567            OK 880               Prague       11:40    14:30         Riga        32S    nonstop   1:50
+  27Jun-04Sep       1 34567            OK 880               Prague       11:40    14:30         Riga        32S    nonstop   1:50
+  28Jun-30Aug         2                OK 880               Prague       11:40    14:30         Riga        737    nonstop   1:50
+  05Sep-29Oct       1234567            OK 880               Prague       11:40    14:30         Riga        32S    nonstop   1:50
+  27Mar-22May              7           OK 881                 Riga       15:15    16:00        Prague       737    nonstop   1:45
+  28Mar-21May       123456             OK 881                 Riga       15:15    16:00        Prague       32S    nonstop   1:45
+  23May-26Jun       1234567            OK 881                 Riga       15:15    16:00        Prague       32S    nonstop   1:45
+  27Jun-04Sep       1 34567            OK 881                 Riga       15:15    16:00        Prague       32S    nonstop   1:45
+  28Jun-30Aug         2                OK 881                 Riga       15:15    16:00        Prague       737    nonstop   1:45
+  05Sep-29Oct       1234567            OK 881                 Riga       15:15    16:00        Prague       32S    nonstop   1:45
+ROME (FCO)                                                   UTC +2
+  27Mar-03Sep       1234567            OK 724               Prague       11:50    13:40         Rome        321    nonstop   1:50
+  04Sep-23Oct              7           OK 724               Prague       14:50    16:40         Rome        321    nonstop   1:50
+  05Sep-29Oct       123456             OK 724               Prague       11:50    13:40         Rome        321    nonstop   1:50
+  27Mar-29Oct       1234567            OK 726               Prague       20:15    22:00         Rome        32S    nonstop   1:45
+  27Mar-03Sep       1234567            OK 725                Rome        14:30    16:25        Prague       321    nonstop   1:55
+  04Sep-23Oct              7           OK 725                Rome        17:30    19:25        Prague       321    nonstop   1:55
+  05Sep-29Oct       123456             OK 725                Rome        14:30    16:25        Prague       321    nonstop   1:55
+  27Mar-29Oct       1234567            OK 727                Rome        07:10    09:10        Prague       32S    nonstop   2:00
+ROSTOV ON DON (ROV)                                          UTC +4
+  27Mar-27Oct           4 7            OK 914               Prague       21:55    02:55  +1 Rostov on Don   32S    nonstop   3:00
+  30Mar-29Oct          3 6           OK 5914*               Prague       13:40    18:35     Rostov on Don    Δ     nonstop   2:55
+  28Mar-28Oct        1 5               OK 915            Rostov on Don   04:55    06:00        Prague       32S    nonstop   3:05
+  30Mar-29Oct          3 6           OK 5915*            Rostov on Don   11:30    12:40        Prague        Δ     nonstop   3:10
+* Flight is operated by Donavia
+SAMARA (KUF)                                                 UTC +4
+  27Mar-28Oct       1 345 7            OK 910               Prague       21:45    03:25  +1    Samara       32S    nonstop   3:40
+  28Mar-23Apr       12 456             OK 911               Samara       04:20    06:05        Prague       32S    nonstop   3:45
+  25Apr-29Oct        12 4 6            OK 911               Samara       04:20    06:05        Prague       32S    nonstop   3:45
+  29Apr-28Oct            5             OK 911               Samara       04:35    06:20        Prague       32S    nonstop   3:45
+                                                                   Timetable Summer 2011
+      Period          Days              Flight         Origin       Dep      Arr       Destination   Aircraft    Via   Elapsed
+                                          No                                                          type               time
+SAN FRANCISCO (SFO)                                     UTC -7
+  27Mar-22May       12345 7     OK 5054*/OK 3098*     Prague       11:55    20:50     San Francisco     Δ     New York  17:55
+  23May-29Oct       1234567     OK 5054*/OK 3098*     Prague       11:55    20:50     San Francisco     Δ     New York  17:55
+  02Jun-30Aug         2 45 7    OK 5088*/OK 3408*     Prague       11:05    00:15  +1 San Francisco     Δ      Atlanta  22:10
+  27Mar-22May       1234 67     OK 3099*/OK 5055* San Francisco    06:30    10:00  +1     Prague        Δ     New York  18:30
+  23May-29Oct       1234567     OK 3099*/OK 5055* San Francisco    06:30    10:00  +1     Prague        Δ     New York  18:30
+  01Jun-29Aug        1 34 6     OK 3409*/OK 5089* San Francisco    07:10    09:20  +1     Prague        Δ      Atlanta  17:10
+* Flight is operated by Delta Air Lines
+SEATTLE (SEA)                                           UTC -7
+  02Jun-30Aug         2 45 7    OK 5088*/OK 3422*     Prague       11:05    00:25  +1     Seattle       Δ      Atlanta  22:20
+  01Jun-08Jun        1 34 6     OK 3423*/OK 5089*     Seattle      09:05    09:20  +1     Prague        Δ      Atlanta  15:15
+  09Jun-15Aug        1 34 6     OK 3423*/OK 5089*     Seattle      07:45    09:20  +1     Prague        Δ      Atlanta  16:35
+  16Aug-29Aug        1 34 6     OK 3423*/OK 5089*     Seattle      09:05    09:20  +1     Prague        Δ      Atlanta  15:15
+* Flight is operated by Delta Air Lines
+SEOUL (ICN)                                            UTC +9
+  28Mar-04Jun        1 46             OK 4190*        Prague       19:25    12:25  +1      Seoul        Δ      nonstop  10:00
+  06Jun-29Oct        12 4 6           OK 4190*        Prague       19:25    12:25  +1      Seoul        Δ      nonstop  10:00
+  28Mar-30May        1 46             OK 4191*         Seoul       13:40    17:50         Prague        Δ      nonstop  11:10
+  02Jun-24Sep        12 4 6           OK 4191*         Seoul       13:55    17:50         Prague        Δ      nonstop  10:55
+  26Sep-29Oct        12 4 6           OK 4191*         Seoul       13:40    17:50         Prague        Δ      nonstop  11:10
+* Flight is operated by Korean Air
+SKOPJE (SKP)                                           UTC +2
+  27Mar-28Oct       12345 7            OK 846         Prague       11:35    13:30         Skopje       737     nonstop   1:55
+  27Mar-28Oct       12345 7            OK 847         Skopje       14:15    16:10         Prague       737     nonstop   1:55
+SOFIA (SOF)                                            UTC +3
+  27Mar-29Jun       12345 7            OK 854         Prague       21:35    00:20  +1      Sofia       737     nonstop   1:45
+  30Jun-27Oct        12 4 7            OK 854         Prague       21:35    00:20  +1      Sofia       737     nonstop   1:45
+  27Mar-26Jun       1234567            OK 856         Prague       11:30    14:25          Sofia       737     nonstop   1:55
+  27Jun-29Oct       1 34567            OK 856         Prague       11:30    14:25          Sofia       737     nonstop   1:55
+   28Mar-01Jul       1 3 56            OK 855          Sofia       07:10    08:05         Prague       737     nonstop   1:55
+   29Mar-05Jul        24               OK 855          Sofia       06:40    07:35         Prague       737     nonstop   1:55
+   04Jul-28Oct       135               OK 855          Sofia       07:10    08:05         Prague       737     nonstop   1:55
+   12Jul-25Oct         2               OK 855          Sofia       06:40    07:35         Prague       737     nonstop   1:55
+  27Mar-26Jun       1234567            OK 857          Sofia       15:10    16:05         Prague       737     nonstop   1:55
+  27Jun-29Oct       1 34567            OK 857          Sofia       15:10    16:05         Prague       737     nonstop   1:55
+ST. PETERSBURG (LED)                                   UTC +4
+  27Mar-28Oct       12 45 7            OK 886         Prague       11:30    15:55     St. Petersburg   32S     nonstop   2:25
+  30Apr-29Oct             6            OK 888         Prague       08:45    13:05     St. Petersburg   32S     nonstop   2:20
+  27Mar-29Oct       1 34 67           OK 4888*        Prague       12:30    17:00     St. Petersburg    Δ      nonstop   2:30
+  01Apr-28Oct            5            OK 4888*        Prague       10:00    14:30     St. Petersburg    Δ      nonstop   2:30
+  27Mar-28Oct       12 45 7            OK 887     St. Petersburg   16:40    17:15         Prague       32S     nonstop   2:35
+  30Apr-29Oct             6            OK 889     St. Petersburg   20:30    21:05         Prague       32S     nonstop   2:35
+  27Mar-29Oct       1 34 67           OK 4889*    St. Petersburg   10:50    11:40         Prague        Δ      nonstop   2:50
+  01Apr-28Oct            5            OK 4889*    St. Petersburg   08:20    09:10         Prague        Δ      nonstop   2:50
+* Flight is operated by Rossyia
+                                                             Timetable Summer 2011
+      Period          Days             Flight      Origin        Dep      Arr      Destination Aircraft    Via    Elapsed
+                                         No                                                      type               time
+STOCKHOLM (ARN)                                     UTC +2
+  27Mar-23Oct              7           OK 490      Prague       14:45    16:45     Stockholm     32S     nonstop    2:00
+  28Mar-28Oct       12345              OK 490      Prague       14:45    16:45     Stockholm      737    nonstop    2:00
+  28Mar-03Jun       12345              OK 492      Prague       09:10    11:10     Stockholm      737    nonstop    2:00
+  06Jun-02Sep        1 345             OK 492      Prague       09:10    11:10     Stockholm      737    nonstop    2:00
+  05Sep-28Oct       12345              OK 492      Prague       09:10    11:10     Stockholm      737    nonstop    2:00
+  27Mar-28May       1234 67            OK 494      Prague       20:15    22:15     Stockholm      737    nonstop    2:00
+  01Apr-20May            5             OK 494      Prague       20:15    22:15     Stockholm     32S     nonstop    2:00
+  27May-28Oct         2 45 7           OK 494      Prague       20:15    22:15     Stockholm     32S     nonstop    2:00
+  30May-29Oct        13 6              OK 494      Prague       20:15    22:15     Stockholm      737    nonstop    2:00
+  27Mar-23Oct              7           OK 491    Stockholm      17:30    19:25       Prague      32S     nonstop    1:55
+  28Mar-28Oct       12345              OK 491    Stockholm      17:30    19:25       Prague       737    nonstop    1:55
+  28Mar-03Jun       12345              OK 493    Stockholm      11:55    13:55       Prague       737    nonstop    2:00
+  06Jun-02Sep        1 345             OK 493    Stockholm      11:55    13:55       Prague       737    nonstop    2:00
+  05Sep-28Oct       12345              OK 493    Stockholm      11:55    13:55       Prague       737    nonstop    2:00
+  28Mar-29May       12345 7            OK 495    Stockholm      08:00    10:00       Prague       737    nonstop    2:00
+  02Apr-28May             6            OK 495    Stockholm      08:00    10:00       Prague      32S     nonstop    2:00
+  30May-30May         1                OK 495    Stockholm      08:00    10:00       Prague      32S     nonstop    2:00
+  31May-31May          2               OK 495    Stockholm      08:00    10:00       Prague       737    nonstop    2:00
+   01Jun-29Oct       1 3 56            OK 495    Stockholm      07:55    09:55       Prague      32S     nonstop    2:00
+   02Jun-27Oct        24 7             OK 495    Stockholm      07:55    09:55       Prague       737    nonstop    2:00
+STRASBOURG (SXB)                                    UTC +2
+  28Mar-28Oct        1 45              OK 740      Prague       07:15    08:45     Strasbourg    ATR     nonstop    1:30
+  27Mar-28Oct       12345 7            OK 742      Prague       17:00    18:35     Strasbourg    ATR     nonstop    1:35
+  28Mar-28Oct        1 45              OK 741    Strasbourg     09:15    10:40       Prague      ATR     nonstop    1:25
+  27Mar-28Oct       12345 7            OK 743    Strasbourg     19:05    20:30       Prague      ATR     nonstop    1:25
+STUTTGART (STR)                                     UTC +2
+  27Mar-29Oct       1234567            OK 560      Prague       17:25    18:45      Stuttgart    ATR     nonstop    1:20
+  28Mar-29Oct       123456             OK 562      Prague       07:25    08:40      Stuttgart    ATR     nonstop    1:15
+  27Mar-28Oct       12345 7            OK 561     Stuttgart     19:15    20:30       Prague      ATR     nonstop    1:15
+  27Mar-29Oct       1234567            OK 563     Stuttgart     09:10    10:25       Prague      ATR     nonstop    1:15
+SYDNEY (SYD)                                      UTC +10
+  21Sep-28Sep          3 7       OK 352/OK 3198*   Prague       12:15    18:10  +1   Sydney     32S/Δ   Abu Dhabi  21:55
+   02Oct-26Oct         3 7       OK 352/OK 3198*   Prague       12:15    19:10  +1   Sydney     32S/Δ   Abu Dhabi  21:55
+  27Sep-27Sep         1          OK 350/OK 3200*   Prague       23:35    06:25  +2   Sydney     32S/Δ   Abu Dhabi  22:50
+   04Oct-25Oct        1          OK 350/OK 3200*   Prague       23:35    07:25  +2   Sydney     32S/Δ   Abu Dhabi  22:50
+  22Sep-29Sep        1 4         OK 3199*/OK 351   Sydney       21:50    14:15  +1   Prague     Δ/32S   Abu Dhabi  24:25
+   03Oct-27Oct       1 4         OK 3199*/OK 351   Sydney       21:50    14:15  +1   Prague     Δ/32S   Abu Dhabi  24:25
+  21Sep-28Sep          3 7       OK 3201*/OK 353   Sydney       14:50    06:00  +1   Prague     Δ/32S   Abu Dhabi  23:10
+   02Oct-26Oct         3 7       OK 3201*/OK 353   Sydney       15:50    06:00  +1   Prague     Δ/32S   Abu Dhabi  23:10
+* Flight is operated by Etihad Airways
+TAIPEI (TPE)                                        UTC +8
+  28Mar-29Oct        1 3 56      OK 534/OK 3160*   Prague       07:20    06:25  +1    Taipei    32S/Δ   Frankfurt   17:05
+  29Mar-29Oct         2 456      OK 3161*/OK 535    Taipei      23:15    10:30       Prague     Δ/32S   Frankfurt   17:15
+  27Mar-23Oct              7     OK 3161*/OK 535    Taipei      23:15    09:40       Prague     Δ/32S   Frankfurt   16:25
+* Flight is operated by China Airlines
+                                                          Timetable Summer 2011
+      Period          Days              Flight     Origin        Dep      Arr      Destination Aircraft    Via   Elapsed
+                                          No                                                     type              time
+TALLINN (TLL)                                       UTC +3
+  27Mar-29May       1234567            OK 878      Prague       11:20    14:20       Tallinn      737    nonstop   2:00
+  30May-28Oct       12345              OK 878      Prague       11:20    14:20       Tallinn     32S     nonstop   2:00
+  04Jun-29Oct            67            OK 878      Prague       11:20    14:20       Tallinn      737    nonstop   2:00
+  27Mar-29May       1234567            OK 879      Tallinn      15:05    16:10       Prague       737    nonstop   2:05
+  30May-28Oct       12345              OK 879      Tallinn      15:05    16:10       Prague      32S     nonstop   2:05
+  04Jun-29Oct            67            OK 879      Tallinn      15:05    16:10       Prague       737    nonstop   2:05
+TAMPA (TPA)                                         UTC -4
+  27Mar-22May       12345 7     OK 5054*/OK 3054*  Prague       11:55    23:50       Tampa         Δ    New York  17:55
+  23May-29Oct       1234567     OK 5054*/OK 3054*  Prague       11:55    23:50       Tampa         Δ    New York  17:55
+  27Mar-22May       1234 67     OK 3055*/OK 5055*  Tampa        12:10    10:00  +1   Prague        Δ    New York  15:50
+  23May-29Oct       1234567     OK 3055*/OK 5055*  Tampa        12:10    10:00  +1   Prague        Δ    New York  15:50
+* Flight is operated by Delta Air Lines
+TASHKENT (TAS)                                      UTC +5
+  27Mar-26Oct          3 7             OK 184      Prague       21:40    06:15  +1  Tashkent     32S     nonstop   5:35
+  28Mar-27Oct        1 4               OK 185     Tashkent      07:40    11:00       Prague      32S     nonstop   6:20
+TBILISI (TBS)                                       UTC +4
+  28Mar-27May        12 45             OK 934      Prague       21:45    03:20  +1   Tbilisi     32S     nonstop   3:35
+  30May-11Jun       123456             OK 934      Prague       21:45    03:20  +1   Tbilisi     32S     nonstop   3:35
+  13Jun-25Sep       1234567            OK 934      Prague       21:45    03:20  +1   Tbilisi     32S     nonstop   3:35
+  26Sep-28Oct       12345 7            OK 934      Prague       21:45    03:20  +1   Tbilisi     32S     nonstop   3:35
+  29Mar-28May         23 56            OK 935      Tbilisi      04:20    06:10       Prague      32S     nonstop   3:50
+  31May-19Jun        234567            OK 935      Tbilisi      04:20    06:10       Prague      32S     nonstop   3:50
+  20Jun-01Oct       1234567            OK 935      Tbilisi      04:20    06:10       Prague      32S     nonstop   3:50
+  03Oct-29Oct       123456             OK 935      Tbilisi      04:20    06:10       Prague      32S     nonstop   3:50
+TEL AVIV (TLV)                                      UTC +3
+  27Mar-30Mar        123 7             OK 286      Prague       23:55    03:35  +1  Tel Aviv     32S     nonstop   3:40
+  31Mar-30Sep       1234567            OK 286      Prague       23:55    04:35  +1  Tel Aviv     32S     nonstop   3:40
+  01Oct-29Oct       1234567            OK 286      Prague       23:55    03:35  +1  Tel Aviv     32S     nonstop   3:40
+  29Mar-29Mar          2              OK 5286*     Prague       19:25    23:15      Tel Aviv       Δ     nonstop   3:50
+  05Apr-27Sep          2              OK 5286*     Prague       19:25    00:15  +1  Tel Aviv       Δ     nonstop   3:50
+  04Oct-25Oct          2              OK 5286*     Prague       19:25    23:15      Tel Aviv       Δ     nonstop   3:50
+  27Mar-31Mar       1234 7             OK 287     Tel Aviv      05:05    09:15       Prague      32S     nonstop   4:10
+  01Apr-01Oct       1234567            OK 287     Tel Aviv      06:05    09:15       Prague      32S     nonstop   4:10
+  02Oct-29Oct       1234567            OK 287     Tel Aviv      05:05    09:15       Prague      32S     nonstop   4:10
+  27Mar-31Mar        1 34 7           OK 5287*    Tel Aviv      17:55    22:10       Prague        Δ     nonstop   4:15
+  29Mar-29Mar          2              OK 5287*    Tel Aviv      13:50    18:05       Prague        Δ     nonstop   4:15
+  03Apr-29Sep        1 34 7           OK 5287*    Tel Aviv      18:55    22:10       Prague        Δ     nonstop   4:15
+  05Apr-27Sep          2              OK 5287*    Tel Aviv      14:50    18:05       Prague        Δ     nonstop   4:15
+  02Oct-27Oct        1 34 7           OK 5287*    Tel Aviv      17:55    22:10       Prague        Δ     nonstop   4:15
+  04Oct-25Oct          2              OK 5287*    Tel Aviv      13:50    18:05       Prague        Δ     nonstop   4:15
+* Flight is operated by EL AL
+VARNA (VAR)                                         UTC +3
+  27Mar-26Jun       12345         OK 856/OK 3350*  Prague       11:30    17:00       Varna      737/Δ     Sofia    4:30
+  27Jun-04Sep        1 345        OK 856/OK 3350*  Prague       11:30    17:00       Varna      737/Δ     Sofia    4:30
+  05Sep-29Oct       12345         OK 856/OK 3350*  Prague       11:30    17:00       Varna      737/Δ     Sofia    4:30
+  27Mar-26Jun       12345         OK 3349*/OK 857  Varna        12:30    16:05       Prague     Δ/737     Sofia    4:35
+  27Jun-04Sep        1 345        OK 3349*/OK 857  Varna        12:30    16:05       Prague     Δ/737     Sofia    4:35
+  05Sep-29Oct       12345         OK 3349*/OK 857  Varna        12:30    16:05       Prague     Δ/737     Sofia    4:35
+* Flight is operated by Bulgaria Air
+                                                          Timetable Summer 2011
+      Period          Days              Flight      Origin       Dep      Arr      Destination Aircraft    Via   Elapsed
+                                          No                                                    type               time
+VENICE (VCE)                                        UTC +2
+  27Mar-31May         2 4 67           OK 736      Prague       10:50    12:30       Venice     ATR      nonstop   1:40
+  02Jun-29Oct         2 4 67           OK 736      Prague       11:10    12:50       Venice     ATR      nonstop   1:40
+  27Mar-31May         2 4 67           OK 737      Venice       13:00    14:40       Prague     ATR      nonstop   1:40
+  02Jun-29Oct         2 4 67           OK 737      Venice       13:20    15:00       Prague     ATR      nonstop   1:40
+VILNIUS (VNO)                                       UTC +3
+  27Mar-29Oct       1234567            OK 872      Prague       11:45    14:20       Vilnius     32S     nonstop   1:35
+  27Mar-29Oct       1234567            OK 873      Vilnius      15:05    15:45       Prague      32S     nonstop   1:40
+WARSAW (WAW)                                        UTC +2
+  28Mar-29Oct       123456             OK 776      Prague       07:05    08:15      Warsaw       32S     nonstop   1:10
+  27Mar-26May       1234 7             OK 778      Prague       16:55    18:05      Warsaw       737     nonstop   1:10
+  01Apr-20May            5             OK 778      Prague       16:55    18:05      Warsaw       32S     nonstop   1:10
+  27May-26Jun       12345 7            OK 778      Prague       16:55    18:05      Warsaw       32S     nonstop   1:10
+  27Jun-04Sep       1 345 7            OK 778      Prague       16:55    18:05      Warsaw       32S     nonstop   1:10
+  28Jun-30Aug          2               OK 778      Prague       16:55    18:05      Warsaw       737     nonstop   1:10
+  05Sep-28Oct       12345 7            OK 778      Prague       16:55    18:05      Warsaw       32S     nonstop   1:10
+  27Mar-29Oct       1234567            OK 782      Prague       12:15    13:45      Warsaw      ATR      nonstop   1:30
+  28Mar-29Oct       123456             OK 777      Warsaw       09:00    10:10       Prague      32S     nonstop   1:10
+  27Mar-26May       1234 7             OK 779      Warsaw       18:50    20:00       Prague      737     nonstop   1:10
+  01Apr-20May            5             OK 779      Warsaw       18:50    20:00       Prague      32S     nonstop   1:10
+  27May-26Jun       12345 7            OK 779      Warsaw       18:50    20:00       Prague      32S     nonstop   1:10
+  27Jun-04Sep       1 345 7            OK 779      Warsaw       18:50    20:00       Prague      32S     nonstop   1:10
+  28Jun-30Aug          2               OK 779      Warsaw       18:50    20:00       Prague      737     nonstop   1:10
+  05Sep-28Oct       12345 7            OK 779      Warsaw       18:50    20:00       Prague      32S     nonstop   1:10
+  27Mar-29Oct       1234567            OK 783      Warsaw       14:25    15:55       Prague     ATR      nonstop   1:30
+WASHINGTON (DCA)                                     UTC -4
+  27Mar-22May       12345 7     OK 5054*/OK 3058*  Prague       11:55    18:25     Washington     Δ     New York  12:30
+  23May-29Oct       1234567     OK 5054*/OK 3058*  Prague       11:55    18:25     Washington     Δ     New York  12:30
+  01Apr-22May       1234 67     OK 3059*/OK 5055* Washington    15:30    10:00  +1   Prague       Δ     New York  12:30
+  23May-08Jun       1234567     OK 3059*/OK 5055* Washington    15:30    10:00  +1   Prague       Δ     New York  12:30
+  09Jun-29Oct       1234567     OK 3059*/OK 5055* Washington    17:00    10:00  +1   Prague       Δ     New York  11:00
+* Flight is operated by Delta Air Lines
+YEREVAN (EVN)                                       UTC +5
+  27Mar-01May        1357              OK 930      Prague       21:40    04:15  +1  Yerevan      32S     nonstop   3:35
+  02May-26Jun       1 345 7            OK 930      Prague       21:40    04:15  +1  Yerevan      32S     nonstop   3:35
+  27Jun-04Sep       1234567            OK 930      Prague       21:40    04:15  +1  Yerevan      32S     nonstop   3:35
+  05Sep-28Oct       1 345 7            OK 930      Prague       21:40    04:15  +1  Yerevan      32S     nonstop   3:35
+  28Mar-30Apr        12 4 6            OK 931      Yerevan      05:15    06:15       Prague      32S     nonstop   4:00
+  02May-25Jun       12 456             OK 931      Yerevan      05:15    06:15       Prague      32S     nonstop   4:00
+  27Jun-04Sep       1234567            OK 931      Yerevan      05:15    06:15       Prague      32S     nonstop   4:00
+  05Sep-29Oct       12 456             OK 931      Yerevan      05:15    06:15       Prague      32S     nonstop   4:00
+ZAGREB (ZAG)                                        UTC +2
+  27Mar-01May         24 7             OK 814      Prague       21:20    22:50       Zagreb     ATR      nonstop   1:30
+  27Mar-28Oct       12345 7            OK 818      Prague       12:10    13:40       Zagreb     ATR      nonstop   1:30
+  28Mar-02May        135               OK 815      Zagreb       05:40    07:15       Prague     ATR      nonstop   1:35
+  27Mar-28Oct       12345 7            OK 819      Zagreb       14:40    16:15       Prague     ATR      nonstop   1:35
+                                                          Timetable Summer 2011
+    Period    Days   Flight Origin         Dep      Arr   Destination Aircraft   Via   Elapsed
+                       No                                              type              time
+ZILINA (ILZ)                 UTC +2
+ 28Mar-31Mar 1234    OK 954 Prague        12:15    13:15     Zilina    ATR     nonstop   1:00
+ 27Mar-03Apr    45 7 OK 956 Prague        22:00    23:00     Zilina    ATR     nonstop   1:00
+ 04Apr-29Apr 12345 7 OK 956 Prague        22:00    23:00     Zilina    ATR     nonstop   1:00
+ 01May-28Oct 1 345 7 OK 956 Prague        21:35    22:35     Zilina    ATR     nonstop   1:00
+ 28Mar-31Mar 1234    OK 955  Zilina       14:50    15:50    Prague     ATR     nonstop   1:00
+ 28Mar-02Apr  1 56   OK 957  Zilina       05:25    06:25    Prague     ATR     nonstop   1:00
+ 04Apr-30Apr 123456  OK 957  Zilina       05:25    06:25    Prague     ATR     nonstop   1:00
+ 02May-29Oct 12 456  OK 957  Zilina       05:25    06:25    Prague     ATR     nonstop   1:00
+ZURICH (ZRH)                 UTC +2
+ 28Mar-29Oct 12 456  OK 582 Prague        07:30    08:40    Zurich      32S    nonstop   1:10
+ 27Mar-26Jun 123 5 7 OK 586 Prague        17:10    18:25    Zurich      737    nonstop   1:15
+ 31Mar-27Oct    4    OK 586 Prague        17:10    18:25    Zurich      32S    nonstop   1:15
+ 27Jun-04Sep 1357    OK 586 Prague        17:10    18:25    Zurich      737    nonstop   1:15
+ 05Sep-28Oct 123 5 7 OK 586 Prague        17:10    18:25    Zurich      737    nonstop   1:15
+ 28Mar-29Oct 12 456  OK 583 Zurich        09:25    10:40    Prague      32S    nonstop   1:15
+ 27Mar-26Jun 123 5 7 OK 587 Zurich        19:15    20:30    Prague      737    nonstop   1:15
+ 31Mar-27Oct    4    OK 587 Zurich        19:15    20:30    Prague      32S    nonstop   1:15
+ 27Jun-04Sep 1357    OK 587 Zurich        19:15    20:30    Prague      737    nonstop   1:15
+ 05Sep-28Oct 123 5 7 OK 587 Zurich        19:15    20:30    Prague      737    nonstop   1:15
+                                    Timetable Summer 2011
+Flights from/to Bratislava (BTS)
+      Period          Days        Flight       Origin       Dep      Arr       Destination   Aircraft   Via   Elapsed
+                                    No                                                        type              time
+AMSTERDAM (AMS)                                UTC +2
+  23Jun-29Oct         2 4 67      OK 200    Bratislava     07:20    09:20      Amsterdam       737    nonstop   2:00
+  23Jun-29Oct         2 4 67      OK 201   Amsterdam       10:20    12:10       Bratislava     737    nonstop   1:50
+BARCELONA (BCN)                                UTC +2
+  25Jun-29Oct         2 6         OK 202    Bratislava     13:00    15:30       Barcelona      737    nonstop   2:30
+  25Jun-29Oct         2 6         OK 203    Barcelona      16:10    18:35       Bratislava     737    nonstop   2:25
+BRUSSELS (BRU)                                 UTC +2
+  24Jun-02Sep        1 5          OK 204    Bratislava     07:00    08:55        Brussels      737    nonstop   1:55
+  05Sep-28Oct        135          OK 204    Bratislava     07:00    08:55        Brussels      737    nonstop   1:55
+  24Jun-02Sep        1 5          OK 205     Brussels      09:40    11:30       Bratislava     737    nonstop   1:50
+  05Sep-28Oct        135          OK 205     Brussels      09:40    11:30       Bratislava     737    nonstop   1:50
+LARNACA (LCA)                                  UTC +3
+  25Jun-29Oct         2 6         OK 210    Bratislava     20:30    00:35  +1     Larnaca      737    nonstop   3:05
+  26Jun-26Oct          3 7        OK 211      Larnaca      03:30    05:50       Bratislava     737    nonstop   3:20
+PARIS (CDG)                                    UTC +2
+  23Jun-28Oct       1 345 7       OK 206    Bratislava     17:45    19:50          Paris       737    nonstop   2:05
+  23Jun-28Oct       1 345 7       OK 207       Paris       20:30    22:30       Bratislava     737    nonstop   2:00
+ROME (FCO)                                     UTC +2
+   23Jun-24Jul       1 45 7       OK 208    Bratislava     12:55    14:40          Rome        737    nonstop   1:45
+   29Jul-28Oct           57       OK 208    Bratislava     12:55    14:40          Rome        737    nonstop   1:45
+   23Jun-24Jul       1 45 7       OK 209       Rome        15:25    17:05       Bratislava     737    nonstop   1:40
+   29Jul-28Oct           57       OK 209       Rome        15:25    17:05       Bratislava     737    nonstop   1:40
+Flights from/to Carlsbad (KLV)
+      Period          Days        Flight       Origin       Dep      Arr       Destination   Aircraft   Via   Elapsed
+                                    No                                                        type              time
+MOSCOW (SVO)                                   UTC +4
+  27Mar-29Oct         2 4 67      OK 908     Carlsbad      14:15    19:00         Moscow       32S    nonstop   2:45
+  27Mar-24Oct        1     7     OK 4908*    Carlsbad      18:30    23:05         Moscow        Δ     nonstop   2:35
+  27Mar-29Oct         2 4 67      OK 909      Moscow       12:35    13:30        Carlsbad      32S    nonstop   2:55
+  27Mar-24Oct        1     7     OK 4909*     Moscow       16:55    17:40        Carlsbad       Δ     nonstop   2:45
+* Flight is operated by Aeroflot
+ST. PETERSBURG (LED)                           UTC +4
+  02Apr-23Apr            6        OK 890     Carlsbad      12:50    17:15     St. Petersburg   32S    nonstop   2:25
+  30Apr-29Oct            6        OK 890     Carlsbad      15:10    19:45     St. Petersburg   32S    nonstop   2:35
+  02Apr-23Apr            6        OK 891  St. Petersburg   18:00    18:35        Carlsbad      32S    nonstop   2:35
+  30Apr-29Oct            6        OK 891  St. Petersburg   13:50    14:25        Carlsbad      32S    nonstop   2:35
+                                                     Timetable Summer 2011

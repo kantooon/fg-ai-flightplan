@@ -1,0 +1,435 @@
+22Sep-27Oct        1 4               OK 350      Prague       23:35    07:30    Abu Dhabi     32S     nonstop   5:55
+21Sep-26Oct          3 7             OK 352      Prague       12:15    20:10     Abu Dhabi     32S     nonstop   5:55
+23Sep-28Oct         2 5              OK 351     Abu Dhabi     09:50    14:15       Prague      32S     nonstop   6:25
+22Sep-27Oct        1 4               OK 353     Abu Dhabi     01:35    06:00       Prague      32S     nonstop   6:25
+28Mar-26May        1 4               OK 180      Prague       21:40    07:55      Almaty      32S     nonstop   6:15
+30May-06Aug        1 46              OK 180      Prague       21:40    07:55      Almaty      32S     nonstop   6:15
+08Aug-27Oct        12 4 6            OK 180      Prague       21:40    07:55      Almaty      32S     nonstop   6:15
+29Mar-27May         2 5              OK 181      Almaty       09:25    12:10       Prague      32S     nonstop   6:45
+31May-28Oct         2 57             OK 181      Almaty       09:25    12:10       Prague      32S     nonstop   6:45
+10Aug-26Oct          3               OK 181      Almaty       09:30    12:10       Prague      32S     nonstop   6:40
+27Mar-29Oct       1234567            OK 616      Prague       07:00    08:40     Amsterdam     32S     nonstop   1:40
+27Mar-29Oct       1234567            OK 618      Prague       17:15    18:50     Amsterdam     32S     nonstop   1:35
+27Mar-29Oct       1234567            OK 622      Prague       11:50    13:20     Amsterdam     32S     nonstop   1:30
+27Mar-29Oct       1234567            OK 617     Amsterdam     09:25    10:50       Prague      32S     nonstop   1:25
+27Mar-29Oct       1234567            OK 619     Amsterdam     19:35    21:00       Prague      32S     nonstop   1:25
+27Mar-29Oct       1234567            OK 623     Amsterdam     14:35    16:05       Prague      32S     nonstop   1:30
+27Mar-29Oct       1234567            OK 420      Prague       22:00    01:35      Athens      32S     nonstop   2:35
+28Mar-14May       1 3456             OK 422      Prague       11:25    15:00       Athens      32S     nonstop   2:35
+20May-27May        1 45              OK 422      Prague       11:25    15:00       Athens      32S     nonstop   2:35
+23Jun-27Jun        1 4               OK 422      Prague       11:25    15:00       Athens      32S     nonstop   2:35
+01Jul-01Jul          5             OK 422      Prague       11:25    15:00       Athens      32S     nonstop   2:35
+27Mar-29Oct       1234567            OK 421      Athens       04:25    06:05       Prague      32S     nonstop   2:40
+28Mar-14May       1 3456             OK 423      Athens       15:45    17:25       Prague      32S     nonstop   2:40
+20May-27May        1 45              OK 423      Athens       15:45    17:25       Prague      32S     nonstop   2:40
+23Jun-27Jun        1 4               OK 423      Athens       15:45    17:25       Prague      32S     nonstop   2:40
+01Jul-01Jul          5             OK 423      Athens       15:45    17:25       Prague      32S     nonstop   2:40
+27Mar-31May       1234567            OK 688       Prague       10:40    13:00     Barcelona     32S     nonstop    2:20
+01Jun-29Oct       1234567            OK 688       Prague       10:25    12:45     Barcelona     32S     nonstop    2:20
+27Mar-28Oct       12345 7            OK 690       Prague       21:15    23:40     Barcelona     32S     nonstop    2:25
+27Mar-31May       1234567            OK 689      Barcelona     13:45    16:10       Prague      32S     nonstop    2:25
+01Jun-29Oct       1234567            OK 689      Barcelona     13:40    16:05       Prague      32S     nonstop    2:25
+28Mar-29Oct       123456             OK 691      Barcelona     07:40    10:05       Prague      32S     nonstop    2:25
+27Mar-29May        1 34 7            OK 296       Prague       21:50    02:20      Beirut      32S     nonstop    3:30
+30May-19Jun       12345 7            OK 296       Prague       21:50    02:20      Beirut      32S     nonstop    3:30
+20Jun-18Sep       1234567            OK 296       Prague       21:50    02:20      Beirut      32S     nonstop    3:30
+19Sep-28Oct       12345 7            OK 296       Prague       21:50    02:20      Beirut      32S     nonstop    3:30
+28Jun-03Sep         23 6             OK 298       Prague       11:10    15:40       Beirut      32S     nonstop    3:30
+28Mar-27May        12 45             OK 297        Beirut      03:10    05:55       Prague      32S     nonstop    3:45
+30May-18Jun       123456             OK 297        Beirut      03:10    05:55       Prague      32S     nonstop    3:45
+20Jun-24Sep       1234567            OK 297        Beirut      03:10    05:55       Prague      32S     nonstop    3:45
+26Sep-29Oct       123456             OK 297        Beirut      03:10    05:55       Prague      32S     nonstop    3:45
+28Jun-03Sep         23 6             OK 299        Beirut      16:30    19:15       Prague      32S     nonstop    3:45
+27Mar-15May       12345 7            OK 834       Prague       11:40    13:10      Belgrade      737    nonstop    1:30
+16May-28Oct        1357              OK 834       Prague       11:40    13:10      Belgrade      737    nonstop    1:30
+27Mar-15May       12345 7            OK 835      Belgrade      14:45    16:15       Prague       737    nonstop    1:30
+16May-28Oct        1357              OK 835      Belgrade      14:45    16:15       Prague       737    nonstop    1:30
+28Mar-30Apr        1 56              OK 516               Prague       08:00    09:00       Berlin     ATR      nonstop   1:00
+29Mar-04May         234              OK 516               Prague       07:50    08:50       Berlin     ATR      nonstop   1:00
+02May-29Oct        1 456             OK 516               Prague       08:00    09:00       Berlin     ATR      nonstop   1:00
+10May-26Oct         23               OK 516               Prague       07:50    08:50       Berlin     ATR      nonstop   1:00
+27Mar-28Oct       12345 7            OK 518               Prague       18:10    19:10       Berlin     ATR      nonstop   1:00
+28Mar-29Oct       123456             OK 517                Berlin      09:35    10:35       Prague     ATR      nonstop   1:00
+27Mar-28Oct       12345 7            OK 519                Berlin      19:40    20:40       Prague     ATR      nonstop   1:00
+28Mar-28Oct        135               OK 730               Prague       07:00    08:30      Bologna      737     nonstop   1:30
+27Mar-27Oct         24 7             OK 738               Prague       17:15    18:45      Bologna      737     nonstop   1:30
+28Mar-28Oct        135               OK 731               Bologna      09:05    10:30       Prague      737     nonstop   1:25
+27Mar-27Oct         24 7             OK 739               Bologna      19:20    20:45       Prague      737     nonstop   1:25
+29May-12Jun          4 7             OK 752               Prague       16:50    19:15      Bordeaux     737     nonstop   2:25
+16Jun-23Jun           4              OK 752               Prague       12:25    14:50      Bordeaux     737     nonstop   2:25
+19Jun-26Jun              7           OK 752               Prague       16:50    19:15      Bordeaux     737     nonstop   2:25
+30Jun-27Oct          4 7             OK 752               Prague       12:25    14:50      Bordeaux     737     nonstop   2:25
+29May-12Jun          4 7             OK 753              Bordeaux      20:00    22:15       Prague      737     nonstop   2:15
+16Jun-23Jun           4              OK 753              Bordeaux      17:00    19:15       Prague      737     nonstop   2:15
+19Jun-26Jun              7           OK 753              Bordeaux      20:00    22:15       Prague      737     nonstop   2:15
+30Jun-27Oct          4 7             OK 753              Bordeaux      17:00    19:15       Prague      737     nonstop   2:15
+28Mar-30Jul      123456             OK 960               Prague       08:10    09:10     Bratislava   ATR      nonstop   1:00
+02Apr-02Jul            6            OK 964               Prague       20:10    21:10     Bratislava   ATR      nonstop   1:00
+09Jul-23Jul            6            OK 964               Prague       20:10    21:10     Bratislava    737     nonstop   1:00
+30Jul-30Jul            6            OK 964               Prague       20:10    21:10     Bratislava   ATR      nonstop   1:00
+27Mar-12Jun       12345 7            OK 966               Prague       19:40    20:40     Bratislava   ATR      nonstop   1:00
+13Jun-31Jul      12345 7            OK 966               Prague       17:00    18:00     Bratislava   ATR      nonstop   1:00
+28Mar-30Jul      123456             OK 961              Bratislava    09:40    10:40       Prague     ATR      nonstop   1:00
+27Mar-03Jul             7           OK 965              Bratislava    08:45    09:45       Prague     ATR      nonstop   1:00
+10Jul-24Jul             7           OK 965              Bratislava    08:45    09:45       Prague      737     nonstop   1:00
+31Jul-31Jul             7           OK 965              Bratislava    08:45    09:45       Prague     ATR      nonstop   1:00
+27Mar-12Jun       12345 7            OK 967              Bratislava    21:05    22:05       Prague     ATR      nonstop   1:00
+13Jun-31Jul      12345 7            OK 967              Bratislava    18:30    19:30       Prague     ATR      nonstop   1:00
+28Mar-28Oct       12345             OK 630       Prague       07:00    08:25      Brussels     32S        nonstop      1:25
+27Mar-29Oct       1234567           OK 632       Prague       17:00    18:30      Brussels     32S        nonstop      1:30
+27Mar-03Jul      12345 7           OK 634       Prague       20:45    22:15      Brussels      737       nonstop      1:30
+08Jul-28Aug          57            OK 634       Prague       20:45    22:15      Brussels      737       nonstop      1:30
+30Aug-28Oct       12345 7           OK 634       Prague       20:45    22:15      Brussels      737       nonstop      1:30
+27Mar-28Oct       12345 7           OK 631      Brussels      09:10    10:35       Prague      32S        nonstop      1:25
+02Apr-29Oct            6            OK 631      Brussels      09:10    10:35       Prague       737       nonstop      1:25
+27Mar-28Oct       12345 7           OK 633      Brussels      19:10    20:40       Prague      32S        nonstop      1:30
+28Mar-04Jul      12345             OK 635      Brussels      06:55    08:25       Prague       737       nonstop      1:30
+11Jul-29Aug        1               OK 635      Brussels      06:55    08:25       Prague       737       nonstop      1:30
+31Aug-28Oct       12345             OK 635      Brussels      06:55    08:25       Prague       737       nonstop      1:30
+28Mar-29Oct       123456            OK 786       Prague       07:15    08:20      Budapest      737       nonstop      1:05
+27Mar-28Oct       12345 7           OK 788       Prague       17:00    18:05      Budapest      737       nonstop      1:05
+02Apr-29Oct            6            OK 788       Prague       17:00    18:20      Budapest     ATR        nonstop      1:20
+27Mar-31May       1234567           OK 790       Prague       11:55    13:15      Budapest     ATR        nonstop      1:20
+01Jun-29Oct       1234567           OK 790       Prague       12:05    13:25      Budapest     ATR        nonstop      1:20
+27Mar-23Oct             7           OK 787      Budapest      09:05    10:25       Prague      ATR        nonstop      1:20
+28Mar-29Oct       123456            OK 787      Budapest      09:05    10:15       Prague       737       nonstop      1:10
+27Mar-28Oct       12345 7           OK 789      Budapest      18:50    20:00       Prague       737       nonstop      1:10
+27Mar-29Oct       1234567           OK 791      Budapest      14:30    15:55       Prague      ATR        nonstop      1:25
+27Mar-29May       12345 7           OK 802       Prague       11:40    14:30     Bucharest     32S        nonstop      1:50
+02Apr-28May            6            OK 802       Prague       11:40    14:30     Bucharest      737       nonstop      1:50
+30May-26Jun       1234567           OK 802       Prague       11:40    14:30     Bucharest     32S        nonstop      1:50
+27Jun-17Jul      12345 7           OK 802       Prague       11:40    14:30     Bucharest     32S        nonstop      1:50
+02Jul-16Jul           6            OK 802       Prague       11:40    14:30     Bucharest      737       nonstop      1:50
+18Jul-29Oct      1234567           OK 802       Prague       11:40    14:30     Bucharest     32S        nonstop      1:50
+27Mar-28Oct       12345 7           OK 804       Prague       21:35    00:25    Bucharest     32S        nonstop      1:50
+27Mar-29May       12345 7           OK 803     Bucharest      15:15    16:10       Prague      32S        nonstop      1:55
+02Apr-28May            6            OK 803     Bucharest      15:15    16:10       Prague       737       nonstop      1:55
+30May-26Jun       1234567           OK 803     Bucharest      15:15    16:10       Prague      32S        nonstop      1:55
+27Jun-17Jul      12345 7           OK 803     Bucharest      15:15    16:10       Prague      32S        nonstop      1:55
+02Jul-16Jul           6            OK 803     Bucharest      15:15    16:10       Prague       737       nonstop      1:55
+18Jul-29Oct      1234567           OK 803     Bucharest      15:15    16:10       Prague      32S        nonstop      1:55
+28Mar-29Oct       123456            OK 805     Bucharest      07:20    08:15       Prague      32S        nonstop      1:55
+27Mar-15May          3 7            OK 270       Prague       21:40    01:25       Cairo      32S        nonstop      3:45
+28Mar-16May        1 4              OK 271        Cairo       02:10    06:10       Prague      32S        nonstop      4:00
+02Apr-23Apr             6           OK 046       Prague       11:15    11:50      Carlsbad     32S     nonstop    0:35
+02Apr-23Apr             6           OK 047      Carlsbad      19:20    19:50       Prague      32S     nonstop    0:30
+28Mar-29Oct       123456             OK 504       Prague       07:00    08:20     Copenhagen    32S     nonstop    1:20
+01Sep-27Oct           4 7            OK 506       Prague       14:55    16:15     Copenhagen     737    nonstop    1:20
+27Mar-29Oct       1234567            OK 508       Prague       17:00    18:20     Copenhagen    32S     nonstop    1:20
+28Mar-29Oct       123456             OK 505     Copenhagen     09:05    10:20       Prague      32S     nonstop    1:15
+01Sep-27Oct           4 7            OK 507     Copenhagen     17:00    18:15       Prague       737    nonstop    1:15
+27Mar-29Oct       1234567            OK 509     Copenhagen     19:05    20:20       Prague      32S     nonstop    1:15
+27Mar-29Mar         2     7          OK 302       Prague       21:45    01:40     Damascus     32S     nonstop    3:55
+31Mar-10May         24 7             OK 302       Prague       21:45    02:40     Damascus     32S     nonstop    3:55
+11May-15May          34 7            OK 302       Prague       21:45    02:40     Damascus     32S     nonstop    3:55
+28Mar-30Mar        13                OK 303      Damascus      02:30    06:10       Prague      32S     nonstop    3:40
+01Apr-11May        135               OK 303      Damascus      03:30    06:10       Prague      32S     nonstop    3:40
+12May-16May        1 45              OK 303      Damascus      03:30    06:10       Prague      32S     nonstop    3:40
+24Apr-27Oct        24 7             OK 920       Prague       21:50    01:30      Donetsk      737    nonstop    2:40
+25Apr-28Oct       135               OK 921       Donetsk      04:25    06:15       Prague       737    nonstop    2:50
+28Mar-29Oct       123456             OK 522          Prague       07:00    08:20       Dusseldorf     32S     nonstop   1:20
+27Mar-28Oct       12345 7            OK 526          Prague       17:15    18:30       Dusseldorf     32S     nonstop   1:15
+02Apr-29Oct             6            OK 526          Prague       18:15    19:30       Dusseldorf     737     nonstop   1:15
+27Mar-23Oct              7           OK 523        Dusseldorf     08:35    09:55         Prague       737     nonstop   1:20
+28Mar-29Oct       123456             OK 523        Dusseldorf     09:05    10:25         Prague       32S     nonstop   1:20
+27Mar-28Oct       12345 7            OK 527        Dusseldorf     19:15    20:35         Prague       32S     nonstop   1:20
+27Mar-27Oct        1 4 7             OK 912          Prague       20:05    04:30     Ekateriburg     32S     nonstop   4:25
+29Mar-28Oct         2 5              OK 912          Prague       21:55    06:20     Ekateriburg     32S     nonstop   4:25
+28Mar-28Oct        12 5              OK 913       Ekateriburg     05:25    06:05         Prague       32S     nonstop   4:40
+30Mar-29Oct          3 6             OK 913       Ekateriburg     07:15    07:55         Prague       32S     nonstop   4:40
+28Mar-29Oct       123456             OK 534          Prague       07:20    08:35        Frankfurt     32S     nonstop   1:15
+27Mar-29Oct       1234567            OK 536          Prague       17:10    18:20        Frankfurt     32S     nonstop   1:10
+27Mar-23Oct              7           OK 535         Frankfurt     08:35    09:40         Prague       32S     nonstop   1:05
+28Mar-29Oct       123456             OK 535         Frankfurt     09:25    10:30         Prague       32S     nonstop   1:05
+27Mar-28Oct       12345 7            OK 537         Frankfurt     19:05    20:10         Prague       32S     nonstop   1:05
+28Mar-09Jul      1234 6             OK 542          Prague       07:05    08:15        Hamburg       737     nonstop   1:10
+01Apr-08Jul           5             OK 542          Prague       07:05    08:15        Hamburg       32S     nonstop   1:10
+11Jul-29Oct       123 6             OK 542          Prague       07:05    08:15        Hamburg       737     nonstop   1:10
+14Jul-28Oct          45             OK 542          Prague       07:05    08:15        Hamburg       32S     nonstop   1:10
+27Mar-28Oct       12345 7            OK 544          Prague       17:55    19:05        Hamburg       737     nonstop   1:10
+02Apr-29Oct             6            OK 544          Prague       17:55    19:30        Hamburg      ATR      nonstop   1:35
+27Mar-23Oct              7           OK 543         Hamburg       08:15    09:40         Prague      ATR      nonstop   1:25
+28Mar-09Jul      1234 6             OK 543         Hamburg       08:55    10:05         Prague       737     nonstop   1:10
+01Apr-08Jul           5             OK 543         Hamburg       08:55    10:05         Prague       32S     nonstop   1:10
+11Jul-29Oct       123 6             OK 543         Hamburg       08:55    10:05         Prague       737     nonstop   1:10
+14Jul-28Oct          45             OK 543         Hamburg       08:55    10:05         Prague       32S     nonstop   1:10
+27Mar-28Oct       12345 7            OK 545         Hamburg       19:35    20:45         Prague       737     nonstop   1:10
+27Mar-28Oct       12345 7            OK 570          Prague       17:05    18:30        Hannover     ATR      nonstop   1:25
+28Mar-29Oct       123456             OK 572          Prague       07:20    08:45        Hannover     ATR      nonstop   1:25
+27Mar-28Oct       12345 7            OK 571         Hannover      19:05    20:20         Prague      ATR      nonstop   1:15
+28Mar-29Oct       123456             OK 573         Hannover      09:25    10:40         Prague      ATR      nonstop   1:15
+27Mar-23Oct             7           OK 480          Prague       14:15    17:25        Helsinki      32S      nonstop    2:10
+28Mar-29Oct       123456            OK 480          Prague       12:50    16:00        Helsinki      32S      nonstop    2:10
+27Mar-23Oct             7           OK 481          Helsinki     18:10    19:25        Prague        32S      nonstop    2:15
+28Mar-29Oct       123456            OK 481          Helsinki     16:45    18:00        Prague        32S      nonstop    2:15
+27Mar-29Oct       1234567            OK 916              Prague       11:25    14:20        Kiev       32S     nonstop    1:55
+27Mar-29Oct       1234567            OK 917                Kiev       15:10    16:15       Prague      32S     nonstop    2:05
+27Mar-29Oct       1234567            OK 972              Prague       11:20    12:45       Kosice      ATR     nonstop    1:25
+27Mar-28Oct       12345 7            OK 974              Prague       17:15    18:40       Kosice      ATR     nonstop    1:25
+28Mar-29Oct       123456             OK 976              Prague       07:25    08:50       Kosice      ATR     nonstop    1:25
+27Mar-28Oct       12345 7            OK 978              Prague       21:50    23:15       Kosice      ATR     nonstop    1:25
+02Apr-29Oct            6             OK 978              Prague       20:30    21:55       Kosice      ATR     nonstop    1:25
+27Mar-29Oct       1234567            OK 973              Kosice       14:25    16:00       Prague      ATR     nonstop    1:35
+27Mar-28Oct       12345 7            OK 975              Kosice       19:10    20:45       Prague      ATR     nonstop    1:35
+28Mar-29Oct       123456             OK 977              Kosice       09:20    10:50       Prague      ATR     nonstop    1:30
+27Mar-23Oct             7            OK 979              Kosice       08:20    09:50       Prague      ATR     nonstop    1:30
+28Mar-29Oct       123456             OK 979              Kosice       05:00    06:30       Prague      ATR     nonstop    1:30
+27Mar-26Oct        13 7              OK 772              Prague       11:20    12:25      Krakow        737    nonstop    1:05
+29Mar-29Oct        2 456             OK 772              Prague       13:45    14:50      Krakow        737    nonstop    1:05
+27Mar-26Oct        13 7              OK 773              Krakow       13:00    14:05       Prague       737    nonstop    1:05
+29Mar-29Oct        2 456             OK 773              Krakow       15:20    16:25       Prague       737    nonstop    1:05
+29Mar-27Oct         24               OK 404              Prague       11:30    15:45      Larnaca      32S     nonstop    3:15
+02Apr-28May            6             OK 404              Prague       10:55    15:15      Larnaca      32S     nonstop    3:20
+04Jun-29Oct            6             OK 404              Prague       09:00    13:20      Larnaca      32S     nonstop    3:20
+27Mar-29Oct       1234567            OK 406              Prague       21:55    02:15     Larnaca      32S     nonstop    3:20
+29Mar-27Oct         24               OK 405              Larnaca      16:30    19:00       Prague      32S     nonstop    3:30
+02Apr-28May            6             OK 405              Larnaca      16:00    18:40       Prague      32S     nonstop    3:40
+04Jun-29Oct            6             OK 405              Larnaca      14:05    16:40       Prague      32S     nonstop    3:35
+27Mar-27Mar             7            OK 407              Larnaca      02:20    06:00       Prague      32S     nonstop    4:40
+28Mar-29Oct       1234567            OK 407              Larnaca      03:20    06:00       Prague      32S     nonstop    3:40
+27Mar-28Oct       12345 7            OK 826       Prague       21:40    23:00      Ljubljana   ATR      nonstop   1:20
+27Mar-17Jul      12345 7            OK 828       Prague       11:50    13:10      Ljubljana   ATR      nonstop   1:20
+18Jul-28Oct      123 5 7            OK 828       Prague       11:50    13:10      Ljubljana   ATR      nonstop   1:20
+28Mar-29Oct       123456             OK 827      Ljubljana     06:00    07:25       Prague     ATR      nonstop   1:25
+27Mar-17Jul      12345 7            OK 829      Ljubljana     14:25    15:50       Prague     ATR      nonstop   1:25
+18Jul-28Oct      123 5 7            OK 829      Ljubljana     14:25    15:50       Prague     ATR      nonstop   1:25
+27Apr-17Jul       1357              OK 926       Prague       11:35    14:35         Lviv     ATR      nonstop   2:00
+18Jul-28Oct      1 345 7            OK 926       Prague       11:35    14:35         Lviv     ATR      nonstop   2:00
+27Apr-17Jul       1357              OK 927         Lviv       15:10    16:20       Prague     ATR      nonstop   2:10
+18Jul-28Oct      1 345 7            OK 927         Lviv       15:10    16:20       Prague     ATR      nonstop   2:10
+27Mar-29Oct       1234567            OK 700       Prague       11:10    14:00       Madrid      32S     nonstop   2:50
+27Mar-29Oct       1234567            OK 702       Prague       20:05    22:55       Madrid      32S     nonstop   2:50
+27Mar-29Oct       1234567            OK 701       Madrid       14:50    17:40       Prague      32S     nonstop   2:50
+27Mar-29Oct       1234567            OK 703       Madrid       07:10    09:50       Prague      32S     nonstop   2:40
+29Mar-03Jun         2 45            OK 748       Prague       08:20    10:20      Marseille     737    nonstop    2:00
+09Jun-28Oct           45            OK 748       Prague       08:20    10:20      Marseille     737    nonstop    2:00
+27Mar-26Jun        13 7             OK 750       Prague       14:50    16:50      Marseille     737    nonstop    2:00
+27Jun-24Oct        1     7          OK 750       Prague       14:50    16:50      Marseille     737    nonstop    2:00
+29Mar-03Jun         2 45            OK 749      Marseille     11:00    13:00       Prague       737    nonstop    2:00
+09Jun-28Oct           45            OK 749      Marseille     11:00    13:00       Prague       737    nonstop    2:00
+27Mar-26Jun        13 7             OK 751      Marseille     17:35    19:35       Prague       737    nonstop    2:00
+27Jun-24Oct        1     7          OK 751      Marseille     17:35    19:35       Prague       737    nonstop    2:00
+28Mar-29Oct       123456            OK 718       Prague       07:00    08:30        Milan      32S     nonstop    1:30
+27Mar-29Oct       1234567           OK 722       Prague       17:05    18:35        Milan      32S     nonstop    1:30
+27Mar-29Oct       1234567           OK 719        Milan       09:15    10:45       Prague      32S     nonstop    1:30
+27Mar-28Oct       12345 7           OK 723        Milan       19:20    20:45       Prague      32S     nonstop    1:25
+27Mar-28Oct        1357             OK 864       Prague       11:45    14:30       Minsk       32S     nonstop    1:45
+27Mar-28Oct        1357             OK 865       Minsk        15:15    16:05       Prague      32S     nonstop    1:50
+27Mar-29Oct       1234567            OK 892       Prague       09:10    13:50      Moscow       32S     nonstop    2:40
+27Mar-29Oct       1234567            OK 894       Prague       11:45    16:25      Moscow       32S     nonstop    2:40
+27Mar-29Oct        2 4 67            OK 896       Prague       07:05    11:40      Moscow       32S     nonstop    2:35
+27Mar-28Oct       12345 7            OK 904       Prague       17:05    21:40      Moscow       32S     nonstop    2:35
+27Mar-29Oct       1234567            OK 893      Moscow        14:45    15:40       Prague      32S     nonstop    2:55
+27Mar-29Oct       1234567            OK 895      Moscow        17:15    18:15       Prague      32S     nonstop    3:00
+27Mar-29Oct        2 4 67            OK 903      Moscow        19:55    20:50       Prague      32S     nonstop    2:55
+27Mar-28Oct       12345 7            OK 905      Moscow        22:45    23:30       Prague      32S     nonstop    2:45
+27Mar-29Oct       1234567            OK 922       Prague       11:25    14:30       Odessa      32S     nonstop    2:05
+27Mar-29Oct       1234567            OK 923       Odessa       15:20    16:20       Prague      32S     nonstop    2:00
+27Mar-05Jun        1 45 7            OK 446              Prague       13:00    15:00     Oslo       32S    nonstop   2:00
+06Jun-17Jul      1 4567             OK 446              Prague       13:00    15:00     Oslo       32S    nonstop   2:00
+18Jul-28Oct       1 45 7            OK 446              Prague       13:00    15:00     Oslo       32S    nonstop   2:00
+27Mar-27Oct        1 4 7             OK 448              Prague       20:00    22:00     Oslo       32S    nonstop   2:00
+27Mar-05Jun        1 45 7            OK 447               Oslo        16:35    18:35    Prague      32S    nonstop   2:00
+06Jun-17Jul      1 4567             OK 447               Oslo        16:35    18:35    Prague      32S    nonstop   2:00
+18Jul-28Oct       1 45 7            OK 447               Oslo        16:35    18:35    Prague      32S    nonstop   2:00
+28Mar-28Oct        12 5              OK 449               Oslo        07:55    09:55    Prague      32S    nonstop   2:00
+27Mar-25Jun       1234567            OK 024              Prague       12:00    13:00   Ostrava     ATR     nonstop   1:00
+27Jun-29Oct       123456             OK 024              Prague       12:00    13:00   Ostrava     ATR     nonstop   1:00
+27Mar-05Apr       12345 7            OK 026              Prague       17:00    18:00   Ostrava     ATR     nonstop   1:00
+06Apr-31May       12345 7            OK 026              Prague       16:40    17:35   Ostrava     ATR     nonstop   0:55
+12Jul-12Jul         2               OK 026              Prague       17:20    18:10   Ostrava      32S    nonstop   0:50
+18Jul-18Jul        1                OK 026              Prague       16:55    17:45   Ostrava      737    nonstop   0:50
+27Mar-25Jun       1234567            OK 025              Ostrava      14:55    15:55    Prague     ATR     nonstop   1:00
+27Jun-29Oct       123456             OK 025              Ostrava      14:55    15:55    Prague     ATR     nonstop   1:00
+27Mar-05Apr       12345 7            OK 027              Ostrava      18:25    19:25    Prague     ATR     nonstop   1:00
+06Apr-31May       12345 7            OK 027              Ostrava      18:00    18:55    Prague     ATR     nonstop   0:55
+12Jul-12Jul         2               OK 027              Ostrava      19:10    20:00    Prague      32S    nonstop   0:50
+18Jul-18Jul        1                OK 027              Ostrava      18:30    19:20    Prague      737    nonstop   0:50
+28Mar-17Apr       1234567            OK 758              Prague       07:15    09:05     Paris      32S    nonstop   1:50
+18Apr-29Oct       1234567            OK 758              Prague       07:10    09:00     Paris      32S    nonstop   1:50
+27Mar-29May          357             OK 760              Prague       13:05    14:55     Paris      32S    nonstop   1:50
+01Jun-28Oct       1 345 7            OK 760              Prague       11:55    13:45     Paris      32S    nonstop   1:50
+27Mar-24Apr       1234 7             OK 764              Prague       20:45    22:35     Paris      737    nonstop   1:50
+25Apr-19Jun       12345 7            OK 764              Prague       20:45    22:35     Paris      737    nonstop   1:50
+20Jun-21Aug       1 345 7            OK 764              Prague       20:45    22:35     Paris      737    nonstop   1:50
+22Aug-28Oct       12345 7            OK 764              Prague       20:45    22:35     Paris      737    nonstop   1:50
+27Mar-29Oct       1234567            OK 766              Prague       16:55    18:40     Paris      32S    nonstop   1:45
+27Mar-17Apr       1234567            OK 759               Paris       09:55    11:40    Prague      32S    nonstop   1:45
+18Apr-29Oct       1234567            OK 759               Paris       09:50    11:35    Prague      32S    nonstop   1:45
+27Mar-29May          357             OK 761               Paris       15:45    17:35    Prague      32S    nonstop   1:50
+01Jun-28Oct       1 345 7            OK 761               Paris       14:30    16:15    Prague      32S    nonstop   1:45
+28Mar-22Apr       12345              OK 765               Paris       06:55    08:35    Prague      737    nonstop   1:40
+25Apr-18Jun       123456             OK 765               Paris       06:55    08:35    Prague      737    nonstop   1:40
+20Jun-20Aug       12 456             OK 765               Paris       06:55    08:35    Prague      737    nonstop   1:40
+22Aug-29Oct       123456             OK 765               Paris       06:55    08:35    Prague      737    nonstop   1:40
+27Mar-29Oct       1234567            OK 767               Paris       19:25    21:00    Prague      32S    nonstop   1:35
+01May-27Oct         24 7             OK 982               Prague       22:00    23:25        Poprad      ATR     nonstop   1:25
+02Jul-03Sep            6            OK 984               Prague       12:15    13:40        Poprad      ATR     nonstop   1:25
+02May-28Oct        135               OK 983               Poprad       05:00    06:25        Prague      ATR     nonstop   1:25
+02Jul-03Sep            6            OK 985               Poprad       14:25    15:50        Prague      ATR     nonstop   1:25
+27Mar-22May              7           OK 880               Prague       11:40    14:30         Riga        737    nonstop   1:50
+28Mar-21May       123456             OK 880               Prague       11:40    14:30         Riga        32S    nonstop   1:50
+23May-26Jun       1234567            OK 880               Prague       11:40    14:30         Riga        32S    nonstop   1:50
+27Jun-04Sep       1 34567            OK 880               Prague       11:40    14:30         Riga        32S    nonstop   1:50
+28Jun-30Aug         2                OK 880               Prague       11:40    14:30         Riga        737    nonstop   1:50
+05Sep-29Oct       1234567            OK 880               Prague       11:40    14:30         Riga        32S    nonstop   1:50
+27Mar-22May              7           OK 881                 Riga       15:15    16:00        Prague       737    nonstop   1:45
+28Mar-21May       123456             OK 881                 Riga       15:15    16:00        Prague       32S    nonstop   1:45
+23May-26Jun       1234567            OK 881                 Riga       15:15    16:00        Prague       32S    nonstop   1:45
+27Jun-04Sep       1 34567            OK 881                 Riga       15:15    16:00        Prague       32S    nonstop   1:45
+28Jun-30Aug         2                OK 881                 Riga       15:15    16:00        Prague       737    nonstop   1:45
+05Sep-29Oct       1234567            OK 881                 Riga       15:15    16:00        Prague       32S    nonstop   1:45
+27Mar-03Sep       1234567            OK 724               Prague       11:50    13:40         Rome        321    nonstop   1:50
+04Sep-23Oct              7           OK 724               Prague       14:50    16:40         Rome        321    nonstop   1:50
+05Sep-29Oct       123456             OK 724               Prague       11:50    13:40         Rome        321    nonstop   1:50
+27Mar-29Oct       1234567            OK 726               Prague       20:15    22:00         Rome        32S    nonstop   1:45
+27Mar-03Sep       1234567            OK 725                Rome        14:30    16:25        Prague       321    nonstop   1:55
+04Sep-23Oct              7           OK 725                Rome        17:30    19:25        Prague       321    nonstop   1:55
+05Sep-29Oct       123456             OK 725                Rome        14:30    16:25        Prague       321    nonstop   1:55
+27Mar-29Oct       1234567            OK 727                Rome        07:10    09:10        Prague       32S    nonstop   2:00
+27Mar-27Oct           4 7            OK 914               Prague       21:55    02:55    Rostov on Don   32S    nonstop   3:00
+28Mar-28Oct        1 5               OK 915            Rostov on Don   04:55    06:00        Prague       32S    nonstop   3:05
+27Mar-28Oct       1 345 7            OK 910               Prague       21:45    03:25       Samara       32S    nonstop   3:40
+28Mar-23Apr       12 456             OK 911               Samara       04:20    06:05        Prague       32S    nonstop   3:45
+25Apr-29Oct        12 4 6            OK 911               Samara       04:20    06:05        Prague       32S    nonstop   3:45
+29Apr-28Oct            5             OK 911               Samara       04:35    06:20        Prague       32S    nonstop   3:45
+27Mar-28Oct       12345 7            OK 846         Prague       11:35    13:30         Skopje       737     nonstop   1:55
+27Mar-28Oct       12345 7            OK 847         Skopje       14:15    16:10         Prague       737     nonstop   1:55
+27Mar-29Jun       12345 7            OK 854         Prague       21:35    00:20         Sofia       737     nonstop   1:45
+30Jun-27Oct        12 4 7            OK 854         Prague       21:35    00:20         Sofia       737     nonstop   1:45
+27Mar-26Jun       1234567            OK 856         Prague       11:30    14:25          Sofia       737     nonstop   1:55
+27Jun-29Oct       1 34567            OK 856         Prague       11:30    14:25          Sofia       737     nonstop   1:55
+28Mar-01Jul       1 3 56            OK 855          Sofia       07:10    08:05         Prague       737     nonstop   1:55
+29Mar-05Jul        24               OK 855          Sofia       06:40    07:35         Prague       737     nonstop   1:55
+04Jul-28Oct       135               OK 855          Sofia       07:10    08:05         Prague       737     nonstop   1:55
+12Jul-25Oct         2               OK 855          Sofia       06:40    07:35         Prague       737     nonstop   1:55
+27Mar-26Jun       1234567            OK 857          Sofia       15:10    16:05         Prague       737     nonstop   1:55
+27Jun-29Oct       1 34567            OK 857          Sofia       15:10    16:05         Prague       737     nonstop   1:55
+27Mar-28Oct       12 45 7            OK 886         Prague       11:30    15:55     St. Petersburg   32S     nonstop   2:25
+30Apr-29Oct             6            OK 888         Prague       08:45    13:05     St. Petersburg   32S     nonstop   2:20
+27Mar-28Oct       12 45 7            OK 887     St. Petersburg   16:40    17:15         Prague       32S     nonstop   2:35
+30Apr-29Oct             6            OK 889     St. Petersburg   20:30    21:05         Prague       32S     nonstop   2:35
+27Mar-23Oct              7           OK 490      Prague       14:45    16:45     Stockholm     32S     nonstop    2:00
+28Mar-28Oct       12345              OK 490      Prague       14:45    16:45     Stockholm      737    nonstop    2:00
+28Mar-03Jun       12345              OK 492      Prague       09:10    11:10     Stockholm      737    nonstop    2:00
+06Jun-02Sep        1 345             OK 492      Prague       09:10    11:10     Stockholm      737    nonstop    2:00
+05Sep-28Oct       12345              OK 492      Prague       09:10    11:10     Stockholm      737    nonstop    2:00
+27Mar-28May       1234 67            OK 494      Prague       20:15    22:15     Stockholm      737    nonstop    2:00
+01Apr-20May            5             OK 494      Prague       20:15    22:15     Stockholm     32S     nonstop    2:00
+27May-28Oct         2 45 7           OK 494      Prague       20:15    22:15     Stockholm     32S     nonstop    2:00
+30May-29Oct        13 6              OK 494      Prague       20:15    22:15     Stockholm      737    nonstop    2:00
+27Mar-23Oct              7           OK 491    Stockholm      17:30    19:25       Prague      32S     nonstop    1:55
+28Mar-28Oct       12345              OK 491    Stockholm      17:30    19:25       Prague       737    nonstop    1:55
+28Mar-03Jun       12345              OK 493    Stockholm      11:55    13:55       Prague       737    nonstop    2:00
+06Jun-02Sep        1 345             OK 493    Stockholm      11:55    13:55       Prague       737    nonstop    2:00
+05Sep-28Oct       12345              OK 493    Stockholm      11:55    13:55       Prague       737    nonstop    2:00
+28Mar-29May       12345 7            OK 495    Stockholm      08:00    10:00       Prague       737    nonstop    2:00
+02Apr-28May             6            OK 495    Stockholm      08:00    10:00       Prague      32S     nonstop    2:00
+30May-30May         1                OK 495    Stockholm      08:00    10:00       Prague      32S     nonstop    2:00
+31May-31May          2               OK 495    Stockholm      08:00    10:00       Prague       737    nonstop    2:00
+01Jun-29Oct       1 3 56            OK 495    Stockholm      07:55    09:55       Prague      32S     nonstop    2:00
+02Jun-27Oct        24 7             OK 495    Stockholm      07:55    09:55       Prague       737    nonstop    2:00
+28Mar-28Oct        1 45              OK 740      Prague       07:15    08:45     Strasbourg    ATR     nonstop    1:30
+27Mar-28Oct       12345 7            OK 742      Prague       17:00    18:35     Strasbourg    ATR     nonstop    1:35
+28Mar-28Oct        1 45              OK 741    Strasbourg     09:15    10:40       Prague      ATR     nonstop    1:25
+27Mar-28Oct       12345 7            OK 743    Strasbourg     19:05    20:30       Prague      ATR     nonstop    1:25
+27Mar-29Oct       1234567            OK 560      Prague       17:25    18:45      Stuttgart    ATR     nonstop    1:20
+28Mar-29Oct       123456             OK 562      Prague       07:25    08:40      Stuttgart    ATR     nonstop    1:15
+27Mar-28Oct       12345 7            OK 561     Stuttgart     19:15    20:30       Prague      ATR     nonstop    1:15
+27Mar-29Oct       1234567            OK 563     Stuttgart     09:10    10:25       Prague      ATR     nonstop    1:15
+27Mar-29May       1234567            OK 878      Prague       11:20    14:20       Tallinn      737    nonstop   2:00
+30May-28Oct       12345              OK 878      Prague       11:20    14:20       Tallinn     32S     nonstop   2:00
+04Jun-29Oct            67            OK 878      Prague       11:20    14:20       Tallinn      737    nonstop   2:00
+27Mar-29May       1234567            OK 879      Tallinn      15:05    16:10       Prague       737    nonstop   2:05
+30May-28Oct       12345              OK 879      Tallinn      15:05    16:10       Prague      32S     nonstop   2:05
+04Jun-29Oct            67            OK 879      Tallinn      15:05    16:10       Prague       737    nonstop   2:05
+27Mar-26Oct          3 7             OK 184      Prague       21:40    06:15     Tashkent     32S     nonstop   5:35
+28Mar-27Oct        1 4               OK 185     Tashkent      07:40    11:00       Prague      32S     nonstop   6:20
+28Mar-27May        12 45             OK 934      Prague       21:45    03:20      Tbilisi     32S     nonstop   3:35
+30May-11Jun       123456             OK 934      Prague       21:45    03:20      Tbilisi     32S     nonstop   3:35
+13Jun-25Sep       1234567            OK 934      Prague       21:45    03:20      Tbilisi     32S     nonstop   3:35
+26Sep-28Oct       12345 7            OK 934      Prague       21:45    03:20      Tbilisi     32S     nonstop   3:35
+29Mar-28May         23 56            OK 935      Tbilisi      04:20    06:10       Prague      32S     nonstop   3:50
+31May-19Jun        234567            OK 935      Tbilisi      04:20    06:10       Prague      32S     nonstop   3:50
+20Jun-01Oct       1234567            OK 935      Tbilisi      04:20    06:10       Prague      32S     nonstop   3:50
+03Oct-29Oct       123456             OK 935      Tbilisi      04:20    06:10       Prague      32S     nonstop   3:50
+27Mar-30Mar        123 7             OK 286      Prague       23:55    03:35     Tel Aviv     32S     nonstop   3:40
+31Mar-30Sep       1234567            OK 286      Prague       23:55    04:35     Tel Aviv     32S     nonstop   3:40
+01Oct-29Oct       1234567            OK 286      Prague       23:55    03:35     Tel Aviv     32S     nonstop   3:40
+27Mar-31Mar       1234 7             OK 287     Tel Aviv      05:05    09:15       Prague      32S     nonstop   4:10
+01Apr-01Oct       1234567            OK 287     Tel Aviv      06:05    09:15       Prague      32S     nonstop   4:10
+02Oct-29Oct       1234567            OK 287     Tel Aviv      05:05    09:15       Prague      32S     nonstop   4:10
+27Mar-31May         2 4 67           OK 736      Prague       10:50    12:30       Venice     ATR      nonstop   1:40
+02Jun-29Oct         2 4 67           OK 736      Prague       11:10    12:50       Venice     ATR      nonstop   1:40
+27Mar-31May         2 4 67           OK 737      Venice       13:00    14:40       Prague     ATR      nonstop   1:40
+02Jun-29Oct         2 4 67           OK 737      Venice       13:20    15:00       Prague     ATR      nonstop   1:40
+27Mar-29Oct       1234567            OK 872      Prague       11:45    14:20       Vilnius     32S     nonstop   1:35
+27Mar-29Oct       1234567            OK 873      Vilnius      15:05    15:45       Prague      32S     nonstop   1:40
+28Mar-29Oct       123456             OK 776      Prague       07:05    08:15      Warsaw       32S     nonstop   1:10
+27Mar-26May       1234 7             OK 778      Prague       16:55    18:05      Warsaw       737     nonstop   1:10
+01Apr-20May            5             OK 778      Prague       16:55    18:05      Warsaw       32S     nonstop   1:10
+27May-26Jun       12345 7            OK 778      Prague       16:55    18:05      Warsaw       32S     nonstop   1:10
+27Jun-04Sep       1 345 7            OK 778      Prague       16:55    18:05      Warsaw       32S     nonstop   1:10
+28Jun-30Aug          2               OK 778      Prague       16:55    18:05      Warsaw       737     nonstop   1:10
+05Sep-28Oct       12345 7            OK 778      Prague       16:55    18:05      Warsaw       32S     nonstop   1:10
+27Mar-29Oct       1234567            OK 782      Prague       12:15    13:45      Warsaw      ATR      nonstop   1:30
+28Mar-29Oct       123456             OK 777      Warsaw       09:00    10:10       Prague      32S     nonstop   1:10
+27Mar-26May       1234 7             OK 779      Warsaw       18:50    20:00       Prague      737     nonstop   1:10
+01Apr-20May            5             OK 779      Warsaw       18:50    20:00       Prague      32S     nonstop   1:10
+27May-26Jun       12345 7            OK 779      Warsaw       18:50    20:00       Prague      32S     nonstop   1:10
+27Jun-04Sep       1 345 7            OK 779      Warsaw       18:50    20:00       Prague      32S     nonstop   1:10
+28Jun-30Aug          2               OK 779      Warsaw       18:50    20:00       Prague      737     nonstop   1:10
+05Sep-28Oct       12345 7            OK 779      Warsaw       18:50    20:00       Prague      32S     nonstop   1:10
+27Mar-29Oct       1234567            OK 783      Warsaw       14:25    15:55       Prague     ATR      nonstop   1:30
+27Mar-01May        1357              OK 930      Prague       21:40    04:15     Yerevan      32S     nonstop   3:35
+02May-26Jun       1 345 7            OK 930      Prague       21:40    04:15     Yerevan      32S     nonstop   3:35
+27Jun-04Sep       1234567            OK 930      Prague       21:40    04:15     Yerevan      32S     nonstop   3:35
+05Sep-28Oct       1 345 7            OK 930      Prague       21:40    04:15     Yerevan      32S     nonstop   3:35
+28Mar-30Apr        12 4 6            OK 931      Yerevan      05:15    06:15       Prague      32S     nonstop   4:00
+02May-25Jun       12 456             OK 931      Yerevan      05:15    06:15       Prague      32S     nonstop   4:00
+27Jun-04Sep       1234567            OK 931      Yerevan      05:15    06:15       Prague      32S     nonstop   4:00
+05Sep-29Oct       12 456             OK 931      Yerevan      05:15    06:15       Prague      32S     nonstop   4:00
+27Mar-01May         24 7             OK 814      Prague       21:20    22:50       Zagreb     ATR      nonstop   1:30
+27Mar-28Oct       12345 7            OK 818      Prague       12:10    13:40       Zagreb     ATR      nonstop   1:30
+28Mar-02May        135               OK 815      Zagreb       05:40    07:15       Prague     ATR      nonstop   1:35
+27Mar-28Oct       12345 7            OK 819      Zagreb       14:40    16:15       Prague     ATR      nonstop   1:35
+28Mar-31Mar     1234            OK 954          Prague        12:15    13:15     Zilina    ATR     nonstop   1:00
+27Mar-03Apr         45 7        OK 956          Prague        22:00    23:00     Zilina    ATR     nonstop   1:00
+04Apr-29Apr     12345 7         OK 956          Prague        22:00    23:00     Zilina    ATR     nonstop   1:00
+01May-28Oct      1 345 7        OK 956          Prague        21:35    22:35     Zilina    ATR     nonstop   1:00
+28Mar-31Mar      1234           OK 955          Zilina       14:50    15:50    Prague     ATR     nonstop   1:00
+28Mar-02Apr       1 56          OK 957          Zilina       05:25    06:25    Prague     ATR     nonstop   1:00
+04Apr-30Apr      123456         OK 957          Zilina       05:25    06:25    Prague     ATR     nonstop   1:00
+02May-29Oct      12 456         OK 957          Zilina       05:25    06:25    Prague     ATR     nonstop   1:00
+28Mar-29Oct      12 456         OK 582          Prague        07:30    08:40    Zurich      32S    nonstop   1:10
+27Mar-26Jun      123 5 7        OK 586          Prague        17:10    18:25    Zurich      737    nonstop   1:15
+31Mar-27Oct         4           OK 586          Prague        17:10    18:25    Zurich      32S    nonstop   1:15
+27Jun-04Sep      1357           OK 586          Prague        17:10    18:25    Zurich      737    nonstop   1:15
+05Sep-28Oct      123 5 7        OK 586          Prague        17:10    18:25    Zurich      737    nonstop   1:15
+28Mar-29Oct      12 456         OK 583          Zurich        09:25    10:40    Prague      32S    nonstop   1:15
+27Mar-26Jun      123 5 7        OK 587          Zurich        19:15    20:30    Prague      737    nonstop   1:15
+31Mar-27Oct         4           OK 587          Zurich        19:15    20:30    Prague      32S    nonstop   1:15
+27Jun-04Sep      1357           OK 587          Zurich        19:15    20:30    Prague      737    nonstop   1:15
+05Sep-28Oct      123 5 7        OK 587          Zurich        19:15    20:30    Prague      737    nonstop   1:15
+23Jun-29Oct         2 4 67      OK 200    Bratislava     07:20    09:20      Amsterdam       737    nonstop   2:00
+23Jun-29Oct         2 4 67      OK 201   Amsterdam       10:20    12:10       Bratislava     737    nonstop   1:50
+25Jun-29Oct         2 6         OK 202    Bratislava     13:00    15:30       Barcelona      737    nonstop   2:30
+25Jun-29Oct         2 6         OK 203    Barcelona      16:10    18:35       Bratislava     737    nonstop   2:25
+24Jun-02Sep        1 5          OK 204    Bratislava     07:00    08:55        Brussels      737    nonstop   1:55
+05Sep-28Oct        135          OK 204    Bratislava     07:00    08:55        Brussels      737    nonstop   1:55
+24Jun-02Sep        1 5          OK 205     Brussels      09:40    11:30       Bratislava     737    nonstop   1:50
+05Sep-28Oct        135          OK 205     Brussels      09:40    11:30       Bratislava     737    nonstop   1:50
+25Jun-29Oct         2 6         OK 210    Bratislava     20:30    00:35        Larnaca      737    nonstop   3:05
+26Jun-26Oct          3 7        OK 211      Larnaca      03:30    05:50       Bratislava     737    nonstop   3:20
+23Jun-28Oct       1 345 7       OK 206    Bratislava     17:45    19:50          Paris       737    nonstop   2:05
+23Jun-28Oct       1 345 7       OK 207       Paris       20:30    22:30       Bratislava     737    nonstop   2:00
+23Jun-24Jul       1 45 7       OK 208    Bratislava     12:55    14:40          Rome        737    nonstop   1:45
+29Jul-28Oct           57       OK 208    Bratislava     12:55    14:40          Rome        737    nonstop   1:45
+23Jun-24Jul       1 45 7       OK 209       Rome        15:25    17:05       Bratislava     737    nonstop   1:40
+29Jul-28Oct           57       OK 209       Rome        15:25    17:05       Bratislava     737    nonstop   1:40
+27Mar-29Oct         2 4 67      OK 908     Carlsbad      14:15    19:00         Moscow       32S    nonstop   2:45
+27Mar-29Oct         2 4 67      OK 909      Moscow       12:35    13:30        Carlsbad      32S    nonstop   2:55
+02Apr-23Apr            6        OK 890     Carlsbad      12:50    17:15     St. Petersburg   32S    nonstop   2:25
+30Apr-29Oct            6        OK 890     Carlsbad      15:10    19:45     St. Petersburg   32S    nonstop   2:35
+02Apr-23Apr            6        OK 891  St. Petersburg   18:00    18:35        Carlsbad      32S    nonstop   2:35
+30Apr-29Oct            6        OK 891  St. Petersburg   13:50    14:25        Carlsbad      32S    nonstop   2:35
