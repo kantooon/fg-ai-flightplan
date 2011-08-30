@@ -363,7 +363,8 @@ def airport_list():
 		aircodes= urlopen('http://www.airlinecodes.co.uk/aptcoderes.asp',query,20)
 		res=aircodes.read()
 		if res.find('Sorry-No Results Found')!=-1:
-			print apt, 'Error'
+			print '\''+apt+'\''+':'+'\''+'Error'+'\' ,'
+			continue
 		idx=res.find('ICAO-Code:')
 		if idx!=-1:
 			code=res[idx+19:idx+23]
