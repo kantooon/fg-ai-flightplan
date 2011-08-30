@@ -20,7 +20,7 @@ import os, sys
 import io
 import re, string, random
 
-
+'''Tarom flight plan generator'''
 
 def generate():
 	""" Filter the original schedule, get rid of dupes and indirect flights"""
@@ -58,6 +58,7 @@ def flight_plan():
 	fw = open('./tarom_flights.xml','ab')
 	fr= open('./timetable.txt','r')
 	content= fr.readlines()
+	apt_utc=utc_time(content)
 	buf=''
 	
 	departure_apt=''
@@ -82,12 +83,14 @@ def flight_plan():
 				departure_apt = departure_apt + ' ' + arr[1]
 			if departure_apt not in airports:
 				continue
+			dep_name=departure_apt
 			departure_apt=airports[departure_apt]
 			continue
 		if line.find('Nonstop')==-1:
 			arrival_apt=line.rstrip('\n')
 			if arrival_apt not in airports:
 				continue
+			arr_name=arrival_apt
 			arrival_apt=airports[arrival_apt]
 			continue
 		if line.find('Nonstop')!=-1:
@@ -96,12 +99,53 @@ def flight_plan():
 			departure_time=arr[4]
 			departure_time=departure_time.lstrip('+')
 			departure_time=departure_time.rstrip('+')
-			departure_time=departure_time[0]+departure_time[1]+':'+departure_time[2]+departure_time[3]+':00'
+			
+			if dep_name not in apt_utc:
+				departure_time=departure_time[0]+departure_time[1]+':'+departure_time[2]+departure_time[3]+':00'
+			else:
+				timestep_str=apt_utc[dep_name]
+				timestep=int(timestep_str)
+				if timestep_str.find('+')!=-1:	
+					hour_int=int(departure_time[0]+departure_time[1])-timestep
+				else:
+					hour_int=int(departure_time[0]+departure_time[1])+timestep
+				if hour_int<0:
+					hour_int=hour_int+24
+					
+				if hour_int >24:
+					hour_int=hour_int-24
+				hour=str(hour_int)
+				if len(hour)==1:
+					hour='0'+hour
+				departure_time= hour +':'+departure_time[2]+departure_time[3]+':00'
+					
+			
+			
 			arrival_time=arr[5]
 			arrival_time=arrival_time.lstrip('+')
 			arrival_time=arrival_time.rstrip('+')
-			arrival_time=arrival_time[0]+arrival_time[1]+':'+arrival_time[2]+arrival_time[3]+':00'
+			if arr_name not in apt_utc:
+				arrival_time=arrival_time[0]+arrival_time[1]+':'+arrival_time[2]+arrival_time[3]+':00'
+			else:
+				timestep_str=apt_utc[arr_name]
+				timestep=int(timestep_str)
+				if timestep_str.find('+')!=-1:	
+					hour_int=int(arrival_time[0]+arrival_time[1])-timestep
+				else:
+					hour_int=int(arrival_time[0]+arrival_time[1])+timestep
+				if hour_int<0:
+					hour_int=hour_int+24
+					
+				if hour_int >24:
+					hour_int=hour_int-24
+				hour=str(hour_int)
+				if len(hour)==1:
+					hour='0'+hour
+				arrival_time= hour +':'+arrival_time[2]+arrival_time[3]+':00'
+			
+			
 			req_aircraft=arr[7]
+
 			## This line should really be checked, I don't know the usual flightlevels these planes fly at.
 			if req_aircraft=='AT5' or req_aircraft=='AT7' or req_aircraft=='EM2' or req_aircraft=='DH4':
 				cruise_alt=str(random.choice(altitudes_prop))
@@ -134,7 +178,22 @@ def flight_plan():
 	fr.close()
 	fw.close()
 
+def utc_time(content):
+	apt_utc=[]
+	for line in content:
+		arr=line.split()
+		if line.find('UTC')!=-1:
+			if len(arr)>2:
+				arr[0]=arr[0]+' '+arr[1]
+				arr.remove(arr[1])
 				
+			j=arr[1].lstrip('UTC')
+			arr[arr.index(arr[1])]=j
+			if arr[0] not in apt_utc:
+				apt_utc.append((arr[0],arr[1]))
+
+	apt_utc=dict(apt_utc)
+	return apt_utc
 		
 def aircraft_list():
 	aircraft_table=['318', '733', '73G', 'AT5', 'AT7', '320', 'EM2', '32S', '319', '73H', '310', 'E70', 'DH4']

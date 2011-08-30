@@ -23,6 +23,7 @@ from urllib2 import *
 import urllib
 from HTMLParser import *
 
+'''Czech Airlines flight plan generator'''
 
 def generate():
 	""" Filter the original schedule, get rid of dupes and indirect flights"""
