@@ -3,7 +3,7 @@
     <aircraft>
         <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>318</required-aircraft>
         <actype>319-131</actype>
@@ -17,7 +17,7 @@
     <aircraft>
         <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>319</required-aircraft>
         <actype>319-131</actype>
@@ -31,7 +31,7 @@
     <aircraft>
         <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>310</required-aircraft>
         <actype>319-131</actype>
@@ -45,7 +45,7 @@
     <aircraft>
         <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>320</required-aircraft>
         <actype>319-131</actype>
@@ -59,7 +59,7 @@
     <aircraft>
         <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>32S</required-aircraft>
         <actype>319-131</actype>
@@ -73,7 +73,7 @@
     <aircraft>
         <model>Aircraft/737/737-BritishAirways.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>733</required-aircraft>
         <actype>737-3Y0</actype>
@@ -87,7 +87,7 @@
     <aircraft>
         <model>Aircraft/737/737-BritishAirways.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>73G</required-aircraft>
         <actype>737-3Y0</actype>
@@ -101,7 +101,7 @@
     <aircraft>
         <model>Aircraft/737/737-BritishAirways.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>73H</required-aircraft>
         <actype>737-3Y0</actype>
@@ -115,7 +115,7 @@
     <aircraft>
         <model>Aircraft/ATR42/ATR42-set.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>AT5</required-aircraft>
         <actype>737-3Y0</actype>
@@ -129,7 +129,7 @@
     <aircraft>
         <model>Aircraft/ATR42/ATR42-set.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>AT7</required-aircraft>
         <actype>737-3Y0</actype>
@@ -143,7 +143,7 @@
     <aircraft>
         <model>Aircraft/Dash8/Dash8-400-Qantas.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>DH4</required-aircraft>
         <actype>737-3Y0</actype>
@@ -157,7 +157,7 @@
     <aircraft>
         <model>Aircraft/erj195/erj195-VirginBlue.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>E70</required-aircraft>
         <actype>737-3Y0</actype>
@@ -171,7 +171,7 @@
     <aircraft>
         <model>Aircraft/erj195/erj195-VirginBlue.xml</model>
         <livery>BAW</livery>
-        <airline>BAW</airline>
+        <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>EM2</required-aircraft>
         <actype>737-3Y0</actype>
