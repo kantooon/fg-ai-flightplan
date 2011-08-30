@@ -16,10 +16,12 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-import os, sys
+import os, sys, time
 import io
 import re, string, random
-
+from urllib2 import *
+import urllib
+from HTMLParser import *
 
 
 def generate():
@@ -63,6 +65,7 @@ def flight_plan():
 	i=-1
 	deps=[]
 	arrs=[]
+	types=[]
 	for line in content:
 		line=line.rstrip('\n')
 		arr=line.split('  ')
@@ -81,52 +84,38 @@ def flight_plan():
 			arr[1]=arr[1]+arr[2]
 			arr.remove(arr[2])
 			
+		''' No longer used:		
 		if arr[3] not in deps:
 			deps.append(arr[3])
 		
 		if arr[6] not in arrs:
 			arrs.append(arr[6])
-			
-	print len(deps),len(arrs)
-	return
-	for line in content:
-		if line.find('UTC')!=-1:
-			departure_apt=arr[0]
-			if arr[1].find('UTC')==-1:
-				departure_apt = departure_apt + ' ' + arr[1]
-			if departure_apt not in airports:
-				continue
-			departure_apt=airports[departure_apt]
-			continue
-		if line.find('Nonstop')==-1:
-			arrival_apt=line.rstrip('\n')
-			if arrival_apt not in airports:
-				continue
-			arrival_apt=airports[arrival_apt]
-			continue
-		if line.find('Nonstop')!=-1:
-			days=arr[3]
-			callsign='Tarom'+arr[6].lstrip('RO')
-			departure_time=arr[4]
-			departure_time=departure_time.lstrip('+')
-			departure_time=departure_time.rstrip('+')
-			departure_time=departure_time[0]+departure_time[1]+':'+departure_time[2]+departure_time[3]+':00'
-			arrival_time=arr[5]
-			arrival_time=arrival_time.lstrip('+')
-			arrival_time=arrival_time.rstrip('+')
-			arrival_time=arrival_time[0]+arrival_time[1]+':'+arrival_time[2]+arrival_time[3]+':00'
-			req_aircraft=arr[7]
-			## This line should really be checked, I don't know the usual flightlevels these planes fly at.
-			if req_aircraft=='AT5' or req_aircraft=='AT7' or req_aircraft=='EM2' or req_aircraft=='DH4':
-				cruise_alt=str(random.choice(altitudes_prop))
-			else:
-				cruise_alt=str(random.choice(altitudes_jet))
-			for i in days:
-				if i !='.':
-					i=str(int(i))
-					if i =='7':
-						i='0'
-					xml='''
+		
+		if arr[7] not in types:
+			types.append(arr[7])
+			'''
+		
+		callsign=arr[2]
+		req_aircraft=arr[7]
+		departure_apt=airports[arr[3]]
+		departure_time=arr[4]+':00'
+		arrival_time=arr[5]+':00'
+		arrival_apt=airports[arr[6]]
+		days=arr[1]
+		## This line should really be checked, I don't know the usual flightlevels these planes fly at.
+		if req_aircraft=='ATR':
+			cruise_alt=str(random.choice(altitudes_prop))
+		else:
+			cruise_alt=str(random.choice(altitudes_jet))
+		
+		for i in days:
+			if i.isdigit():	
+				i=str(int(i))
+				if i =='7':
+					i='0'
+				
+				#print departure_apt + ' => '+arrival_apt, departure_time, arrival_time, cruise_alt, req_aircraft, i, callsign
+				xml='''
 	<flight>
             <callsign>'''+callsign+'''</callsign>
             <required-aircraft>'''+req_aircraft+'''</required-aircraft>
@@ -143,7 +132,7 @@ def flight_plan():
             <repeat>WEEK</repeat>
         </flight>'''
 					
-					buf=buf+xml
+				buf=buf+xml
 	fw.write(buf)
 	fr.close()
 	fw.close()
@@ -151,62 +140,80 @@ def flight_plan():
 				
 		
 def aircraft_list():
-	aircraft_table=['318', '733', '73G', 'AT5', 'AT7', '320', 'EM2', '32S', '319', '73H', '310', 'E70', 'DH4']
-	mapping={'E70':'Embraer ERJ-170',
-		'DH4':'DHC-8-400',
-		'733':'737-300',
-		'AT5':'ATR-42',
-		'AT7':'ATR-72',
-		'73G':'737-700',
-		'73H':'737-800',
-		'EM2':'Embraer EMB-120',
-		'32S':'A321',
-		'320':'A320',
-		'319':'A319',
-		'310':'A310',
-		'318':'A318'}
+	aircraft_table=['32S', '737', 'ATR', '321']
+	mapping={'32S':'A321',
+		'321':'A321',
+		'ATR':'ATR-72',
+		'737':'737'
+		}
 
 def airport_list():
 	"""Static mapping of city name to airport. In most cases Tarom will land at the biggest airport available but exceptions may exist.
 	In the future, use a web service to generate ICAO airports from cities"""
-	airports={'BUCHAREST':'LROP',
-		'AMMAN':'OJAI',
-		'AMSTERDAM':'EHAM',
-		'ATHENS':'LGAV',
-		'BAIA-MARE':'LRBM',
-		'BARCELONA':'LEBL',
-		'BEIRUT':'OLBA',
-		'BELGRADE':'LYBE',
-		'BRUSSELS':'EBBR',
-		'BUDAPEST':'LHBP',
-		'CLUJ-NAPOCA':'LRCL',
-		'DAMASCUS':'OSDI',
-		'DUBAI':'OMDB',
-		'FRANKFURT':'EDDF',
-		'IASI':'LRIA',
-		'ISTANBUL':'LTBA',
-		'KISHINEV':'LUKK',
-		'LARNACA':'LCLK',
-		'LONDON':'EGLL',
-		'LYON':'LFLL',
-		'MADRID':'LEMD',
-		'MILAN':'LIML',
-		'MOSCOW':'UUDD',
-		'MUNICH':'EDDM',
-		'NICE':'LFMN',
-		'ORADEA':'LROD',
-		'PARIS':'LFPG',
-		'SATU MARE':'LRSM',
-		'SIBIU':'LRSB',
-		'SOFIA':'LBSF',
-		'SUCEAVA':'LRSV',
-		'TARGU-MURES':'LRTM',
-		'TEL AVIV':'LLBG',
-		'THESSALONIKI':'LGTS',
-		'TIMISOARA':'LRTR',
-		'VIENNA':'LOWW',
-		'WARSAW':'EPWA',
-		'ZURICH':'LSZH'}
+	airports={ 'Prague':'LKPR' ,
+		'Abu Dhabi':'OMAA' ,
+		'Almaty':'UAAA' ,
+		'Amsterdam':'EHAM' ,
+		'Athens':'LGAV' ,
+		'Barcelona':'LEBL' ,
+		'Beirut':'OLBA' ,
+		'Belgrade':'LYBE' ,
+		'Berlin':'EDDB' ,
+		'Bologna':'LIPE' ,
+		'Bordeaux':'LFBD' ,
+		'Bratislava':'LZIB' ,
+		'Brussels':'EBBR' ,
+		'Budapest':'LHBP' ,
+		'Bucharest':'LROP' ,
+		'Cairo':'HECA' ,
+		'Carlsbad':'KCRQ' ,
+		'Copenhagen':'EKCH' ,
+		'Damascus':'OSDI' ,
+		'Donetsk':'UKCC' ,
+		'Dusseldorf':'EDDL' ,
+		'Ekateriburg': 'USSS',
+		'Frankfurt':'EDDF' ,
+		'Hamburg':'EDDH' ,
+		'Hannover':'EDDV' ,
+		'Helsinki':'EFHK' ,
+		'Kiev':'UKBB' ,
+		'Kosice':'LZKZ' ,
+		'Krakow':'EPKK' ,
+		'Larnaca':'LCLK' ,
+		'Ljubljana':'LJLJ' ,
+		'Lviv':'UKLL' ,
+		'Madrid':'LEMD' ,
+		'Marseille':'LFML' ,
+		'Milan':'LIML' ,
+		'Minsk':'UMMS' ,
+		'Moscow':'UUDD' ,
+		'Odessa':'KMAF' ,
+		'Oslo':'ENGM' ,
+		'Ostrava':'LKMT' ,
+		'Paris':'LFPG' ,
+		'Poprad':'LZTT' ,
+		'Riga':'EVRA' ,
+		'Rome':'LIRA' ,
+		'Rostov on Don':'URRR',
+		'Samara':'UWWW' ,
+		'Skopje':'LWSK' ,
+		'Sofia':'LBSF',
+		'St. Petersburg':'ULLI',
+		'Stockholm':'ESSA' ,
+		'Strasbourg':'LFST' ,
+		'Stuttgart':'EDDS' ,
+		'Tallinn':'EETN' ,
+		'Tashkent':'UTTT' ,
+		'Tbilisi':'UGTB' ,
+		'Tel Aviv':'LLBG' ,
+		'Venice':'LIPH' ,
+		'Vilnius':'EYVI' ,
+		'Warsaw':'EPWA' ,
+		'Yerevan':'UDYC' ,
+		'Zagreb':'LDZA' ,
+		'Zilina':'LZZI' ,
+		'Zurich':'LSZH' 
+		}
 	
 	arrivals=['Abu Dhabi',
 	'Prague',
@@ -336,7 +343,33 @@ def airport_list():
 	'Zilina',
 	'Zurich']
 	
+	
 	return airports
+	#####################################################
+	## Code below fetches the ICAO code via name search##
+	## Disabled now					   ##
+	#####################################################
+	print '{',
+	
+	i=0
+	for apt in departures:
+		if i<49:
+			i=i+1
+			continue
+		i=i+1
+		time.sleep(3)
+		query={'airport':apt,'but1':'Submit'}
+		query=urllib.urlencode(query)
+		aircodes= urlopen('http://www.airlinecodes.co.uk/aptcoderes.asp',query,20)
+		res=aircodes.read()
+		if res.find('Sorry-No Results Found')!=-1:
+			print apt, 'Error'
+		idx=res.find('ICAO-Code:')
+		if idx!=-1:
+			code=res[idx+19:idx+23]
+			print '\''+apt+'\''+':'+'\''+code+'\' ,'
+		
+	
 
 		
 
@@ -349,3 +382,4 @@ if __name__ == "__main__":
 			generate()
 		if sys.argv[1]=='fp':
 			flight_plan()
+	
