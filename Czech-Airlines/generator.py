@@ -148,7 +148,7 @@ def aircraft_list():
 		}
 
 def airport_list():
-	"""Static mapping of city name to airport. In most cases Tarom will land at the biggest airport available but exceptions may exist.
+	"""Static mapping of city name to airport. In most cases CSA will land at the biggest airport available but exceptions may exist.
 	In the future, use a web service to generate ICAO airports from cities"""
 	airports={ 'Prague':'LKPR' ,
 		'Abu Dhabi':'OMAA' ,
@@ -349,13 +349,13 @@ def airport_list():
 	## Code below fetches the ICAO code via name search##
 	## Disabled now					   ##
 	#####################################################
-	print '{',
+	
 	
 	i=0
 	for apt in departures:
-		if i<49:
-			i=i+1
-			continue
+		#if i<49:
+		#	i=i+1
+		#	continue
 		i=i+1
 		time.sleep(3)
 		query={'airport':apt,'but1':'Submit'}
