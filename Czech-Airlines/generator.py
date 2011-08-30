@@ -95,7 +95,8 @@ def flight_plan():
 			types.append(arr[7])
 			'''
 		
-		callsign=arr[2]
+		callsign=arr[2].lstrip('OK')
+		callsign='Czech-Airlines'+callsign
 		req_aircraft=arr[7]
 		departure_apt=airports[arr[3]]
 		departure_time=arr[4]+':00'
@@ -166,7 +167,7 @@ def airport_list():
 		'Budapest':'LHBP' ,
 		'Bucharest':'LROP' ,
 		'Cairo':'HECA' ,
-		'Carlsbad':'KCRQ' ,
+		'Carlsbad':'LKKV' ,
 		'Copenhagen':'EKCH' ,
 		'Damascus':'OSDI' ,
 		'Donetsk':'UKCC' ,
@@ -187,7 +188,7 @@ def airport_list():
 		'Milan':'LIML' ,
 		'Minsk':'UMMS' ,
 		'Moscow':'UUDD' ,
-		'Odessa':'KMAF' ,
+		'Odessa':'UKOO' ,
 		'Oslo':'ENGM' ,
 		'Ostrava':'LKMT' ,
 		'Paris':'LFPG' ,
