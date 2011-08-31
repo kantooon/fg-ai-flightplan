@@ -4,8 +4,8 @@
   <frequencies>
     <AWOS>11850</AWOS>
     <GROUND>12170</GROUND>
-    <TOWER>12185</TOWER>
-    <APPROACH>12060</APPROACH>
+    <TOWER>12090</TOWER>
+    <APPROACH>11825</APPROACH>
   </frequencies>
   <parkingList>
     <Parking index="0"
