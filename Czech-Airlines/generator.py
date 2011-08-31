@@ -47,7 +47,10 @@ def flight_plan():
 	"""Generate the actual flightplan from the intermediate file"""
 	fw = open('./csa_flights.xml','ab')
 	fr= open('./timetable.txt','r')
+	fr2= open('./orar-csa.txt','r')
 	content= fr.readlines()
+	content2= fr2.readlines()
+	apt_utc=utc_time(content2)
 	buf=''
 	
 	departure_apt=''
@@ -100,9 +103,51 @@ def flight_plan():
 		callsign='Czech-Airlines'+callsign
 		req_aircraft=arr[7]
 		departure_apt=airports[arr[3]]
-		departure_time=arr[4]+':00'
-		arrival_time=arr[5]+':00'
+		
+		
+		departure_time=arr[4]
+		if arr[3].upper() not in apt_utc:
+			departure_time=arr[4]+':00'
+		else:
+			timestep_str=apt_utc[arr[3].upper()]
+			timestep=int(timestep_str)
+			if timestep_str.find('+')!=-1:	
+				hour_int=int(departure_time[0]+departure_time[1])-timestep
+			else:
+				hour_int=int(departure_time[0]+departure_time[1])+timestep
+			if hour_int<0:
+				hour_int=hour_int+24
+				
+			if hour_int >24:
+				hour_int=hour_int-24
+			hour=str(hour_int)
+			if len(hour)==1:
+				hour='0'+hour
+			departure_time= hour +':'+departure_time[3]+departure_time[4]+':00'
+		
 		arrival_apt=airports[arr[6]]
+		
+		arrival_time=arr[5]
+		if arr[6].upper() not in apt_utc:
+			arrival_time=arr[5]+':00'
+		else:
+			timestep_str=apt_utc[arr[6].upper()]
+			timestep=int(timestep_str)
+			if timestep_str.find('+')!=-1:	
+				hour_int=int(arrival_time[0]+arrival_time[1])-timestep
+			else:
+				hour_int=int(arrival_time[0]+arrival_time[1])+timestep
+			if hour_int<0:
+				hour_int=hour_int+24
+				
+			if hour_int >24:
+				hour_int=hour_int-24
+			hour=str(hour_int)
+			if len(hour)==1:
+				hour='0'+hour
+			arrival_time= hour +':'+arrival_time[3]+arrival_time[4]+':00'
+		
+		
 		days=arr[1]
 		## This line should really be checked, I don't know the usual flightlevels these planes fly at.
 		if req_aircraft=='ATR':
@@ -144,18 +189,19 @@ def flight_plan():
 def utc_time(content):
 	apt_utc=[]
 	for line in content:
-		arr=line.split()
 		if line.find('UTC')!=-1:
-			if len(arr)>2:
-				arr[0]=arr[0]+' '+arr[1]
-				arr.remove(arr[1])
-				
-			j=arr[1].lstrip('UTC')
-			arr[arr.index(arr[1])]=j
-			if arr[0] not in apt_utc:
-				apt_utc.append((arr[0],arr[1]))
-
+			temp=line.split('(')
+			temp[0]=temp[0].lstrip()
+			temp[0]=temp[0].rstrip()
+			temp2=line.split('UTC')
+			temp2[1]=temp2[1].lstrip()
+			temp2[1]=temp2[1].rstrip()
+			if temp[0] not in apt_utc:
+				apt_utc.append((temp[0],temp2[1]))
+			
+	apt_utc.append(('PRAGUE','+2'))
 	apt_utc=dict(apt_utc)
+	#print apt_utc
 	return apt_utc
 	
 
