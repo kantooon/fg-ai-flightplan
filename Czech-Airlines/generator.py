@@ -140,7 +140,25 @@ def flight_plan():
 	fw.close()
 
 				
-		
+
+def utc_time(content):
+	apt_utc=[]
+	for line in content:
+		arr=line.split()
+		if line.find('UTC')!=-1:
+			if len(arr)>2:
+				arr[0]=arr[0]+' '+arr[1]
+				arr.remove(arr[1])
+				
+			j=arr[1].lstrip('UTC')
+			arr[arr.index(arr[1])]=j
+			if arr[0] not in apt_utc:
+				apt_utc.append((arr[0],arr[1]))
+
+	apt_utc=dict(apt_utc)
+	return apt_utc
+	
+
 def aircraft_list():
 	aircraft_table=['32S', '737', 'ATR', '321']
 	mapping={'32S':'A321',
