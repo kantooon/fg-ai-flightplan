@@ -71,8 +71,8 @@
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
-        <model>Aircraft/737/737-BritishAirways.xml</model>
-        <livery>BAW</livery>
+        <model>Aircraft/737/737-KLM.xml</model>
+        <livery>KLM</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>733</required-aircraft>
@@ -85,8 +85,8 @@
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
-        <model>Aircraft/737/737-BritishAirways.xml</model>
-        <livery>BAW</livery>
+        <model>Aircraft/737/737-KLM.xml</model>
+        <livery>KLM</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>73G</required-aircraft>
@@ -99,8 +99,8 @@
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
-        <model>Aircraft/737/737-BritishAirways.xml</model>
-        <livery>BAW</livery>
+        <model>Aircraft/737/737-KLM.xml</model>
+        <livery>KLM</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
         <required-aircraft>73H</required-aircraft>
@@ -113,7 +113,7 @@
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
-        <model>Aircraft/ATR42/ATR42-set.xml</model>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
@@ -127,7 +127,7 @@
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
-        <model>Aircraft/ATR42/ATR42-set.xml</model>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
