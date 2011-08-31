@@ -220,7 +220,7 @@ def airport_list():
 		time.sleep(3)
 		query_airport_name={'airport':apt,'but1':'Submit'}
 		query_iata_code={'iatacode':apt,'but1':'Submit'}
-		query=urllib.urlencode(query)
+		query=urllib.urlencode(query_airport_name)
 		aircodes= urlopen('http://www.airlinecodes.co.uk/aptcoderes.asp',query,20)
 		res=aircodes.read()
 		if res.find('Sorry-No Results Found')!=-1:

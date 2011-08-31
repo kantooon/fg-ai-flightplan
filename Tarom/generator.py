@@ -352,6 +352,32 @@ def airport_list():
 	'ZURICH']
 	
 	return airports
+	#####################################################
+	## Code below fetches the ICAO code via name search##
+	## Disabled now					   ##
+	## Add search for IATA code			   ## 
+	#####################################################
+	
+	
+	i=0
+	for apt in departures:
+		#if i<49:
+		#	i=i+1
+		#	continue
+		i=i+1
+		time.sleep(3)
+		query_airport_name={'airport':apt,'but1':'Submit'}
+		query_iata_code={'iatacode':apt,'but1':'Submit'}
+		query=urllib.urlencode(query_airport_name)
+		aircodes= urlopen('http://www.airlinecodes.co.uk/aptcoderes.asp',query,20)
+		res=aircodes.read()
+		if res.find('Sorry-No Results Found')!=-1:
+			print '\''+apt+'\''+':'+'\''+'Error'+'\' ,'
+			continue
+		idx=res.find('ICAO-Code:')
+		if idx!=-1:
+			code=res[idx+19:idx+23]
+			print '\''+apt+'\''+':'+'\''+code+'\' ,'
 
 		
 
