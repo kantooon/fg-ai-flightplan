@@ -104,7 +104,7 @@ def flight_plan():
 		req_aircraft=arr[7]
 		departure_apt=airports[arr[3]]
 		
-		
+		dep_int=0
 		departure_time=arr[4]
 		if arr[3].upper() not in apt_utc:
 			departure_time=arr[4]+':00'
@@ -121,12 +121,13 @@ def flight_plan():
 			if hour_int >24:
 				hour_int=hour_int-24
 			hour=str(hour_int)
+			dep_int=hour_int
 			if len(hour)==1:
 				hour='0'+hour
 			departure_time= hour +':'+departure_time[3]+departure_time[4]+':00'
 		
 		arrival_apt=airports[arr[6]]
-		
+		arr_int=0
 		arrival_time=arr[5]
 		if arr[6].upper() not in apt_utc:
 			arrival_time=arr[5]+':00'
@@ -143,6 +144,7 @@ def flight_plan():
 			if hour_int >24:
 				hour_int=hour_int-24
 			hour=str(hour_int)
+			arr_int=hour_int
 			if len(hour)==1:
 				hour='0'+hour
 			arrival_time= hour +':'+arrival_time[3]+arrival_time[4]+':00'
@@ -157,6 +159,12 @@ def flight_plan():
 		
 		for i in days:
 			if i.isdigit():	
+				if arr_int<dep_int:
+					i=int(i)
+					i=i+1
+					if i > 7:
+						i=1
+		
 				i=str(int(i))
 				if i =='7':
 					i='0'

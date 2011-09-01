@@ -99,7 +99,7 @@ def flight_plan():
 			departure_time=arr[4]
 			departure_time=departure_time.lstrip('+')
 			departure_time=departure_time.rstrip('+')
-			
+			dep_int=0
 			if dep_name not in apt_utc:
 				departure_time=departure_time[0]+departure_time[1]+':'+departure_time[2]+departure_time[3]+':00'
 			else:
@@ -115,12 +115,13 @@ def flight_plan():
 				if hour_int >24:
 					hour_int=hour_int-24
 				hour=str(hour_int)
+				dep_int=hour_int
 				if len(hour)==1:
 					hour='0'+hour
 				departure_time= hour +':'+departure_time[2]+departure_time[3]+':00'
 					
 			
-			
+			arr_int=0
 			arrival_time=arr[5]
 			arrival_time=arrival_time.lstrip('+')
 			arrival_time=arrival_time.rstrip('+')
@@ -139,6 +140,7 @@ def flight_plan():
 				if hour_int >24:
 					hour_int=hour_int-24
 				hour=str(hour_int)
+				arr_int=hour_int
 				if len(hour)==1:
 					hour='0'+hour
 				arrival_time= hour +':'+arrival_time[2]+arrival_time[3]+':00'
@@ -153,6 +155,11 @@ def flight_plan():
 				cruise_alt=str(random.choice(altitudes_jet))
 			for i in days:
 				if i !='.':
+					if arr_int<dep_int:
+						i=int(i)
+						i=i+1
+						if i > 7:
+							i=1
 					i=str(int(i))
 					if i =='7':
 						i='0'

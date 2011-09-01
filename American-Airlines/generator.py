@@ -92,7 +92,7 @@ def flight_plan():
 			continue
 		if line.find('Nonstop')!=-1:
 			days=arr[3]
-			callsign='Tarom'+arr[6].lstrip('RO')
+			callsign='American'+arr[6].lstrip('RO')
 			departure_time=arr[4]
 			departure_time=departure_time.lstrip('+')
 			departure_time=departure_time.rstrip('+')
@@ -160,44 +160,7 @@ def aircraft_list():
 def airport_list():
 	"""Static mapping of city name to airport. In most cases Tarom will land at the biggest airport available but exceptions may exist.
 	In the future, use a web service to generate ICAO airports from cities"""
-	airports={'BUCHAREST':'LROP',
-		'AMMAN':'OJAI',
-		'AMSTERDAM':'EHAM',
-		'ATHENS':'LGAV',
-		'BAIA-MARE':'LRBM',
-		'BARCELONA':'LEBL',
-		'BEIRUT':'OLBA',
-		'BELGRADE':'LYBE',
-		'BRUSSELS':'EBBR',
-		'BUDAPEST':'LHBP',
-		'CLUJ-NAPOCA':'LRCL',
-		'DAMASCUS':'OSDI',
-		'DUBAI':'OMDB',
-		'FRANKFURT':'EDDF',
-		'IASI':'LRIA',
-		'ISTANBUL':'LTBA',
-		'KISHINEV':'LUKK',
-		'LARNACA':'LCLK',
-		'LONDON':'EGLL',
-		'LYON':'LFLL',
-		'MADRID':'LEMD',
-		'MILAN':'LIML',
-		'MOSCOW':'UUDD',
-		'MUNICH':'EDDM',
-		'NICE':'LFMN',
-		'ORADEA':'LROD',
-		'PARIS':'LFPG',
-		'SATU MARE':'LRSM',
-		'SIBIU':'LRSB',
-		'SOFIA':'LBSF',
-		'SUCEAVA':'LRSV',
-		'TARGU-MURES':'LRTM',
-		'TEL AVIV':'LLBG',
-		'THESSALONIKI':'LGTS',
-		'TIMISOARA':'LRTR',
-		'VIENNA':'LOWW',
-		'WARSAW':'EPWA',
-		'ZURICH':'LSZH'}
+	airports={}
 	
 	arrivals=[]
 	
