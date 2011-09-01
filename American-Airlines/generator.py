@@ -109,6 +109,11 @@ def flight_plan():
 				cruise_alt=str(random.choice(altitudes_jet))
 			for i in days:
 				if i !='.':
+					if arr_int<dep_int:
+						i=int(i)
+						i=i+1
+						if i > 7:
+							i=1
 					i=str(int(i))
 					if i =='7':
 						i='0'
