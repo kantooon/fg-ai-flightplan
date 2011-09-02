@@ -257,7 +257,7 @@ def flight_plan():
 				hour='0'+hour
 			arrival_time= hour +':'+arrival_time[3]+arrival_time[4]+':00'
 			
-		
+		arr[5]=arr[5].strip('AA')
 		if arr[5].find('(')!=-1:
 			callsign='Eagle-Flight'+arr[5].rstrip('(')
 		elif arr[5].find('Y')!=-1:
