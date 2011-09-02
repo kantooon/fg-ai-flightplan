@@ -331,13 +331,12 @@ def aircraft_list(req):
 		'762':'B-767-200',
 		'777':'B-777',
 		'AT7':'ATR-72',
-		'73G':'737-700',
 		'738':'737-800',
 		'ERD':'Embraer ERJ 140',
 		'ER4':'Embraer ERJ 145',
 		'ER3':'Embraer ERJ 135',
 		'CR7':'Bombardier CRJ700',
-		'M83':'McDonnell Douglas MD-83',
+		'M80':'McDonnell Douglas MD-80',
 		'M83':'McDonnell Douglas MD-83'
 		
 	}
