@@ -5,7 +5,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>318</required-aircraft>
+        <required-aircraft>318-ROT</required-aircraft>
         <actype>319-131</actype>
         <offset>9</offset>
         <radius>23</radius>
@@ -19,7 +19,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>319</required-aircraft>
+        <required-aircraft>319-ROT</required-aircraft>
         <actype>319-131</actype>
         <offset>9</offset>
         <radius>23</radius>
@@ -33,7 +33,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>310</required-aircraft>
+        <required-aircraft>310-ROT</required-aircraft>
         <actype>319-131</actype>
         <offset>9</offset>
         <radius>23</radius>
@@ -47,7 +47,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>320</required-aircraft>
+        <required-aircraft>320-ROT</required-aircraft>
         <actype>319-131</actype>
         <offset>9</offset>
         <radius>23</radius>
@@ -61,7 +61,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>32S</required-aircraft>
+        <required-aircraft>32S-ROT</required-aircraft>
         <actype>319-131</actype>
         <offset>9</offset>
         <radius>23</radius>
@@ -75,7 +75,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>733</required-aircraft>
+        <required-aircraft>733-ROT</required-aircraft>
         <actype>737-3Y0</actype>
         <offset>10</offset>
         <radius>23</radius>
@@ -89,7 +89,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>73G</required-aircraft>
+        <required-aircraft>73G-ROT</required-aircraft>
         <actype>737-3Y0</actype>
         <offset>10</offset>
         <radius>23</radius>
@@ -103,7 +103,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>73H</required-aircraft>
+        <required-aircraft>73H-ROT</required-aircraft>
         <actype>737-3Y0</actype>
         <offset>10</offset>
         <radius>23</radius>
@@ -117,7 +117,7 @@
         <livery>BAW</livery>
         <airline>BAW</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>AT5</required-aircraft>
+        <required-aircraft>AT5-ROT</required-aircraft>
         <actype>737-3Y0</actype>
         <offset>5</offset>
         <radius>12</radius>
@@ -131,7 +131,7 @@
         <livery>BAW</livery>
         <airline>BAW</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>AT7</required-aircraft>
+        <required-aircraft>AT7-ROT</required-aircraft>
         <actype>737-3Y0</actype>
         <offset>5</offset>
         <radius>12</radius>
@@ -145,7 +145,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>DH4</required-aircraft>
+        <required-aircraft>DH4-ROT</required-aircraft>
         <actype>737-3Y0</actype>
         <offset>5</offset>
         <radius>12</radius>
@@ -159,7 +159,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>E70</required-aircraft>
+        <required-aircraft>E70-ROT</required-aircraft>
         <actype>737-3Y0</actype>
         <offset>5</offset>
         <radius>12</radius>
@@ -173,7 +173,7 @@
         <livery>BAW</livery>
         <airline>ROT</airline>
         <home-port>LROP</home-port>
-        <required-aircraft>EM2</required-aircraft>
+        <required-aircraft>EM2-ROT</required-aircraft>
         <actype>737-3Y0</actype>
         <offset>5</offset>
         <radius>12</radius>

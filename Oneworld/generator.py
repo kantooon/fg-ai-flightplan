@@ -20,12 +20,12 @@ import os, sys
 import io
 import re, string, random, csv, math
 
-'''American Airlines flight plan generator'''
+'''Oneworld flight plan generator'''
 
 def generate():
 	""" Filter the original schedule, get rid of dupes and indirect flights"""
 	fw = open('./timetable.txt','ab')
-	fr= open('./orar-AA.txt','r')
+	fr= open('./orar-oneworld.txt','r')
 	content= fr.readlines()
 	buf=''
 	i=-1
@@ -37,8 +37,16 @@ def generate():
 	req_aircraft=''
 	callsign=''
 	days=''
-		
+	
+	len_arr=[]
 	for line in content:
+		"""
+		if line.find('Elapsed')==-1 and line.find('Validity')==-1:
+			buf=buf+line
+		
+		continue
+		"""
+		
 		i= i+1
 		
 		if re.search('^From',line)!=None:
@@ -49,7 +57,7 @@ def generate():
 				apt_iata=apt_iata.strip(')')
 				departure=apt_iata
 			
-		if re.search('^To',line)!=None:
+		if re.search('TO:',line)!=None:
 			match=re.search('\([A-Z]{3}\)',line)
 			if match!=None:
 				apt_iata=match.group(0)
@@ -58,58 +66,75 @@ def generate():
 				destination=apt_iata
 				
 			
-		if re.search('AA[0-9]{2,7}[Y|(]{0,1}',line)!=None:
-			match=re.findall('[0-9]{1,2}:[0-9]{1,2}\s[P|A]M',line)
+		if re.search('[0-9]{1,2}:[0-9]{1,2}\s',line)!=None:
+			match=re.findall('([0-9]{1,2}:[0-9]{1,2})[\s|\+]{1}',line)
 			if match!=None:
-				dep_time=match[0]
-				arr_time=match[1]
+				dep_time1=match[0]
+				arr_time1=match[1]
+				if len(match)>3:
+					dep_time2=match[3]
+					arr_time2=match[4]
+				if line.find(dep_time1) > 40:
+					dep_time2=dep_time1
+					arr_time2=arr_time1
+					dep_time1=''
+					arr_time1=''
+					
+				if dep_time1=='' or arr_time1=='':
+					continue
+					
 			else:
 				print 'error time'
-				dep_time=''
-				arr_time=''
+				return
 
 			
-			match1=re.search('([0-9]{1,2}:[0-9]{1,2}\s[P|A]M)(\s)+(X?[0-9]+)(\s)+AA[0-9]{2,7}',line)
+			match1=re.findall('(Sep|-)(\s)+([0-9\s]+)+(\s)+([0-9]{1,2}:)',line)
 			if match1!=None:
-				days=match1.group(3)
-			else:
-				days=''
-
-			match2=re.search('AA[0-9]{2,7}[Y|(]{0,1}(\s)+[A-Za-z0-9]{3}',line)
-			if match2!=None:
-				req_aircraft=match2.group(0)
-				req_aircraft=req_aircraft.split(' ')
-				for text in req_aircraft:
-					if len(text)!=0 and text!=req_aircraft[0]:
-						#print text
-						req_aircraft=text
-			else:
-				req_aircraft=''
-				continue
-
+				days1=match1[0][2]
+				if len(match1)>1:
+					days2=match1[1][2]
+				if line.find(days1) > 30:
+					days2=days1
+					days1=''
 				
-			match3=re.search('(AA[0-9]{2,7}[Y|(]{0,1}\s)',line)
-			if match3!=None:
-				callsign=match3.group(0)
-				callsign=callsign.rstrip(' ')
-			else:
-				callsign=''
-				continue
-			
-			match4=re.search('AA[0-9]{2,7}[Y|(]{0,1}(\s)+[A-Za-z0-9]{3}(\s)+([0-9]{1})',line)
-			if match4!=None:
-				stops=match4.group(3)
-				if int(stops)!=0:
+				if days1=='':
 					continue
-				else:
-					buf=buf+ departure +','+destination+','+ dep_time + ',' + arr_time +',' + req_aircraft +','+callsign + ',' + days +'\n'
+						
+			else:
+				print 'error days'
+				return
+			
+			
+
+			match2=re.findall('([A-Z0-9]{4,10})[\s]+([A-Za-z0-9]{3})[\s]+[0-9]{1,2}:',line)
+			if match2!=None:
+				if len(match2)>0:
+					req_aircraft1=match2[0][1]
+					callsign1=match2[0][0]
+				if len(match2)>1:
+					req_aircraft2=match2[1][1]
+					callsign2=match2[1][0]
+					
+				if line.find(req_aircraft1) > 70:
+					req_aircraft2=req_aircraft1
+					req_aircraft1=''
+				if line.find(callsign1) > 70:
+					callsign2=callsign1
+					callsign1=''
+					
+				if req_aircraft1=='' or callsign1=='':
+					continue
+				
+			else:
+				print 'error aircraft'
+				return
+		
+			buf=buf+ departure +','+destination+','+ dep_time1 + ',' + arr_time1 +',' + req_aircraft1 +','+callsign1 + ',' + days1 +'\n'
 					
 		else:
 			continue
 
-				
-		
-		
+	
 	fw.write(buf)
 	fr.close()
 	fw.close()
@@ -121,10 +146,10 @@ def flight_plan(fp_type):
 		fp_type='conf'
 		
 	if fp_type=='xml':
-		fw = open('./american_airlines_flights.xml','ab')
+		fw = open('./oneworld_flights.xml','ab')
 		
 	if fp_type=='conf':
-		fw = open('./american_airlines_flights.conf','ab')
+		fw = open('./oneworld_flights.conf','ab')
 	fr= open('./timetable.txt','r')
 	content= fr.readlines()
 	buf=''
@@ -146,22 +171,27 @@ def flight_plan(fp_type):
 	airports=apt_list[0]
 	apt_utc=apt_list[1]
 	aircraft_table=[]
+	prefix_list=[]
+	
 	i=-1
 	for line in content:
 		arr=line.split(',')
 		
 		dep_iata=arr[0]
 		if dep_iata=='':
+			print dep_iata
 			raise Exception
 			return
 		
 		if dep_iata not in airports:
+			print dep_iata
 			raise Exception
 			return
 		departure_apt=airports[dep_iata]
 		
 		arr_iata=arr[1]
 		if arr_iata=='':
+			print arr_iata
 			raise Exception
 			return
 		
@@ -178,6 +208,7 @@ def flight_plan(fp_type):
 			raise Exception
 			return
 		
+		"""
 		tmp1=departure_time.split(' ')
 		ampm=tmp1[1]
 		departure_time=tmp1[0].split(':')
@@ -193,7 +224,7 @@ def flight_plan(fp_type):
 		else:
 			hour=str(hour_int)
 		departure_time=hour+':'+departure_time[1]
-		
+		"""
 		
 		dep_int=0
 		if dep_iata not in apt_utc:
@@ -217,9 +248,8 @@ def flight_plan(fp_type):
 				hour='0'+hour
 			departure_time= hour +':'+departure_time[3]+departure_time[4]
 			
-		if fp_type=='xml':
-			departure_time = departure_time +':00'
-			
+		if(fp_type=='xml'):
+			departure_time=departure_time+':00'
 			
 		### arrival time ###		
 		
@@ -229,6 +259,7 @@ def flight_plan(fp_type):
 			raise Exception
 			return
 		
+		"""
 		tmp1=arrival_time.split(' ')
 		ampm=tmp1[1]
 		arrival_time=tmp1[0].split(':')
@@ -244,7 +275,7 @@ def flight_plan(fp_type):
 		else:
 			hour=str(hour_int)
 		arrival_time=hour+':'+arrival_time[1]
-		
+		"""
 		
 		arr_int=0
 		if arr_iata not in apt_utc:
@@ -268,16 +299,14 @@ def flight_plan(fp_type):
 				hour='0'+hour
 			arrival_time= hour +':'+arrival_time[3]+arrival_time[4]
 			
-		if fp_type=='xml':
-			arrival_time = arrival_time +':00'
+		if(fp_type=='xml'):
+			arrival_time=arrival_time+':00'
 			
-		arr[5]=arr[5].strip('AA')
-		if arr[5].find('(')!=-1:
-			callsign='Eagle-Flight'+arr[5].rstrip('(')
-		elif arr[5].find('Y')!=-1:
-			callsign='American'+arr[5].rstrip('Y')
-		else:
-			callsign='American'+arr[5]
+		call=arr[5]
+		prefix=call[0]+call[1]
+		if prefix not in prefix_list:
+			prefix_list.append(prefix)
+		callsign=callsigns(prefix)
 		
 		req_aircraft=arr[4]
 		if req_aircraft not in aircraft_table:
@@ -285,61 +314,58 @@ def flight_plan(fp_type):
 	
 	
 		## This line should really be checked, I don't know the usual flightlevels these planes fly at.
-		if req_aircraft=='AT7':
+		if req_aircraft=='AT7' or req_aircraft=='J31' or req_aircraft=='ATR' or req_aircraft=='FRJ' or req_aircraft=='D38' \
+				or req_aircraft=='F50' or req_aircraft=='AT4' or req_aircraft=='AT5' or req_aircraft=='EM2':
 			cruise_alt=str(random.choice(altitudes_prop))
 		else:
 			cruise_alt=str(random.choice(altitudes_jet))
 		
-		req_aircraft = req_aircraft +"-AAL"
-		days_ref=''
 		
 		days=arr[6].rstrip('\n')
 		if days=='' or len(days)==0:
-			days='1234567'
-		elif days.find('X')!=-1:
-			days_all='1234567'
-			days_x=days.lstrip('X')
-			for d in days_x:
-				days_all=days_all.replace(d,'')
-			days=days_all
-
+			raise Exception
+			return
+		
+		days_ref=''
 		for i in days:
-			if arr_int<dep_int:
-				i=int(i)
-				i=i+1
-				if i > 7:
-					i=1
-			i=str(int(i))
-			if i =='7':
-				i='0'
-			xml='''
-		<flight>
-            <callsign>'''+callsign+'''</callsign>
-            <required-aircraft>'''+req_aircraft+'''</required-aircraft>
-            <fltrules>IFR</fltrules>
-            <departure>
-                <port>'''+departure_apt+'''</port>
-                <time>'''+i+'/'+departure_time+'''</time>
-            </departure>
-            <cruise-alt>'''+cruise_alt+'''</cruise-alt>
-            <arrival>
-                <port>'''+arrival_apt+'''</port>
-                <time>'''+i+'/'+arrival_time+'''</time>
-            </arrival>
-            <repeat>WEEK</repeat>
-        </flight>'''
-					
-			buf=buf+xml
-			
-			days_ref = days_ref +i
+			if i.isdigit():	
+				if arr_int<dep_int:
+					i=int(i)
+					i=i+1
+					if i > 7:
+						i=1
+				i=str(int(i))
+				if i =='7':
+					i='0'
+				xml='''
+			<flight>
+				<callsign>'''+callsign+'''</callsign>
+				<required-aircraft>'''+req_aircraft+'''</required-aircraft>
+				<fltrules>IFR</fltrules>
+				<departure>
+					<port>'''+departure_apt+'''</port>
+					<time>'''+i+'/'+departure_time+'''</time>
+				</departure>
+				<cruise-alt>'''+cruise_alt+'''</cruise-alt>
+				<arrival>
+					<port>'''+arrival_apt+'''</port>
+					<time>'''+i+'/'+arrival_time+'''</time>
+				</arrival>
+				<repeat>WEEK</repeat>
+			</flight>'''
+						
+				buf=buf+xml
+				
+				days_ref = days_ref +i
 			
 		if len(days_ref)<7:
 			days_ref = days_ref + (7 - len(days_ref)) * " "
-					
+			
 		### conf format file: ###
 		conf = "FLIGHT   "+callsign+"   "+fltrules+"   "+days_ref+"   "+departure_time+"   "+departure_apt \
 			+"   "+arrival_time+"   "+arrival_apt+"   "+cruise_alt+"   "+req_aircraft+"\n"
 		buf2 = buf2 + conf
+	
 	
 	file_content="########Flt.No      Flt.Rules Days    Departure       Arrival         FltLev. A/C type\n"+\
 	"################### ######### ####### ############### ############### #################\n\n"+buf2
@@ -347,13 +373,38 @@ def flight_plan(fp_type):
 		fw.write(file_content)
 	elif fp_type=='xml':
 		fw.write(buf)
+
 	fr.close()
 	fw.close()
 
-				
+
+def callsigns(prefix):
+	prefix_dict={'BA':'SpeedBird',
+		'S7':'SIBERIAN-AIRLINES',
+		'AA':'American',
+		'RJ':'JORDANIAN',
+		'CX':'CATHAY',
+		'QF':'QANTAS',
+		'JL':'JAPAN-AIR',
+		'IB':'IBERIA',
+		'MA':'Malev',
+		'AY':'FINNAIR',
+		'LA':'LAN',
+		'KA':'DRAGON',
+		'4M':'LAN-AR',
+		'LP':'LAN-PERU',
+		'XL':'LAN-EC',
+		'NU':'JAI OCEAN'}
+	return prefix_dict[prefix]
 		
 def aircraft_list(req):
-	aircraft_table=['ERD', 'ER4', 'ER3', 'CR7', 'M83', 'M80', '757', '738', 'AT7', '763', '777', '762']
+	aircraft_table=['J31', 'FRJ', 'D38', '319', '320', '321', 'ERD', 'ER4',
+	'ER3', 'E95', '310', '343', '777', '73H', '734', '763', '330',
+	'717', 'DH4', 'F50', '333', 'CRJ', 'M90', 'E75', 'CR2', 'M80',
+	'CR7', 'M83', 'DH3', 'CR9', 'AT7', '73G', '340', '744', 'E70',
+	'E90', '767', '757', '738', '318', '736', '332', '773', '346',
+	'CRK', 'EM2', 'DH8', '100', '733', '342', 'AT4', 'AT5', '75W',
+	'ATR', '388', '762']
 	
 	mapping={
 		'757':'B-757',

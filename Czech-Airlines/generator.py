@@ -43,15 +43,23 @@ def generate():
 	fw.close()
 	
 
-def flight_plan():
+def flight_plan(fp_type):
 	"""Generate the actual flightplan from the intermediate file"""
-	fw = open('./csa_flights.xml','ab')
+	if fp_type==None:
+		fp_type='conf'
+		
+	if fp_type=='xml':
+		fw = open('./csa_flights.xml','ab')
+		
+	if fp_type=='conf':
+		fw = open('./csa_flights.conf','ab')
 	fr= open('./timetable.txt','r')
 	fr2= open('./orar-csa.txt','r')
 	content= fr.readlines()
 	content2= fr2.readlines()
 	apt_utc=utc_time(content2)
 	buf=''
+	buf2=''
 	
 	departure_apt=''
 	departure_time=''
@@ -107,7 +115,7 @@ def flight_plan():
 		dep_int=0
 		departure_time=arr[4]
 		if arr[3].upper() not in apt_utc:
-			departure_time=arr[4]+':00'
+			departure_time=arr[4]
 		else:
 			timestep_str=apt_utc[arr[3].upper()]
 			timestep=int(timestep_str)
@@ -124,13 +132,16 @@ def flight_plan():
 			dep_int=hour_int
 			if len(hour)==1:
 				hour='0'+hour
-			departure_time= hour +':'+departure_time[3]+departure_time[4]+':00'
+			departure_time= hour +':'+departure_time[3]+departure_time[4]
+			
+		if fp_type=='xml':
+			departure_time = departure_time +':00'
 		
 		arrival_apt=airports[arr[6]]
 		arr_int=0
 		arrival_time=arr[5]
 		if arr[6].upper() not in apt_utc:
-			arrival_time=arr[5]+':00'
+			arrival_time=arr[5]
 		else:
 			timestep_str=apt_utc[arr[6].upper()]
 			timestep=int(timestep_str)
@@ -147,7 +158,10 @@ def flight_plan():
 			arr_int=hour_int
 			if len(hour)==1:
 				hour='0'+hour
-			arrival_time= hour +':'+arrival_time[3]+arrival_time[4]+':00'
+			arrival_time= hour +':'+arrival_time[3]+arrival_time[4]
+			
+		if fp_type=='xml':
+			arrival_time = arrival_time +':00'
 		
 		
 		days=arr[1]
@@ -156,6 +170,9 @@ def flight_plan():
 			cruise_alt=str(random.choice(altitudes_prop))
 		else:
 			cruise_alt=str(random.choice(altitudes_jet))
+			
+		req_aircraft = req_aircraft +"-CSA"
+		days_ref=''
 		
 		for i in days:
 			if i.isdigit():	
@@ -188,7 +205,25 @@ def flight_plan():
         </flight>'''
 					
 				buf=buf+xml
-	fw.write(buf)
+			
+			else:
+				i='.'
+				
+			days_ref = days_ref +i
+		if len(days_ref)<7:
+			days_ref = days_ref + (7 - len(days_ref)) * " "
+			
+		### conf format file: ###
+		conf = "FLIGHT   "+callsign+"   "+fltrules+"   "+days_ref+"   "+departure_time+"   "+departure_apt \
+			+"   "+arrival_time+"   "+arrival_apt+"   "+cruise_alt+"   "+req_aircraft+"\n"
+		buf2 = buf2 + conf
+	
+	file_content="########Flt.No      Flt.Rules Days    Departure       Arrival         FltLev. A/C type\n"+\
+	"################### ######### ####### ############### ############### #################\n\n"+buf2
+	if fp_type=='conf':
+		fw.write(file_content)
+	elif fp_type=='xml':
+		fw.write(buf)
 	fr.close()
 	fw.close()
 
@@ -452,11 +487,15 @@ def airport_list():
 
 if __name__ == "__main__":
 	if len(sys.argv) <2:
-		print 'Usage: generator.py gen | fp'
+		print 'Usage: generator.py gen | fp [ conf | xml ]'
 		sys.exit()
 	else:
 		if sys.argv[1]=='gen':
 			generate()
 		if sys.argv[1]=='fp':
-			flight_plan()
+			if len(sys.argv) <3:
+				arg=None
+			else:
+				arg=sys.argv[2]
+			flight_plan(arg)
 	
