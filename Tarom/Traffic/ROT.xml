@@ -113,13 +113,13 @@
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
-        <model>Aircraft/ATR42/ATR42-set.xml</model>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
         <livery>BAW</livery>
         <airline>BAW</airline>
         <home-port>LROP</home-port>
         <required-aircraft>AT5-ROT</required-aircraft>
         <actype>737-3Y0</actype>
-        <offset>5</offset>
+        <offset>4</offset>
         <radius>12</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
@@ -127,7 +127,7 @@
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
-        <model>Aircraft/ATR42/ATR42-set.xml</model>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
         <livery>BAW</livery>
         <airline>BAW</airline>
         <home-port>LROP</home-port>
