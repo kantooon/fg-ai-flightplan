@@ -115,12 +115,20 @@ def generate():
 	fw.close()
 	
 	
-def flight_plan():
+def flight_plan(fp_type):
 	"""Generate the actual flightplan from the intermediate file"""
-	fw = open('./american_airlines_flights.xml','ab')
+	if fp_type==None:
+		fp_type='conf'
+		
+	if fp_type=='xml':
+		fw = open('./american_airlines_flights.xml','ab')
+		
+	if fp_type=='conf':
+		fw = open('./american_airlines_flights.conf','ab')
 	fr= open('./timetable.txt','r')
 	content= fr.readlines()
 	buf=''
+	buf2=''
 	
 	departure_apt=''
 	departure_time=''
@@ -207,7 +215,10 @@ def flight_plan():
 			dep_int=hour_int
 			if len(hour)==1:
 				hour='0'+hour
-			departure_time= hour +':'+departure_time[3]+departure_time[4]+':00'
+			departure_time= hour +':'+departure_time[3]+departure_time[4]
+			
+		if fp_type=='xml':
+			departure_time = departure_time +':00'
 			
 			
 		### arrival time ###		
@@ -255,7 +266,10 @@ def flight_plan():
 			arr_int=hour_int
 			if len(hour)==1:
 				hour='0'+hour
-			arrival_time= hour +':'+arrival_time[3]+arrival_time[4]+':00'
+			arrival_time= hour +':'+arrival_time[3]+arrival_time[4]
+			
+		if fp_type=='xml':
+			arrival_time = arrival_time +':00'
 			
 		arr[5]=arr[5].strip('AA')
 		if arr[5].find('(')!=-1:
@@ -276,6 +290,8 @@ def flight_plan():
 		else:
 			cruise_alt=str(random.choice(altitudes_jet))
 		
+		req_aircraft = req_aircraft +"-AAL"
+		days_ref=''
 		
 		days=arr[6].rstrip('\n')
 		if days=='' or len(days)==0:
@@ -297,7 +313,7 @@ def flight_plan():
 			if i =='7':
 				i='0'
 			xml='''
-	<flight>
+		<flight>
             <callsign>'''+callsign+'''</callsign>
             <required-aircraft>'''+req_aircraft+'''</required-aircraft>
             <fltrules>IFR</fltrules>
@@ -314,9 +330,23 @@ def flight_plan():
         </flight>'''
 					
 			buf=buf+xml
-				
+			
+			days_ref = days_ref +i
+			
+		if len(days_ref)<7:
+			days_ref = days_ref + (7 - len(days_ref)) * " "
 					
-	fw.write(buf)
+		### conf format file: ###
+		conf = "FLIGHT   "+callsign+"   "+fltrules+"   "+days_ref+"   "+departure_time+"   "+departure_apt \
+			+"   "+arrival_time+"   "+arrival_apt+"   "+cruise_alt+"   "+req_aircraft+"\n"
+		buf2 = buf2 + conf
+	
+	file_content="########Flt.No      Flt.Rules Days    Departure       Arrival         FltLev. A/C type\n"+\
+	"################### ######### ####### ############### ############### #################\n\n"+buf2
+	if fp_type=='conf':
+		fw.write(file_content)
+	elif fp_type=='xml':
+		fw.write(buf)
 	fr.close()
 	fw.close()
 
@@ -402,4 +432,8 @@ if __name__ == "__main__":
 		if sys.argv[1]=='gen':
 			generate()
 		if sys.argv[1]=='fp':
-			flight_plan()
+			if len(sys.argv) <3:
+				arg=None
+			else:
+				arg=sys.argv[2]
+			flight_plan(arg)
