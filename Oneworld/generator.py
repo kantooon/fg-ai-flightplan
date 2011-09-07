@@ -307,6 +307,7 @@ def flight_plan(fp_type):
 		if prefix not in prefix_list:
 			prefix_list.append(prefix)
 		callsign=callsigns(prefix)
+		callsign=callsign + call[2:]
 		
 		req_aircraft=arr[4]
 		if req_aircraft not in aircraft_table:
@@ -394,7 +395,7 @@ def callsigns(prefix):
 		'4M':'LAN-AR',
 		'LP':'LAN-PERU',
 		'XL':'LAN-EC',
-		'NU':'JAI OCEAN'}
+		'NU':'JAI-OCEAN'}
 	return prefix_dict[prefix]
 		
 def aircraft_list(req):
