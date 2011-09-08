@@ -359,6 +359,10 @@ def flight_plan(fp_type):
 						
 				buf=buf+xml
 				
+				if fp_type=='xml':
+					tmp_file=open('./airlines/'+airlines[0][prefix]+'.xml','ab')
+					tmp_file.write(xml)
+				
 				days_ref = days_ref +i
 			
 		if len(days_ref)<7:
@@ -368,6 +372,10 @@ def flight_plan(fp_type):
 		conf = "FLIGHT   "+callsign+"   "+fltrules+"   "+days_ref+"   "+departure_time+"   "+departure_apt \
 			+"   "+arrival_time+"   "+arrival_apt+"   "+cruise_alt+"   "+req_aircraft+"\n"
 		buf2 = buf2 + conf
+		
+		if fp_type=='conf':
+			tmp_file=open('./airlines/'+airlines[0][prefix]+'.conf','ab')
+			tmp_file.write(conf)
 	
 	
 	file_content="########Flt.No      Flt.Rules Days    Departure       Arrival         FltLev. A/C type\n"+\
