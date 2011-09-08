@@ -334,7 +334,7 @@ def flight_plan(fp_type):
 			days_ref = days_ref +i
 			
 		if len(days_ref)<7:
-			days_ref = days_ref + (7 - len(days_ref)) * " "
+			days_ref = days_ref + (7 - len(days_ref)) * "."
 					
 		### conf format file: ###
 		conf = "FLIGHT   "+callsign+"   "+fltrules+"   "+days_ref+"   "+departure_time+"   "+departure_apt \
