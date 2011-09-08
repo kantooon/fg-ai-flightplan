@@ -22,7 +22,7 @@
 					<port>SAEZ</port>
 					<time>1/01:30:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>320</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>1/12:00:00</time>
@@ -37,7 +37,7 @@
 					<port>SAEZ</port>
 					<time>2/01:30:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>320</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>2/12:00:00</time>
@@ -52,7 +52,7 @@
 					<port>SAEZ</port>
 					<time>3/01:30:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>320</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>3/12:00:00</time>
@@ -67,7 +67,7 @@
 					<port>SAEZ</port>
 					<time>4/01:30:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>320</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>4/12:00:00</time>
@@ -82,7 +82,7 @@
 					<port>SAEZ</port>
 					<time>5/01:30:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>320</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>5/12:00:00</time>
@@ -97,7 +97,7 @@
 					<port>SAEZ</port>
 					<time>6/01:30:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>320</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>6/12:00:00</time>
@@ -112,7 +112,7 @@
 					<port>SAEZ</port>
 					<time>0/01:30:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>320</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>0/12:00:00</time>
@@ -127,7 +127,7 @@
 					<port>SAEZ</port>
 					<time>3/01:30:00</time>
 				</departure>
-				<cruise-alt>340</cruise-alt>
+				<cruise-alt>310</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>3/12:00:00</time>
@@ -142,7 +142,7 @@
 					<port>SAEZ</port>
 					<time>5/01:30:00</time>
 				</departure>
-				<cruise-alt>340</cruise-alt>
+				<cruise-alt>310</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>5/12:00:00</time>
@@ -157,7 +157,7 @@
 					<port>SAEZ</port>
 					<time>0/11:50:00</time>
 				</departure>
-				<cruise-alt>290</cruise-alt>
+				<cruise-alt>340</cruise-alt>
 				<arrival>
 					<port>MDPC</port>
 					<time>0/19:50:00</time>
@@ -172,7 +172,7 @@
 					<port>KMIA</port>
 					<time>0/13:50:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>290</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>0/24:05:00</time>
@@ -187,7 +187,7 @@
 					<port>KMIA</port>
 					<time>1/02:00:00</time>
 				</departure>
-				<cruise-alt>280</cruise-alt>
+				<cruise-alt>330</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>1/10:00:00</time>
@@ -202,7 +202,7 @@
 					<port>KMIA</port>
 					<time>2/02:00:00</time>
 				</departure>
-				<cruise-alt>280</cruise-alt>
+				<cruise-alt>330</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>2/10:00:00</time>
@@ -217,7 +217,7 @@
 					<port>KMIA</port>
 					<time>3/02:00:00</time>
 				</departure>
-				<cruise-alt>280</cruise-alt>
+				<cruise-alt>330</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>3/10:00:00</time>
@@ -232,7 +232,7 @@
 					<port>KMIA</port>
 					<time>4/02:00:00</time>
 				</departure>
-				<cruise-alt>280</cruise-alt>
+				<cruise-alt>330</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>4/10:00:00</time>
@@ -247,7 +247,7 @@
 					<port>KMIA</port>
 					<time>5/02:00:00</time>
 				</departure>
-				<cruise-alt>280</cruise-alt>
+				<cruise-alt>330</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>5/10:00:00</time>
@@ -262,7 +262,7 @@
 					<port>KMIA</port>
 					<time>6/02:00:00</time>
 				</departure>
-				<cruise-alt>280</cruise-alt>
+				<cruise-alt>330</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>6/10:00:00</time>
@@ -277,7 +277,7 @@
 					<port>KMIA</port>
 					<time>0/02:00:00</time>
 				</departure>
-				<cruise-alt>280</cruise-alt>
+				<cruise-alt>330</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>0/10:00:00</time>
@@ -292,7 +292,7 @@
 					<port>KMIA</port>
 					<time>3/02:00:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>290</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>3/10:00:00</time>
@@ -307,7 +307,7 @@
 					<port>KMIA</port>
 					<time>5/02:00:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>290</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>5/10:00:00</time>
@@ -322,7 +322,7 @@
 					<port>KMIA</port>
 					<time>0/13:50:00</time>
 				</departure>
-				<cruise-alt>330</cruise-alt>
+				<cruise-alt>290</cruise-alt>
 				<arrival>
 					<port>MDPC</port>
 					<time>0/15:15:00</time>
@@ -337,7 +337,7 @@
 					<port>MDPC</port>
 					<time>0/16:05:00</time>
 				</departure>
-				<cruise-alt>340</cruise-alt>
+				<cruise-alt>320</cruise-alt>
 				<arrival>
 					<port>SAEZ</port>
 					<time>0/24:05:00</time>
@@ -352,7 +352,7 @@
 					<port>MDPC</port>
 					<time>0/20:40:00</time>
 				</departure>
-				<cruise-alt>300</cruise-alt>
+				<cruise-alt>350</cruise-alt>
 				<arrival>
 					<port>KMIA</port>
 					<time>0/24:20:00</time>

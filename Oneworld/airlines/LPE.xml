@@ -5,9 +5,9 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>MMUN</port>
-					<time>3/24:55:00</time>
+					<time>2/24:55:00</time>
 				</departure>
-				<cruise-alt>300</cruise-alt>
+				<cruise-alt>340</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>3/05:05:00</time>
@@ -20,9 +20,9 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>MMUN</port>
-					<time>4/24:55:00</time>
+					<time>3/24:55:00</time>
 				</departure>
-				<cruise-alt>300</cruise-alt>
+				<cruise-alt>340</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>4/05:05:00</time>
@@ -35,9 +35,9 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>MMUN</port>
-					<time>5/24:55:00</time>
+					<time>4/24:55:00</time>
 				</departure>
-				<cruise-alt>300</cruise-alt>
+				<cruise-alt>340</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>5/05:05:00</time>
@@ -50,9 +50,9 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>MMUN</port>
-					<time>6/24:55:00</time>
+					<time>5/24:55:00</time>
 				</departure>
-				<cruise-alt>300</cruise-alt>
+				<cruise-alt>340</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>6/05:05:00</time>
@@ -65,9 +65,9 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>MMUN</port>
-					<time>1/24:55:00</time>
+					<time>0/24:55:00</time>
 				</departure>
-				<cruise-alt>300</cruise-alt>
+				<cruise-alt>340</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>1/05:05:00</time>
@@ -82,7 +82,7 @@
 					<port>SPIM</port>
 					<time>2/17:35:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>310</cruise-alt>
 				<arrival>
 					<port>MMUN</port>
 					<time>2/23:55:00</time>
@@ -97,7 +97,7 @@
 					<port>SPIM</port>
 					<time>3/17:35:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>310</cruise-alt>
 				<arrival>
 					<port>MMUN</port>
 					<time>3/23:55:00</time>
@@ -112,7 +112,7 @@
 					<port>SPIM</port>
 					<time>4/17:35:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>310</cruise-alt>
 				<arrival>
 					<port>MMUN</port>
 					<time>4/23:55:00</time>
@@ -127,7 +127,7 @@
 					<port>SPIM</port>
 					<time>5/17:35:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>310</cruise-alt>
 				<arrival>
 					<port>MMUN</port>
 					<time>5/23:55:00</time>
@@ -142,7 +142,7 @@
 					<port>SPIM</port>
 					<time>0/17:35:00</time>
 				</departure>
-				<cruise-alt>350</cruise-alt>
+				<cruise-alt>310</cruise-alt>
 				<arrival>
 					<port>MMUN</port>
 					<time>0/23:55:00</time>
@@ -155,7 +155,7 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>SPIM</port>
-					<time>2/18:15:00</time>
+					<time>1/18:15:00</time>
 				</departure>
 				<cruise-alt>340</cruise-alt>
 				<arrival>
@@ -170,7 +170,7 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>SPIM</port>
-					<time>3/18:15:00</time>
+					<time>2/18:15:00</time>
 				</departure>
 				<cruise-alt>340</cruise-alt>
 				<arrival>
@@ -185,7 +185,7 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>SPIM</port>
-					<time>4/18:15:00</time>
+					<time>3/18:15:00</time>
 				</departure>
 				<cruise-alt>340</cruise-alt>
 				<arrival>
@@ -200,7 +200,7 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>SPIM</port>
-					<time>5/18:15:00</time>
+					<time>4/18:15:00</time>
 				</departure>
 				<cruise-alt>340</cruise-alt>
 				<arrival>
@@ -215,7 +215,7 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>SPIM</port>
-					<time>0/18:15:00</time>
+					<time>6/18:15:00</time>
 				</departure>
 				<cruise-alt>340</cruise-alt>
 				<arrival>
@@ -230,7 +230,7 @@
 				<fltrules>IFR</fltrules>
 				<departure>
 					<port>SPIM</port>
-					<time>1/18:15:00</time>
+					<time>0/18:15:00</time>
 				</departure>
 				<cruise-alt>340</cruise-alt>
 				<arrival>
@@ -247,7 +247,7 @@
 					<port>MMMX</port>
 					<time>1/11:50:00</time>
 				</departure>
-				<cruise-alt>310</cruise-alt>
+				<cruise-alt>300</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>1/16:35:00</time>
@@ -262,7 +262,7 @@
 					<port>MMMX</port>
 					<time>2/11:50:00</time>
 				</departure>
-				<cruise-alt>310</cruise-alt>
+				<cruise-alt>300</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>2/16:35:00</time>
@@ -277,7 +277,7 @@
 					<port>MMMX</port>
 					<time>3/11:50:00</time>
 				</departure>
-				<cruise-alt>310</cruise-alt>
+				<cruise-alt>300</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>3/16:35:00</time>
@@ -292,7 +292,7 @@
 					<port>MMMX</port>
 					<time>4/11:50:00</time>
 				</departure>
-				<cruise-alt>310</cruise-alt>
+				<cruise-alt>300</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>4/16:35:00</time>
@@ -307,7 +307,7 @@
 					<port>MMMX</port>
 					<time>5/11:50:00</time>
 				</departure>
-				<cruise-alt>310</cruise-alt>
+				<cruise-alt>300</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>5/16:35:00</time>
@@ -322,7 +322,7 @@
 					<port>MMMX</port>
 					<time>0/11:50:00</time>
 				</departure>
-				<cruise-alt>310</cruise-alt>
+				<cruise-alt>300</cruise-alt>
 				<arrival>
 					<port>SPIM</port>
 					<time>0/16:35:00</time>
