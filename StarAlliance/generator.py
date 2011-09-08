@@ -479,7 +479,7 @@ def airline_list():
 			
 	airlines=dict(airlines)
 	callsigns=dict(callsigns)	
-	
+	air_database_file.close()
 	return [airlines,callsigns]
 	
 		
@@ -528,7 +528,7 @@ def airport_list():
 			
 	airports=dict(airports)
 	apt_utc=dict(apt_utc)	
-	
+	apt_database_file.close()
 	return [airports,apt_utc]
 	#####################################################
 	## Code below fetches the ICAO code via name search##

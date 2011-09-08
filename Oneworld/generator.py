@@ -168,6 +168,7 @@ def flight_plan(fp_type):
 	altitudes_jet=(280,290,300,310,320,330,340,350)
 	altitudes_prop=(150,160,170,180,190,200,210,220)
 	apt_list=airport_list()
+	airlines=airline_list()
 	airports=apt_list[0]
 	apt_utc=apt_list[1]
 	aircraft_table=[]
@@ -321,6 +322,7 @@ def flight_plan(fp_type):
 		else:
 			cruise_alt=str(random.choice(altitudes_jet))
 		
+		req_aircraft=req_aircraft+'-'+airlines[0][prefix]
 		
 		days=arr[6].rstrip('\n')
 		if days=='' or len(days)==0:
@@ -397,6 +399,26 @@ def callsigns(prefix):
 		'XL':'LAN-EC',
 		'NU':'JAI-OCEAN'}
 	return prefix_dict[prefix]
+	
+def airline_list():
+	airlines=[]
+	callsigns=[]
+	air_database_file=open('../airlines.dat','rb')
+	air_database=csv.reader(air_database_file, delimiter=',',quotechar='"')
+	for line in air_database:
+		if line[3]!='\N' and line[4]!='\N' and line[3]!='' and line[4]!='':
+			if line[3] not in airlines:
+				airlines.append((line[3],line[4]))
+		if line[3]!='\N' and line[5]!='\N' and line[3]!='' and line[5]!='':
+			if line[3] not in callsigns:
+				callsigns.append((line[3],line[5]))
+				
+			
+	airlines=dict(airlines)
+	callsigns=dict(callsigns)	
+	air_database_file.close()
+	
+	return [airlines,callsigns]
 		
 def aircraft_list(req):
 	aircraft_table=['J31', 'FRJ', 'D38', '319', '320', '321', 'ERD', 'ER4',
@@ -445,7 +467,7 @@ def airport_list():
 			
 	airports=dict(airports)
 	apt_utc=dict(apt_utc)	
-	
+	apt_database_file.close()
 	return [airports,apt_utc]
 	#####################################################
 	## Code below fetches the ICAO code via name search##
