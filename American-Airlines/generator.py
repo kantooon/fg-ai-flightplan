@@ -304,14 +304,18 @@ def flight_plan(fp_type):
 			days=days_all
 
 		for i in days:
+			k=i
 			if arr_int<dep_int:
 				i=int(i)
-				i=i+1
-				if i > 7:
-					i=1
+				k=i+1
+				if k > 7:
+					k=1
 			i=str(int(i))
+			k=str(int(k))
 			if i =='7':
 				i='0'
+			if k =='7':
+				k='0'
 			xml='''
 		<flight>
             <callsign>'''+callsign+'''</callsign>
@@ -324,7 +328,7 @@ def flight_plan(fp_type):
             <cruise-alt>'''+cruise_alt+'''</cruise-alt>
             <arrival>
                 <port>'''+arrival_apt+'''</port>
-                <time>'''+i+'/'+arrival_time+'''</time>
+                <time>'''+k+'/'+arrival_time+'''</time>
             </arrival>
             <repeat>WEEK</repeat>
         </flight>'''
@@ -333,11 +337,15 @@ def flight_plan(fp_type):
 			
 			days_ref = days_ref +i
 			
-		if len(days_ref)<7:
-			days_ref = days_ref + (7 - len(days_ref)) * "."
+		dot_days=''
+		for i in range(0,7):
+			if str(i) in days_ref:
+				dot_days=dot_days+str(i)
+			else:
+				dot_days=dot_days+'.'
 					
 		### conf format file: ###
-		conf = "FLIGHT   "+callsign+"   "+fltrules+"   "+days_ref+"   "+departure_time+"   "+departure_apt \
+		conf = "FLIGHT   "+callsign+"   "+fltrules+"   "+dot_days+"   "+departure_time+"   "+departure_apt \
 			+"   "+arrival_time+"   "+arrival_apt+"   "+cruise_alt+"   "+req_aircraft+"\n"
 		buf2 = buf2 + conf
 	
