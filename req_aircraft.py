@@ -47,6 +47,26 @@ def generate(arg):
 			+ '"' + '' + '"' + ',' + '"' + '' + '"' + ',' + '"' + '' + '"' + ',' + '"' + '' + '"' + '\n'
 	fw.write(buf)
 	fw.close()
+	
+	fr1=open('./req_aircraft.csv','rb')
+	fw1=open('./aircraft.txt','wb')
+	content= fr1.readlines()
+	ac_types=[]
+	for line in content:
+		if line.find('#')==1 or len(line)<2:
+			continue
+		arr=line.split(',')
+		ac=arr[3].lstrip('"')
+		ac=ac.rstrip('"')
+		if ac not in ac_types:
+			ac_types.append(ac)
+			
+	buf=''		
+	for aircraft in ac_types:
+		buf=buf+aircraft+', '
+	fw1.write(buf)
+	fw1.close()
+		
 
 
 
