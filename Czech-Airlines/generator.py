@@ -27,7 +27,7 @@ from HTMLParser import *
 
 def generate():
 	""" Filter the original schedule, get rid of dupes and indirect flights"""
-	fw = open('./timetable.txt','ab')
+	fw = open('./timetable.txt','wb')
 	fr= open('./orar-csa.txt','r')
 	content= fr.readlines()
 	buf=''
@@ -49,10 +49,10 @@ def flight_plan(fp_type):
 		fp_type='conf'
 		
 	if fp_type=='xml':
-		fw = open('./csa_flights.xml','ab')
+		fw = open('./csa_flights.xml','wb')
 		
 	if fp_type=='conf':
-		fw = open('./csa_flights.conf','ab')
+		fw = open('./csa_flights.conf','wb')
 	fr= open('./timetable.txt','r')
 	fr2= open('./orar-csa.txt','r')
 	content= fr.readlines()

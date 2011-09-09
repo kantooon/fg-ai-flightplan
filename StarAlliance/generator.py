@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-import os, sys
+import os, sys, glob
 import io
 import re, string, random, csv, math
 from HTMLParser import *
@@ -86,7 +86,7 @@ def generate(arg):
 	""" Filter the original schedule, get rid of dupes and indirect flights"""
 	
 	if arg=='xml':
-		fw = open('./orar-staralliance.txt','ab')
+		fw = open('./orar-staralliance.txt','wb')
 		fr= open('./StarAlliance.xml','r')
 		content= fr.read()
 		parser=Parserul()
@@ -96,7 +96,7 @@ def generate(arg):
 		fr.close()
 		return
 	
-	fw = open('./timetable1.txt','ab')
+	fw = open('./timetable1.txt','wb')
 	fr= open('./orar-staralliance.txt','r')
 	
 	content= fr.readlines()
@@ -144,7 +144,7 @@ def generate(arg):
 	return
 	
 def generate2(arg):
-	fw = open('./timetable2.txt','ab')
+	fw = open('./timetable2.txt','wb')
 	fr= open('./timetable1.txt','r')
 	
 	content= fr.readlines()
@@ -211,11 +211,19 @@ def flight_plan(fp_type):
 		fp_type='conf'
 		
 	if fp_type=='xml':
-		fw = open('./staralliance_flights.xml','ab')
+		fw = open('./staralliance_flights.xml','wb')
+		files=glob.glob('./airlines/*.xml')
+		for f in files:
+			os.unlink(f)
 		
 	if fp_type=='conf':
-		fw = open('./staralliance_flights.conf','ab')
+		fw = open('./staralliance_flights.conf','wb')
+		files=glob.glob('./airlines/*.conf')
+		for f in files:
+			os.unlink(f)
+		
 	fr= open('./timetable2.txt','r')
+	
 	content= fr.readlines()
 	buf=''
 	buf2=''

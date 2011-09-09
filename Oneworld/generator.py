@@ -24,7 +24,7 @@ import re, string, random, csv, math
 
 def generate():
 	""" Filter the original schedule, get rid of dupes and indirect flights"""
-	fw = open('./timetable.txt','ab')
+	fw = open('./timetable.txt','wb')
 	fr= open('./orar-oneworld.txt','r')
 	content= fr.readlines()
 	buf=''
@@ -146,10 +146,17 @@ def flight_plan(fp_type):
 		fp_type='conf'
 		
 	if fp_type=='xml':
-		fw = open('./oneworld_flights.xml','ab')
+		fw = open('./oneworld_flights.xml','wb')
+		files=glob.glob('./airlines/*.xml')
+		for f in files:
+			os.unlink(f)
 		
 	if fp_type=='conf':
-		fw = open('./oneworld_flights.conf','ab')
+		fw = open('./oneworld_flights.conf','wb')
+		files=glob.glob('./airlines/*.conf')
+		for f in files:
+			os.unlink(f)
+			
 	fr= open('./timetable.txt','r')
 	content= fr.readlines()
 	buf=''
