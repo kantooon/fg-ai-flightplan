@@ -454,6 +454,42 @@ def flight_plan(fp_type):
 
 	fr.close()
 	fw.close()
+	
+	
+def filter_dupes():
+
+	fr=open('./staralliance_flights.conf','rb')
+	content= fr.readlines()
+	callsign_list=[]
+	buf=''
+	use=1
+	for line in content:
+		if line.find('#')==0 or len(line)<2:
+			buf=buf+line
+			continue
+		stubs1=line.split("   ")
+
+		pos=content.index(line)
+		next_content=content[pos+1:]
+		
+		for next_line in next_content:
+			if next_line.find('#')==0 or len(next_line)<2:
+				continue
+			stubs2=next_line.split("   ")
+			if stubs2[1]==stubs1[1] and stubs1[5]==stubs2[5] and stubs1[3]==stubs2[3]:
+				use=0
+
+		if use==0:
+			use=1
+			continue
+		else:
+			buf=buf+line
+				
+	
+	fw=open('./filtered_staralliance_flights.conf','wb')
+	fw.write(buf)
+	fw.close()		
+	fr.close()		
 
 
 def callsigns(prefix):
@@ -585,7 +621,7 @@ def airport_list():
 
 if __name__ == "__main__":
 	if len(sys.argv) <2:
-		print 'Usage: generator.py gen [ xml ] | gen2 | fp [ conf | xml ]'
+		print 'Usage: generator.py gen [ xml ] | gen2 | fp [ conf | xml ] | filter'
 		sys.exit()
 	else:
 		if sys.argv[1]=='gen':
@@ -606,3 +642,5 @@ if __name__ == "__main__":
 			else:
 				arg=sys.argv[2]
 			flight_plan(arg)
+		if sys.argv[1]=='filter':
+			filter_dupes()
