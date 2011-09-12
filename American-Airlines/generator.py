@@ -358,7 +358,43 @@ def flight_plan(fp_type):
 	fr.close()
 	fw.close()
 
+def filter_dupes():
+
+	fr=open('./american_airlines_flights.conf','rb')
+	content= fr.readlines()
+	callsign_list=[]
+	buf=''
+	use=1
+	for line in content:
+		if line.find('#')==0 or len(line)<2:
+			buf=buf+line
+			continue
+		stubs1=line.split("   ")
+		for i in stubs1:
+			if len(i)==0 or i=='':
+				stubs1.remove(i)
+		
+		pos=content.index(line)
+		next_content=content[pos+1:]
+		
+		for next_line in next_content:
+			if next_line.find('#')==0 or len(next_line)<2:
+				continue
+			stubs2=next_line.split("   ")
+			if stubs2[1]==stubs1[1] and stubs1[5]==stubs2[5] and stubs1[3]==stubs2[3]:
+				use=0
+
+		if use==0:
+			use=1
+			continue
+		else:
+			buf=buf+line
 				
+	
+	fw=open('./filtered_american_airlines_flights.conf','wb')
+	fw.write(buf)
+	fw.close()		
+	fr.close()				
 		
 def aircraft_list(req):
 	aircraft_table=['ERD', 'ER4', 'ER3', 'CR7', 'M83', 'M80', '757', '738', 'AT7', '763', '777', '762']
@@ -434,11 +470,13 @@ def airport_list():
 
 if __name__ == "__main__":
 	if len(sys.argv) <2:
-		print 'Usage: generator.py gen | fp [ conf | xml ]'
+		print 'Usage: generator.py gen | fp [ conf | xml ] | filter'
 		sys.exit()
 	else:
 		if sys.argv[1]=='gen':
 			generate()
+		if sys.argv[1]=='filter':
+			filter_dupes()
 		if sys.argv[1]=='fp':
 			if len(sys.argv) <3:
 				arg=None
