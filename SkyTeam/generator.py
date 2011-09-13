@@ -155,12 +155,14 @@ def generate(arg):
 			callsign=flight_match.group(3)
 			days=flight_match.group(4)
 			req_aircraft=flight_match.group(5)
+			if req_aircraft=='X67' or req_aircraft=='X23':
+				continue
 			if len(dep_time)==4:
 				dep_time='0'+dep_time
 			if len(arr_time)==4:
 				arr_time='0'+arr_time
 				
-			time_elapsed=int(distance/250) #burtissima
+			time_elapsed=int(int(distance)/250) #burtissima
 			
 			dep_hour=int(dep_time[0]+dep_time[1])
 			arr_hour=int(arr_time[0]+arr_time[1])
@@ -192,7 +194,13 @@ def generate(arg):
 			
 			if (dep_hour > arr_hour) and dep_ampm==1 and arr_ampm==1:
 				pass
+			
+			if len(dep_time)==4:
+				dep_time='0'+dep_time
+			if len(arr_time)==4:
+				arr_time='0'+arr_time
 				
+			
 				
 			buf = buf + departure+','+destination+','+dep_time+','+arr_time+','+callsign+','+req_aircraft+','+days+'\n'
 			last_dep=dep_time
@@ -200,6 +208,8 @@ def generate(arg):
 			if len(destination)>3:
 				if destination not in not_av_apt:
 					not_av_apt.append(destination)
+					
+			
 			
 	
 	#print not_av_apt
@@ -351,7 +361,12 @@ def flight_plan(fp_type):
 			
 		
 		call=arr[4]
-		prefix=call[0]+call[1]
+		_size=len(call)
+		if (not call[_size-2].isdigit()) or (not call[_size-1].isdigit()):
+			prefix=call[_size-2]+call[_size-1]
+			call=call[:_size-2]
+		else:
+			prefix='DL'
 		#if prefix not in prefix_list:
 		#	prefix_list.append(prefix)
 		if prefix not in airlines[1]:
@@ -360,11 +375,13 @@ def flight_plan(fp_type):
 			return
 		
 		callsign=airlines[1][prefix].replace(' ','-')
-		callsign=callsign + call[2:]
+		callsign=callsign + call
 		
 		req_aircraft=arr[5]
 		if req_aircraft not in aircraft_table:
 			aircraft_table.append(req_aircraft)	
+		
+		
 		if prefix not in airlines[0]:
 			print prefix
 			raise Exception
@@ -381,10 +398,6 @@ def flight_plan(fp_type):
 		
 		days=arr[6].rstrip('\n')
 		if days=='' or len(days)==0:
-			raise Exception
-			return
-		
-		if days=='Daily':
 			days='1234567'
 			
 		if days.find('X')!=-1:
@@ -553,13 +566,12 @@ def airline_list():
 	
 		
 def aircraft_list(req):
-	aircraft_table=['M82', '321', 'M81', 'CR9', '319', '735', '736',
-	'320', '333', '738', '330', '343', 'E70', '342', '763', 'M87',
-	'73W', '734', '767', '733', '73H', '73G', 'M83', '332', '717',
-	'AR8', '764', 'CR2', '752', '772', 'E75', '753', '739', '773',
-	'J41', '762', 'E95', 'E90', '777', '744', '77W', '747', 'AB6',
-	'74R', '345', '346', '340', '737', '757', '388', 'AR1', 'DH4',
-	'787', '77L', '313', '74E']
+	aircraft_table=['F70', '737', 'E90', '332', '77W', '772', '319', 'ERJ',
+	'EMJ', 'M11', '777', '767', '73W', '739', 'M88', 'D95', '757', '738',
+	'M90', '320', '73H', '333', '74M', '747', 'CRK', '318', '32S', 'ER4',
+	'E70', '321', '753', '734', '73G', '73Q', 'DH4', 'DH8', '752', '764',
+	'77L', '763', '744', '343', '773', 'CR7', 'AR8', '735', '73E', 'ERD',
+	'717', '388', 'AT4', 'M80', 'M82', '346', 'ER3', 'CRJ', '330', 'EMB', '73J']
 	
 	mapping={
 		'757':'B-757',
@@ -596,7 +608,7 @@ def airport_list():
 				
 	l=['PARIS', 'NEW YORK', 'CHICAGO', 'HOUSTON', 'NANTES', 'WASHINGTON', 'PANAMA CITY', 'TOKYO', 'LYON', 'MARSEILLE']
 	
-	airports=dict(airports)
+	
 	airports.append(('CHICAGO','KORD'))
 	airports.append(('PARIS','LFPG'))
 	airports.append(('NEW YORK','KJFK'))
@@ -607,18 +619,22 @@ def airport_list():
 	airports.append(('TOKYO','RJAA'))
 	airports.append(('LYON','LFLL'))
 	airports.append(('MARSEILLE','LFML'))
+	airports=dict(airports)
+	
+	apt_utc.append(('CHICAGO','-6'))
+	apt_utc.append(('PARIS','1'))
+	apt_utc.append(('NEW YORK','-5'))
+	apt_utc.append(('HOUSTON','-6'))
+	apt_utc.append(('NANTES','1'))
+	apt_utc.append(('WASHINGTON','-5'))
+	apt_utc.append(('PANAMA CITY','-6'))
+	apt_utc.append(('TOKYO','9'))
+	apt_utc.append(('LYON','1'))
+	apt_utc.append(('MARSEILLE','1'))
+	
 	apt_utc=dict(apt_utc)	
-	apt_utc.append(('CHICAGO',-6))
-	apt_utc.append(('PARIS',1))
-	apt_utc.append(('NEW YORK',-5))
-	apt_utc.append(('HOUSTON',-6))
-	apt_utc.append(('NANTES',1))
-	apt_utc.append(('WASHINGTON',-5))
-	apt_utc.append(('PANAMA CITY',-6))
-	apt_utc.append(('TOKYO',9))
-	apt_utc.append(('LYON',1))
-	apt_utc.append(('MARSEILLE',1))
 	apt_database_file.close()
+	
 	return [airports,apt_utc]
 	#####################################################
 	## Code below fetches the ICAO code via name search##
