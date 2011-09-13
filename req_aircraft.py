@@ -38,13 +38,13 @@ def generate(arg):
 				req_aircraft_list.append(req_aircraft)
 		fr.close()
 	fw=open('./req_aircraft.csv','wb')
-	buf='"#Req. Aircraft","Airline","Livery","Ac.Type","Flighttype","Performance class","Registration","Heavy","Model","Offset","Radius","Home port"\n'
+	buf='"#Req. Aircraft","Airline","Livery","Ac.Type","Flighttype","Performance class","Registration","Heavy","Ac.Number","Model","Offset","Radius","Home port"\n'
 	for req in req_aircraft_list:
 		ids=req.split('-')
 		
 		buf = buf + '"' + req + '"' + ',' + '"' + ids[1] + '"' + ',' + '"' + ids[1] + '"' + ',' + '"' + ids[0] + '"' + ',' \
 			+ '"' + 'gate' + '"' + ',' + '"' + 'jet_transport' + '"' + ',' + '"' + 'L-GAV' + '"' + ',' + '"' + 'false' + '"' + ',' \
-			+ '"' + '' + '"' + ',' + '"' + '' + '"' + ',' + '"' + '' + '"' + ',' + '"' + '' + '"' + '\n'
+			+ '"' + '' + '"' + ','+ '"' + '' + '"' + ',' + '"' + '' + '"' + ',' + '"' + '' + '"' + ',' + '"' + '' + '"' + '\n'
 	fw.write(buf)
 	fw.close()
 	

@@ -480,7 +480,7 @@ def flight_plan(fp_type):
 def filter_dupes():
 
 	conf_files=glob.glob('./airlines/*.conf')
-	#conf_files.append('./staralliance_flights.conf')
+	#conf_files.append('./skyteam_flights.conf')
 	for conf in conf_files:
 		fr=open(conf,'rb')
 		content= fr.readlines()
@@ -517,34 +517,7 @@ def filter_dupes():
 
 
 def callsigns(prefix):
-	prefix_dict=['SK',
-	'MS',
-	'SN',
-	'LH',
-	'TK',
-	'SQ',
-	'SA',
-	'TP',
-	'UA',
-	'JK',
-	'BD',
-	'NZ',
-	'CO',
-	'NH',
-	'US',
-	'A3',
-	'OZ',
-	'OS',
-	'KF',
-	'JP',
-	'OU',
-	'LO',
-	'LX',
-	'AC',
-	'JJ',
-	'PZ',
-	'TG',
-	'CA']
+	pass
 	#return prefix_dict[prefix]
 	
 def airline_list():
@@ -678,12 +651,6 @@ if __name__ == "__main__":
 			else:
 				arg=sys.argv[2]
 			generate(arg)
-		if sys.argv[1]=='gen2':
-			if len(sys.argv) <3:
-				arg=None
-			else:
-				arg=sys.argv[2]
-			generate2(arg)
 		if sys.argv[1]=='fp':
 			if len(sys.argv) <3:
 				arg=None
