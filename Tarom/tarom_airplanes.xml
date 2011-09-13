@@ -11,7 +11,7 @@
         <radius>23</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-EUPA</registration>
+        <registration>G-EUPA1</registration>
         <heavy>false</heavy>
     </aircraft> 
     <aircraft>
@@ -25,7 +25,7 @@
         <radius>23</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-EUPA</registration>
+        <registration>G-EUPA2</registration>
         <heavy>false</heavy>
     </aircraft> 
     <aircraft>
@@ -39,7 +39,7 @@
         <radius>23</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-EUPA</registration>
+        <registration>G-EUPA3</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
@@ -53,7 +53,7 @@
         <radius>23</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-EUPA</registration>
+        <registration>G-EUPA4</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
@@ -67,7 +67,77 @@
         <radius>23</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-EUPA</registration>
+        <registration>G-EUPA5</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>318-ROT</required-aircraft>
+        <actype>319-131</actype>
+        <offset>9</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-EUPA6</registration>
+        <heavy>false</heavy>
+    </aircraft> 
+    <aircraft>
+        <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>319-ROT</required-aircraft>
+        <actype>319-131</actype>
+        <offset>9</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-EUPA7</registration>
+        <heavy>false</heavy>
+    </aircraft> 
+    <aircraft>
+        <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>310-ROT</required-aircraft>
+        <actype>319-131</actype>
+        <offset>9</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-EUPA8</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>320-ROT</required-aircraft>
+        <actype>319-131</actype>
+        <offset>9</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-EUPA9</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/A320/A320-fb-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>32S-ROT</required-aircraft>
+        <actype>319-131</actype>
+        <offset>9</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-EUPA10</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
@@ -81,7 +151,7 @@
         <radius>23</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-LGTH</registration>
+        <registration>G-LGTH1</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
@@ -95,7 +165,7 @@
         <radius>23</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-LGTH</registration>
+        <registration>G-LGTH2</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
@@ -109,11 +179,95 @@
         <radius>23</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-LGTH</registration>
+        <registration>G-LGTH3</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
-        <model>Aircraft/ATR42/ATR42-set.xml</model>
+        <model>Aircraft/737/737-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>733-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>10</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH4</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/737/737-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>73G-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>10</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH5</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/737/737-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>73H-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>10</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH6</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/737/737-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>733-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>10</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH7</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/737/737-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>73G-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>10</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH8</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/737/737-BritishAirways.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>73H-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>10</offset>
+        <radius>23</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH9</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
         <livery>BAW</livery>
         <airline>BAW</airline>
         <home-port>LROP</home-port>
@@ -123,11 +277,11 @@
         <radius>12</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-LGTH</registration>
+        <registration>G-LGTH10</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
-        <model>Aircraft/ATR42/ATR42-set.xml</model>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
         <livery>BAW</livery>
         <airline>BAW</airline>
         <home-port>LROP</home-port>
@@ -137,7 +291,91 @@
         <radius>12</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-LGTH</registration>
+        <registration>G-LGTH11</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
+        <livery>BAW</livery>
+        <airline>BAW</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>AT5-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH12</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
+        <livery>BAW</livery>
+        <airline>BAW</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>AT7-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH13</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
+        <livery>BAW</livery>
+        <airline>BAW</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>AT5-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH14</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
+        <livery>BAW</livery>
+        <airline>BAW</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>AT7-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH15</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
+        <livery>BAW</livery>
+        <airline>BAW</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>AT5-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH16</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Bae146-200/Bae146-200-Lufthansa.xml</model>
+        <livery>BAW</livery>
+        <airline>BAW</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>AT7-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH17</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
@@ -151,7 +389,49 @@
         <radius>12</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-LGTH</registration>
+        <registration>G-LGTH18</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Dash8/Dash8-400-Qantas.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>DH4-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH19</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Dash8/Dash8-400-Qantas.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>DH4-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH20</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/Dash8/Dash8-400-Qantas.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>DH4-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH21</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
@@ -165,7 +445,7 @@
         <radius>12</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-LGTH</registration>
+        <registration>G-LGTH22</registration>
         <heavy>false</heavy>
     </aircraft>
     <aircraft>
@@ -179,7 +459,63 @@
         <radius>12</radius>
         <flighttype>gate</flighttype>
         <performance-class>jet_transport</performance-class>
-        <registration>G-LGTH</registration>
+        <registration>G-LGTH23</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/erj195/erj195-VirginBlue.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>E70-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH24</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/erj195/erj195-VirginBlue.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>EM2-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH25</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/erj195/erj195-VirginBlue.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>E70-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH26</registration>
+        <heavy>false</heavy>
+    </aircraft>
+    <aircraft>
+        <model>Aircraft/erj195/erj195-VirginBlue.xml</model>
+        <livery>BAW</livery>
+        <airline>ROT</airline>
+        <home-port>LROP</home-port>
+        <required-aircraft>EM2-ROT</required-aircraft>
+        <actype>737-3Y0</actype>
+        <offset>5</offset>
+        <radius>12</radius>
+        <flighttype>gate</flighttype>
+        <performance-class>jet_transport</performance-class>
+        <registration>G-LGTH27</registration>
         <heavy>false</heavy>
     </aircraft>
     
