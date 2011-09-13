@@ -231,6 +231,7 @@ def flight_plan(fp_type):
 		fw.write(buf)
 	fr.close()
 	fw.close()
+	filter_dupes()
 
 			
 			
@@ -266,11 +267,11 @@ def filter_dupes():
 		else:
 			buf=buf+line
 				
-	
-	fw=open('./filtered_csa_flights.conf','wb')
+	fr.close()	
+	fw=open('./csa_flights.conf','wb')
 	fw.write(buf)
 	fw.close()		
-	fr.close()	
+	
 
 def utc_time(content):
 	apt_utc=[]

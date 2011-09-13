@@ -357,6 +357,7 @@ def flight_plan(fp_type):
 		fw.write(buf)
 	fr.close()
 	fw.close()
+	filter_dupes()
 
 def filter_dupes():
 
@@ -390,11 +391,11 @@ def filter_dupes():
 		else:
 			buf=buf+line
 				
-	
-	fw=open('./filtered_american_airlines_flights.conf','wb')
+	fr.close()
+	fw=open('./american_airlines_flights.conf','wb')
 	fw.write(buf)
 	fw.close()		
-	fr.close()				
+					
 		
 def aircraft_list(req):
 	aircraft_table=['ERD', 'ER4', 'ER3', 'CR7', 'M83', 'M80', '757', '738', 'AT7', '763', '777', '762']

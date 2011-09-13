@@ -226,7 +226,7 @@ def flight_plan(fp_type):
 		fw.write(buf)
 	fr.close()
 	fw.close()
-	
+	filter_dupes()
 	
 	
 def filter_dupes():
@@ -261,11 +261,11 @@ def filter_dupes():
 		else:
 			buf=buf+line
 				
-	
-	fw=open('./filtered_tarom_flights.conf','wb')
+	fr.close()	
+	fw=open('./tarom_flights.conf','wb')
 	fw.write(buf)
 	fw.close()		
-	fr.close()	
+	
 	
 
 def utc_time(content):

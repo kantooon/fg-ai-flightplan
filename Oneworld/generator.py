@@ -402,12 +402,13 @@ def flight_plan(fp_type):
 
 	fr.close()
 	fw.close()
+	filter_dupes()
 
 
 def filter_dupes():
 	
 	conf_files=glob.glob('./airlines/*.conf')
-	#conf_files.append('./oneworld_flights.conf')
+	conf_files.append('./oneworld_flights.conf')
 	for conf in conf_files:
 
 		fr=open(conf,'rb')
