@@ -68,7 +68,7 @@ def generate(arg):
 	content= fr.readlines()
 	buf=''
 	i=-1
-	
+	not_av_apt=[]
 	departure=''
 	destination=''
 	dep_time=''
@@ -81,6 +81,7 @@ def generate(arg):
 	arr_ampm=0
 	last_dep=''
 	last_arr=''
+	distance=''
 	len_arr=[]
 	for line in content:
 		
@@ -108,10 +109,43 @@ def generate(arg):
 					arr_ampm=0
 					last_dep=''
 					last_arr=''
-				continue
+		else:
+			name_match=re.search('^([A-Z]{1,10}\s?[A-Z]{1,10}),\s[A-Z]{2,20}\s',line)
+			if name_match!=None:
+				destination=name_match.group(1)
 				
-		if re.search('\s+[0-9]{2,8}(\*|z)+\s',line)!=None:
+				
+				
+				
+		codeshare_match=re.search('([0-9]{1,2}:[0-9]{2})[A-Z]{0,1}\s+([0-9]{1,2}:[0-9]{2})[A-Z]{0,1}\s+[0-9]{2,8}(\*|z)+\s',line)
+		if codeshare_match!=None:
 			#skip codeshares
+			dep_time=codeshare_match.group(1)
+			arr_time=codeshare_match.group(2)
+			if len(dep_time)==4:
+				dep_time='0'+dep_time
+			if len(arr_time)==4:
+				arr_time='0'+arr_time
+				
+			dep_hour=int(dep_time[0]+dep_time[1])
+			arr_hour=int(arr_time[0]+arr_time[1])
+			
+			if dep_ampm==0 and last_dep!='':
+				last_hour=int(last_dep[0]+last_dep[1])
+				if last_hour > dep_hour:
+					dep_ampm=1
+				
+			if arr_ampm==0 and last_arr!='':
+				last_hour=int(last_arr[0]+last_arr[1])
+				if last_hour > arr_hour:
+					arr_ampm=1
+				
+			continue
+			
+			
+		miles_match=re.search('([0-9]{2,6})\s+mi',line)
+		if miles_match!=None:
+			distance=miles_match.group(1)
 			continue
 			
 		flight_match=re.search('([0-9]{1,2}:[0-9]{2})[A-Z]{0,1}\s+([0-9]{1,2}:[0-9]{2})[A-Z]{0,1}\s+([0-9]{2,9}[A-Z0-9]{0,2})\s+0\s+(X?[0-9]{0,8})\s*[A-Z]{0,4}/?[A-Z]{0,4}\s*([A-Z0-9]{3})',line)
@@ -125,41 +159,50 @@ def generate(arg):
 				dep_time='0'+dep_time
 			if len(arr_time)==4:
 				arr_time='0'+arr_time
+				
+			time_elapsed=int(distance/250) #burtissima
+			
+			dep_hour=int(dep_time[0]+dep_time[1])
+			arr_hour=int(arr_time[0]+arr_time[1])
 			
 			if dep_ampm==0 and last_dep!='':
-				dep_hour=int(dep_time[0]+dep_time[1])
 				last_hour=int(last_dep[0]+last_dep[1])
 				if last_hour > dep_hour:
 					dep_ampm=1
 					
 			if dep_ampm==1:
-				dep_hour=int(dep_time[0]+dep_time[1])
 				dep_hour=dep_hour+12
 				if dep_hour > 23:
 					dep_hour=dep_hour-24
 				dep_time=str(dep_hour)+dep_time[2:]
-				print 'Dep: '+dep_time
+				
 				
 			if arr_ampm==0 and last_arr!='':
-				arr_hour=int(arr_time[0]+arr_time[1])
 				last_hour=int(last_arr[0]+last_arr[1])
 				if last_hour > arr_hour:
 					arr_ampm=1
 					
+			
+					
 			if arr_ampm==1:
-				arr_hour=int(arr_time[0]+arr_time[1])
 				arr_hour=arr_hour+12
 				if arr_hour > 23:
 					arr_hour=arr_hour-24
 				arr_time=str(arr_hour)+arr_time[2:]
-				print 'Arr: '+arr_time
+			
+			if (dep_hour > arr_hour) and dep_ampm==1 and arr_ampm==1:
+				pass
 				
-			buf = buf + departure+','+destination+','+dep_time+','+arr_time+','+callsign+','+req_aircraft+','+days +'\n'
+				
+			buf = buf + departure+','+destination+','+dep_time+','+arr_time+','+callsign+','+req_aircraft+','+days+'\n'
 			last_dep=dep_time
 			last_arr=arr_time
+			if len(destination)>3:
+				if destination not in not_av_apt:
+					not_av_apt.append(destination)
 			
 	
-	
+	#print not_av_apt
 	fw.write(buf)
 	fr.close()
 	fw.close()	
@@ -551,9 +594,30 @@ def airport_list():
 			if line[4] not in apt_utc:
 				apt_utc.append((line[4],line[9]))
 				
-			
+	l=['PARIS', 'NEW YORK', 'CHICAGO', 'HOUSTON', 'NANTES', 'WASHINGTON', 'PANAMA CITY', 'TOKYO', 'LYON', 'MARSEILLE']
+	
 	airports=dict(airports)
+	airports.append(('CHICAGO','KORD'))
+	airports.append(('PARIS','LFPG'))
+	airports.append(('NEW YORK','KJFK'))
+	airports.append(('HOUSTON','KIAH'))
+	airports.append(('NANTES','LFRS'))
+	airports.append(('WASHINGTON','KIAD'))
+	airports.append(('PANAMA CITY','KPFN'))
+	airports.append(('TOKYO','RJAA'))
+	airports.append(('LYON','LFLL'))
+	airports.append(('MARSEILLE','LFML'))
 	apt_utc=dict(apt_utc)	
+	apt_utc.append(('CHICAGO',-6))
+	apt_utc.append(('PARIS',1))
+	apt_utc.append(('NEW YORK',-5))
+	apt_utc.append(('HOUSTON',-6))
+	apt_utc.append(('NANTES',1))
+	apt_utc.append(('WASHINGTON',-5))
+	apt_utc.append(('PANAMA CITY',-6))
+	apt_utc.append(('TOKYO',9))
+	apt_utc.append(('LYON',1))
+	apt_utc.append(('MARSEILLE',1))
 	apt_database_file.close()
 	return [airports,apt_utc]
 	#####################################################
