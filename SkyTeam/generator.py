@@ -97,6 +97,8 @@ def generate(arg):
 				departure=match.group(0)
 				departure=departure.lstrip('(')
 				departure=departure.rstrip(')')
+				if departure=='TSS':
+					departure='JFK'
 				nextline_is_departure=0
 				continue
 			else:
