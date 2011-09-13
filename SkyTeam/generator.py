@@ -300,7 +300,7 @@ def flight_plan(fp_type):
 			raise Exception
 			return
 		
-		departure_time=departure_time[:2]+':'+departure_time[2:]
+		departure_time=departure_time[:2]+':'+departure_time[3:]
 
 		dep_int=0
 		if dep_iata not in apt_utc:
@@ -334,7 +334,7 @@ def flight_plan(fp_type):
 			raise Exception
 			return
 		
-		arrival_time=arrival_time[:2]+':'+arrival_time[2:]
+		arrival_time=arrival_time[:2]+':'+arrival_time[3:]
 		
 		arr_int=0
 		if arr_iata not in apt_utc:
