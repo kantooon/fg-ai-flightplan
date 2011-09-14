@@ -173,20 +173,18 @@ def generate(arg):
 				last_hour=int(last_dep[0]+last_dep[1])
 				if last_hour > dep_hour:
 					dep_ampm=1
-					
-			if dep_ampm==1:
-				dep_hour=dep_hour+12
-				if dep_hour > 23:
-					dep_hour=dep_hour-24
-				dep_time=str(dep_hour)+dep_time[2:]
-				
+	
 				
 			if arr_ampm==0 and last_arr!='':
 				last_hour=int(last_arr[0]+last_arr[1])
 				if last_hour > arr_hour:
 					arr_ampm=1
 					
-			
+			if dep_ampm==1:
+				dep_hour=dep_hour+12
+				if dep_hour > 23:
+					dep_hour=dep_hour-24
+				dep_time=str(dep_hour)+dep_time[2:]
 					
 			if arr_ampm==1:
 				arr_hour=arr_hour+12
@@ -495,7 +493,7 @@ def filter_dupes():
 			stubs1=line.split("   ")
 	
 			pos=content.index(line)
-			next_content=content[pos+1:]
+			next_content=content[pos+1:pos+15]
 			
 			for next_line in next_content:
 				if next_line.find('#')==0 or len(next_line)<2:
