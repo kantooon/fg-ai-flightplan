@@ -366,9 +366,6 @@ def flight_plan(fp_type):
 						
 				buf=buf+xml
 				
-				if fp_type=='xml':
-					tmp_file=open('./airlines/'+airlines[0][prefix]+'.xml','ab')
-					tmp_file.write(xml)
 				
 				days_ref = days_ref +i
 			
