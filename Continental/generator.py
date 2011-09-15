@@ -614,7 +614,7 @@ def airport_list():
 
 if __name__ == "__main__":
 	if len(sys.argv) <2:
-		print 'Usage: generator.py gen | fp [ conf | xml ]'
+		print 'Usage: generator.py gen [ crop ] | fp [ conf | xml ]'
 		sys.exit()
 	else:
 		if sys.argv[1]=='gen':

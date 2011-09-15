@@ -125,9 +125,9 @@ def generate(arg):
 				
 				callsign1=match2.group(1)
 
-				#print	departure, destination,dep_time1,arr_time1, days1, 
+				
 			else:
-				#print 'error aircraft',line
+				
 				continue
 			
 		
@@ -143,27 +143,54 @@ def generate(arg):
 	
 def flight_aircraft(arg):
 	
-	### attention! code below undoes two hours of web scraping
-	### enable at your peril
-	return	
-	fr= open('./timetable.txt','r')
-	fw = open('./timetable2.txt','wb')
-	content= fr.readlines()
-	buf=''
-	buf2=''
-	for line in content:
-		arr=line.split(',')
-		callsign=arr[5]
-		if callsign.find('(')==-1:
-			req_aircraft=web_aircraft(callsign)
-			if req_aircraft==0:
-				buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + '#' +','+arr[5] + ',' + arr[6] 
+		
+	if arg=='stage1':
+		### attention! code below undoes two hours of web scraping
+		### enable at your peril
+		return
+
+		fr= open('./timetable.txt','r')
+		fw = open('./timetable2.txt','wb')
+		content= fr.readlines()
+		buf=''
+		buf2=''
+		for line in content:
+			arr=line.split(',')
+			callsign=arr[5]
+			if callsign.find('(')==-1:
+				req_aircraft=web_aircraft(callsign,'flights24')
+				if req_aircraft==0:
+					buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + '#' +','+arr[5] + ',' + arr[6] 
+				else:
+					buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + req_aircraft +','+arr[5] + ',' + arr[6]
+				
+		fw.write(buf)
+		fw.close()
+		fr.close()
+		
+	if arg=='stage2':
+		fr= open('./timetable3.txt','r')
+		fw = open('./timetable4.txt','wb')
+		content= fr.readlines()
+		buf=''
+		buf2=''
+		for line in content:
+			arr=line.split(',')
+			req=arr[4]
+			callsign=arr[5]
+			if req.find('#')!=-1:
+				req_aircraft=web_aircraft(callsign,'flmapper')
+				if req_aircraft==0:
+					buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + '#' +','+arr[5] + ',' + arr[6] 
+				else:
+					buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + req_aircraft +','+arr[5] + ',' + arr[6]
 			else:
-				buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + req_aircraft +','+arr[5] + ',' + arr[6]
-			
-	fw.write(buf)
-	fw.close()
-	fr.close()
+				buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + arr[4] +','+arr[5] + ',' + arr[6]
+				
+		fw.write(buf)
+		fw.close()
+		fr.close()
+		
 	
 	
 def flight_plan(fp_type):
@@ -428,7 +455,7 @@ def flight_plan(fp_type):
 
 def filter_dupes():
 
-	fr=open('./alitalia_flights.conf','rb')
+	fr=open('./airfrance_flights.conf','rb')
 	content= fr.readlines()
 	callsign_list=[]
 	buf=''
@@ -459,27 +486,47 @@ def filter_dupes():
 			buf=buf+line
 				
 	fr.close()
-	fw=open('./alitalia_flights.conf','wb')
+	fw=open('./airfrance_flights.conf','wb')
 	fw.write(buf)
 	fw.close()		
 	
 	
 	
 	
-def web_aircraft(callsign):
-	time.sleep(2)
-	flight= urlopen('http://data.flight24.com/flights/'+callsign+'/')
-	## alternative:
-	# http://info.flightmapper.net/flight/Air_France_AF_774
-	res=flight.read()
-	if res.find('was flown on')==-1:
-		print '\''+callsign+'\''+':'+'\''+'Error'+'\' ,'
-		return 0
-	idx=re.search('was\sflown\son.*?\(([A-Z0-9]{3,5})\)',res)
-	if idx!=None:
-		ac_type=idx.group(1)
-		print '\''+callsign+'\''+':'+'\''+ac_type+'\' ,'
-		return ac_type
+def web_aircraft(callsign,where):
+	if where=='flights24':
+		time.sleep(5)
+		flight= urlopen('http://data.flight24.com/flights/'+callsign+'/')
+		
+		res=flight.read()
+		if res.find('was flown on')==-1:
+			print '\''+callsign+'\''+':'+'\''+'Error'+'\' ,'
+			return 0
+		idx=re.search('was\sflown\son.*?\(([A-Z0-9]{3,5})\)',res)
+		if idx!=None:
+			ac_type=idx.group(1)
+			print '\''+callsign+'\''+':'+'\''+ac_type+'\' ,'
+			return ac_type
+			
+	if where=='flmapper':
+		time.sleep(2)
+		try:
+			flight= urlopen('http://info.flightmapper.net/flight/Air_France_'+callsign[0]+callsign[1]+'_'+callsign[2:])
+		except HTTPError:
+			print callsign[0]+callsign[1]+'_'+callsign[2:]
+			return 0
+		## alternative:
+		# AF_774
+		res=flight.read()
+		if res.find('No flights found')!=-1:
+			print '\''+callsign+'\''+':'+'\''+'Error'+'\' ,'
+			return 0
+		idx=re.search('Non-stop.*?\(([A-Z0-9]{3,5})\)\s+[0-9]{1,2}:[0-9]{2}',res)
+		if idx!=None:
+			ac_type=idx.group(1)
+			print '\''+callsign+'\''+':'+'\''+ac_type+'\' ,'
+			return ac_type
+
 
 def callsigns(prefix):
 	prefix_dict={'BA':'SpeedBird',
@@ -595,7 +642,7 @@ def airport_list():
 
 if __name__ == "__main__":
 	if len(sys.argv) <2:
-		print 'Usage: generator.py gen | fp [ conf | xml ]'
+		print 'Usage: generator.py gen [ crop] | req [ stage1 | stage2 ] | fp [ conf | xml ]'
 		sys.exit()
 	else:
 		if sys.argv[1]=='gen':
@@ -609,8 +656,6 @@ if __name__ == "__main__":
 				arg=None
 			else:
 				arg=sys.argv[2]
-			## disable web scraping
-			return
 			flight_aircraft(arg)
 		if sys.argv[1]=='fp':
 			if len(sys.argv) <3:
