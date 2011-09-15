@@ -252,7 +252,7 @@ def filter_dupes():
 				stubs1.remove(i)
 		
 		pos=content.index(line)
-		next_content=content[pos+1:pos+15]
+		next_content=content[pos+1:pos+10]
 		
 		for next_line in next_content:
 			if next_line.find('#')==0 or len(next_line)<2:

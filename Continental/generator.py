@@ -234,6 +234,11 @@ def flight_plan(fp_type):
 	for line in content:
 		arr=line.split(',')
 		
+		
+		## don't do train schedules :)
+		if arr[4]=='TRN':
+			continue
+		
 		dep_iata=arr[0]
 		if dep_iata=='':
 			print dep_iata
@@ -353,23 +358,31 @@ def flight_plan(fp_type):
 		if(fp_type=='xml'):
 			arrival_time=arrival_time+':00'
 			
-		print departure_time, arrival_time
-		continue
-		call=arr[4]
-		prefix=call[0]+call[1]
-		#if prefix not in prefix_list:
-		#	prefix_list.append(prefix)
+		flight_nr=''
+		call=arr[5]
+		if call.find('-')!=-1:
+			tmp=call.split('-')
+			flight_nr=tmp[0]
+			prefix=tmp[1]
+			if prefix.find('*')!=-1:
+				continue
+		else:
+			flight_nr=call
+			prefix='CO'
+		if prefix not in prefix_list:
+			prefix_list.append(prefix)
 		if prefix not in airlines[1]:
 			print prefix
 			raise Exception
 			return
 		
 		callsign=airlines[1][prefix].replace(' ','-')
-		callsign=callsign + call[2:]
+		callsign=callsign + flight_nr
 		
-		req_aircraft=arr[5]
+		req_aircraft=arr[4]
 		if req_aircraft not in aircraft_table:
 			aircraft_table.append(req_aircraft)	
+		
 		if prefix not in airlines[0]:
 			print prefix
 			raise Exception
@@ -389,15 +402,6 @@ def flight_plan(fp_type):
 			raise Exception
 			return
 		
-		if days=='Daily':
-			days='1234567'
-			
-		if days.find('X')!=-1:
-			days_all='1234567'
-			days_x=days.lstrip('X')
-			for d in days_x:
-				days_all=days_all.replace(d,'')
-			days=days_all
 		
 		days_ref=''
 		for i in days:
@@ -455,7 +459,6 @@ def flight_plan(fp_type):
 			tmp_file=open('./airlines/'+airlines[0][prefix]+'.conf','ab')
 			tmp_file.write(conf)
 	
-	return
 	file_content="########Flt.No      Flt.Rules Days    Departure       Arrival         FltLev. A/C type\n"+\
 	"################### ######### ####### ############### ############### #################\n\n"+buf2
 	if fp_type=='conf':
@@ -469,61 +472,46 @@ def flight_plan(fp_type):
 
 
 def filter_dupes():
-
-	fr=open('./alitalia_flights.conf','rb')
-	content= fr.readlines()
-	callsign_list=[]
-	buf=''
-	use=1
-	for line in content:
-		if line.find('#')==0 or len(line)<2:
-			buf=buf+line
-			continue
-		stubs1=line.split("   ")
-		for i in stubs1:
-			if len(i)==0 or i=='':
-				stubs1.remove(i)
-		
-		pos=content.index(line)
-		next_content=content[pos+1:pos+15]
-		
-		for next_line in next_content:
-			if next_line.find('#')==0 or len(next_line)<2:
+	conf_files=glob.glob('./airlines/*.conf')
+	conf_files.append('./continental_flights.conf')
+	for conf in conf_files:
+		fr=open(conf,'rb')
+		content= fr.readlines()
+		callsign_list=[]
+		buf=''
+		use=1
+		for line in content:
+			if line.find('#')==0 or len(line)<2:
+				buf=buf+line
 				continue
-			stubs2=next_line.split("   ")
-			if stubs2[1]==stubs1[1] and stubs1[5]==stubs2[5] and stubs1[3]==stubs2[3]:
-				use=0
-
-		if use==0:
-			use=1
-			continue
-		else:
-			buf=buf+line
-				
-	fr.close()
-	fw=open('./alitalia_flights.conf','wb')
-	fw.write(buf)
-	fw.close()		
+			stubs1=line.split("   ")
+	
+			pos=content.index(line)
+			next_content=content[pos+1:pos+10]
+			
+			for next_line in next_content:
+				if next_line.find('#')==0 or len(next_line)<2:
+					continue
+				stubs2=next_line.split("   ")
+				if stubs2[1]==stubs1[1] and stubs1[5]==stubs2[5] and stubs1[3]==stubs2[3]:
+					use=0
+	
+			if use==0:
+				use=1
+				continue
+			else:
+				buf=buf+line
+					
+		fr.close()		
+		fw=open(conf,'wb')
+		fw.write(buf)
+		fw.close()			
 	
 	
 
 def callsigns(prefix):
 	prefix_dict={'BA':'SpeedBird',
-		'S7':'SIBERIAN-AIRLINES',
-		'AA':'American',
-		'RJ':'JORDANIAN',
-		'CX':'CATHAY',
-		'QF':'QANTAS',
-		'JL':'JAPAN-AIR',
-		'IB':'IBERIA',
-		'MA':'Malev',
-		'AY':'FINNAIR',
-		'LA':'LAN',
-		'KA':'DRAGON',
-		'4M':'LAN-AR',
-		'LP':'LAN-PERU',
-		'XL':'LAN-EC',
-		'NU':'JAI-OCEAN'}
+		}
 	return prefix_dict[prefix]
 	
 def airline_list():
@@ -547,8 +535,13 @@ def airline_list():
 	return [airlines,callsigns]
 		
 def aircraft_list(req):
-	aircraft_table=['319', '32S', '320', '321', 'M82', 'M80',
-	'330', '332', '772', '764', 'S20', 'E70', 'DH4']
+	aircraft_table=['321', 'M81', '736', '73G', '73W', 'ER4', 'ER3', 'ATR',
+	'739', '738', '320', 'CR7', '319', 'DH4', 'CRJ', 'E70', 'M82',
+	'M83', 'M87', 'BUS', '332', '735', '733', '717', '764', '100',
+	'752', '73H', 'E75', '763', 'CNA', '753', 'E90', '744', '773',
+	'777', 'EM2', '333', 'CR9', '762', 'BE1', 'AR8', 'E95', 'ERJ',
+	'DH1', 'AR1', '734', '737', 'DH3', 'CRA', '343', '388', '77W',
+	'346', 'AT7', '767', 'DH8', '313', '757', '330', '747', '74E']
 	
 	mapping={
 		'757':'B-757',
