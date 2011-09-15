@@ -98,9 +98,10 @@ def generate(arg):
 			if match!=None:
 				dep_time1=match.group(1)
 				arr_time1=match.group(2)
-				
-				#dep_time1=dep_time1[0]+dep_time1[1]+':'+dep_time1[3]+dep_time1[4]
-				#arr_time1=arr_time1[0]+arr_time1[1]+':'+arr_time1[3]+arr_time1[4]
+				if len(dep_time1)<6:
+					dep_time1='0'+dep_time1
+				if len(arr_time1)<6:
+					arr_time1='0'+arr_time1
 				
 			else:
 				print 'error time'
@@ -158,13 +159,15 @@ def generate(arg):
 				continue
 			
 
-			match2=re.search('\s+[0-9]{1,2}:[0-9]{2}[P|A]{1}\s+([0-9]{1,4}\s+[A-Z0-9]{0,2}\*?)\s+([A-Z0-9]{3})\s+0',line)
+			match2=re.search('\s+[0-9]{1,2}:[0-9]{2}[P|A]{1}\s+([0-9]{1,4})\s+([A-Z0-9]{0,2}\*?)\s+([A-Z0-9]{3})\s+0',line)
 			if match2!=None:
-				
-				callsign1=match2.group(1)
-				callsign=callsign1.replace(' ','-')
-				req_aircraft1=match2.group(2)
-				if callsign1=='' or req_aircraft1=='':
+				fn=match2.group(1)
+				callsign1=match2.group(2)
+				if callsign1!='':
+					callsign1='-'+callsign1
+				callsign=fn+callsign1
+				req_aircraft1=match2.group(3)
+				if callsign=='' or req_aircraft1=='':
 					continue
 					
 			else:
@@ -191,14 +194,19 @@ def flight_plan(fp_type):
 		fp_type='conf'
 		
 	if fp_type=='xml':
-		fw = open('./alitalia_flights.xml','wb')
-		
+		fw = open('./continental_flights.xml','wb')
+		files=glob.glob('./airlines/*.xml')
+		for f in files:
+			os.unlink(f)
 		
 	if fp_type=='conf':
-		fw = open('./alitalia_flights.conf','wb')
+		fw = open('./continental_flights.conf','wb')
+		files=glob.glob('./airlines/*.conf')
+		for f in files:
+			os.unlink(f)
 		
-			
 	fr= open('./timetable.txt','r')
+	
 	content= fr.readlines()
 	buf=''
 	buf2=''
@@ -257,13 +265,12 @@ def flight_plan(fp_type):
 			raise Exception
 			return
 		
-		"""
-		tmp1=departure_time.split(' ')
-		ampm=tmp1[1]
-		departure_time=tmp1[0].split(':')
+		
+		ampm=departure_time[5]
+		departure_time=departure_time[0:5].split(':')
 		hour_int=int(departure_time[0])
 		
-		if ampm =='PM':
+		if ampm =='P':
 			hour_int=hour_int+12
 			if hour_int>23:
 				hour_int=hour_int-12
@@ -273,8 +280,7 @@ def flight_plan(fp_type):
 		else:
 			hour=str(hour_int)
 		departure_time=hour+':'+departure_time[1]
-		"""
-		
+
 		dep_int=0
 		if dep_iata not in apt_utc:
 			raise Exception
@@ -289,7 +295,7 @@ def flight_plan(fp_type):
 			if hour_int<0:
 				hour_int=hour_int+24
 				
-			if hour_int >24:
+			if hour_int >23:
 				hour_int=hour_int-24
 			hour=str(hour_int)
 			dep_int=hour_int
@@ -302,19 +308,16 @@ def flight_plan(fp_type):
 			
 		### arrival time ###		
 		
-		arr_int=0
 		arrival_time=arr[3]
 		if arrival_time=='':
 			raise Exception
 			return
 		
-		"""
-		tmp1=arrival_time.split(' ')
-		ampm=tmp1[1]
-		arrival_time=tmp1[0].split(':')
+		ampm=arrival_time[5]
+		arrival_time=arrival_time[0:5].split(':')
 		hour_int=int(arrival_time[0])
 		
-		if ampm =='PM':
+		if ampm =='P':
 			hour_int=hour_int+12
 			if hour_int>23:
 				hour_int=hour_int-12
@@ -324,7 +327,6 @@ def flight_plan(fp_type):
 		else:
 			hour=str(hour_int)
 		arrival_time=hour+':'+arrival_time[1]
-		"""
 		
 		arr_int=0
 		if arr_iata not in apt_utc:
@@ -340,7 +342,7 @@ def flight_plan(fp_type):
 			if hour_int<0:
 				hour_int=hour_int+24
 				
-			if hour_int >24:
+			if hour_int >23:
 				hour_int=hour_int-24
 			hour=str(hour_int)
 			arr_int=hour_int
@@ -351,19 +353,27 @@ def flight_plan(fp_type):
 		if(fp_type=='xml'):
 			arrival_time=arrival_time+':00'
 			
-		call=arr[5]
+		print departure_time, arrival_time
+		continue
+		call=arr[4]
 		prefix=call[0]+call[1]
-		if prefix!='AZ':
+		#if prefix not in prefix_list:
+		#	prefix_list.append(prefix)
+		if prefix not in airlines[1]:
 			print prefix
+			raise Exception
 			return
-		callsign='ALITALIA'
+		
+		callsign=airlines[1][prefix].replace(' ','-')
 		callsign=callsign + call[2:]
 		
-		req_aircraft=arr[4]
+		req_aircraft=arr[5]
 		if req_aircraft not in aircraft_table:
-			aircraft_table.append(req_aircraft)
-			
-	
+			aircraft_table.append(req_aircraft)	
+		if prefix not in airlines[0]:
+			print prefix
+			raise Exception
+			return
 	
 		## This line should really be checked, I don't know the usual flightlevels these planes fly at.
 		if req_aircraft=='AT7' or req_aircraft=='J31' or req_aircraft=='ATR' or req_aircraft=='FRJ' or req_aircraft=='D38' \
@@ -378,6 +388,16 @@ def flight_plan(fp_type):
 		if days=='' or len(days)==0:
 			raise Exception
 			return
+		
+		if days=='Daily':
+			days='1234567'
+			
+		if days.find('X')!=-1:
+			days_all='1234567'
+			days_x=days.lstrip('X')
+			for d in days_x:
+				days_all=days_all.replace(d,'')
+			days=days_all
 		
 		days_ref=''
 		for i in days:
@@ -429,10 +449,13 @@ def flight_plan(fp_type):
 		### conf format file: ###
 		conf = "FLIGHT   "+callsign+"   "+fltrules+"   "+dot_days+"   "+departure_time+"   "+departure_apt \
 			+"   "+arrival_time+"   "+arrival_apt+"   "+cruise_alt+"   "+req_aircraft+"\n"
-
 		buf2 = buf2 + conf
+		
+		if fp_type=='conf':
+			tmp_file=open('./airlines/'+airlines[0][prefix]+'.conf','ab')
+			tmp_file.write(conf)
 	
-	
+	return
 	file_content="########Flt.No      Flt.Rules Days    Departure       Arrival         FltLev. A/C type\n"+\
 	"################### ######### ####### ############### ############### #################\n\n"+buf2
 	if fp_type=='conf':

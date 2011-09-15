@@ -270,7 +270,7 @@ def flight_plan(fp_type):
 			if hour_int<0:
 				hour_int=hour_int+24
 				
-			if hour_int >24:
+			if hour_int >23:
 				hour_int=hour_int-24
 			hour=str(hour_int)
 			dep_int=hour_int
@@ -321,7 +321,7 @@ def flight_plan(fp_type):
 			if hour_int<0:
 				hour_int=hour_int+24
 				
-			if hour_int >24:
+			if hour_int >23:
 				hour_int=hour_int-24
 			hour=str(hour_int)
 			arr_int=hour_int
