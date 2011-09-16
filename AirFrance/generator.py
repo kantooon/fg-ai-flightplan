@@ -405,6 +405,8 @@ def flight_plan(fp_type):
 			req_aircraft='CRJ'
 		if req_aircraft=='E170':
 			req_aircraft='E70'
+		if req_aircraft=='E190':
+			req_aircraft='E90'
 		if req_aircraft=='F100':
 			req_aircraft='100'
 		if req_aircraft=='E145':
