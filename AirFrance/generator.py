@@ -236,7 +236,7 @@ def flight_plan(fp_type):
 		fw = open('./airfrance_flights.conf','wb')
 		
 			
-	fr= open('./timetable3.txt','r')
+	fr= open('./timetable4.txt','r')
 	content= fr.readlines()
 	buf=''
 	buf2=''
@@ -391,13 +391,29 @@ def flight_plan(fp_type):
 			
 		call=arr[5]
 		prefix=call[0]+call[1]
-		if prefix!='AZ':
+		if prefix!='AF':
 			print prefix
 			return
-		callsign='ALITALIA'
+		callsign='AIRFRANS'
 		callsign=callsign + call[2:]
 		
 		req_aircraft=arr[4]
+		if len(req_aircraft)>3 and (re.search('^A',req_aircraft)!=None or re.search('^B',req_aircraft)!=None):
+			req_aircraft=req_aircraft[1:]
+			
+		if req_aircraft=='CRJX':
+			req_aircraft='CRJ'
+		if req_aircraft=='E170':
+			req_aircraft='E70'
+		if req_aircraft=='F100':
+			req_aircraft='100'
+		if req_aircraft=='E145':
+			req_aircraft='ER4'
+		if req_aircraft=='CRJ7':
+			req_aircraft='CR7'
+		if req_aircraft=='RJ85':
+			req_aircraft='AR8'
+		
 		if req_aircraft not in aircraft_table:
 			aircraft_table.append(req_aircraft)
 			
@@ -451,10 +467,6 @@ def flight_plan(fp_type):
 						
 				buf=buf+xml
 				
-				if fp_type=='xml':
-					tmp_file=open('./airlines/'+airlines[0][prefix]+'.xml','ab')
-					tmp_file.write(xml)
-				
 				days_ref = days_ref +i
 			
 		dot_days=''
@@ -470,7 +482,7 @@ def flight_plan(fp_type):
 
 		buf2 = buf2 + conf
 	
-	
+
 	file_content="########Flt.No      Flt.Rules Days    Departure       Arrival         FltLev. A/C type\n"+\
 	"################### ######### ####### ############### ############### #################\n\n"+buf2
 	if fp_type=='conf':
