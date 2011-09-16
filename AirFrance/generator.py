@@ -169,12 +169,15 @@ def flight_aircraft(arg):
 		fr.close()
 		
 	if arg=='stage2':
+		#this service returns mostly 403's so don't use, use stage3 below
+		return
 		fr= open('./timetable3.txt','r')
 		fw = open('./timetable4.txt','wb')
 		content= fr.readlines()
 		buf=''
 		buf2=''
 		for line in content:
+			
 			arr=line.split(',')
 			req=arr[4]
 			callsign=arr[5]
@@ -185,7 +188,34 @@ def flight_aircraft(arg):
 				else:
 					buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + req_aircraft +','+arr[5] + ',' + arr[6]
 			else:
-				buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + arr[4] +','+arr[5] + ',' + arr[6]
+				buf=buf+arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + arr[4] +','+arr[5] + ',' + arr[6]
+				
+		fw.write(buf)
+		fw.close()
+		fr.close()
+		
+	if arg=='stage3':
+		### attention! code below undoes two hours of web scraping
+		### enable at your peril
+		return
+		fr= open('./timetable3.txt','r')
+		fw = open('./timetable4.txt','wb')
+		content= fr.readlines()
+		buf=''
+		buf2=''
+		for line in content:
+			
+			arr=line.split(',')
+			req=arr[4]
+			callsign=arr[5]
+			if req.find('#')!=-1:
+				req_aircraft=web_aircraft(callsign,'flaware')
+				if req_aircraft==0:
+					buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + '#' +','+arr[5] + ',' + arr[6] 
+				else:
+					buf=buf+ arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + req_aircraft +','+arr[5] + ',' + arr[6]
+			else:
+				buf=buf+arr[0] +','+arr[1]+','+ arr[2] + ',' + arr[3] +',' + arr[4] +','+arr[5] + ',' + arr[6]
 				
 		fw.write(buf)
 		fw.close()
@@ -507,9 +537,10 @@ def web_aircraft(callsign,where):
 			ac_type=idx.group(1)
 			print '\''+callsign+'\''+':'+'\''+ac_type+'\' ,'
 			return ac_type
-			
+	
+	## this one returns mostly 403's ; do not use
 	if where=='flmapper':
-		time.sleep(2)
+		time.sleep(3)
 		try:
 			flight= urlopen('http://info.flightmapper.net/flight/Air_France_'+callsign[0]+callsign[1]+'_'+callsign[2:])
 		except HTTPError:
@@ -526,6 +557,32 @@ def web_aircraft(callsign,where):
 			ac_type=idx.group(1)
 			print '\''+callsign+'\''+':'+'\''+ac_type+'\' ,'
 			return ac_type
+			
+	if where=='flaware':
+		time.sleep(2)
+		try:
+			flight= urlopen('http://flightaware.com/live/flight/AFR'+callsign[2:])
+		except HTTPError:
+			print callsign[0]+callsign[1]+'_'+callsign[2:]
+			return 0
+		
+		res=flight.read()
+		
+		if res.find('No History Data')!=-1:
+			print '\''+callsign+'\''+':'+'\''+'Error'+'\' ,'
+			return 0
+		if res.find('couldn\'t find flight')!=-1:
+			print '\''+callsign+'\''+':'+'\''+'Error'+'\' ,'
+			return 0
+		idx=re.search('<td>(<i>)?([A-Z0-9]{3,4})(/.*?)?(</i>)?</td>',res)
+		if idx!=None:
+			ac_type=idx.group(2)
+			print '\''+callsign+'\''+':'+'\''+ac_type+'\' ,'
+			return ac_type
+		else:
+			print 'wrong regexp', callsign
+			return 0
+			
 
 
 def callsigns(prefix):
