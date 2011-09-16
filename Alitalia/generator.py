@@ -407,12 +407,9 @@ def filter_dupes():
 			buf=buf+line
 			continue
 		stubs1=line.split("   ")
-		for i in stubs1:
-			if len(i)==0 or i=='':
-				stubs1.remove(i)
-		
+				
 		pos=content.index(line)
-		next_content=content[pos+1:pos+10]
+		next_content=content[pos+1:pos+15]
 		
 		for next_line in next_content:
 			if next_line.find('#')==0 or len(next_line)<2:
