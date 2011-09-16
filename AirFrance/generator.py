@@ -171,8 +171,8 @@ def flight_aircraft(arg):
 	if arg=='stage2':
 		#this service returns mostly 403's so don't use, use stage3 below
 		return
-		fr= open('./timetable3.txt','r')
-		fw = open('./timetable4.txt','wb')
+		fr= open('./timetable2.txt','r')
+		fw = open('./timetable3.txt','wb')
 		content= fr.readlines()
 		buf=''
 		buf2=''
