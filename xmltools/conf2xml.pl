@@ -35,7 +35,7 @@ while ($infile = shift(@inputfiles)) {
                 print XMLFILE "        <livery>$tokens[6]</livery>\n";
                 print XMLFILE "        <airline>$tokens[5]</airline>\n";
                 print XMLFILE "        <home-port>$tokens[1]</home-port>\n";
-                print XMLFILE "        <required-aircraft>$tokens[3]$tokens[5]</required-aircraft>\n";
+                print XMLFILE "        <required-aircraft>$tokens[3]-$tokens[5]</required-aircraft>\n";
                 print XMLFILE "        <actype>$tokens[4]</actype>\n";
                 print XMLFILE "        <offset>$tokens[7]</offset>\n";
                 print XMLFILE "        <radius>$tokens[8]</radius>\n";

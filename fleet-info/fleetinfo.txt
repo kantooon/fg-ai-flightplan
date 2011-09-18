@@ -1,0 +1,67 @@
+#TODO: Bombardier-Challender Default livery
+# Embraer-Legacy-American.xml
+# MD80/MD80-American.xml
+# AI/Aircraft/Embraer-Legacy/Embraer-Legacy-BritishAirways.xml
+
+
+#American Airlines
+ENTRY AAL 738 159 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL 757 124 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL 762 15 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL 763 58 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL 777 47 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL M80 127 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL M83 87 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+
+#American Eagle
+ENTRY AAL AT7 59 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL CR7 59 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL ER3 59 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL ER4 59 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+ENTRY AAL ERD 59 KDFW,KJFK,KLAX,KMIA,KORD N%d%d%dAA American
+
+#British Airways
+# NOTE the 737-300 fleet are operated by comair South-Africa
+# Additionally, 5 737-400s are comair
+#Also, wikipedia lists that comair only has one ATR-72 in operation,
+# but our flightSchedules list both and AT4 and and an ATR, so
+# I have to generate one of each of them.
+
+
+ENTRY BAW 318 2  EGLL,EGKK G-%s%s%s%s BritishAirways
+ENTRY BAW 319 33 EGLL,EGKK G-%s%s%s%s BritishAirways
+ENTRY BAW 320 44 EGLL,EGKK G-%s%s%s%s BritishAirways
+ENTRY BAW 321 44 EGLL,EGKK G-%s%s%s%s BritishAirways
+ENTRY BAW 733  9 FAJS       G-%s%s%s%s BritishAirways
+ENTRY BAW 734  19 EGLL,EGKK G-%s%s%s%s BritishAirways
+ENTRY BAW 734  5 FAJS       G-%s%s%s%s BritishAirways
+ENTRY BAW 744  57 EGLL,EGKK G-%s%s%s%s BritishAirways
+ENTRY BAW 767  21 EGLL,EGKK G-%s%s%s%s BritishAirways
+ENTRY BAW 777  49 EGLL,EGKK G-%s%s%s%s BritishAirways
+ENTRY BAW AT4  1 FAJS G-%s%s%s%s BritishAirways
+ENTRY BAW ATR  1 FAJS G-%s%s%s%s BritishAirways
+ENTRY BAW D38  4 EKBI OY-%s%s%s BritishAirways
+ENTRY BAW D38  1 EKBI OY-%s%s%s SunAir
+ENTRY BAW E70  6 EGLC G-%s%s%s%s BritishAirways
+ENTRY BAW E90  7 EGLC G-%s%s%s%s BritishAirways
+ENTRY BAW FRJ  4 EKBI OY-%s%s%s BritishAirways
+ENTRY BAW FRJ  1 EKBI OY-%s%s%s SunAir
+ENTRY BAW J31  2 EKBI OY-%s%s%s SunAir
+
+
+#United Airlines
+ENTRY UAL 319 55 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL 320 97 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL 744 24 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL 752 83 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL 757 13 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL 763 35 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL 777 52 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+
+ENTRY UAL CR7 70 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL CRJ 30 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL DH4 30 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL E70 38 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL EM2 62 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+ENTRY UAL ER4 62 KDEN,KLAX,RJAA,KORD,KSFO,KIAD N%d%d%dUA UnitedAirlines
+
