@@ -184,12 +184,15 @@ def flight_plan(fp_type):
 			print dep_iata
 			raise Exception
 			return
-		
+			
+		if dep_iata=='BUH':
+			dep_iata='OTP'
 		if dep_iata not in airports:
 			print dep_iata
 			raise Exception
 			return
 		departure_apt=airports[dep_iata]
+		
 		
 		arr_iata=arr[1]
 		if arr_iata=='':
@@ -197,6 +200,8 @@ def flight_plan(fp_type):
 			raise Exception
 			return
 		
+		if arr_iata=='BUH':
+			arr_iata='OTP'
 		if arr_iata not in airports:
 			print 'Error:===='+arr_iata
 			raise Exception

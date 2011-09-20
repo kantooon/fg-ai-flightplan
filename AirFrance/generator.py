@@ -269,7 +269,9 @@ def flight_plan(fp_type):
 			print dep_iata
 			raise Exception
 			return
-		
+			
+		if dep_iata=='BUH':
+			dep_iata='OTP'
 		if dep_iata not in airports:
 			print dep_iata
 			raise Exception
@@ -281,7 +283,9 @@ def flight_plan(fp_type):
 			print arr_iata
 			raise Exception
 			return
-		
+			
+		if arr_iata=='BUH':
+			arr_iata='OTP'
 		if arr_iata not in airports:
 			print 'Error:===='+arr_iata
 			raise Exception
