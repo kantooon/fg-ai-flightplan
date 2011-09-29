@@ -3317,7 +3317,7 @@
 3318,"Luftfahrt-Vermietungs-Dienst",\N,"","LVD","AIR SANTE","Austria","N"
 3319,"Luftfahrtgesellschaft Walter",\N,"HE","LGW","WALTER","Germany","Y"
 3320,"Lufthansa",\N,"LH","DLH","LUFTHANSA","Germany","Y"
-3321,"Lufthansa Cargo",\N,"LH","GEC","LUFTHANSA CARGO","Germany","Y"
+3321,"Lufthansa Cargo",\N,"LH","DLH","LUFTHANSA","Germany","Y"
 3322,"Lufthansa CityLine",\N,"CL","CLH","HANSALINE","Germany","Y"
 3323,"Lufthansa Systems",\N,"L1","","","Germany","N"
 3324,"Lufthansa Technik",\N,"","LHT","LUFTHANSA TECHNIK","Germany","N"
