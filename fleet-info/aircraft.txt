@@ -11,10 +11,10 @@
 333  A330 9       32      gate    heavy_jet   true    Aircraft/A333/A333-
 340  A340
 342  A340
-343  A340
-345  A340
-346  A340
-388  A380
+343  A343 0       42      gate    heavy_jet   true    Aircraft/A343/A343-
+345  A345 0       42      gate    heavy_jet   true    Aircraft/A345/A345-
+346  A346 0       42      gate    heavy_jet   true    Aircraft/A346/A346-
+388  A380 0       42      gate    heavy_jet   true    Aircraft/A380/A380-
 717  MD80  0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 733  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 734  737 10       19      gate    jet_transport   false    Aircraft/737/737-

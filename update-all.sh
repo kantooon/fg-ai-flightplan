@@ -7,6 +7,7 @@ cat fleet-info/*UAL-ac.conf ./Continental/airlines/UAL.conf                  > x
 cat fleet-info/*DAL-ac.conf ./SkyTeam/airlines/DAL.conf                      > xmltools/DAL.conf
 cat fleet-info/*COA-ac.conf ./StarAlliance/airlines/COA.conf                 > xmltools/COA.conf
 cat fleet-info/*USA-ac.conf ./StarAlliance/airlines/USA.conf                 > xmltools/USA.conf
+cat fleet-info/*DLH-ac.conf ./StarAlliance/airlines/DLH.conf                 > xmltools/DLH.conf
 
 cd xmltools
 ./conf2xml.pl
