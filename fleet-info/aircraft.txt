@@ -75,7 +75,7 @@ J31  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Ch
 J41  CRJ
 M80  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M81  MD80
-M82  MD80
+M82  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M83  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M87  MD80
 M88  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
