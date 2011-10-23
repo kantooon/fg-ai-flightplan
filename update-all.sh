@@ -11,6 +11,8 @@ cat fleet-info/*DLH-ac.conf ./StarAlliance/airlines/DLH.conf                 > x
 cat fleet-info/*IBE-ac.conf ./Oneworld/airlines/IBE.conf                     > xmltools/IBE.conf
 cat fleet-info/*SAS-ac.conf ./StarAlliance/airlines/SAS.conf                 > xmltools/SAS.conf
 cat fleet-info/*ACA-ac.conf ./StarAlliance/airlines/ACA.conf                 > xmltools/ACA.conf
+cat fleet-info/*AFR-ac.conf ./SkyTeam/airlines/AFR.conf                      > xmltools/ACA.conf
+cat fleet-info/*AZA-ac.conf ./SkyTeam/airlines/AZA.conf                      > xmltools/AZA.conf
 
 cd xmltools
 ./conf2xml.pl

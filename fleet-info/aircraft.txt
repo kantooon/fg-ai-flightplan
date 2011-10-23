@@ -5,8 +5,8 @@
 319  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
 320  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
 321  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
-32S  A320
-330  A330
+32S  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
+330  A330 9       32      gate    heavy_jet   true    Aircraft/A333/A333-
 332  A330 9       32      gate    heavy_jet   true    Aircraft/A332/A332-
 333  A330 9       32      gate    heavy_jet   true    Aircraft/A333/A333-
 340  A340 0       42      gate    heavy_jet   true    Aircraft/A343/A343-
@@ -38,8 +38,8 @@
 763  767 0       27      gate    heavy_jet   true    Aircraft/767/767-
 764  767 0       27      gate    heavy_jet   true    Aircraft/767/767-
 767  767 0       27      gate    heavy_jet   true    Aircraft/767/767-
-772  777
-773  777
+772  777 0       32      gate    heavy_jet   true    Aircraft/777/777-
+773  777 0       32      gate    heavy_jet   true    Aircraft/777/777-
 777  777 0       32      gate    heavy_jet   true    Aircraft/777/777-
 77L  777 0       32      gate    heavy_jet   true    Aircraft/777/777-
 77W  777 0       32      gate    heavy_jet   true    Aircraft/777/777-
