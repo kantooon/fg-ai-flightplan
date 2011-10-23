@@ -125,3 +125,50 @@ ENTRY DLH 388 8 EDDL,EDDF,EDDM,LSZH D-AI%s%s Lufthansa
 ENTRY DLH 733 33 EDDL,EDDF,EDDM,LSZH D-AI%s%s Lufthansa
 ENTRY DLH 735 27 EDDL,EDDF,EDDM,LSZH D-AI%s%s Lufthansa
 ENTRY DLH 744 30 EDDL,EDDF,EDDM,LSZH D-AI%s%s Lufthansa
+
+#Iberia
+ENTRY IBE 319 21 LEMD EC-%s%s%s Iberia
+ENTRY IBE 320 28 LEMD EC-%s%s%s Iberia
+ENTRY IBE 321 19 LEMD EC-%s%s%s Iberia
+ENTRY IBE 340 12 LEMD EC-%s%s%s Iberia
+ENTRY IBE 343 12 LEMD EC-%s%s%s Iberia
+ENTRY IBE 346 12 LEMD EC-%s%s%s Iberia
+# These below are really "Air Nostrum" flights, but do carry the regular Iberia livery
+ENTRY IBE AT7 5  LEMD EC-%s%s%s Iberia
+ENTRY IBE CR2 25 LEMD EC-%s%s%s Iberia
+ENTRY IBE CR9 11 LEMD EC-%s%s%s Iberia
+ENTRY IBE CRK 5 LEMD EC-%s%s%s Iberia
+ENTRY IBE DH8 10 LEMD EC-%s%s%s Iberia
+
+#Scandinavian Airlines
+ENTRY SAS 319 4 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 321 8 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 333 4 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 343 4 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 734 3 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 735 7 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 736 28 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 73G 19 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 738 7 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 73H 7 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS 73W 6 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS CR9 12 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS M81 2 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS M82 21 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+ENTRY SAS M87 3 EKCH,ENGM,ESSA OY-%s%s%s ScandinavianAirlines
+
+#Air Canada
+ENTRY ACA 319 38 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
+ENTRY ACA 320 41 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
+ENTRY ACA 321 10 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
+ENTRY ACA 333 8 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
+ENTRY ACA 763 30 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
+ENTRY ACA 77L 6 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
+ENTRY ACA 77W 12 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
+ENTRY ACA E75 15 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
+ENTRY ACA E90 45 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
+
+
+
+
+

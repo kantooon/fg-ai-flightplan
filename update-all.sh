@@ -8,11 +8,14 @@ cat fleet-info/*DAL-ac.conf ./SkyTeam/airlines/DAL.conf                      > x
 cat fleet-info/*COA-ac.conf ./StarAlliance/airlines/COA.conf                 > xmltools/COA.conf
 cat fleet-info/*USA-ac.conf ./StarAlliance/airlines/USA.conf                 > xmltools/USA.conf
 cat fleet-info/*DLH-ac.conf ./StarAlliance/airlines/DLH.conf                 > xmltools/DLH.conf
+cat fleet-info/*IBE-ac.conf ./Oneworld/airlines/IBE.conf                     > xmltools/IBE.conf
+cat fleet-info/*SAS-ac.conf ./StarAlliance/airlines/SAS.conf                 > xmltools/SAS.conf
+cat fleet-info/*ACA-ac.conf ./StarAlliance/airlines/ACA.conf                 > xmltools/ACA.conf
 
 cd xmltools
 ./conf2xml.pl
 
-for letter in A B C D U; do
+for letter in A B C D I S U; do
     mv ${letter}??.xml ~/src/flightgear-git/fgdata/AI/Traffic/${letter}
 done;
 
