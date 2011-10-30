@@ -203,16 +203,23 @@ ENTRY AZA M82 9 LIRF,LIMC,LIPZ I-%s%s%s%s Alitalia
 ENTRY AZA E70 2 LIRF,LIMC I-%s%s%s%s Alitalia
 
 #TAP - Air Portugal
-ENTRY TAP 319 19 LPPT,LPPR CS-%s%s%s AirPortugal
-ENTRY TAP 320 17 LPPT,LPPR CS-%s%s%s AirPortugal
-ENTRY TAP 321 3 LPPT CS-%s%s%s AirPortugal
-ENTRY TAP 332 12 LPPT,LPMA,LPPR CS-%s%s%s AirPortugal
-ENTRY TAP 343 4 LPPT CS-%s%s%s AirPortugal
+ENTRY TAP 319 19 LPPT,LPPR CS-%s%s%s TAP
+ENTRY TAP 320 17 LPPT,LPPR CS-%s%s%s TAP
+ENTRY TAP 321 3 LPPT CS-%s%s%s TAP
+ENTRY TAP 332 12 LPPT,LPMA,LPPR CS-%s%s%s TAP
+ENTRY TAP 343 4 LPPT CS-%s%s%s TAP
 
 # Alaska Airlines
-# DH4 and CR7 operated by???
+# DH4 and CR7 operated by unknown
 ENTRY ASA 734 30 KSEA,KPDX,KSFO,KSAV N%d%d%dAS AlaskaAirlines
 ENTRY ASA 739 14 KSEA,KSAV N%d%d%dAS AlaskaAirlines
 ENTRY ASA 73G 25 KSEA,KSAV N%d%d%dAS AlaskaAirlines
 ENTRY ASA 73H 48 KSEA,KSAV,KPDX,KOAK,KSJC,KLAX N%d%d%dAS AlaskaAirlines
+
+# LAN Chile
+ENTRY LAN 318 10 SCEL,SCSE CC-%s%s%s LanChile
+ENTRY LAN 319 22 SPIM CC-%s%s%s LanChile
+ENTRY LAN 320 22 SCEL,SABE,SAEZ CC-%s%s%s LanChile
+ENTRY LAN 340 5 SCEL CC-%s%s%s LanChile
+ENTRY LAN 763 24 SPIM,SCEL,SAEZ CC-%s%s%s LanChile
 
