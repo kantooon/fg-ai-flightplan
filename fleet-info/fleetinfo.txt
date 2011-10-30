@@ -201,3 +201,11 @@ ENTRY AZA 772 10 LIRF,LIMC,LIPZ EI-%s%s%s Alitalia
 ENTRY AZA M80 9 LIRF,LIMC,LIPZ I-%s%s%s%s Alitalia
 ENTRY AZA M82 9 LIRF,LIMC,LIPZ I-%s%s%s%s Alitalia
 ENTRY AZA E70 2 LIRF,LIMC I-%s%s%s%s Alitalia
+
+#TAP - Air Portugal
+ENTRY TAP 319 19 LPPT,LPPR CS-%s%s%s AirPortugal
+ENTRY TAP 320 17 LPPT,LPPR CS-%s%s%s AirPortugal
+ENTRY TAP 321 3 LPPT CS-%s%s%s AirPortugal
+ENTRY TAP 332 12 LPPT,LPMA,LPPR CS-%s%s%s AirPortugal
+ENTRY TAP 343 4 LPPT CS-%s%s%s AirPortugal
+
