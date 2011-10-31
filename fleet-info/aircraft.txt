@@ -1,4 +1,4 @@
-100  F100
+100  F100 9       22      gate    jet_transport   false   Aircraft/Fokker-100/Fokker-100-
 310  A320
 313  A320
 318  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
@@ -69,7 +69,7 @@ EM2  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Leg
 ER3  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 ER4  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 ERD  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
-F50  F50
+F50  F50    9       16      gate    jet_transport   false   Aircraft/Fokker-50/fokker50-
 FRJ  D38 0       11      gate    jet_transport   false    Aircraft/Fairchild-Dornier/Fairchild-Dornier-
 J31  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Challenger/Bombardier-Challenger-
 J41  CRJ
