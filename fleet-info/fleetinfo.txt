@@ -234,3 +234,11 @@ ENTRY FIN 340 7 EFHK OH-L%s%s Finnair
 ENTRY FIN 75W 4 EFHK OH-L%s%s Finnair
 ENTRY FIN E70 7 EFHK OH-L%s%s Finnair
 ENTRY FIN E90 12 EFHK OH-L%s%s Finnair
+
+# Swiss International (Swissair)
+# The 20 BAe 146 are not featured in our schedules
+ENTRY SWR 319 7 LSGG,LSZH HB-%s%s%s SwissAir
+ENTRY SWR 320 22 LSGG,LSZH HB-%s%s%s SwissAir
+ENTRY SWR 321 7 LSZH HB-%s%s%s SwissAir
+ENTRY SWR 333 10 LSGG,LSZH HB-%s%s%s SwissAir
+ENTRY SWR 343 15 LSZH HB-%s%s%s SwissAir
