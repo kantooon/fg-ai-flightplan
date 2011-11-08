@@ -296,9 +296,16 @@ ENTRY CCA 772 6 ZBAA,ZGSZ,ZSPD B-%d%d%d%d AirChina
 ENTRY CCA 773 2 ZBAA B-%d%d%d%d AirChina
 ENTRY CCA 777 5 ZBAA B-%d%d%d%d AirChina
 
-
 # Tarom
 # DH4 operated by Austrian Arrows (TYR)
 # EM2 operated by Air Moldova
 # E70 are LOT
+# 319, 320 and 32S are probably AFR, Alitalia and others
+ENTRY ROT 310 2 LROP YR-%s%s%s Tarom
+ENTRY ROT 318 4 LROP YR-%s%s%s Tarom
+ENTRY ROT 733 4 LROP YR-%s%s%s Tarom
+ENTRY ROT 73G 4 LROP YR-%s%s%s Tarom
+ENTRY ROT 73H 3 LROP YR-%s%s%s Tarom
+ENTRY ROT AT5 7 LROP,LRCL YR-%s%s%s Tarom
+ENTRY ROT AT7 2 LROP,LRSB YR-%s%s%s Tarom
 

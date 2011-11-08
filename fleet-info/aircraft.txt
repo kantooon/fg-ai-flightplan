@@ -48,7 +48,7 @@ AB6  A320
 AR1  ARJ
 AR8  ARJ
 AT4  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
-AT5  AT42
+AT5  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 AT7  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 ATR  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 CR2  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Challenger/Bombardier-Challenger-
