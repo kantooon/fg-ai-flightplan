@@ -472,4 +472,14 @@ ENTRY MAH 73H 3 LHBP HA-L%s%s Malev
 ENTRY MAH DH4 4 LHBP HA-L%s%s Malev
 ENTRY MAH EM2 3 LHBP HA-L%s%s BudapestAirService
 
+# South African Airways
+ENTRY SAA 319 11 FAJS,FKKD ZS-S%s%s SouthAfrican
+ENTRY SAA 332 5 FAJS,FACT,EGLL ZS-S%s%s SouthAfrican
+ENTRY SAA 342 4 FAJS ZS-S%s%s SouthAfrican
+ENTRY SAA 343 8 FAJS ZS-S%s%s SouthAfrican
+ENTRY SAA 346 9 FAJS ZS-S%s%s SouthAfrican
+ENTRY SAA 738 15 FAJS,FACT ZS-S%s%s SouthAfrican
+
+# Singapore Airlines (todo: transition SQC into SIA)
+
 
