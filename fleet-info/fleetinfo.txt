@@ -496,6 +496,11 @@ ENTRY ADR 320 1 LJLJ S5-A%s%s Adria
 ENTRY ADR CR2 6 LJLJ,LYPR S5-A%s%s Adria
 ENTRY ADR CR9 4 LJLJ S5-A%s%s Adria
 
+# Dragonair
+ENTRY HDA 320 11 VHHH B-H%s%s Dragonair
+ENTRY HDA 321 6 VHHH B-H%s%s Dragonair
+ENTRY HDA 330 15 VHHH B-H%s%s Dragonair
+
 # Singapore Airlines (todo: transition SQC into SIA)
 
 
