@@ -64,7 +64,7 @@ DH8  DH8 0       16      gate    jet_transport   false   Aircraft/Dash8/Dash8-
 E70  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 E75  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 E90  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
-E95  EMB145
+E95  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 EM2  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 ER3  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 ER4  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-

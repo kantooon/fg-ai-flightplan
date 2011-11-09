@@ -463,5 +463,13 @@ ENTRY THA 773 10 VTBS HS-T%s%s Thai
 ENTRY THA 777 7 VTBS HS-T%s%s Thai
 ENTRY THA AB6 11 VTBS,VTSP HS-T%s%s Thai
 
+# Malev
+# Included Budapest Air Service EM2
+ENTRY MAH 736 6 LHBP HA-L%s%s Malev
+ENTRY MAH 73G 7 LHBP HA-L%s%s Malev
+ENTRY MAH 738 2 LHBP HA-L%s%s Malev
+ENTRY MAH 73H 3 LHBP HA-L%s%s Malev
+ENTRY MAH DH4 4 LHBP HA-L%s%s Malev
+ENTRY MAH EM2 3 LHBP HA-L%s%s BudapestAirService
 
 
