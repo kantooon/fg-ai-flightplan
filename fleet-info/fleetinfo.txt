@@ -480,6 +480,15 @@ ENTRY SAA 343 8 FAJS ZS-S%s%s SouthAfrican
 ENTRY SAA 346 9 FAJS ZS-S%s%s SouthAfrican
 ENTRY SAA 738 15 FAJS,FACT ZS-S%s%s SouthAfrican
 
+# Aeromexico
+# check callsign
+# no 767 and 777 in schedules
+# Included Embraers operated by AeromexicoConnect
+ENTRY AMX 737 30 MMMX XA-%s%s%s Aeromexico
+ENTRY AMX 738 12 MMMX XA-%s%s%s Aeromexico
+ENTRY AMX ERJ 38 MMMX,MMMY,MMMD,MMHO XA-%s%s%s AeromexicoConnect
+ENTRY AMX EMJ 10 MMMX XA-%s%s%s AeromexicoConnect
+
 # Singapore Airlines (todo: transition SQC into SIA)
 
 
