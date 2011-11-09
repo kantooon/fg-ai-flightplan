@@ -366,5 +366,12 @@ ENTRY MSR 777 6 HECA,OEJN SU-G%s%s EgyptAir
 ENTRY MSR E70 6 HECA,HESH,HELX,HESN,HEGN,HEAX SU-G%s%s EgyptAirExpress
 
 # Brussels Airlines (DAT became BEL)
-
+# more 333 flights operated by unknown?
+ENTRY DAT 319 10 EBBR OO-%s%s%s Brussels
+ENTRY DAT 320 2 EBBR OO-%s%s%s Brussels
+ENTRY DAT 333 5 EBBR,GBYD OO-%s%s%s Brussels
+ENTRY DAT 733 4 EBBR OO-%s%s%s Brussels
+ENTRY DAT 734 4 EBBR OO-%s%s%s Brussels
+ENTRY DAT AR1 12 EBBR OO-%s%s%s Brussels
+ENTRY DAT AR8 10 EBBR OO-%s%s%s Brussels
 
