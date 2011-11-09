@@ -349,7 +349,7 @@ ENTRY JAL CRJ 8 RJOO,RJTT,RJCC,RJOK JA-%d%d%dJ JAL
 # ANA
 # 735 operated by Hokkaido (Air Do) and Air Next
 # CRJ operated by Ibex
-# DH8 operated by unknown?
+# DH8 operated by ANA Wings (AKX)
 ENTRY ANA 320 27 RJAA,RJTT,RJOO,RJGG,RJCC JA-%d%d%dA ANA
 ENTRY ANA 737 18 RJAA,RJFF,RJGG JA-%d%d%dA ANA
 ENTRY ANA 738 17 RJTT,RJSS JA-%d%d%dA ANA
@@ -362,6 +362,7 @@ ENTRY ANA 777 10 RJTT,RJAA,RJOA,RJNK,RJSS JA-%d%d%dA ANA
 ENTRY ANA 77W 4 RJTT,RJAA JA-%d%d%dA ANA
 ENTRY ANA 787 2 RJTT JA-%d%d%dA ANA
 ENTRY ANA CRJ 7 RJAA,RJOA,RJNK JA-%d%dRJ Ibex
+ENTRY ANA DH8 21 RJAA,RJSS JA-%d%d%dA ANA
 
 # EgyptAir
 # E70 operated by EgyptAirExpress(MSE) (included)
