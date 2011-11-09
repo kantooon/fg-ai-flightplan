@@ -442,3 +442,10 @@ ENTRY AUA 763 3 LOWW OE-L%s%s AustrianAirlines
 ENTRY AUA 767 3 LOWW OE-L%s%s AustrianAirlines
 ENTRY AUA 772 4 LOWW OE-L%s%s AustrianAirlines
 
+# Aegean
+# Included Sky Express J41 flights
+ENTRY AEE 319 3 LGAV,LGTS SX-D%s%s Aegean
+ENTRY AEE 320 24 LGAV,LGTS,LCLK,LGIR SX-D%s%s Aegean
+ENTRY AEE 321 4 LGAV SX-D%s%s Aegean
+ENTRY AEE J41 5 LGAV,LGKL SX-D%s%s SkyExpress
+
