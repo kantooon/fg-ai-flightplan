@@ -489,6 +489,13 @@ ENTRY AMX 738 12 MMMX XA-%s%s%s Aeromexico
 ENTRY AMX ERJ 38 MMMX,MMMY,MMMD,MMHO XA-%s%s%s AeromexicoConnect
 ENTRY AMX EMJ 10 MMMX XA-%s%s%s AeromexicoConnect
 
+# Adria Airways
+# there's a codeshare hidden somewhere?
+ENTRY ADR 319 2 LJLJ,LYPR S5-A%s%s Adria
+ENTRY ADR 320 1 LJLJ S5-A%s%s Adria
+ENTRY ADR CR2 6 LJLJ,LYPR S5-A%s%s Adria
+ENTRY ADR CR9 4 LJLJ S5-A%s%s Adria
+
 # Singapore Airlines (todo: transition SQC into SIA)
 
 
