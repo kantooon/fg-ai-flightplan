@@ -228,7 +228,8 @@ ENTRY TAP 332 12 LPPT,LPMA,LPPR CS-%s%s%s TAP
 ENTRY TAP 343 4 LPPT CS-%s%s%s TAP
 
 # Alaska Airlines
-# CR7 operated by SkyWest most likely (see http://www.airliners.net/photo/Alaska-Airlines-%28SkyWest/Canadair-CL-600-2C10-Regional/1919193/L/ )
+# CR7 operated by SkyWest most likely but with Alaska livery 
+# (see http://www.airliners.net/photo/Alaska-Airlines-%28SkyWest/Canadair-CL-600-2C10-Regional/1919193/L/ )
 # DH4 probably belonged to Horizon (see http://www.alaskaair.com/content/travel-info/fleet/q400.aspx  )
 ENTRY ASA 734 30 KSEA,KPDX,KSFO,KSAV N%d%d%dAS AlaskaAirlines
 ENTRY ASA 739 14 KSEA,KSAV N%d%d%dAS AlaskaAirlines
@@ -503,8 +504,8 @@ ENTRY SAA 738 15 FAJS,FACT ZS-S%s%s SouthAfrican
 # Included Embraers operated by AeromexicoConnect
 ENTRY AMX 737 30 MMMX XA-%s%s%s Aeromexico
 ENTRY AMX 738 12 MMMX XA-%s%s%s Aeromexico
-ENTRY AMX ERJ 38 MMMX,MMMY,MMMD,MMHO XA-%s%s%s AeromexicoConnect
-ENTRY AMX EMJ 10 MMMX XA-%s%s%s AeromexicoConnect
+ENTRY AMX ERJ 38 MMMX,MMMY,MMMD,MMHO XA-%s%s%s Aeromexico
+ENTRY AMX EMJ 10 MMMX XA-%s%s%s Aeromexico
 
 # Adria Airways
 # there's a codeshare hidden somewhere?
