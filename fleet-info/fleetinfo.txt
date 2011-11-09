@@ -187,9 +187,10 @@ ENTRY AFR 777 6 LFPG,KLAX F-G%s%s%s AirFrance
 ENTRY AFR 77W 10 LFPG,KLAX F-G%s%s%s AirFrance
 
 #Alitalia
-# the S20 fleet operated by Darwin Airline?
+# the S20 fleet operated by Darwin Airline (DWT)? 
 # E170 available from 10-10-2011 and 10-11-2011
-# DH4 fleet is operated by unknown
+# DH4 fleet is operated by Darwin?
+# check callsigns for collision with Swissair
 ENTRY AZA 319 14 LIRQ,LIMC,LIRF EI-%s%s%s Alitalia
 ENTRY AZA 320 23 LIRF,LIMC,LIPE EI-%s%s%s Alitalia
 ENTRY AZA 321 23 LIRF,LFPG,LICC EI-%s%s%s Alitalia
@@ -201,6 +202,8 @@ ENTRY AZA 772 10 LIRF,LIMC,LIPZ EI-%s%s%s Alitalia
 ENTRY AZA M80 9 LIRF,LIMC,LIPZ I-%s%s%s%s Alitalia
 ENTRY AZA M82 9 LIRF,LIMC,LIPZ I-%s%s%s%s Alitalia
 ENTRY AZA E70 2 LIRF,LIMC I-%s%s%s%s Alitalia
+ENTRY AZA S20 6 LICJ,LIMC,LIBF,EDDF HB-I%s%s Darwin
+ENTRY AZA DH4 6 LIPZ,LIMC,LIMJ HB-J%s%s Darwin
 
 #Qantas
 ENTRY QFA 100 6 YBBN VH-%s%s%s AllianceAirlines
@@ -304,9 +307,9 @@ ENTRY CCA 777 5 ZBAA B-%d%d%d%d AirChina
 
 # Tarom
 # DH4 operated by Austrian Arrows (TYR) aka Tyrolean Airways
-# EM2 operated by Air Moldova
-# E70 are LOT
-# 319, 320 and 32S are probably AFR, Alitalia and others
+# EM2 operated by Air Moldova (not included)
+# E70 are LOT (not included)
+# 319, 320 and 32S are probably AFR, Alitalia and others (not included)
 ENTRY ROT 310 2 LROP YR-%s%s%s Tarom
 ENTRY ROT 318 4 LROP YR-%s%s%s Tarom
 ENTRY ROT 733 4 LROP YR-%s%s%s Tarom
