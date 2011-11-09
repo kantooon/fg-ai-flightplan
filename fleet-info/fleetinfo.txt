@@ -348,7 +348,8 @@ ENTRY JAL CRJ 8 RJOO,RJTT,RJCC,RJOK JA-%d%d%dJ JAL
 
 # ANA
 # 735 operated by Hokkaido (Air Do) and Air Next
-# CRJ and DH8 operated by unknown?
+# CRJ operated by Ibex
+# DH8 operated by unknown?
 ENTRY ANA 320 27 RJAA,RJTT,RJOO,RJGG,RJCC JA-%d%d%dA ANA
 ENTRY ANA 737 18 RJAA,RJFF,RJGG JA-%d%d%dA ANA
 ENTRY ANA 738 17 RJTT,RJSS JA-%d%d%dA ANA
@@ -360,6 +361,7 @@ ENTRY ANA 773 12 RJTT,RJFF,RJCC,RJOO JA-%d%d%dA ANA
 ENTRY ANA 777 10 RJTT,RJAA,RJOA,RJNK,RJSS JA-%d%d%dA ANA
 ENTRY ANA 77W 4 RJTT,RJAA JA-%d%d%dA ANA
 ENTRY ANA 787 2 RJTT JA-%d%d%dA ANA
+ENTRY ANA CRJ 7 RJAA,RJOA,RJNK JA-%d%dRJ Ibex
 
 # EgyptAir
 # E70 operated by EgyptAirExpress(MSE) (included)
@@ -414,11 +416,13 @@ ENTRY RJA E75 3 OJAI JY-%s%s%s RoyalJordanian
 ENTRY RJA E95 5 OJAI JY-%s%s%s RoyalJordanian
 
 # British Midland
-# Embraer fleet operated by unknown?
+# Embraer fleet operated by BMI regional (BMR)
 ENTRY BMA 319 11 EGLL,EGAC,EDDT,EGPH,EGCC G-DB%s%s BritishMidland
 ENTRY BMA 320 7 EGLL,EGAC,EGPH G-MI%s%s BritishMidland
 ENTRY BMA 321 7 EGLL,OJAI,OLBA G-ME%s%s BritishMidland
 ENTRY BMA 332 2 EGLL G-WW%s%s BritishMidland
+ENTRY BMA ER3 4 EGPF,EGCC G-RJ%s%s BritishMidland
+ENTRY BMA ER4 15 EGLL,EGPF,EGCC,EGPH,EGAC G-RJ%s%s BritishMidland
 
 # Polish Airlines (LOT)
 ENTRY LOT 734 7 EPWA SP-L%s%s LOT
