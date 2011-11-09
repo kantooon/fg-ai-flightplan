@@ -404,3 +404,11 @@ ENTRY RJA 340 4 OJAI,CYUL JY-%s%s%s RoyalJordanian
 ENTRY RJA E75 3 OJAI JY-%s%s%s RoyalJordanian
 ENTRY RJA E95 5 OJAI JY-%s%s%s RoyalJordanian
 
+# British Midland
+# Embraer fleet operated by unknown?
+ENTRY BMA 319 11 EGLL,EGAC,EDDT,EGPH,EGCC G-DB%s%s BritishMidland
+ENTRY BMA 320 7 EGLL,EGAC,EGPH G-MI%s%s BritishMidland
+ENTRY BMA 321 7 EGLL,OJAI,OLBA G-ME%s%s BritishMidland
+ENTRY BMA 332 2 EGLL G-WW%s%s BritishMidland
+
+
