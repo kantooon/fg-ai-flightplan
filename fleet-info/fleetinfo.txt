@@ -336,13 +336,15 @@ ENTRY ANZ 777 2 NZAA ZK-%s%s%s AirNewZealand
 
 # Japan Airlines
 # included 734 JAL Express 
-# E70 and CRJ operated by unknown?
+# E70 and CRJ operated by J-Air (JLJ)
 ENTRY JAL 734 7 RJAA JA-%d%d%dJ JALExpress
 ENTRY JAL 73H 11 RJAA,RJTT,RJBB,RJCC JA-%d%d%dJ JAL
 ENTRY JAL 767 47 RJAA,RJTT,RJBB,RJFF JA-%d%d%dJ JAL
 ENTRY JAL 773 10 RJAA,RJTT,RJBB,ROAH,RJCC JA-%d%d%dJ JAL
 ENTRY JAL 777 36 RJAA,RJTT JA-%d%d%dJ JAL
 ENTRY JAL M90 16 RJOA,RJTT JA-%d%d%dJ JAL
+ENTRY JAL E70 10 RJOO,RJTT,RJSS JA-%d%d%dJ JAL
+ENTRY JAL CRJ 8 RJOO,RJTT,RJCC,RJOK JA-%d%d%dJ JAL
 
 # ANA
 # 735 operated by Hokkaido (Air Do) and Air Next
