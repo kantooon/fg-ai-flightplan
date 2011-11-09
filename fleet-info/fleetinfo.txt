@@ -424,4 +424,10 @@ ENTRY CTN 319 4 LDZA,LDSP,LDDU 9A-C%s%s Croatia
 ENTRY CTN 320 3 LDZA,LDSP,LDDU 9A-C%s%s Croatia
 ENTRY CTN DH4 6 LDZA,LDSP,LDDU,LDZD 9A-C%s%s Croatia
 
+# CathayPacific
+ENTRY CPA 330 33 VHHH,YBBN,RCTP B-%%s%s CathayPacific
+ENTRY CPA 343 10 VHHH,RCTP B-%%s%s CathayPacific
+ENTRY CPA 744 45 VHHH B-%%s%s CathayPacific
+ENTRY CPA 773 36 VHHH,RCTP,VTBS B-%%s%s CathayPacific
+ENTRY CPA 777 5 VHHH B-%%s%s CathayPacific
 
