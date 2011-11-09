@@ -501,6 +501,10 @@ ENTRY HDA 320 11 VHHH B-H%s%s Dragonair
 ENTRY HDA 321 6 VHHH B-H%s%s Dragonair
 ENTRY HDA 330 15 VHHH B-H%s%s Dragonair
 
+# Blue1 (Finland, BLF)
+ENTRY BLF 717 9 EFHK,ENGM OH-BL%s Blue1
+ENTRY BLF AR8 4 EFHK OH-SA%s Blue1
+
 # Singapore Airlines (todo: transition SQC into SIA)
 
 
