@@ -394,3 +394,13 @@ ENTRY SBI 734 2 UUDD VP-B%s%s Siberian
 ENTRY SBI 738 6 UUDD,UNNT VQ-B%s%s Siberian
 ENTRY SBI 763 2 UUDD VP-B%s%s Siberian
 
+# Royal Jordanian
+ENTRY RJA 310 4 OJAI JY-%s%s%s RoyalJordanian
+ENTRY RJA 319 4 OJAI JY-%s%s%s RoyalJordanian
+ENTRY RJA 320 7 OJAI,OMAA JY-%s%s%s RoyalJordanian
+ENTRY RJA 321 4 OJAI JY-%s%s%s RoyalJordanian
+ENTRY RJA 330 3 OJAI,VTBS JY-%s%s%s RoyalJordanian
+ENTRY RJA 340 4 OJAI,CYUL JY-%s%s%s RoyalJordanian
+ENTRY RJA E75 3 OJAI JY-%s%s%s RoyalJordanian
+ENTRY RJA E95 5 OJAI JY-%s%s%s RoyalJordanian
+
