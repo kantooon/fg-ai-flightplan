@@ -505,6 +505,19 @@ ENTRY HDA 330 15 VHHH B-H%s%s Dragonair
 ENTRY BLF 717 9 EFHK,ENGM OH-BL%s Blue1
 ENTRY BLF AR8 4 EFHK OH-SA%s Blue1
 
+# Korean Airlines
+# A300 are not found in our schedules
+ENTRY KAL 332 7 RKSI HL7%d%d%d Korean
+ENTRY KAL 333 16 RKSI HL7%d%d%d Korean
+ENTRY KAL 388 4 RKSI HL7%d%d%d Korean
+ENTRY KAL 73H 17 RKSI HL7%d%d%d Korean
+ENTRY KAL 739 18 RKSI HL7%d%d%d Korean
+ENTRY KAL 73J 1 RKSI HL7%d%d%d Korean
+ENTRY KAL 744 41 RKSI HL7%d%d%d Korean
+ENTRY KAL 772 15 RKSI HL7%d%d%d Korean
+ENTRY KAL 773 6 RKSI HL7%d%d%d Korean
+ENTRY KAL 77W 9 RKSI HL7%d%d%d Korean
+
 # Singapore Airlines (todo: transition SQC into SIA)
 
 

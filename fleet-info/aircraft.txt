@@ -25,11 +25,12 @@
 739  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 73G  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 73H  737 10       19      gate    jet_transport   false    Aircraft/737/737-
+73J  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 73W  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 744  747 19       36      gate    heavy_jet   true    Aircraft/747-400/747-400-
 747  747 19       36      gate    heavy_jet   true    Aircraft/747-400/747-400-
-74E  747
-74R  747
+74E  747 19       36      gate    heavy_jet   true    Aircraft/747-400/747-400-
+74R  747 19       36      gate    heavy_jet   true    Aircraft/747-400/747-400-
 752  757 0       24      gate    jet_transport   false    Aircraft/757/757-
 753  757 0       24      gate    jet_transport   false    Aircraft/757/757-
 757  757 0       24      gate    jet_transport   false    Aircraft/757/757-
