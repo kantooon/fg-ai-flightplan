@@ -239,7 +239,7 @@ ENTRY LAN 340 5 SCEL CC-%s%s%s LanChile
 ENTRY LAN 763 24 SPIM,SCEL,SAEZ CC-%s%s%s LanChile
 
 # Finnair
-# ATR fleet operated by unknown?
+# ATR fleet operated by ex Finncomm, actualmente Flybe Nordic
 ENTRY FIN 319 11 EFHK OH-L%s%s Finnair
 ENTRY FIN 320 12 EFHK OH-L%s%s Finnair
 ENTRY FIN 321 6 EFHK OH-L%s%s Finnair
@@ -249,6 +249,9 @@ ENTRY FIN 340 7 EFHK OH-L%s%s Finnair
 ENTRY FIN 75W 4 EFHK OH-L%s%s Finnair
 ENTRY FIN E70 7 EFHK OH-L%s%s Finnair
 ENTRY FIN E90 12 EFHK OH-L%s%s Finnair
+ENTRY FIN AT5 2 EFHK OH-A%s%s Finncomm
+ENTRY FIN ATR 2 EFHK,EETN OH-A%s%s Finncomm
+ENTRY FIN AT7 10 EFHK OH-A%s%s Finncomm
 
 # Swiss International (Swissair)
 # The 20 BAe 146 are not featured in our schedules
@@ -308,7 +311,7 @@ ENTRY ROT 73G 4 LROP YR-%s%s%s Tarom
 ENTRY ROT 73H 3 LROP YR-%s%s%s Tarom
 ENTRY ROT AT5 7 LROP,LRCL YR-%s%s%s Tarom
 ENTRY ROT AT7 2 LROP,LRSB YR-%s%s%s Tarom
-ENTRY ROT DH4 4 LOWW OE-L%s%s AustrianAirlines
+ENTRY ROT DH4 4 LOWW OE-L%s%s Austrianarrows
 
 # TAM Airlines
 ENTRY TAM 319 30 SBSP,SBRJ,SBBR,SBGR,SBCT,SBCF,SBSV PR-M%s%s TAM
