@@ -170,7 +170,10 @@ ENTRY ACA E90 45 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
 
 
 #AirFrance
-# omitted F100 and CRJ operated by Brit Air
+# CRJ operated by BritAir (BZH)
+# Embraer operated by Regional (RAE)
+# Avro RJ by CityJet (BCY) 8 out of 23 by my calculations
+# F100 has AirFrance livery although it went to BritAir and then where?
 ENTRY AFR 318 18 LFPG,LFBD,EDDF,LFLL F-G%s%s%s AirFrance
 ENTRY AFR 319 44 LFPG,LFBD,LFML,LFPO,LFLL,LFBO F-G%s%s%s AirFrance
 ENTRY AFR 320 40 LFPG,LFMN,LFPO,TFFF,LFBO F-G%s%s%s AirFrance
@@ -185,12 +188,21 @@ ENTRY AFR 772 25 LFPG,KLAX F-G%s%s%s AirFrance
 ENTRY AFR 773 20 LFPG F-G%s%s%s AirFrance
 ENTRY AFR 777 6 LFPG,KLAX F-G%s%s%s AirFrance
 ENTRY AFR 77W 10 LFPG,KLAX F-G%s%s%s AirFrance
+ENTRY AFR CRJ 13 LFPG,LFLL F-G%s%s%s AirFrance
+ENTRY AFR CR7 15 LFPG F-H%s%s%s AirFrance
+ENTRY AFR CRK 11 LFPG,LFLL F-H%s%s%s AirFrance
+ENTRY AFR E70 10 LFPG,LFLL,LFMN F-H%s%s%s AirFrance
+ENTRY AFR E90 10 LFPG F-H%s%s%s AirFrance
+ENTRY AFR ER3 4 LFST F-G%s%s%s AirFrance
+ENTRY AFR ER4 26 LFPG,LFRS,LFST,LFLL F-G%s%s%s AirFrance
+ENTRY AFR AR8 8 LFPG EI-R%s%s AirFrance
+ENTRY AFR 100 6 LFPG,LFPO F-G%s%s%s AirFrance
 
 #Alitalia
 # the S20 fleet operated by Darwin Airline (DWT)? 
 # E170 available from 10-10-2011 and 10-11-2011
 # DH4 fleet is operated by Darwin?
-# check callsigns for collision with Swissair
+# check Darwin callsigns for collision with Swissair
 ENTRY AZA 319 14 LIRQ,LIMC,LIRF EI-%s%s%s Alitalia
 ENTRY AZA 320 23 LIRF,LIMC,LIPE EI-%s%s%s Alitalia
 ENTRY AZA 321 23 LIRF,LFPG,LICC EI-%s%s%s Alitalia
@@ -352,7 +364,7 @@ ENTRY JAL CRJ 8 RJOO,RJTT,RJCC,RJOK JA-%d%d%dJ JAL
 
 # ANA
 # 735 operated by Hokkaido (Air Do) and Air Next
-# CRJ operated by Ibex
+# CRJ operated by Ibex (routes are funky, check parser)
 # DH8 operated by ANA Wings (AKX)
 ENTRY ANA 320 27 RJAA,RJTT,RJOO,RJGG,RJCC JA-%d%d%dA ANA
 ENTRY ANA 737 18 RJAA,RJFF,RJGG JA-%d%d%dA ANA
