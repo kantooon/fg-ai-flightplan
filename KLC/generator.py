@@ -480,7 +480,7 @@ def flight_plan(fp_type):
 
 def filter_dupes():
 
-	fr=open('./klm_flights.conf','rb')
+	fr=open('./klc_flights.conf','rb')
 	content= fr.readlines()
 	callsign_list=[]
 	buf=''
@@ -511,7 +511,7 @@ def filter_dupes():
 			buf=buf+line
 				
 	fr.close()
-	fw=open('./klm_flights.conf','wb')
+	fw=open('./klc_flights.conf','wb')
 	fw.write(buf)
 	fw.close()		
 	
