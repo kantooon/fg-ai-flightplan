@@ -46,8 +46,8 @@
 77W  777 0       32      gate    heavy_jet   true    Aircraft/777/777-
 787  787
 AB6  A300
-AR1  ARJ
-AR8  ARJ
+AR1  ARJ 0       14      gate    jet_transport   false    Aircraft/Bae146-200/Bae146-200-
+AR8  ARJ 0       14      gate    jet_transport   false    Aircraft/Bae146-200/Bae146-200-
 AT4  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 AT5  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 AT7  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
