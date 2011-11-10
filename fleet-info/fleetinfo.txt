@@ -503,13 +503,13 @@ ENTRY MAH DH4 4 LHBP HA-L%s%s Malev
 ENTRY MAH EM2 3 LHBP HA-L%s%s BudapestAirService
 
 # Singapore Airlines (todo: transition SQC into SIA)
-ENTRY SQC 333 19 WSSS 9V-S%s%s Singapore
-ENTRY SQC 345 5 WSSS 9V-S%s%s Singapore
-ENTRY SQC 388 14 WSSS,RJAA 9V-S%s%s Singapore
-ENTRY SQC 744 3 WSSS,KJFK 9V-S%s%s Singapore
-ENTRY SQC 772 35 WSSS 9V-S%s%s Singapore
-ENTRY SQC 773 14 WSSS 9V-S%s%s Singapore
-ENTRY SQC 77W 14 WSSS 9V-S%s%s Singapore
+ENTRY SQC 333 19 WSSS 9V-S%s%s SingaporeAirlines
+ENTRY SQC 345 5 WSSS 9V-S%s%s SingaporeAirlines
+ENTRY SQC 388 14 WSSS,RJAA 9V-S%s%s SingaporeAirlines
+ENTRY SQC 744 3 WSSS,KJFK 9V-S%s%s SingaporeAirlines
+ENTRY SQC 772 35 WSSS 9V-S%s%s SingaporeAirlines
+ENTRY SQC 773 14 WSSS 9V-S%s%s SingaporeAirlines
+ENTRY SQC 77W 14 WSSS 9V-S%s%s SingaporeAirlines
 
 # South African Airways
 ENTRY SAA 319 11 FAJS,FKKD ZS-S%s%s SouthAfrican
