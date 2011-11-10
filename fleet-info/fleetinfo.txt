@@ -585,8 +585,8 @@ ENTRY KAP CNA 69 TQPF,TJSJ N%d%d%d%d%d CapeAir
 ENTRY LOF ERJ 27 KIAH,KBOS,KSTL,KDAY,KCLE N%d%d%dHK TransStateAirlines
 
 # LAN Ecuador
-ENTRY LNE 320 5 SEQU,SEGU HC-C%s%s LANEcuador
-ENTRY LNE 763 4 SEQU,SEGU HC-C%s%s LANEcuador
+ENTRY LNE 320 5 SEQU,SEGU HC-C%s%s LanEcuador
+ENTRY LNE 763 4 SEQU,SEGU HC-C%s%s LanEcuador
 
 # IslandAir
 ENTRY MKU DH8 5 PHNL,PHMK N%d%d%dWP IslandAir
@@ -604,12 +604,12 @@ ENTRY VIR 346 19 EGAC G-V%s%s%s VirginAtlantic
 ENTRY VIR 744 12 EGKK,EGAC G-V%s%s%s VirginAtlantic
 
 # LAN Argentina (only 767)
-ENTRY DSM 763 2 SAEZ,KMIA LV-C%s%s LANArgentina
+ENTRY DSM 763 2 SAEZ,KMIA LV-C%s%s LanArgentina
 
 # LAN Peru
 # one 767 belongs to LAN Chile now
-ENTRY LPE 763 1 SPIM CC-C%s%s LANPeru
-ENTRY LPE 319 2 SPIM CC-C%s%s LANPeru
+ENTRY LPE 763 1 SPIM CC-C%s%s LanPeru
+ENTRY LPE 319 2 SPIM CC-C%s%s LanPeru
 
 
 # VBI is Virgin Australia (VOZ)?
