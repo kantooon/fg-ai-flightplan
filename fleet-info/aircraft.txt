@@ -52,6 +52,7 @@ AT4  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 AT5  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 AT7  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 ATR  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
+CNA  Cessna 0       11      gate    jet_transport   false    Aircraft/C310/C310-
 CR2  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Challenger/Bombardier-Challenger-
 CR7  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Challenger/Bombardier-Challenger-
 CR9  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Challenger/Bombardier-Challenger-
@@ -83,3 +84,4 @@ M83  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M87  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M88  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M90  MD90 0       24      gate    jet_transport   true     Aircraft/MD90/MD90-
+S20  Saab 0       24      gate    jet_transport   true     Aircraft/Saab/Saab2000-
