@@ -502,6 +502,15 @@ ENTRY MAH 73H 3 LHBP HA-L%s%s Malev
 ENTRY MAH DH4 4 LHBP HA-L%s%s Malev
 ENTRY MAH EM2 3 LHBP HA-L%s%s BudapestAirService
 
+# Singapore Airlines (todo: transition SQC into SIA)
+ENTRY SQC 333 19 WSSS 9V-S%s%s Singapore
+ENTRY SQC 345 5 WSSS 9V-S%s%s Singapore
+ENTRY SQC 388 14 WSSS,RJAA 9V-S%s%s Singapore
+ENTRY SQC 744 3 WSSS,KJFK 9V-S%s%s Singapore
+ENTRY SQC 772 35 WSSS 9V-S%s%s Singapore
+ENTRY SQC 773 14 WSSS 9V-S%s%s Singapore
+ENTRY SQC 77W 14 WSSS 9V-S%s%s Singapore
+
 # South African Airways
 ENTRY SAA 319 11 FAJS,FKKD ZS-S%s%s SouthAfrican
 ENTRY SAA 332 5 FAJS,FACT,EGLL ZS-S%s%s SouthAfrican
@@ -564,6 +573,43 @@ ENTRY JTA 734 13 ROAH,RJBB,ROIG,ROMY JA-%d%d%d%d JTA
 ENTRY GLO 73G 35 SBGL,MDST,SBVT,SBCF,SBGO,SBPA PR-G%s%s%s GOL
 ENTRY GLO 738 74 SBGL,MDST,SBVT,SBCF,SBGO,SBPA,KBRD PR-G%s%s%s GOL
 
-# Singapore Airlines (todo: transition SQC into SIA)
+# Copa Airlines
+ENTRY CMP 73G 19 MPTO HP-%d%d%d%dCMP Copa
+ENTRY CMP 738 26 MPTO HP-%d%d%d%dCMP Copa
+ENTRY CMP E90 12 MPTO HP-%d%d%d%dCMP Copa
+
+# Cape Air (Cessna 402)
+ENTRY KAP CNA 69 TQPF,TJSJ N%d%d%d%d%d CapeAir
+
+# TransStateAirlines
+ENTRY LOF ERJ 27 KIAH,KBOS,KSTL,KDAY,KCLE N%d%d%dHK TransStateAirlines
+
+# LAN Ecuador
+ENTRY LNE 320 5 SEQU,SEGU HC-C%s%s LANEcuador
+ENTRY LNE 763 4 SEQU,SEGU HC-C%s%s LANEcuador
+
+# IslandAir
+ENTRY MKU DH8 5 PHNL,PHMK N%d%d%dWP IslandAir
+
+# Olympic Air
+ENTRY OAL 319 5 LGAV SX-O%s%s Olympic
+ENTRY OAL 320 9 LGAV SX-O%s%s Olympic
+ENTRY OAL DH4 10 LGAV SX-O%s%s Olympic
+ENTRY OAL DH8 5 LGAV SX-O%s%s Olympic
+
+# Virgin Atlantic (incomplete schedules)
+ENTRY VIR 333 3 EGKK,EGCC G-V%s%s%s VirginAtlantic
+ENTRY VIR 343 4 EGAC G-V%s%s%s VirginAtlantic
+ENTRY VIR 346 19 EGAC G-V%s%s%s VirginAtlantic
+ENTRY VIR 744 12 EGKK,EGAC G-V%s%s%s VirginAtlantic
+
+# LAN Argentina (only 767)
+ENTRY DSM 763 2 SAEZ,KMIA LV-C%s%s LANArgentina
+
+# LAN Peru
+# one 767 belongs to LAN Chile now
+ENTRY LPE 763 1 SPIM CC-C%s%s LANPeru
+ENTRY LPE 319 2 SPIM CC-C%s%s LANPeru
 
 
+# VBI is Virgin Australia (VOZ)?
