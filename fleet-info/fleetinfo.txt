@@ -548,6 +548,22 @@ ENTRY KAL 772 15 RKSI HL7%d%d%d Korean
 ENTRY KAL 773 6 RKSI HL7%d%d%d Korean
 ENTRY KAL 77W 9 RKSI HL7%d%d%d Korean
 
+# Hawaiian Airlines
+# only 717 flights are featured
+ENTRY HAL 717 15 PHNL,PHOG N%d%d%dHA Hawaiian
+
+# Aeromar
+ENTRY TAO ATR 14 MMMX,MMZO,MMMM,MMPA,MMPS XA-%s%s%s Aeromar
+ENTRY TAO CRJ 2 MMMX,MMPS XA-%s%s%s Aeromar
+
+# Japan Transocean
+ENTRY JTA 734 13 ROAH,RJBB,ROIG,ROMY JA-%d%d%d%d JTA
+
+# Gol linhas aereas
+# 767 not featured
+ENTRY GLO 73G 35 SBGL,MDST,SBVT,SBCF,SBGO,SBPA PR-G%s%s%s GOL
+ENTRY GLO 738 74 SBGL,MDST,SBVT,SBCF,SBGO,SBPA,KBRD PR-G%s%s%s GOL
+
 # Singapore Airlines (todo: transition SQC into SIA)
 
 
