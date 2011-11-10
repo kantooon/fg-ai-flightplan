@@ -84,4 +84,4 @@ M83  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M87  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M88  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M90  MD90 0       24      gate    jet_transport   true     Aircraft/MD90/MD90-
-S20  Saab 0       24      gate    jet_transport   true     Aircraft/Saab/Saab2000-
+S20  Saab 
