@@ -1,6 +1,6 @@
 100  F100 9       22      gate    jet_transport   false   Aircraft/Fokker-100/Fokker-100-
-310  A320
-313  A320
+310  A310
+313  A310
 318  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
 319  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
 320  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
@@ -10,7 +10,7 @@
 332  A330 9       32      gate    heavy_jet   true    Aircraft/A332/A332-
 333  A330 9       32      gate    heavy_jet   true    Aircraft/A333/A333-
 340  A340 0       42      gate    heavy_jet   true    Aircraft/A343/A343-
-342  A340
+342  A342 0       42      gate    heavy_jet   true    Aircraft/A343/A343-
 343  A343 0       42      gate    heavy_jet   true    Aircraft/A343/A343-
 345  A345 0       42      gate    heavy_jet   true    Aircraft/A345/A345-
 346  A346 0       42      gate    heavy_jet   true    Aircraft/A346/A346-
@@ -20,16 +20,17 @@
 734  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 735  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 736  737 10       19      gate    jet_transport   false    Aircraft/737/737-
-737  737
+737  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 738  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 739  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 73G  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 73H  737 10       19      gate    jet_transport   false    Aircraft/737/737-
+73J  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 73W  737 10       19      gate    jet_transport   false    Aircraft/737/737-
 744  747 19       36      gate    heavy_jet   true    Aircraft/747-400/747-400-
-747  747
-74E  747
-74R  747
+747  747 19       36      gate    heavy_jet   true    Aircraft/747-400/747-400-
+74E  747 19       36      gate    heavy_jet   true    Aircraft/747-400/747-400-
+74R  747 19       36      gate    heavy_jet   true    Aircraft/747-400/747-400-
 752  757 0       24      gate    jet_transport   false    Aircraft/757/757-
 753  757 0       24      gate    jet_transport   false    Aircraft/757/757-
 757  757 0       24      gate    jet_transport   false    Aircraft/757/757-
@@ -43,14 +44,15 @@
 777  777 0       32      gate    heavy_jet   true    Aircraft/777/777-
 77L  777 0       32      gate    heavy_jet   true    Aircraft/777/777-
 77W  777 0       32      gate    heavy_jet   true    Aircraft/777/777-
-787  777
-AB6  A320
-AR1  ARJ
-AR8  ARJ
+787  787
+AB6  A300
+AR1  ARJ 0       14      gate    jet_transport   false    Aircraft/Bae146-200/Bae146-200-
+AR8  ARJ 0       14      gate    jet_transport   false    Aircraft/Bae146-200/Bae146-200-
 AT4  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
-AT5  AT42
+AT5  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 AT7  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
 ATR  AT42 9       12      gate    jet_transport   false    Aircraft/ATR42/ATR42-
+CNA  Cessna 0       11      gate    jet_transport   false    Aircraft/C310/C310-
 CR2  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Challenger/Bombardier-Challenger-
 CR7  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Challenger/Bombardier-Challenger-
 CR9  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Challenger/Bombardier-Challenger-
@@ -64,15 +66,17 @@ DH8  DH8 0       16      gate    jet_transport   false   Aircraft/Dash8/Dash8-
 E70  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 E75  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 E90  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
-E95  EMB145
+E95  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 EM2  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 ER3  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 ER4  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 ERD  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
+ERJ  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
+EMJ  EMB145 0       14      gate    jet_transport   false   Aircraft/Embraer-Legacy/Embraer-Legacy-
 F50  F50    9       16      gate    jet_transport   false   Aircraft/Fokker-50/fokker50-
 FRJ  D38 0       11      gate    jet_transport   false    Aircraft/Fairchild-Dornier/Fairchild-Dornier-
-J31  CRJ 0       11      gate    jet_transport   false    Aircraft/Bombardier-Challenger/Bombardier-Challenger-
-J41  CRJ
+J31  J31 
+J41  J41
 M80  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M81  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M82  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
@@ -80,3 +84,4 @@ M83  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M87  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M88  MD80 0       23      gate    jet_transport   false    Aircraft/MD80/MD80-
 M90  MD90 0       24      gate    jet_transport   true     Aircraft/MD90/MD90-
+S20  Saab 

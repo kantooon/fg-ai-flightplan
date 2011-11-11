@@ -170,7 +170,10 @@ ENTRY ACA E90 45 CYYC,CYUL,CYYZ,CYVR C-%s%s%s%s AirCanada
 
 
 #AirFrance
-# omitted F100 and CRJ operated by Brit Air
+# CRJ operated by BritAir (BZH)
+# Embraer operated by Regional (RAE)
+# Avro RJ by CityJet (BCY) 8 out of 23 by my calculations
+# F100 has AirFrance livery although it went to BritAir and then where?
 ENTRY AFR 318 18 LFPG,LFBD,EDDF,LFLL F-G%s%s%s AirFrance
 ENTRY AFR 319 44 LFPG,LFBD,LFML,LFPO,LFLL,LFBO F-G%s%s%s AirFrance
 ENTRY AFR 320 40 LFPG,LFMN,LFPO,TFFF,LFBO F-G%s%s%s AirFrance
@@ -185,11 +188,21 @@ ENTRY AFR 772 25 LFPG,KLAX F-G%s%s%s AirFrance
 ENTRY AFR 773 20 LFPG F-G%s%s%s AirFrance
 ENTRY AFR 777 6 LFPG,KLAX F-G%s%s%s AirFrance
 ENTRY AFR 77W 10 LFPG,KLAX F-G%s%s%s AirFrance
+ENTRY AFR CRJ 13 LFPG,LFLL F-G%s%s%s AirFrance
+ENTRY AFR CR7 15 LFPG F-H%s%s%s AirFrance
+ENTRY AFR CRK 11 LFPG,LFLL F-H%s%s%s AirFrance
+ENTRY AFR E70 10 LFPG,LFLL,LFMN F-H%s%s%s AirFrance
+ENTRY AFR E90 10 LFPG F-H%s%s%s AirFrance
+ENTRY AFR ER3 4 LFST F-G%s%s%s AirFrance
+ENTRY AFR ER4 26 LFPG,LFRS,LFST,LFLL F-G%s%s%s AirFrance
+ENTRY AFR AR8 8 LFPG EI-R%s%s AirFrance
+ENTRY AFR 100 6 LFPG,LFPO F-G%s%s%s AirFrance
 
 #Alitalia
-# the S20 fleet operated by Darwin Airline?
+# the S20 fleet operated by Darwin Airline (DWT)? 
 # E170 available from 10-10-2011 and 10-11-2011
-# DH4 fleet is operated by unknown
+# DH4 fleet is operated by Darwin?
+# check Darwin callsigns for collision with Swissair
 ENTRY AZA 319 14 LIRQ,LIMC,LIRF EI-%s%s%s Alitalia
 ENTRY AZA 320 23 LIRF,LIMC,LIPE EI-%s%s%s Alitalia
 ENTRY AZA 321 23 LIRF,LFPG,LICC EI-%s%s%s Alitalia
@@ -201,6 +214,8 @@ ENTRY AZA 772 10 LIRF,LIMC,LIPZ EI-%s%s%s Alitalia
 ENTRY AZA M80 9 LIRF,LIMC,LIPZ I-%s%s%s%s Alitalia
 ENTRY AZA M82 9 LIRF,LIMC,LIPZ I-%s%s%s%s Alitalia
 ENTRY AZA E70 2 LIRF,LIMC I-%s%s%s%s Alitalia
+ENTRY AZA S20 6 LICJ,LIMC,LIBF,EDDF HB-I%s%s Darwin
+ENTRY AZA DH4 6 LIPZ,LIMC,LIMJ HB-J%s%s Darwin
 
 #Qantas
 ENTRY QFA 100 6 YBBN VH-%s%s%s AllianceAirlines
@@ -225,11 +240,15 @@ ENTRY TAP 332 12 LPPT,LPMA,LPPR CS-%s%s%s TAP
 ENTRY TAP 343 4 LPPT CS-%s%s%s TAP
 
 # Alaska Airlines
-# DH4 and CR7 operated by unknown?
+# CR7 operated by SkyWest most likely but with Alaska livery 
+# (see http://www.airliners.net/photo/Alaska-Airlines-%28SkyWest/Canadair-CL-600-2C10-Regional/1919193/L/ )
+# DH4 probably belonged to Horizon (see http://www.alaskaair.com/content/travel-info/fleet/q400.aspx  )
 ENTRY ASA 734 30 KSEA,KPDX,KSFO,KSAV N%d%d%dAS AlaskaAirlines
 ENTRY ASA 739 14 KSEA,KSAV N%d%d%dAS AlaskaAirlines
 ENTRY ASA 73G 25 KSEA,KSAV N%d%d%dAS AlaskaAirlines
 ENTRY ASA 73H 48 KSEA,KSAV,KPDX,KOAK,KSJC,KLAX N%d%d%dAS AlaskaAirlines
+ENTRY ASA DH4 47 KSEA,KSAV,KPDX,KBLI,KLAX N%d%d%dAS AlaskaAirlines
+ENTRY ASA CR7 6 KSAV,KPDX N%d%d%dAS AlaskaAirlines
 
 # LAN Chile
 ENTRY LAN 318 10 SCEL,SCSE CC-%s%s%s LanChile
@@ -239,7 +258,7 @@ ENTRY LAN 340 5 SCEL CC-%s%s%s LanChile
 ENTRY LAN 763 24 SPIM,SCEL,SAEZ CC-%s%s%s LanChile
 
 # Finnair
-# ATR fleet operated by unknown?
+# ATR fleet operated by ex Finncomm, actualmente Flybe Nordic
 ENTRY FIN 319 11 EFHK OH-L%s%s Finnair
 ENTRY FIN 320 12 EFHK OH-L%s%s Finnair
 ENTRY FIN 321 6 EFHK OH-L%s%s Finnair
@@ -249,6 +268,9 @@ ENTRY FIN 340 7 EFHK OH-L%s%s Finnair
 ENTRY FIN 75W 4 EFHK OH-L%s%s Finnair
 ENTRY FIN E70 7 EFHK OH-L%s%s Finnair
 ENTRY FIN E90 12 EFHK OH-L%s%s Finnair
+ENTRY FIN AT5 2 EFHK OH-A%s%s Finncomm
+ENTRY FIN ATR 2 EFHK,EETN OH-A%s%s Finncomm
+ENTRY FIN AT7 10 EFHK OH-A%s%s Finncomm
 
 # Swiss International (Swissair)
 # The 20 BAe 146 are not featured in our schedules
@@ -264,3 +286,330 @@ ENTRY JKK 321 5 LEBL,LEMD EC-%s%s%s Spanair
 ENTRY JKK M82 1 LEBL,LEMD EC-%s%s%s Spanair
 ENTRY JKK M83 3 LEBL,LEMD EC-%s%s%s Spanair
 ENTRY JKK M87 1 LEBL,LEMD,LECO EC-%s%s%s Spanair
+
+# Turkish Airlines
+# No A310 appear on our schedules
+ENTRY THY 319 10 LTBA,LTBY TC-J%s%s Turkish
+ENTRY THY 320 25 LTBA,LTAF,LTAC,LTAI TC-J%s%s Turkish
+ENTRY THY 321 27 LTBA TC-J%s%s Turkish
+ENTRY THY 330 16 LTBA TC-J%s%s Turkish
+ENTRY THY 343 9 LTBA,VTBS,VGZR TC-J%s%s Turkish
+ENTRY THY 734 3 LTBA,LTAF,LTAC TC-J%s%s Turkish
+ENTRY THY 738 47 LTBA,LTAF,LTAC,LTAI,LTBJ TC-J%s%s Turkish
+ENTRY THY 73W 5 LTBA TC-J%s%s Turkish
+ENTRY THY 77W 12 LTBA TC-J%s%s Turkish
+
+# Air China
+ENTRY CCA 319 33 ZUUU,ZBAA,ZGHA,ZUCK,ZSHC,ZULS,ZSPD B-%d%d%d%d AirChina
+ENTRY CCA 320 18 ZHHH,ZUUU,ZBAA,ZSHC,ZSPD,ZBHH B-%d%d%d%d AirChina
+ENTRY CCA 321 32 ZGSZ,ZUUU,ZBAA,ZGGG,ZSPD B-%d%d%d%d AirChina
+ENTRY CCA 330 20 ZUUU,ZBAA,ZSPD B-%d%d%d%d AirChina
+ENTRY CCA 333 8 ZBAA,ZSSS B-%d%d%d%d AirChina
+ENTRY CCA 340 6 ZBAA,ZSPD B-%d%d%d%d AirChina
+ENTRY CCA 733 25 ZBAA,ZBHH,ZUUU,ZBLA B-%d%d%d%d AirChina
+ENTRY CCA 737 24 ZBAA,ZGGG,ZUCK,ZBTJ,ZYTL,ZSPD B-%d%d%d%d AirChina
+ENTRY CCA 738 80 ZBAA,ZBHH,ZUCK,ZBTJ,ZYTL,ZSNJ,ZSSS,ZYTX,ZGGG,ZWWW,ZPPP B-%d%d%d%d AirChina
+ENTRY CCA 744 2 ZBAA B-%d%d%d%d AirChina
+ENTRY CCA 747 7 ZBAA,KLAX B-%d%d%d%d AirChina
+ENTRY CCA 757 10 ZBAA,ZUUU B-%d%d%d%d AirChina
+ENTRY CCA 763 4 ZBAA,ZGSZ B-%d%d%d%d AirChina
+ENTRY CCA 767 1 ZBAA B-%d%d%d%d AirChina
+ENTRY CCA 772 6 ZBAA,ZGSZ,ZSPD B-%d%d%d%d AirChina
+ENTRY CCA 773 2 ZBAA B-%d%d%d%d AirChina
+ENTRY CCA 777 5 ZBAA B-%d%d%d%d AirChina
+
+# Tarom
+# DH4 operated by Austrian Arrows (TYR) aka Tyrolean Airways
+# EM2 operated by Air Moldova (not included)
+# E70 are LOT (not included)
+# 319, 320 and 32S are probably AFR, Alitalia and others (not included)
+ENTRY ROT 310 2 LROP YR-%s%s%s Tarom
+ENTRY ROT 318 4 LROP YR-%s%s%s Tarom
+ENTRY ROT 733 4 LROP YR-%s%s%s Tarom
+ENTRY ROT 73G 4 LROP YR-%s%s%s Tarom
+ENTRY ROT 73H 3 LROP YR-%s%s%s Tarom
+ENTRY ROT AT5 7 LROP,LRCL YR-%s%s%s Tarom
+ENTRY ROT AT7 2 LROP,LRSB YR-%s%s%s Tarom
+ENTRY ROT DH4 4 LOWW OE-L%s%s Austrianarrows
+
+# TAM Airlines
+ENTRY TAM 319 30 SBSP,SBRJ,SBBR,SBGR,SBCT,SBCF,SBSV PR-M%s%s TAM
+ENTRY TAM 320 86 SBSP,SBBR,SBGR,SBCT,SBCF,SBSV,SBGL,SBRF,SBPA PR-M%s%s TAM
+ENTRY TAM 321 9 SBGR,SBSV PT-M%s%s TAM
+ENTRY TAM 330 20 SBGR,SBGL,KJFK PT-M%s%s TAM
+ENTRY TAM 340 2 SBGR PT-M%s%s TAM
+ENTRY TAM 763 3 KMIA,SBEG PT-M%s%s TAM
+ENTRY TAM 773 4 SBGR PT-M%s%s TAM
+
+# Air New Zealand
+ENTRY ANZ 320 14 NZAA,YBBN,NZCH,YSSY,NZWN,YMML ZK-%s%s%s AirNewZealand
+ENTRY ANZ 733 14 NZAA,NZCH,NZWN ZK-%s%s%s AirNewZealand
+ENTRY ANZ 744 4 NZAA ZK-%s%s%s AirNewZealand
+ENTRY ANZ 763 5 NZAA,YSSY ZK-%s%s%s AirNewZealand
+ENTRY ANZ 772 7 NZAA,NZCH,VHHH ZK-%s%s%s AirNewZealand
+ENTRY ANZ 773 2 NZAA ZK-%s%s%s AirNewZealand
+ENTRY ANZ 777 2 NZAA ZK-%s%s%s AirNewZealand
+
+# Japan Airlines
+# included 734 JAL Express 
+# E70 and CRJ operated by J-Air (JLJ)
+ENTRY JAL 734 7 RJAA JA-%d%d%dJ JALExpress
+ENTRY JAL 73H 11 RJAA,RJTT,RJBB,RJCC JA-%d%d%dJ JAL
+ENTRY JAL 767 47 RJAA,RJTT,RJBB,RJFF JA-%d%d%dJ JAL
+ENTRY JAL 773 10 RJAA,RJTT,RJBB,ROAH,RJCC JA-%d%d%dJ JAL
+ENTRY JAL 777 36 RJAA,RJTT JA-%d%d%dJ JAL
+ENTRY JAL M90 16 RJOA,RJTT JA-%d%d%dJ JAL
+ENTRY JAL E70 10 RJOO,RJTT,RJSS JA-%d%d%dJ JAL
+ENTRY JAL CRJ 8 RJOO,RJTT,RJCC,RJOK JA-%d%d%dJ JAL
+
+# ANA
+# 735 operated by Hokkaido (Air Do) and Air Next
+# CRJ operated by Ibex (routes are funky, check parser)
+# DH8 operated by ANA Wings (AKX)
+ENTRY ANA 320 27 RJAA,RJTT,RJOO,RJGG,RJCC JA-%d%d%dA ANA
+ENTRY ANA 737 18 RJAA,RJFF,RJGG JA-%d%d%dA ANA
+ENTRY ANA 738 17 RJTT,RJSS JA-%d%d%dA ANA
+ENTRY ANA 744 9 RJTT JA-%d%d%dA ANA
+ENTRY ANA 763 25 RJTT JA-%d%d%dA ANA
+ENTRY ANA 767 40 RJTT,RJAA,RJBB,RJOA,RJSS JA-%d%d%dA ANA
+ENTRY ANA 772 23 RJTT,RJFF,RJOO,RJOA,RJSS JA-%d%d%dA ANA
+ENTRY ANA 773 12 RJTT,RJFF,RJCC,RJOO JA-%d%d%dA ANA
+ENTRY ANA 777 10 RJTT,RJAA,RJOA,RJNK,RJSS JA-%d%d%dA ANA
+ENTRY ANA 77W 4 RJTT,RJAA JA-%d%d%dA ANA
+ENTRY ANA 787 2 RJTT JA-%d%d%dA ANA
+ENTRY ANA CRJ 7 RJAA,RJOA,RJNK JA-%d%dRJ Ibex
+ENTRY ANA DH8 21 RJAA,RJSS JA-%d%d%dA ANA
+
+# EgyptAir
+# E70 operated by EgyptAirExpress(MSE) (included)
+ENTRY MSR 320 13 HECA,HEAX,HESN,HEBL,HESH,HEAT SU-G%s%s EgyptAir
+ENTRY MSR 321 4 HECA,HELX SU-G%s%s EgyptAir
+ENTRY MSR 330 6 HECA,HELX,HEBA SU-G%s%s EgyptAir
+ENTRY MSR 333 2 HECA SU-G%s%s EgyptAir
+ENTRY MSR 340 3 HECA SU-G%s%s EgyptAir
+ENTRY MSR 735 4 HECA,HESN SU-G%s%s EgyptAir
+ENTRY MSR 738 17 HECA,HELX,HEAX SU-G%s%s EgyptAir
+ENTRY MSR 773 4 HECA,VTBS,EGLL SU-G%s%s EgyptAir
+ENTRY MSR 777 6 HECA,OEJN SU-G%s%s EgyptAir
+ENTRY MSR E70 6 HECA,HESH,HELX,HESN,HEGN,HEAX SU-G%s%s EgyptAir
+
+# Brussels Airlines (DAT became BEL)
+# more 333 flights operated by unknown?
+ENTRY DAT 319 10 EBBR OO-%s%s%s Brussels
+ENTRY DAT 320 2 EBBR OO-%s%s%s Brussels
+ENTRY DAT 333 5 EBBR,GBYD OO-%s%s%s Brussels
+ENTRY DAT 733 4 EBBR OO-%s%s%s Brussels
+ENTRY DAT 734 4 EBBR OO-%s%s%s Brussels
+ENTRY DAT AR1 12 EBBR OO-%s%s%s Brussels
+ENTRY DAT AR8 10 EBBR OO-%s%s%s Brussels
+
+# Czech Airlines
+ENTRY CSA 319 5 LKPR OK-%s%s%s CSA
+ENTRY CSA 320 2 LKPR OK-%s%s%s CSA
+ENTRY CSA 321 2 LKPR OK-%s%s%s CSA
+ENTRY CSA 32S 11 LKPR OK-%s%s%s CSA
+ENTRY CSA 735 3 LKPR OK-%s%s%s CSA
+ENTRY CSA 737 6 LKPR OK-%s%s%s CSA
+ENTRY CSA AT4 2 LKPR OK-%s%s%s CSA
+ENTRY CSA ATR 5 LKPR OK-%s%s%s CSA
+
+# Siberian Airlines
+# 
+ENTRY SBI 310 1 UUDD VP-B%s%s Siberian
+ENTRY SBI 319 20 UUDD,USCC,UIII VP-B%s%s Siberian
+ENTRY SBI 320 9 UUDD,UNNT,UHHH,UNKL,UIII,UHWW VQ-B%s%s Siberian
+ENTRY SBI 734 2 UUDD VP-B%s%s Siberian
+ENTRY SBI 738 6 UUDD,UNNT VQ-B%s%s Siberian
+ENTRY SBI 763 2 UUDD VP-B%s%s Siberian
+
+# Royal Jordanian
+ENTRY RJA 310 4 OJAI JY-%s%s%s RoyalJordanian
+ENTRY RJA 319 4 OJAI JY-%s%s%s RoyalJordanian
+ENTRY RJA 320 7 OJAI,OMAA JY-%s%s%s RoyalJordanian
+ENTRY RJA 321 4 OJAI JY-%s%s%s RoyalJordanian
+ENTRY RJA 330 3 OJAI,VTBS JY-%s%s%s RoyalJordanian
+ENTRY RJA 340 4 OJAI,CYUL JY-%s%s%s RoyalJordanian
+ENTRY RJA E75 3 OJAI JY-%s%s%s RoyalJordanian
+ENTRY RJA E95 5 OJAI JY-%s%s%s RoyalJordanian
+
+# British Midland
+# Embraer fleet operated by BMI regional (BMR)
+ENTRY BMA 319 11 EGLL,EGAC,EDDT,EGPH,EGCC G-DB%s%s BritishMidland
+ENTRY BMA 320 7 EGLL,EGAC,EGPH G-MI%s%s BritishMidland
+ENTRY BMA 321 7 EGLL,OJAI,OLBA G-ME%s%s BritishMidland
+ENTRY BMA 332 2 EGLL G-WW%s%s BritishMidland
+ENTRY BMA ER3 4 EGPF,EGCC G-RJ%s%s BritishMidland
+ENTRY BMA ER4 15 EGLL,EGPF,EGCC,EGPH,EGAC G-RJ%s%s BritishMidland
+
+# Polish Airlines (LOT)
+ENTRY LOT 734 7 EPWA SP-L%s%s LOT
+ENTRY LOT 735 2 EPWA SP-L%s%s LOT
+ENTRY LOT 763 4 EPWA SP-L%s%s LOT
+ENTRY LOT E70 10 EPWA,EPKK,EPKT SP-L%s%s LOT
+ENTRY LOT E75 14 EPWA,EPRZ,EPGD SP-L%s%s LOT
+ENTRY LOT E95 3 EPWA SP-L%s%s LOT
+
+# Croatia Airlines
+ENTRY CTN 319 4 LDZA,LDSP,LDDU 9A-C%s%s Croatia
+ENTRY CTN 320 3 LDZA,LDSP,LDDU 9A-C%s%s Croatia
+ENTRY CTN DH4 6 LDZA,LDSP,LDDU,LDZD 9A-C%s%s Croatia
+
+# CathayPacific
+ENTRY CPA 330 33 VHHH,YBBN,RCTP B-%s%s%s CathayPacific
+ENTRY CPA 343 10 VHHH,RCTP B-%s%s%s CathayPacific
+ENTRY CPA 744 45 VHHH B-%s%s%s CathayPacific
+ENTRY CPA 773 36 VHHH,RCTP,VTBS B-%s%s%s CathayPacific
+ENTRY CPA 777 5 VHHH B-%s%s%s CathayPacific
+
+# Austrian Airlines
+ENTRY AUA 319 7 LOWW,EDDM OE-L%s%s AustrianAirlines
+ENTRY AUA 320 9 LOWW OE-L%s%s AustrianAirlines
+ENTRY AUA 321 6 LOWW,LOWL,LOWG,LOWS OE-L%s%s AustrianAirlines
+ENTRY AUA 736 2 LOWW OE-L%s%s AustrianAirlines
+ENTRY AUA 73G 2 LOWW OE-L%s%s AustrianAirlines
+ENTRY AUA 738 6 LOWW,LOWL,LOWG,EDDM OE-L%s%s AustrianAirlines
+ENTRY AUA 763 3 LOWW OE-L%s%s AustrianAirlines
+ENTRY AUA 767 3 LOWW OE-L%s%s AustrianAirlines
+ENTRY AUA 772 4 LOWW OE-L%s%s AustrianAirlines
+
+# Aegean
+# Included Sky Express J41 flights
+ENTRY AEE 319 3 LGAV,LGTS SX-D%s%s Aegean
+ENTRY AEE 320 24 LGAV,LGTS,LCLK,LGIR SX-D%s%s Aegean
+ENTRY AEE 321 4 LGAV SX-D%s%s Aegean
+ENTRY AEE J41 5 LGAV,LGKL SX-D%s%s SkyExpress
+
+# Thai Airways
+ENTRY THA 330 10 VTBS,VTSP HS-T%s%s Thai
+ENTRY THA 333 10 VTBS,VTSP,OOMS,RCTP HS-T%s%s Thai
+ENTRY THA 345 4 VTBS HS-T%s%s Thai
+ENTRY THA 346 6 VTBS HS-T%s%s Thai
+ENTRY THA 734 9 VTBS HS-T%s%s Thai
+ENTRY THA 744 10 VTBS HS-T%s%s Thai
+ENTRY THA 747 5 VTBS HS-T%s%s Thai
+ENTRY THA 74R 3 VTBS HS-T%s%s Thai
+ENTRY THA 772 8 VTBS,VTSP,VHHH HS-T%s%s Thai
+ENTRY THA 773 10 VTBS HS-T%s%s Thai
+ENTRY THA 777 7 VTBS HS-T%s%s Thai
+ENTRY THA AB6 11 VTBS,VTSP HS-T%s%s Thai
+
+# Malev
+# Included Budapest Air Service EM2
+ENTRY MAH 736 6 LHBP HA-L%s%s Malev
+ENTRY MAH 73G 7 LHBP HA-L%s%s Malev
+ENTRY MAH 738 2 LHBP HA-L%s%s Malev
+ENTRY MAH 73H 3 LHBP HA-L%s%s Malev
+ENTRY MAH DH4 4 LHBP HA-L%s%s Malev
+ENTRY MAH EM2 3 LHBP HA-L%s%s BudapestAirService
+
+# Singapore Airlines (todo: transition SQC into SIA)
+ENTRY SQC 333 19 WSSS 9V-S%s%s SingaporeAirlines
+ENTRY SQC 345 5 WSSS 9V-S%s%s SingaporeAirlines
+ENTRY SQC 388 14 WSSS,RJAA 9V-S%s%s SingaporeAirlines
+ENTRY SQC 744 3 WSSS,KJFK 9V-S%s%s SingaporeAirlines
+ENTRY SQC 772 35 WSSS 9V-S%s%s SingaporeAirlines
+ENTRY SQC 773 14 WSSS 9V-S%s%s SingaporeAirlines
+ENTRY SQC 77W 14 WSSS 9V-S%s%s SingaporeAirlines
+
+# South African Airways
+ENTRY SAA 319 11 FAJS,FKKD ZS-S%s%s SouthAfrican
+ENTRY SAA 332 5 FAJS,FACT,EGLL ZS-S%s%s SouthAfrican
+ENTRY SAA 342 4 FAJS ZS-S%s%s SouthAfrican
+ENTRY SAA 343 8 FAJS ZS-S%s%s SouthAfrican
+ENTRY SAA 346 9 FAJS ZS-S%s%s SouthAfrican
+ENTRY SAA 738 15 FAJS,FACT ZS-S%s%s SouthAfrican
+
+# Aeromexico
+# check callsign
+# no 767 and 777 in schedules
+# Included Embraers operated by AeromexicoConnect
+ENTRY AMX 737 30 MMMX XA-%s%s%s Aeromexico
+ENTRY AMX 738 12 MMMX XA-%s%s%s Aeromexico
+ENTRY AMX ERJ 38 MMMX,MMMY,MMMD,MMHO XA-%s%s%s Aeromexico
+ENTRY AMX EMJ 10 MMMX XA-%s%s%s Aeromexico
+
+# Adria Airways
+# there's a codeshare hidden somewhere?
+ENTRY ADR 319 2 LJLJ,LYPR S5-A%s%s Adria
+ENTRY ADR 320 1 LJLJ S5-A%s%s Adria
+ENTRY ADR CR2 6 LJLJ,LYPR S5-A%s%s Adria
+ENTRY ADR CR9 4 LJLJ S5-A%s%s Adria
+
+# Dragonair
+ENTRY HDA 320 11 VHHH B-H%s%s Dragonair
+ENTRY HDA 321 6 VHHH B-H%s%s Dragonair
+ENTRY HDA 330 15 VHHH B-H%s%s Dragonair
+
+# Blue1 (Finland, BLF)
+ENTRY BLF 717 9 EFHK,ENGM OH-BL%s Blue1
+ENTRY BLF AR8 4 EFHK OH-SA%s Blue1
+
+# Korean Airlines
+# A300 are not found in our schedules
+ENTRY KAL 332 7 RKSI HL7%d%d%d Korean
+ENTRY KAL 333 16 RKSI HL7%d%d%d Korean
+ENTRY KAL 388 4 RKSI HL7%d%d%d Korean
+ENTRY KAL 73H 17 RKSI HL7%d%d%d Korean
+ENTRY KAL 739 18 RKSI HL7%d%d%d Korean
+ENTRY KAL 73J 1 RKSI HL7%d%d%d Korean
+ENTRY KAL 744 41 RKSI HL7%d%d%d Korean
+ENTRY KAL 772 15 RKSI HL7%d%d%d Korean
+ENTRY KAL 773 6 RKSI HL7%d%d%d Korean
+ENTRY KAL 77W 9 RKSI HL7%d%d%d Korean
+
+# Hawaiian Airlines
+# only 717 flights are featured
+ENTRY HAL 717 15 PHNL,PHOG N%d%d%dHA Hawaiian
+
+# Aeromar
+ENTRY TAO ATR 14 MMMX,MMZO,MMMM,MMPA,MMPS XA-%s%s%s Aeromar
+ENTRY TAO CRJ 2 MMMX,MMPS XA-%s%s%s Aeromar
+
+# Japan Transocean
+ENTRY JTA 734 13 ROAH,RJBB,ROIG,ROMY JA-%d%d%d%d JTA
+
+# Gol linhas aereas
+# 767 not featured
+ENTRY GLO 73G 35 SBGL,MDST,SBVT,SBCF,SBGO,SBPA PR-G%s%s%s GOL
+ENTRY GLO 738 74 SBGL,MDST,SBVT,SBCF,SBGO,SBPA,KBRD PR-G%s%s%s GOL
+
+# Copa Airlines
+ENTRY CMP 73G 19 MPTO HP-%d%d%d%dCMP Copa
+ENTRY CMP 738 26 MPTO HP-%d%d%d%dCMP Copa
+ENTRY CMP E90 12 MPTO HP-%d%d%d%dCMP Copa
+
+# Cape Air (Cessna 402)
+ENTRY KAP CNA 69 TQPF,TJSJ N%d%d%d%d%d CapeAir
+
+# TransStateAirlines
+ENTRY LOF ERJ 27 KIAH,KBOS,KSTL,KDAY,KCLE N%d%d%dHK TransStateAirlines
+
+# LAN Ecuador
+ENTRY LNE 320 5 SEQU,SEGU HC-C%s%s LanEcuador
+ENTRY LNE 763 4 SEQU,SEGU HC-C%s%s LanEcuador
+
+# IslandAir
+ENTRY MKU DH8 5 PHNL,PHMK N%d%d%dWP IslandAir
+
+# Olympic Air
+ENTRY OAL 319 5 LGAV SX-O%s%s Olympic
+ENTRY OAL 320 9 LGAV SX-O%s%s Olympic
+ENTRY OAL DH4 10 LGAV SX-O%s%s Olympic
+ENTRY OAL DH8 5 LGAV SX-O%s%s Olympic
+
+# Virgin Atlantic (incomplete schedules)
+ENTRY VIR 333 3 EGKK,EGCC G-V%s%s%s VirginAtlantic
+ENTRY VIR 343 4 EGAC G-V%s%s%s VirginAtlantic
+ENTRY VIR 346 19 EGAC G-V%s%s%s VirginAtlantic
+ENTRY VIR 744 12 EGKK,EGAC G-V%s%s%s VirginAtlantic
+
+# LAN Argentina (only 767)
+ENTRY DSM 763 2 SAEZ,KMIA LV-C%s%s LanArgentina
+
+# LAN Peru
+# one 767 belongs to LAN Chile now
+ENTRY LPE 763 1 SPIM CC-C%s%s LanPeru
+ENTRY LPE 319 2 SPIM CC-C%s%s LanPeru
+
+
+# VBI is Virgin Australia (VOZ)?
