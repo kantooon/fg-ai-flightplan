@@ -33,7 +33,7 @@
 752  757 0       24      gate    jet_transport   false    Aircraft/757/757-
 753  757 0       24      gate    jet_transport   false    Aircraft/757/757-
 757  757 0       24      gate    jet_transport   false    Aircraft/757/757-
-75W  757
+75W  757 0       24      gate    jet_transport   false    Aircraft/757/757-
 762  767 0       27      gate    heavy_jet   true    Aircraft/767/767-
 763  767 0       27      gate    heavy_jet   true    Aircraft/767/767-
 764  767 0       27      gate    heavy_jet   true    Aircraft/767/767-
