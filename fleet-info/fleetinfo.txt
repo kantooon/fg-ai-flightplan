@@ -380,6 +380,18 @@ ENTRY ANA 787 2 RJTT JA-%d%d%dA ANA
 ENTRY ANA CRJ 7 RJAA,RJOA,RJNK JA-%d%dRJ Ibex
 ENTRY ANA DH8 21 RJAA,RJSS JA-%d%d%dA ANA
 
+# Asiana Airlines
+# TODO: note OZR is the wrong code, must replace in the airline data file with AAR
+ENTRY AAR 320 11 RKPK,RKSI,RKPC,RKSS HL7%d%d%d Asiana
+ENTRY AAR 321 17 RKPK,RKSI,RKPC,RKSS HL7%d%d%d Asiana
+ENTRY AAR 333 10 RKSI,RKSS HL7%d%d%d Asiana
+ENTRY AAR 734 5 RKPC,RKSS HL7%d%d%d Asiana
+ENTRY AAR 735 3 RKPC,RKSS HL7%d%d%d Asiana
+ENTRY AAR 747 7 RKSI HL7%d%d%d Asiana
+ENTRY AAR 74E 6 RKSI HL7%d%d%d Asiana
+ENTRY AAR 767 8 RKSI,RKSS HL7%d%d%d Asiana
+ENTRY AAR 777 11 RKSI HL7%d%d%d Asiana
+
 # EgyptAir
 # E70 operated by EgyptAirExpress(MSE) (included)
 ENTRY MSR 320 13 HECA,HEAX,HESN,HEBL,HESH,HEAT SU-G%s%s EgyptAir

@@ -371,7 +371,12 @@ def flight_plan(fp_type):
 		else:
 			cruise_alt=str(random.choice(altitudes_jet))
 		
-		req_aircraft=req_aircraft+'-'+airlines[0][prefix]
+		# special case for Asiana which has the same IATA as Ozark
+		if airlines[0][prefix] == 'OZR':
+			pref='AAR'
+		else:
+			pref=airlines[0][prefix]
+		req_aircraft=req_aircraft+'-'+pref
 		
 		days=arr[6].rstrip('\n')
 		if days=='' or len(days)==0:
