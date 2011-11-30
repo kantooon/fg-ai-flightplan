@@ -279,7 +279,7 @@ ENTRY SWR 320 22 LSGG,LSZH HB-%s%s%s SwissAir
 ENTRY SWR 321 7 LSZH HB-%s%s%s SwissAir
 ENTRY SWR 333 10 LSGG,LSZH HB-%s%s%s SwissAir
 ENTRY SWR 343 15 LSZH HB-%s%s%s SwissAir
->
+
 # Spanair
 ENTRY JKK 320 20 LECO,LEBL,LEMD,LEBB EC-%s%s%s Spanair
 ENTRY JKK 321 5 LEBL,LEMD EC-%s%s%s Spanair
