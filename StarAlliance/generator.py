@@ -354,6 +354,8 @@ def flight_plan(fp_type):
 			return
 		
 		callsign=airlines[1][prefix].replace(' ','-')
+		if callsign == 'OZARK':
+			callsign = 'ASIANA'
 		callsign=callsign + call[2:]
 		
 		req_aircraft=arr[5]
@@ -428,7 +430,7 @@ def flight_plan(fp_type):
 				buf=buf+xml
 				
 				if fp_type=='xml':
-					tmp_file=open('./airlines/'+airlines[0][prefix]+'.xml','ab')
+					tmp_file=open('./airlines/'+pref+'.xml','ab')
 					tmp_file.write(xml)
 				
 				days_ref = days_ref +i
@@ -446,7 +448,7 @@ def flight_plan(fp_type):
 		buf2 = buf2 + conf
 		
 		if fp_type=='conf':
-			tmp_file=open('./airlines/'+airlines[0][prefix]+'.conf','ab')
+			tmp_file=open('./airlines/'+pref+'.conf','ab')
 			tmp_file.write(conf)
 	
 	
