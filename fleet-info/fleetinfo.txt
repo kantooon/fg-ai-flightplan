@@ -623,5 +623,48 @@ ENTRY DSM 763 2 SAEZ,KMIA LV-C%s%s LAN
 ENTRY LPE 763 1 SPIM CC-C%s%s LAN
 ENTRY LPE 319 2 SPIM CC-C%s%s LAN
 
+######## new schedules start here ###########
+
+# Atlantic Southeast
+ENTRY ASQ CRJ 167 KATL,KDTW,KMEM,KAVL,KMSP N%d%d%dEV AtlanticSoutheast
+
+# Cityjet Ireland
+# ERJ missing
+ENTRY BCY AR8 22 EGLL,LFPG,EIDW,EHAM,EGPH EI-R%s%s Cityjet
+
+# Flybe.com
+# ERJ missing
+ENTRY BEE DH4 50 EGBB,EGHI,EGCC,EGPF,EGAC,EGPE,EGTE G-E%s%s%s Flybe
+
+# Britair
+# may have some collisions with AirFrance, haven't verified
+ENTRY BZH CRJ 38 LFPG,LFLL,LFST,LFRS,LFRN,LFMN,LFKJ F-GR%s%s AirFrance
+
+# Comair (South Africa)
+ENTRY CAW 737 21 FAJS,FADN,FACT ZS-O%s%s Comair
+
+# Comair (USA)
+ENTRY COM CRJ 83 KDTW,KJFK,KMEM,KATL,KORD,KBOS,KIAD,KMSP N%s%s%sCA Comair
+
+# AirCorsica
+# no 737
+ENTRY CCM AT4 7 LFML,LFMN,LFKJ,LFKB,LFKC F-GR%s%s AirCorsica
+
+# Pinnacle Airlines
+ENTRY FLG CR9 18 KDTW,KATL,KMEM,KMSP,KIAD,KJFK N%d%d%dPQ Pinnacle
+
+# Mesaba Airlines
+# Saab340 not included
+ENTRY MES CRJ 60 KDTW,KORD,KMEM,KMSP,KCWA,KJFK N%d%d%dXJ Mesaba
+
+# Regional (may have duplicates with AirFrance)
+ENTRY RAE ERJ 50 LFPG,LFBD,LFLL,LFQQ,LFRS,LFST,LFBO,LFKJ F-G%s%s%s AirFrance
+
+# VLM
+ENTRY VLM F50 14 EBAW,EGLL,EHRD,LFPG,LFRS OO-V%s%s VLM
+
+# Air One Cityliner
+ENTRY ADH CR9 10 LIMF,LIPE,LIRF,LIRN EI-D%s%s AirOne
+
 
 # VBI is Virgin Australia (VOZ)?
