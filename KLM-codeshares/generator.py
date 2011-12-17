@@ -112,7 +112,7 @@ def generate(arg):
 				arr_time1=arr_time1[0]+arr_time1[1]+':'+arr_time1[2]+arr_time1[3]
 				callsign1=match.group(4)
 				callsign2=match.group(5)
-				if callsign2 in ['DL','AZ','MA','MH','AF','AS','AM','NU','OK','RO','9B','JL','KE','KL','OS','QF']:
+				if callsign2 in ['DL','AZ','MA','MH','AF','AS','AM','NU','OK','RO','9B','JL','KE','KL','OS','QF','MN']:
 					continue
 				callsign = callsign2 + callsign1[2:]
 			else:
