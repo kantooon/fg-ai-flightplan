@@ -1,6 +1,6 @@
 100  F100 9       22      gate    jet_transport   false   Aircraft/Fokker-100/Fokker-100-
-310  A310 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
-313  A310
+310  A310 9       19      gate    jet_transport   false    Aircraft/A310/A310-
+313  A310 9       19      gate    jet_transport   false    Aircraft/A310/A310-
 318  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
 319  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
 320  A320 9       19      gate    jet_transport   false    Aircraft/A320/A320-fb-
