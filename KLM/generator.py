@@ -272,6 +272,10 @@ def flight_plan(fp_type):
 			return
 		arrival_apt=airports[arr_iata]
 		
+		## this is a very ugly kludge to prevent KABE. this is mostly because of the aircraft types. 
+		if departure_apt=='KABE' and arrival_apt!='EHAM':
+			departure_apt='EHAM'
+		
 		### departure time ###
 		
 		departure_time=arr[2]
